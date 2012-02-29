@@ -72,7 +72,7 @@
     8697d70629219876465bea91b18ee16dac88e0cd29b1bc9988706137ff942328  src/doc/build-unix.txt
     2734deaafdba2c5c43747a5fc1657d7bed1220259c75d0eef12f6ec0967ae1c5  src/doc/coding.txt
     b05d415387276191f3b13c10545ffe00ebacfb2f5788932084b563c149eb9cdb  src/doc/readme-qt.rst
-    d38fe3c0c712c46accfae0541151ae488b9971bab9400d450b0bbba322a2be54  src/doc/release-process.txt
+    7aa9873472454aec7dde10dc5f0c9fb8abcb1db0d5cabaa3f8fa575812d67a85  src/doc/release-process.txt
     7ee1c5bc099c88bbb95a86243f73c4b320a663d703200b6d6cd437d112ff4b50  src/doc/translation_process.md
     f98e79561c64b4bd41f2b27b8ce9f44f4cb14d607b714058efe880f0b634916f  src/scripts/qt/extract_strings_qt.py
     eb25c24d53894bed646311df57fe37e81e7700c803311beb596b805ba773d28c  src/scripts/qt/img/reload.xcf
@@ -717,7 +717,7 @@
         79fd01f159c1a37ae9d175a220e06e4974bbb6d2ad1e784adcf693a34c8d3981  zip_3.0-2_i386.deb
         76448677f00312141cbacf170af5353967f92a8a5ab154bd6e30dfa92931fafc  zlib1g_1%3a1.2.3.3.dfsg-15ubuntu1_i386.deb
 
-- release: 0.6.0rc2
+- release: 0.6.0rc2-win32
 - name: bitcoin
 - type: build
 - optionals: 
