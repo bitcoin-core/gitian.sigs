@@ -1008,6 +1008,6 @@
         8644e8fb69c95cc5de3ec70168cab5165ff9d101a1094ee6361a9d439cbf9468  zlib1g_1%3a1.2.3.3.dfsg-15ubuntu1_amd64.deb
         546a3e57499d8d28010940e4245c65318542736b0d9dcb3db369a2c22481cfe9  zlib1g-dev_1%3a1.2.3.3.dfsg-15ubuntu1_amd64.deb
 
-- release: 0.6rc2
+- release: 0.6.0rc2
 - name: bitcoin
 - type: build
