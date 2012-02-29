@@ -594,7 +594,7 @@
         26ec2673d76d3f325891e9634eba7c81b6ca1fa02dcca5144dcc7b2ebae2e08a  xz-utils_4.999.9beta+20091116-1_i386.deb
         76448677f00312141cbacf170af5353967f92a8a5ab154bd6e30dfa92931fafc  zlib1g_1%3a1.2.3.3.dfsg-15ubuntu1_i386.deb
 
-- release: 0.6.0rc2-win2
+- release: 0.6.0rc2-win32
 - name: bitcoin
 - type: build
 - optionals: 
