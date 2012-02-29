@@ -72,7 +72,7 @@
     8697d70629219876465bea91b18ee16dac88e0cd29b1bc9988706137ff942328  src/doc/build-unix.txt
     2734deaafdba2c5c43747a5fc1657d7bed1220259c75d0eef12f6ec0967ae1c5  src/doc/coding.txt
     b05d415387276191f3b13c10545ffe00ebacfb2f5788932084b563c149eb9cdb  src/doc/readme-qt.rst
-    7aa9873472454aec7dde10dc5f0c9fb8abcb1db0d5cabaa3f8fa575812d67a85  src/doc/release-process.txt
+    d38fe3c0c712c46accfae0541151ae488b9971bab9400d450b0bbba322a2be54  src/doc/release-process.txt
     7ee1c5bc099c88bbb95a86243f73c4b320a663d703200b6d6cd437d112ff4b50  src/doc/translation_process.md
     f98e79561c64b4bd41f2b27b8ce9f44f4cb14d607b714058efe880f0b634916f  src/scripts/qt/extract_strings_qt.py
     eb25c24d53894bed646311df57fe37e81e7700c803311beb596b805ba773d28c  src/scripts/qt/img/reload.xcf
