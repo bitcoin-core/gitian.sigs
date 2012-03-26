@@ -1,7 +1,7 @@
 --- !omap 
 - out_manifest: |
-    2ae5ee63bbcd738db11eb90f5acd3ce5c8f6818251c220eb37f822bafdba0f5a  bitcoin-0.6.0-win32-setup.exe
-    a05222321370fd3d2bebd0babe862de65be6f3a939327e9aa53ec56d5557af4e  bitcoin-qt.exe
+    411eba7b1ebf5b03af1d1c37e698db3ff76a8f6a11de9158575ae1e684e9a3be  bitcoin-0.6.0-win32-setup.exe
+    6b4991d1cb3ee174251da624b8b92fcd41c3d49bf4fede391b131245e43b3578  bitcoin-qt.exe
     0c318371479dd1682f77fb58b55672c832f1dae3282085d4c0cfb6e18e935af0  daemon/bitcoind.exe
     9a3d746a292f53adf4ab77acee73cd477821435373f2bfcf9826f55217f91ab8  license.txt
     68780d7a32bdfd2bcb37a3bfe7f53a70de61d6af3bca9dc07d7b1d007e2960a3  readme.txt
@@ -350,7 +350,7 @@
 
 - in_manifest: |
     341ecacf332e3449a472242f3edb0308d104fb43a1b393c0c3f1abca31a9094c  bitcoin-desc.yml
-    d4f864f195a61d7575779136ed03b064d5fdf798a05b01896f5653bf63b4d38d  qt-win32-4.7.4-gitian.zip
+    cb6433e497a7701cfe8fc88cef486442e125aa0b2aabfbb47da2cdb81e097b67  qt-win32-4.7.4-gitian.zip
     c527428c8a7d8b6afb3214bbde831a1704a6893a0b05f08c1050f9e96e493a2d  boost-win32-1.47.0-gitian.zip
     b65f4eabe0fd75222f35ae5a9a0aa72da66777d5c627f55afb77c935458ba603  bitcoin-deps-0.0.3.zip
 
