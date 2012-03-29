@@ -350,7 +350,7 @@
 
 - in_manifest: |
     341ecacf332e3449a472242f3edb0308d104fb43a1b393c0c3f1abca31a9094c  bitcoin-desc.yml
-    cb6433e497a7701cfe8fc88cef486442e125aa0b2aabfbb47da2cdb81e097b67  qt-win32-4.7.4-gitian.zip
+    af6e156aaed7334b35a1b7a2f46596c9a8130f39ec9eb8624ac546666882bbcc  qt-win32-4.7.4-gitian.zip
     c527428c8a7d8b6afb3214bbde831a1704a6893a0b05f08c1050f9e96e493a2d  boost-win32-1.47.0-gitian.zip
     b65f4eabe0fd75222f35ae5a9a0aa72da66777d5c627f55afb77c935458ba603  bitcoin-deps-0.0.3.zip
 
