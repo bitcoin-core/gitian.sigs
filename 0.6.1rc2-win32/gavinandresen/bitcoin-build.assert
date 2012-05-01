@@ -1,8 +1,8 @@
 --- !omap 
 - out_manifest: |
-    11126e2b596ea808466654c4d1cc62e28a95fcb555a324166d55a11d70d15525  bitcoin-0.6.1rc1-win32-setup.exe
-    2ff17abd3628720694660619bc8a39bc92f4425f2669bcb9a17c0b308d0eb8ac  bitcoin-qt.exe
-    8c9702ae5b1f608403436252ed1af8c1de96b851f9d3d4351d89a99f823d7906  daemon/bitcoind.exe
+    7250e26c89298d054f0c04d33e7293beb06afd7276809e5bbe57b694d55b8acb  bitcoin-0.6.1rc1-win32-setup.exe
+    835e8eddfbc5cca9d17ca98f0dab06ec9fa8e6a1d992adc1e700c07b30532379  bitcoin-qt.exe
+    94150b5bdd8e4f6b12dcea6532c461ac52d9b242a8e5acd3803b607156864776  daemon/bitcoind.exe
     9a3d746a292f53adf4ab77acee73cd477821435373f2bfcf9826f55217f91ab8  license.txt
     e66a6b90fa8bde0339a0918c36bac249e82bc6fd031cfe09c0bbd495e5586dfc  readme.txt
     11f006809d8da1021bb9cdcc8f4e824e16d37ed79801100044ceba2caaf0eedf  src/.gitattributes
