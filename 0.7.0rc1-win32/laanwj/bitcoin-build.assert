@@ -391,6 +391,7 @@
 - base_manifests: !omap 
     - lucid-i386: |
         44f14badacd571efe6b18a4d1adb2098593638d614e837a6ff6a7f9b3ad58e9d  adduser_3.112ubuntu1_all.deb
+        606583b24f6539e4de9dc31365e11be944ee3aba1ba76e1d725ba3a909201586  anacron_2.3-13.1ubuntu11_i386.deb
         b5ab75cf6fa95336becff47d31a067a87f00d6aadb4bf0c752c12d9f4ffe33a2  apt_0.7.25.3ubuntu9.13_i386.deb
         dd9b62bcd11126dfc6ec8b1d113d99bac9015e84ebb86721a32ded452c81c543  aptitude_0.4.11.11-1ubuntu10lucid1_i386.deb
         983e3fbc93c9209b69e6e8632282ea5b844922250ace0b31481db632464ff51f  apt-utils_0.7.25.3ubuntu9.13_i386.deb
@@ -439,9 +440,7 @@
         b1d245915a0b566ddc1e2ed51cd1521e7977a7382bc331e71102884a0d4a643b  gnupg-curl_1.4.10-2ubuntu1_i386.deb
         3e990b3821116b802c66294e308332e36fe0a8f755a6efa3770245ba090f3c5c  gpgv_1.4.10-2ubuntu1_i386.deb
         57db14cf0c72db2f9e609ef0e7e38108a91498d241bafa87e9facf59a077b52d  grep_2.5.4-4build1_i386.deb
-        92fcdddd56f5b6fa627993b95505cbfacccd98a93f8140f3b083177095d6dfe4  grub_0.97-29ubuntu60.10.04.1_i386.deb
         85665ab9a66a90872189cdf1889568d1373f1b648ede1a87131c8cba29d04b2b  grub_0.97-29ubuntu60.10.04.2_i386.deb
-        bb5debb160203067c722232034e20ff48d77da612e2a5b934171b8506e40ec61  grub-common_1.98-1ubuntu12_i386.deb
         bd0530286e5149355dbef2a93193e4d818eba787ace8a096de467d94228b4df6  grub-common_1.98-1ubuntu13_i386.deb
         2dc198d709f8b5ba37cee28a19be8052765a97918cd902c8e6b57a17899769c4  gzip_1.3.12-9ubuntu1.1_i386.deb
         f1041fa9e01303d60d9d7b617d2df93e13036fcfe3efbd50d70073127a829631  hostname_3.03ubuntu1_i386.deb
@@ -486,7 +485,6 @@
         5bac93138787ddfb8c6b32fc6d39e506b6a027c6d80d0ac0c01c7762e4948d78  libept0_0.5.30_i386.deb
         c4beaa616c9af4cafe9b49cf5ad2cbf048c55ef27f128e9ceba088c6011aa993  liberror-perl_0.17-1_all.deb
         c02b3e707d9ff9f5b4d22cfa4a0f9075fefc955aec42557ace98b944caded275  libexpat1_2.0.1-7ubuntu1.1_i386.deb
-        d881562f7e63b69e92310242e2e362b3f8ffe96ceff0f1ad604d493d94eb9ae4  libfreetype6_2.3.11-1ubuntu2.4_i386.deb
         c4ef1ae7face51c28c316d7f7619b678975075e45c3621a9814484f9bc91c6a4  libfreetype6_2.3.11-1ubuntu2.6_i386.deb
         e4bb4973d07050a77e79e45471c298b2d27b1735c7704abd7bf89ebf27dd30c7  libfribidi0_0.19.2-1_i386.deb
         9220da524a239e631657aac07f047adb6fef122e6ca70d52b631fbb525a01a96  libgcc1_1%3a4.4.3-4ubuntu5.1_i386.deb
@@ -560,10 +558,7 @@
         6704f0bf7bef2791e00f03354edd75bc37b76a695acc760517a08cd252933b87  libxml2_2.7.6.dfsg-1ubuntu1.5_i386.deb
         835d13ff4b2454c9e74cc3a4a744f253042ea4e235ab8843dcbb4837a47be9f0  libxmuu1_2%3a1.0.5-1_i386.deb
         1a5ecef0dbbe6af6ac535a7f14cc0f728265944c4da8d512744cd96c4a514350  linux-firmware_1.34.14_all.deb
-        5659142955a441d7ebf073144c8fdf61ae37cf000ab5704af53dd7b5bc9ea9e2  linux-firmware_1.34.7_all.deb
-        c3e615923f94cf5be5f35bc7bb2078e4dd57a2d7e7fef3137235e501062aed75  linux-image-2.6.32-34-virtual_2.6.32-34.77_i386.deb
         43f6f1a355f1b13de8430740b5606a1ab212b5c0acb070409a055ed984739e2d  linux-image-2.6.32-42-virtual_2.6.32-42.95_i386.deb
-        14c236f2c25421e04743426021578f652fa3f1d8eb89c4e7d0967cb5c1cf7a79  linux-image-virtual_2.6.32.34.40_i386.deb
         8ccbc4809d15ef42bcbcc864b01b5a9ebc47b911ed750f411ae0fc19a2774e93  linux-image-virtual_2.6.32.42.49_i386.deb
         e0059b4cb33988afeebc0563301cb50f9f13c1603a03fedd16bdf100caec70c8  linux-libc-dev_2.6.32-42.95_i386.deb
         4b52aa0486d33952d2e372085ab250e1ab600916caeace7c0b608edc0c5f1e1d  locales_2.11+git20100304-3_all.deb
@@ -641,7 +636,7 @@
         26ec2673d76d3f325891e9634eba7c81b6ca1fa02dcca5144dcc7b2ebae2e08a  xz-utils_4.999.9beta+20091116-1_i386.deb
         76448677f00312141cbacf170af5353967f92a8a5ab154bd6e30dfa92931fafc  zlib1g_1%3a1.2.3.3.dfsg-15ubuntu1_i386.deb
 
-- release: 0.7.1rc1-win32
+- release: 0.7.0rc1-win32
 - name: bitcoin
 - type: build
 - optionals: 
