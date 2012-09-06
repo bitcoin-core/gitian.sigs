@@ -1,11 +1,11 @@
 --- !omap
 - out_manifest: ! '9a3d746a292f53adf4ab77acee73cd477821435373f2bfcf9826f55217f91ab8  COPYING.txt
 
-    343f712af8eeac00f49b5cec92f6bf14321f9b5e961719ef4643ebb3c7df2df3  bitcoin-0.7.0-win32-setup.exe
+    f314bf52b08187984d28039cb7d0bb5fa6ab495bf252afd012cf2f38e4f77e38  bitcoin-0.7.0-win32-setup.exe
 
-    ec0e1047770dfccc3babf878b6a9d409acf6520f61353d31d53b3f4acbc6c436  bitcoin-qt.exe
+    c4f46331fb0bff4aea5213dc5a6fa3c3b43db2d67c03117c3f6699f637269ec5  bitcoin-qt.exe
 
-    dd38f753b5b55167d90b74f437a226afbe672ba96a48e917bcf95ca96f1a32d0  daemon/bitcoind.exe
+    c6465966f22b890742994a5a4c18a0e92b6b5a8b6418df413d64be36c1876178  daemon/bitcoind.exe
 
     f92990453d1a4bb9c09b944231729dfc61ec7701938160686ebdf7c2ee4c9984  readme.txt
 
@@ -21,7 +21,7 @@
 
     0849a1200e233c2f1eace09946980f88cbd7f530cbae284a978ea693b9d6d8fa  src/README.md
 
-    385ee14709159a018430f4382e9db18469be3907b165415f466b5e629fe89c6d  src/bitcoin-qt.pro
+    87e918364ba122464cf4a06f9c986ffd1eb6b751f61ad29a986d995aaa4a7c97  src/bitcoin-qt.pro
 
     e5d380b9a9800682de7861b1f6bf717455402a19cc5d82f68dd0ebe9b4820453  src/contrib/bitcoind.bash-completion
 
@@ -73,7 +73,7 @@
 
     e3f5882724a68b1bb8af44260c11ec2cc27767fbac89bb5f3d8de45be704ce34  src/contrib/debian/watch
 
-    3272b1f956d07c7cb7f606b4700382d0b2d8778ab4f24bb87ba0c99a4a7ff072  src/contrib/gitian-descriptors/README
+    1b466c145a2251a7bb1a9d7d500a6bc41aff9ee1117d9d380b1adb2f47d9f0ce  src/contrib/gitian-descriptors/README
 
     b68d0996ae0a6b631f967b8cfc7db1dbefe5b0a15ca5ec43bbc1fb6614a77619  src/contrib/gitian-descriptors/boost-win32.yml
 
@@ -133,7 +133,7 @@
 
     f92990453d1a4bb9c09b944231729dfc61ec7701938160686ebdf7c2ee4c9984  src/doc/README_windows.txt
 
-    9043041c746ddec384c267ec64c97ffe8866bb44ed1f83c78d0a85e2e0661e98  src/doc/Tor.txt
+    49bc4024f5d088d40661c2650424dac5e3299809cbbc6370f9273120ac81214b  src/doc/Tor.txt
 
     ab4ffc689eb0f17566643260523f537ccfee53b434c3e5cedc6e9aeb64a2ba9a  src/doc/assets-attribution.txt
 
@@ -145,11 +145,11 @@
 
     77c21a7e68330efeccc5c48af81575469c90e5161b689f2081998f55d34830e0  src/doc/build-unix.txt
 
-    2734deaafdba2c5c43747a5fc1657d7bed1220259c75d0eef12f6ec0967ae1c5  src/doc/coding.txt
+    729fa309d98c753e80630461dce45f6d961a13be05fa9b9cb92b3f64c935cccd  src/doc/coding.txt
 
     4f2df6a680fb48ec926fa5e9c594ae69ae0d83a0a0c3bb21247171efc41ad2e3  src/doc/readme-qt.rst
 
-    e8b144563e13435fff112e841feb99c3a20328dffe369aac88f835d6af050162  src/doc/release-notes.txt
+    18e4dde0ab1eb2381aed0d247ace552db680bdfa3f29525d6f961c9ca70d2e68  src/doc/release-notes.txt
 
     09934619e46f8a8df1086f480507faaabc283effd506efe15e80d297defc94c7  src/doc/release-process.txt
 
@@ -201,7 +201,7 @@
 
     c7fcbe40d4c299aac20c189b4783886371bc322aeafbba2b69ef12cd79a6a07c  src/share/qt/make_windows_icon.sh
 
-    ade796b86edfb4613f26f1d41830cb97dd4d13b5a710b65215b034f266ac8783  src/share/setup.nsi
+    df4f040a5053be475f9ed4850c1c4fa2bc6514c4fd35dae23132ce3dda4d48c0  src/share/setup.nsi
 
     77823caf9c5b3f320e91a465b4dc0d204f783040688da0c8609afed83a386b81  src/share/ui.rc
 
@@ -209,13 +209,17 @@
 
     df23eb86c247d4caf6243ce22f49dbb4f8c63f359c7caa49a508c3d70850dbbf  src/src/addrman.h
 
+    0c6fb007c14787e45ee0f78a2a4655c7b1302e36d3de0ed6401b78b8367f0fbf  src/src/alert.cpp
+
+    ea09fda7b4e5eada1bb0a70da5ad35f3e3fa3f9544cf3f0e6eff2dfebfba0683  src/src/alert.h
+
     594b8454816ed3b4306ea5ca8c89ececd1c82a71fadcdf0377333e2548ce837c  src/src/allocators.h
 
     c762f16989a6d5d501ca589ba862058b6e5c7432238bf2e82c01ab64dd093ec1  src/src/base58.h
 
     ebea6208e8934151b5c18fac91551fecb8300885cfd1edf47dbf839979e4488d  src/src/bignum.h
 
-    33128e3c731e066bf270ffa1b44cb631f9a52157e4d4b34d765a222bc7ddd121  src/src/bitcoinrpc.cpp
+    6ec4f714b7a8e2f65eb3a9e0204db8f73fa55cca571e0f3daf4cd56308f0fa56  src/src/bitcoinrpc.cpp
 
     a4e9c178352c2ae8b62d32918ee0bd3f1189f77832785ff6a56682871e1fe57b  src/src/bitcoinrpc.h
 
@@ -229,15 +233,15 @@
 
     0c33b6126a670ba5f7485a41b205400b4db611b327502734b4e6eeafb0cabb10  src/src/crypter.h
 
-    bbb711d48b858250f3a4b9a699563ca1e9883de702e3458c8b766c9519076abf  src/src/db.cpp
+    6ace4140bf81db05daa2de3d8203ca21fbb09356d908fe8b9b990908d485b2f0  src/src/db.cpp
 
     f0db1814f0e6a112804c3af5c5f30d3cc0328d4081c11ade62b525dc6365bc1b  src/src/db.h
 
-    93bcb058ec90e9005244c6926f0da173ce58928afec27b2587a4faaf85768373  src/src/init.cpp
+    d1fc8e35b89a910ea9931454a634e549cda0fd26dee30e760758044434fcbedf  src/src/init.cpp
 
     fd5de49920196b6dc2b16884c2d0b2be450e8cafd7601e3980382ce2136391d7  src/src/init.h
 
-    da8dafb10e49c80ddd425eb296129c5b1cb9a5646384c783260380b6c97f0c1a  src/src/irc.cpp
+    5500d46f70474ccf76e1ec86bff506489ae1f59816e413394a9f5b3567ab649a  src/src/irc.cpp
 
     18e668fe787c3fa423f202c8bce6bda627f457b7976301b48f4831c20c59b862  src/src/irc.h
 
@@ -275,21 +279,21 @@
 
     57543d1ba37fbf2baa4187d213135e3b368ad24ec5760f790ba0a16a2481bb8e  src/src/keystore.h
 
-    a4c8700e9aae3345a537fc4b0dfdb4284239c13b75a056d85936839fcf3b1783  src/src/main.cpp
+    630b7270ac62de54c8faab7eaf366ca9cb35f52c81c0a2f35487027a2b2f0fdf  src/src/main.cpp
 
-    7bf0ad2f38ec79d93e462cf91fa674fa7b37f86ddc9280c953b565870f04d869  src/src/main.h
+    b487613908a02212b7a40674bb59e313320fb15d4c11db1cff59e9329be1999c  src/src/main.h
 
-    fd46117e58f7d87ff6aacff3ebcc004dcfc10f9a1d8d8a47e1ee248820b00379  src/src/makefile.linux-mingw
+    f1381c28ab39c0b0db4238d590c4550477a49b77277de6820bcc05a20ac0adef  src/src/makefile.linux-mingw
 
-    1f4fa81db90af4944609e83bfd48d088ad2c2dc7afc03cf35a7f7c7b53d2f360  src/src/makefile.mingw
+    0ac3959edfdb7b4cad5ac7f6b21c34bfb226d16f5de4498ba9a96443f96330b7  src/src/makefile.mingw
 
-    c6d6a9bd45cad33250fc7139aabff0bf6cdcfa08f4d8fbb478ea6519feb713d9  src/src/makefile.osx
+    9d56627ba770dfaba3bdcd6cc906de2caffa10bcfadc64a04a86172d1bc5a7ba  src/src/makefile.osx
 
-    71a5b52fc2a7d60b35c58b35f044a626ef9bdabb6f6934dc274dda6a0e725d24  src/src/makefile.unix
+    26b366513eec629282fd293ae3aaa659ebeccacacb36ecca93d247b7aff0de26  src/src/makefile.unix
 
     28ffd4bb54fd9d18c0da7a7637abec313860266d4dc53ffb414d66267bc05b6a  src/src/mruset.h
 
-    1f122d6a34aa311b74ab7d50e280aa8a8aadf4574f958df8d7ff43e258d6cb4d  src/src/net.cpp
+    480858cb3f295b7b6dbb072b7e3b32f997acdbbe1779500d28cda86d3c96e2e4  src/src/net.cpp
 
     cfdf8e52eb4e33d3f47ce28e4ec94135126729e81afc9c8905a245beccf1f53d  src/src/net.h
 
@@ -335,17 +339,17 @@
 
     26b59cdd2c2b81250e446c2df0db736399f4b6ef42e5c1e754d716e53fbda1f8  src/src/qt/bitcoinamountfield.h
 
-    c98fc186ba92aba4b07162123ab32202bf91b9a8da26c6a848d7ab53f96e0b2f  src/src/qt/bitcoingui.cpp
+    f523963c5669a113cec023bd83b012fd3f51605dc8c9ae41e367f2eb886ac7e6  src/src/qt/bitcoingui.cpp
 
     b714ea997870d98cfe56524cb4bb15ed233b5b8b5fde09ab4ac31d83cce43bf3  src/src/qt/bitcoingui.h
 
-    bb26a6ffe7b05830d8ac563f631930569268243bc00a805f966884e99fcf24d4  src/src/qt/bitcoinstrings.cpp
+    278d2ef5ca9aa413e6baa119ca0ae3009bc79435387593bd0e7132857475377c  src/src/qt/bitcoinstrings.cpp
 
     604500fb7d16d1dd0f814f2801f82fac36b3e7b3b711e84a1354adbe512eef97  src/src/qt/bitcoinunits.cpp
 
     8d3bbc7667abbfd2cccae5a4166a47b5f4795b4e56585b1d667c3e1b24439425  src/src/qt/bitcoinunits.h
 
-    fdf7582b71f36bcb03859b7cb43cf971a744069a2fa76cfc992d443194efed3a  src/src/qt/clientmodel.cpp
+    3ef8d487d888d6e5e2f418b2a83efbf4cafc1fca0a3833c132f58da18feb38ca  src/src/qt/clientmodel.cpp
 
     ddf4b964cc8d39df990ba8594a592680e3bbc679ea69e2bfda897cec0265c133  src/src/qt/clientmodel.h
 
@@ -357,7 +361,7 @@
 
     530d86675a3554b16143c5c360a865aff8e58b4b770fed31fb999ead12410ea5  src/src/qt/editaddressdialog.h
 
-    830be8bb87d7176200fcf096ce3eb525463b6f2d99b928b24635e80d86fbe13c  src/src/qt/forms/aboutdialog.ui
+    f7f914bc4e8c86945e69b13ff428b77c3a5fa847d94f8bf38af40a5c8b177187  src/src/qt/forms/aboutdialog.ui
 
     27cd354b8c1746f721e3ec5ae6d80d05de808c4ed0fbb566f09362b8e6ac4df1  src/src/qt/forms/addressbookpage.ui
 
@@ -399,7 +403,7 @@
 
     850909116bf7651be6dedb4284d6ef0482efd14b0151c39ae15000fa3b27d57c  src/src/qt/locale/bitcoin_el_GR.ts
 
-    5ff131534e88e37bb852e391c2ce8917b5cf6979f320dd5bf6074dba5c6cef58  src/src/qt/locale/bitcoin_en.ts
+    a126a45bcfcfc31e56d67367cdbfc0917a6cc27f307ecc0c4c80602e9807c39e  src/src/qt/locale/bitcoin_en.ts
 
     b70021a186ebbd21fbbd076d81e139f167e185eaaa9c52a9411be1bcd4385cb8  src/src/qt/locale/bitcoin_es.ts
 
@@ -485,7 +489,7 @@
 
     c1e34092481a12265f37aca7838ce4739e8bf81db69810b8729baaaaa2c3256e  src/src/qt/qrcodedialog.h
 
-    642731ffa6c32c4d7d30e4b515f626f3b42e82ac6dfb437b01238bebf6ae8152  src/src/qt/qtipcserver.cpp
+    5013cf491c182e0312419ee5adcb9af2c4b03f2d94b12079781e36e6be64a437  src/src/qt/qtipcserver.cpp
 
     8ef4e9a7101740b5629ffd5d8c4f224f5cf5dd84210fd26d69759c181baa5d1e  src/src/qt/qtipcserver.h
 
@@ -609,7 +613,7 @@
 
     e869e989208eb9e1ba07efe2564961e0bcd78bf6b056973cccba5e33aa57bfdf  src/src/qt/res/src/questionmark.svg
 
-    7af34e31f4c40376163e9f0dc89ada8dd3d22b5b386a1171e4720cfa4a2d99eb  src/src/qt/rpcconsole.cpp
+    144df9fd67b76c6e55a6753e01c0a1a84f349a6bbf7162a01b67a42d99fdebbc  src/src/qt/rpcconsole.cpp
 
     c09746a889d21d1c38d1707564643a50f1184fe1e84a1689887bbfc1fab53669  src/src/qt/rpcconsole.h
 
@@ -663,13 +667,13 @@
 
     335687b5a2ebe4b23e00c4e64603f3b0c7f2909c27955d91f39a9062b545104a  src/src/rpcdump.cpp
 
-    9208506b2fc7e74f645e94e238cf8c50e3a9738e403c4e2e060068e96ae91daf  src/src/rpcmining.cpp
+    148259d89fca793596f279e29284291046675a1b1d4a11ae262bbce6e656df5c  src/src/rpcmining.cpp
 
     56d88e88aa913c3742c1db3f083975940e75f32ba31794d06c6c18c1ce6ba082  src/src/rpcnet.cpp
 
     9c77ceff019c0a72599ba8a43f6b831e3e807cef257fdc30311b48adf55c2d6b  src/src/rpcrawtransaction.cpp
 
-    74c1b28ac9fa82d4e7cabfc7c66c28271b5f22b3c8cebc1dd8385a48276b8623  src/src/rpcwallet.cpp
+    985b5163a8b75b27a42fde7b10b4a2cf1753062c53b889a6de80d11066097dea  src/src/rpcwallet.cpp
 
     1447393689e8c75353cc97b946b645445a97dc3235b6661d8b063b7d614fb90e  src/src/script.cpp
 
@@ -745,17 +749,17 @@
 
     7f52be22cac18a185dd8411c2f80e178d0abc9ff0968598bb77883f890f5fda5  src/src/uint256.h
 
-    e355aa00c7c20879ae44905db00d0cb23347aebc8b4a8fdb56e09577fa9b895f  src/src/util.cpp
+    981a068d0ea8cbf65ba559f4a389d723810d31a31f0d723638106277744f734f  src/src/util.cpp
 
-    452abce100722e61899547196bb61d38a82b59528b2317eef9e0576e698df6c2  src/src/util.h
+    03094db6df624e3bdd83130576f874474322635ebda5ef5ce72848a517ae4f98  src/src/util.h
 
-    8fd94a83a0dd86c9503c4cb10c92f498965e2af85bb2cc243453070fdd81a657  src/src/version.cpp
+    c82609e6f4ea5e7fad86000f732daf3e122d2c3ca0009575fa461f7472da693c  src/src/version.cpp
 
-    3709342bdef74ba71cb761d669ebdfd87f4037cec28ae5a658bc6aa6f3454fcb  src/src/version.h
+    7e74a10aa69271068c22f87f929be8abf10cc55b233b27849efdf34c0c4850f7  src/src/version.h
 
-    191743dbe03f516da1413d273f88d735de509202ec0f349464b553c5e433bfac  src/src/wallet.cpp
+    1bb856543839af13d13f7cbb0d1ddb4a892cb1dcd606c424a932399cdf50556a  src/src/wallet.cpp
 
-    ee61f4bc9d55a6fea0c49d2078a4b53d321a268b4812588c37a02884ed7cc97f  src/src/wallet.h
+    ac08c24c3797f104a40557f6a5ef6311cb503e60fd955caafd1fc1f31bda31e8  src/src/wallet.h
 
     4f724127e25e99519ba2318039568031404412fcd8202c37eb6fa9d8c3ec84bb  src/src/walletdb.cpp
 
@@ -770,7 +774,7 @@
 
     b9edb45129d44fb78d34986c4e24965f4fa9d4bb56b96390e045d95d113d59a5  bitcoin-deps-0.0.4.zip
 
-    git: bitcoin'
+    git:8788221761afc2c2990da746d9a6c444ff869684 bitcoin'
 - base_manifests: !omap
   - lucid-i386: ! '44f14badacd571efe6b18a4d1adb2098593638d614e837a6ff6a7f9b3ad58e9d  adduser_3.112ubuntu1_all.deb
 
