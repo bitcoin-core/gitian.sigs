@@ -2,9 +2,9 @@
 - out_manifest: |
     9a3d746a292f53adf4ab77acee73cd477821435373f2bfcf9826f55217f91ab8  COPYING
     0faf0331e2adade54e7af62c86d8eb4db83eb0fb5318b200fbe19b6c030680d3  README
-    44bbb9eaac75f62ca82c94a62784a37d2bff3568af61328653dc8ead93b80e73  bin/32/bitcoin-qt
+    042f46b84a578078db5bdb69d87019eb22d1ba72ce92fd909b7046ccddf2b22e  bin/32/bitcoin-qt
     d5e3ff352ad2716bad98874055c596e965370ea85b814bcba0505f1a2adaf2c8  bin/32/bitcoind
-    15666bb07b862666049873b3f74635ea8cab58f374a564fa24cc5b938c08bdea  bin/64/bitcoin-qt
+    4a4dad7154a255ad80a097d16643333234a3699ed8b86c83aec952145d71e1aa  bin/64/bitcoin-qt
     b7149767da9adf243ced6c600f7b797732fc5703a4776861e4f10d9b2ae58987  bin/64/bitcoind
     11f006809d8da1021bb9cdcc8f4e824e16d37ed79801100044ceba2caaf0eedf  src/.gitattributes
     bca76e64e261b23adb96006979a630e1cedad3d738bb649dcaff012096d50978  src/.gitignore
@@ -641,9 +641,7 @@
         18ca35fd725cf094244167663dcb160f3094d90c41990179ef4e1d5c27ff3e1a  libxt6_1%3a1.0.7-1_i386.deb
         fe60a438dc6be0feed0c9bd748c01126b9c9a7436b6bd2e809351f28aba029bc  libxxf86vm1_1%3a1.1.0-2_i386.deb
         1a5ecef0dbbe6af6ac535a7f14cc0f728265944c4da8d512744cd96c4a514350  linux-firmware_1.34.14_all.deb
-        d63f217b336087a57a3e8e43e3a768b0f1891ef51db9630b347899ad6f71054b  linux-image-2.6.32-42-virtual_2.6.32-42.96_i386.deb
         c8e6530f77d159515d4585cf827dde61e7010b4d32af6e8839dcff7024c3cc0d  linux-image-2.6.32-43-virtual_2.6.32-43.97_i386.deb
-        8ccbc4809d15ef42bcbcc864b01b5a9ebc47b911ed750f411ae0fc19a2774e93  linux-image-virtual_2.6.32.42.49_i386.deb
         46d8c1450e82989e9eb607a961cff67501ff5b685bf56a77f4c77e79e8337a2a  linux-image-virtual_2.6.32.43.50_i386.deb
         a8fa33daa24569fd5ec8a5116cf385ead86efece903b842a45541ea8d442651f  linux-libc-dev_2.6.32-43.97_i386.deb
         4b52aa0486d33952d2e372085ab250e1ab600916caeace7c0b608edc0c5f1e1d  locales_2.11+git20100304-3_all.deb
@@ -970,9 +968,7 @@
         f5cbf65aad6e798edd3cc4e97d237748d9fa595ba68ad4977ae03f2508111800  libxt6_1%3a1.0.7-1_amd64.deb
         bb698b5b011a27c79c16e0c877de2b7f8376dfbe1580756dc80a65743f24e26a  libxxf86vm1_1%3a1.1.0-2_amd64.deb
         1a5ecef0dbbe6af6ac535a7f14cc0f728265944c4da8d512744cd96c4a514350  linux-firmware_1.34.14_all.deb
-        f75648648b07de67a3737911ec29ec2a86df8bdecb352e2bc5673dd22e0104f8  linux-image-2.6.32-42-virtual_2.6.32-42.96_amd64.deb
         522c64c70df3fd081d82cc8547af717259f38a2896b991192167bd7f44b5690a  linux-image-2.6.32-43-virtual_2.6.32-43.97_amd64.deb
-        78f12774cbc0178647b203f858470fb46c8ea4005a657f693b2d17047680b282  linux-image-virtual_2.6.32.42.49_amd64.deb
         3f13c6422dc64a55a766f9093cd8a8f426ad760f985cf6e13ad49478e13cbbd4  linux-image-virtual_2.6.32.43.50_amd64.deb
         81aee57f8f508e7a5f7d18c1e31b2fdb400f3a0c08df330f3ba85df9c5ae7bb3  linux-libc-dev_2.6.32-43.97_amd64.deb
         4b52aa0486d33952d2e372085ab250e1ab600916caeace7c0b608edc0c5f1e1d  locales_2.11+git20100304-3_all.deb
