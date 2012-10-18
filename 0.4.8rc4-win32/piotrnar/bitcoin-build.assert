@@ -1,8 +1,8 @@
 --- !omap 
 - out_manifest: |
-    b1fa2b3eee9269a79d7b12d3572087d31cd7a72fab9dcbb73a1c5e1ca372f65f  bitcoin-0.4.8-win32-setup.exe
-    fb0cc52115e82741c175728344f3985bf01839f23dbf524789697ae9d939ee22  bitcoin.exe
-    f99348f29e97374a8ad390fdc4fabd31b0cc4005a41110afcf5df4ebe79a5f6a  daemon/bitcoind.exe
+    ea230f9e0d6c744bff17cbed09119d70f742032d9d2ef0c66c598f6143ec7e26  bitcoin-0.4.8-win32-setup.exe
+    5fd7a52ea11c19421c70086b1bdfb9cdb9d460fe2e983aaf8a00b3973c85473f  bitcoin.exe
+    af430441d832c53056c220f436e31a27a5b8235ef44b327994fb6055338913e0  daemon/bitcoind.exe
     9a3d746a292f53adf4ab77acee73cd477821435373f2bfcf9826f55217f91ab8  license.txt
     b21718ff60d76ddb9f11609589f9ce522425819b05d0a63d54d241d8f435f3fb  locale/cs/LC_MESSAGES/bitcoin.mo
     2dc5c34c732f43fc1cba3a6736f8df04ae0803e05e90168d5ea033519d3332f4  locale/cs/LC_MESSAGES/bitcoin.po
@@ -188,7 +188,7 @@
     34f3438353291dd74976e907070c445cc91fae678b5df55ae788851e175d46f0  src/src/uibase.cpp
     fd2b26a7e68faeaef3c30838610ed0c4ba24c3dfc9cedeb7d19a5532be690cdd  src/src/uibase.h
     85158f5f3cb7c4dbe144ac1a3d1edbba1e4ad446da7fd161ca80711f3d34879e  src/src/uint256.h
-    8e417eb5219c89f5da881bdea1051e7616e92e88b6a25ba945eca3d81cbee057  src/src/util.cpp
+    c5d5c8bb320be44f29cbe50b9a7c5a2b6cd59aa2184c8674ae4192059413cd3f  src/src/util.cpp
     10ff324c4b5d7a9e0542985b66029d17035d3494186bca415439cfe82f615be2  src/src/util.h
     2e78fe6f2c7fc3449a3f26f1e0e11f11835252214bef7b3199224a78c0102bcd  src/src/wallet.cpp
     ed3aab20293f7d1a5e7527e4cb6997e680ca0f420b39bb8ffb956bde98b5c07c  src/src/wallet.h
@@ -212,7 +212,7 @@
     1187bf2d5cdf0b286b951bf5c777aa97855cd7db24fdb9604cb557c8b1d7364b  openssl-1.0.1b.tar.gz
     12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef  db-4.8.30.NC.tar.gz
     bbd6b756e6af44b5a5b0f9b93eada3fb8922ed1d6451b7d6f184d0ae0c813994  miniupnpc-1.6.tar.gz
-    git:d37a2fd8080cffde4ffbcb9927a66258e9fef39e bitcoin
+    git:b3f8f6ab9409d3e901d22c09b0346a5a47779496 bitcoin
 - base_manifests: !omap 
     - lucid-i386: |
         44f14badacd571efe6b18a4d1adb2098593638d614e837a6ff6a7f9b3ad58e9d  adduser_3.112ubuntu1_all.deb
@@ -591,7 +591,7 @@
         26ec2673d76d3f325891e9634eba7c81b6ca1fa02dcca5144dcc7b2ebae2e08a  xz-utils_4.999.9beta+20091116-1_i386.deb
         76448677f00312141cbacf170af5353967f92a8a5ab154bd6e30dfa92931fafc  zlib1g_1%3a1.2.3.3.dfsg-15ubuntu1_i386.deb
 
-- release: test
+- release: 0.4.8rc4
 - name: bitcoin
 - type: build
 - optionals: 
