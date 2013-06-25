@@ -1,35 +1,33 @@
 --- !omap
 - out_manifest: ! '4903da37921dc14f5c8a22cc041dd98600f28dce51078cb704110835c7f72e1f  COPYING.txt
 
-    441f6865bacf0566e257d9f897cb6ecf1341c8fd9e4084b761d2a690a5f950c1  bitcoin-0.8.1-win32-setup.exe
+    4ee3579e5b747464ea8272371a84cca0dbf52073325d77b218b8680db71ceea6  bitcoin-0.8.2-win32-setup.exe
 
-    1f1cf7ad11597f822cb05f9161913a05a284ed1ea76f624ae527cccb3dbc0d8f  bitcoin-qt.exe
+    734a018d67c65f474bb93994f8d775d9b292bb2c9571be0489a97b6a82972fd4  bitcoin-qt.exe
 
-    6fc98f8492275baecb7338ff9fbb58fc2966dee886df5122be133fa9a955f23a  daemon/bitcoind.exe
+    3c554a29cabc6ec75c2c6176768c64a2f5deee165facaaee5a2fe476181ec2ad  daemon/bitcoind.exe
 
-    b7db96890f0251adb0eccf235b7156a738c09f13c2387076ca2826064ea1d0f6  readme.txt
+    7f1786c821b723b276530abe30d699a97adf5547c3200093aab8468dd94ba181  readme.txt
 
     11f006809d8da1021bb9cdcc8f4e824e16d37ed79801100044ceba2caaf0eedf  src/.gitattributes
 
-    6978aaa1974d59637bc0035d09f49bbdb027091c724c3736d88b014d0b3297eb  src/.gitignore
+    6e15be657e0ec29ba916596096dc9a005559e3f6df556bcbdb0ffd3d7c6e93c7  src/.gitignore
 
     4903da37921dc14f5c8a22cc041dd98600f28dce51078cb704110835c7f72e1f  src/COPYING
 
     ed48a7d4bc68cbff5d2b1a8d755dc24c2673f79b08b8c39cf87392513b3b7e0c  src/INSTALL
 
-    3c4574fb80d168dbbb25595aaac0bebc3f71471cad1148e6e79f72855c638b6c  src/README.md
+    2b7d050955c7a8b39324ee8b1dd3edc9be466a25e5cef7550d705aa4aee18552  src/README.md
 
-    a14309900dd4ee885ce28ffe5ae981aed9ed95a71fba8cab1f15a1ae1a836b96  src/bitcoin-qt.pro
+    3c7761db4c71ab711a74491c54f8a069d2cdf51b70a7608bfeb731e932cefe60  src/bitcoin-qt.pro
 
     e5d380b9a9800682de7861b1f6bf717455402a19cc5d82f68dd0ebe9b4820453  src/contrib/bitcoind.bash-completion
 
     97e5d499422ce8cba9ae2149f65e4bf4ec2101267ba70e21b2ab63d2b6b15503  src/contrib/bitrpc/bitrpc.py
 
-    ce1e2fc4846e67929800a6db20f86d5d475812e639a8d614cebafa140b064ab6  src/contrib/debian/bin/bitcoind
+    14236bbe6379ce8b3dd1f1ea1fc27a9a12f35a1f39164b26f65f0e638a43b38a  src/contrib/debian/bitcoin-qt.desktop
 
-    ccfb94ef43939fe4f558c0184e0011f1455be9ad2e902db657afc7788cd68999  src/contrib/debian/bitcoin-qt.desktop
-
-    99812fb8420ec2571bfc8f0b0d1cfee6e7f729e0e1928982370cde7d3fa0785b  src/contrib/debian/bitcoin-qt.install
+    601890ed01933bdde4e1734f339dceccf5a8de8894b718515b8bd43843cf722e  src/contrib/debian/bitcoin-qt.install
 
     4a9811dbd9a059ebc72acff5869cb2b564e5d361b09452b2f5cda4c987979a73  src/contrib/debian/bitcoin-qt.lintian-overrides
 
@@ -39,27 +37,29 @@
 
     52868d14a9592d7626919d52a9c6122f732a77a50e69a991b0fc46c952d9b638  src/contrib/debian/bitcoind.examples
 
-    c5d5d5f1c1456adc935d8b303907c3e2f13d58d16fa8ad837680d1f93e79eb6d  src/contrib/debian/bitcoind.install
+    1b8fdc20a316509e40638af10926aeacd414d2e0c1f74c85ecdf3c876d4f37c3  src/contrib/debian/bitcoind.install
 
     8641f898c8d9616883755dc46dbd65ab01844f15b0050f57eea0846a8ef5a131  src/contrib/debian/bitcoind.lintian-overrides
 
     fb62d7e92553bc4689ba24369531a97c26687f9e615ac9f49a31a6a975e853cc  src/contrib/debian/bitcoind.manpages
 
-    5b2bcb2507b25967b39b985a3c1426211c04ad00378cb362c651420638c161be  src/contrib/debian/changelog
+    72f559b1f811d6a8e27814310fccef7a79863e9161b2f5f542b02771b258d4f1  src/contrib/debian/changelog
 
     10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58  src/contrib/debian/compat
 
-    21005b9241257cdcdff0c6a26149b97c377131df0ec2ef1e7b26f87d4f05fb16  src/contrib/debian/control
+    17cc25ce3bcca41c04de18c36f65c6049c086153f25181fca1f0ada3c88286e7  src/contrib/debian/control
 
     2139cfcf6b6f1eb05fcbeaec9647f3bf6f8f6b20755f4e20bfde8c2bd7a87a8f  src/contrib/debian/copyright
 
-    9488b7ed7c55b682976dd2fcfed832f0d7e4ff6d4ea4879c89655957b0cd4c13  src/contrib/debian/examples/bitcoin.conf
+    e141088b07641e4e58cc750f93bbdda1ca0e8f07262fce66b73524c1ed97480e  src/contrib/debian/examples/bitcoin.conf
 
     b6d13cac7672c5e35f285fdc841ce148b469f3a3450575975fa9e85f560ddab6  src/contrib/debian/gbp.conf
 
-    bc012bdbebd4702fa75f2c051a59d5d00e1ab93f55feef6499a58bd09cab50f6  src/contrib/debian/manpages/bitcoin.conf.5
+    f7765963be966fcbd7f1d5bab06be0477f02fee8ecc35426d316b5a0ff82c3a4  src/contrib/debian/manpages/bitcoin-qt.1
 
-    d9c406a3b79331b5c894b46ea7301b15730c157f4f11df930ac66366fc1c725d  src/contrib/debian/manpages/bitcoind.1
+    f4598dcff7056a699b62a079b76e74d54435db22e05723bab995e22ae71c7f79  src/contrib/debian/manpages/bitcoin.conf.5
+
+    881dcc53ebe2d2a4f8647eb206fd355c69e4186f225e2dcfce19d276381e613a  src/contrib/debian/manpages/bitcoind.1
 
     d331cb9e012a0a4e279cb52609f91f513e13356684b71f7c4d4da710abe8cf1a  src/contrib/debian/patches/README
 
@@ -75,11 +75,11 @@
 
     b68d0996ae0a6b631f967b8cfc7db1dbefe5b0a15ca5ec43bbc1fb6614a77619  src/contrib/gitian-descriptors/boost-win32.yml
 
-    b0c9682b6e02f785fe772b73a988f15602e45c877c504a89eb102e9db4ce1caa  src/contrib/gitian-descriptors/deps-win32.yml
+    e20db1935e64c44526f50a00a30854a303914abe2f8647f8c8841ae2639a000d  src/contrib/gitian-descriptors/deps-win32.yml
 
     dcf18330b4ab6761ed67008446e1164336da6a685c7bd12e3fe87f344e3e7b0f  src/contrib/gitian-descriptors/gitian-win32.yml
 
-    6bb841d9062a2f14326488917eee2ad10d775d9c5a01ea0b445e6411d5fcf893  src/contrib/gitian-descriptors/gitian.yml
+    fa5e5375432617df15c9cf6c7006eb4b07bf8109b5409554353a28ad5ce303c0  src/contrib/gitian-descriptors/gitian.yml
 
     3fa15851c74ee953173583509f2bf56318dd85d6f2ad3709441d9de78b4ae748  src/contrib/gitian-descriptors/qt-win32.yml
 
@@ -100,6 +100,10 @@
     959676a910bf69effe4fa9ee9d2eaee3e07cd1640682e54b85b5ed9a526de316  src/contrib/gitian-downloader/tcatm-key.pgp
 
     1b2d1236201386c26b09319d974ffbb5d5bd3bb301065896e32b8157b20463d8  src/contrib/gitian-downloader/win32-download-config
+
+    93b6dedefe70c40587a51602464249991e07cf68ae9cdb21e5799b8679bd05c8  src/contrib/homebrew/bitcoin.qt.pro.patch
+
+    b6963752e03c07997f2466b0392b01ab0c6a2e57f04f8e4c6a05a44b56758403  src/contrib/homebrew/makefile.osx.patch
 
     8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903  src/contrib/macdeploy/LICENSE
 
@@ -131,6 +135,18 @@
 
     5e60679b13d309733e6c8aed52f4086e1b7f4149586f666dddb770071d40cf10  src/contrib/spendfrom/spendfrom.py
 
+    a512fb91a8d2538cbb9942f5b204439c5a5971666a3e2a538842b5d11fc54072  src/contrib/test-patches/README
+
+    6e5bbb294b2c0470ce24d2ec37a81d8e86caedad98234cdce1b484d8187d2e02  src/contrib/test-patches/bitcoind-comparison.patch
+
+    14b39bdff8a05a6e4afb21c009d6487164d18069ec2550895beee6ab97925748  src/contrib/test-patches/temp-revert-1.patch
+
+    eb7d482bb0c06046b63be5f6df90b21d87b647e3cee9c9789fd0a587c85eb261  src/contrib/test-patches/temp-revert-2.patch
+
+    0904bf4050ac9da767366cbf2ac534d5d056eac3127dedc7710693056300895f  src/contrib/test-patches/temp-revert-3.patch
+
+    cd6e6b6f6d9523865be61ec696d215be46b378103f6ab18c0ea5172299f77240  src/contrib/test-patches/temp-revert-4.patch
+
     087fac5996cdd29944336289b65efaac04dc4b5cb7eb85236e23ee081ff0454d  src/contrib/testgen/README
 
     221799cdbe6296b392e9017f635d442be3efb9782d07743444c9ddbe6df1ffd7  src/contrib/testgen/base58.py
@@ -139,7 +155,7 @@
 
     98524fa3cd66e45a9ef907d5fdeecc29838017257ed6aebafceadade198e41c6  src/contrib/tidy_datadir.sh
 
-    07808d2ef29b3d9717c6baf82a101a740d0f393cf27546f1cf0df54364e6d3d1  src/contrib/verifysfbinaries/verify.sh
+    0b7dc2ee94127221b5664f35290e58b13bec020babda819fa4ec800ca3ae4e22  src/contrib/verifysfbinaries/verify.sh
 
     14bc6c3c944067016cfc884912865b2ad893b352e63ca381fce4515c20700cab  src/contrib/wallettools/walletchangepass.py
 
@@ -147,35 +163,37 @@
 
     2aca06afd09e84665fb3c816c65e41a0d4ba6ace641e77ece22615780f60a065  src/doc/Doxyfile
 
-    975ec61b2d20f7bc4df6d2d0f0e083d8b96a7daac6d75ecfb01319d2a441677b  src/doc/README
+    0ca334ac7d1580f83402d3aa6cade28fb70376c92409528dd68825c0104f750b  src/doc/README.md
 
-    b7db96890f0251adb0eccf235b7156a738c09f13c2387076ca2826064ea1d0f6  src/doc/README_windows.txt
+    7f1786c821b723b276530abe30d699a97adf5547c3200093aab8468dd94ba181  src/doc/README_windows.txt
 
-    49bc4024f5d088d40661c2650424dac5e3299809cbbc6370f9273120ac81214b  src/doc/Tor.txt
+    ee624ffd770270b2b80875b8536799de8198ed5542c38c3584ad7549cac799e5  src/doc/Tor.txt
 
-    af764f219f998401fc4a281ec2a49147e4c7062db424932d08dbe133ba994f57  src/doc/assets-attribution.txt
+    adf4f42af4ec355e440c4fe5464ba7694877e9e00ce5527d2217cb6c2430b825  src/doc/assets-attribution.txt
 
-    9599944f2e20e007a43a5783d9b0eac773103033ba5caf66f16f1cb53e7f2eb6  src/doc/bitcoin_logo_doxygen.png
+    b1f7449ec0cbd783e3657d46b369291ee0a5fb459013e56258d862dfe180eed4  src/doc/bitcoin_logo_doxygen.png
 
-    9c9739d29d2f0ac76bd921f935777ea83d6fea652dfce5d5754f63c66c27c93e  src/doc/build-msw.txt
+    8c76810d14638842b7833fd0709d63f741981682c59fce21237af6b21fad0318  src/doc/build-msw.md
 
-    8b9d65dbcf1bf399e0d4ce76789e1df4263f4a144d8305f432bd5a8769457fc5  src/doc/build-osx.txt
+    2f99e82741b4a19bb764366f5667b06f46adca9573aac56b655444eb4297f1b4  src/doc/build-osx.md
 
-    a2695763eeff9004ce926f0809f22e2db7a5046b8eb7d7cd23228a04a1ec48a0  src/doc/build-unix.txt
+    090407c99e2b165d2b333a9ffe3ab6d4e10fb1e17f592a1331632ae537695191  src/doc/build-unix.md
 
-    729fa309d98c753e80630461dce45f6d961a13be05fa9b9cb92b3f64c935cccd  src/doc/coding.txt
+    fc6954f9507341e5a8da4bb7f0b92813691d8b1f80421db4e13f1638e036c9b0  src/doc/coding.md
 
     8bb8d5865a8bd5a2f0d02f4b11f8b05118e1ef330134d2de580d60bbee858b1e  src/doc/files.txt
 
-    30a24077cbb81870f190d207e3bec7090518ede14c0a96c9fb585fc0f413bb4d  src/doc/readme-qt.rst
+    fcbf997b24c5ac207f9022362d8f08f12b6e864ae6836b63950f405f6c664916  src/doc/multiwallet-qt.md
 
-    3ba14ee1549d4506d19f7ba2f1ec3eb3cb426bc69d655a394ea198b210a205c0  src/doc/release-notes.txt
+    c6b4683dec3012af55c728a07995ff631dffb7884b44f7477fd91f37e36cf363  src/doc/readme-qt.rst
 
-    b7a3e5dafbda4ddb70ec9ee1b7a93429061e6b19b0476addfa707ac375bca5f9  src/doc/release-process.txt
+    1bae18d84b0af8134c4e309e611bbcbf51661102cd643f685492969dbf95416f  src/doc/release-notes.md
+
+    401321b63e4734f576e4701630a95aa1457c65638f44c021336c8c5962dfd516  src/doc/release-process.md
 
     7157a199c4f0a7fd9fe4b21ffee6496da807058515c6e48624cabef5a351568a  src/doc/translation_process.md
 
-    29965b7aebdae6f3b59e0aa9883fecb494246c046374b4bda3dfc84676e64531  src/doc/unit-tests.txt
+    f8b412584bec1e5648a88368c592a677f9c9ccc3686c5b3c4e3e198cd9a6fac4  src/doc/unit-tests.md
 
     0ed1dcb07b89e21812e0dddc4ad1f0f35e3657100896021b4ebf4ca906aeb1e6  src/share/certs/BitcoinFoundation_Apple_Cert.pem
 
@@ -195,15 +213,31 @@
 
     8571889ac8a29b5c2e537f3fb11973295fcffc8f9b348623aa87b3598e869033  src/share/pixmaps/bitcoin-bc.ico
 
-    68df2f627c2e21ef9cc4a2d2052ab0b5d1ac33c4f7081595e13a14c3f3f2ef83  src/share/pixmaps/bitcoin.ico
+    edc785bccfe69d0e4a15954a77f05bd1d1e291f5fb6916c007d8911562434d7f  src/share/pixmaps/bitcoin.ico
 
-    b746bbbf5ae0e315f678364dfe982c57eeb0a1307ab8bf147e964645c79f8f23  src/share/pixmaps/bitcoin32.xpm
+    953f669ebb841db3bcc155371f80d5441804bb89246b0de46e73d51c50f91a9d  src/share/pixmaps/bitcoin128.png
 
-    61277aa49c281f05048cfa8c15f46ed02fa2ea8704eb54a4455c83951c151838  src/share/pixmaps/bitcoin80.xpm
+    52280970079fb54737b6c83fb834f39a340bca2749e56a54daab49cb3cf1927f  src/share/pixmaps/bitcoin128.xpm
+
+    b7b12b923995119e4460c1a0c4d0ea45c60e7e1f8e6b38598c1421fa1cbe19b8  src/share/pixmaps/bitcoin16.png
+
+    15b71a355ae5e33d2ffb9fc21e10e9e637ea4da2fb4f0ed8b2bc19cc3ecb8c83  src/share/pixmaps/bitcoin16.xpm
+
+    48fac8c972d2588537eff21f2e5e433435af529866f91fba69276f26d2c56cc5  src/share/pixmaps/bitcoin256.png
+
+    d864370cede9a4e0ed27a2538de42e53259f7f53212ada90061b4f8dfce1b208  src/share/pixmaps/bitcoin256.xpm
+
+    f7f5962c80145d1fe2e9331ff3ab97300854c6882f454ac0b53e1963af592446  src/share/pixmaps/bitcoin32.png
+
+    c5c8102d0271f147231a2e10b433a5e58c0dbfe1878eecd5054e28ea65d1792c  src/share/pixmaps/bitcoin32.xpm
+
+    94d804454f780844a3b516f34765bd5a1b1fdc0933d2398a02f5cdd005785b4d  src/share/pixmaps/bitcoin64.png
+
+    49c19bc6ff15c0a6b51347c15c6571761c149ec738aed01f9b165f40cb43a172  src/share/pixmaps/bitcoin64.xpm
 
     8a1978ca70d9aa80942dac340a212d1e42650c21182e785cca99e586c9ccb620  src/share/pixmaps/check.ico
 
-    44dbcd47d6b7630840dacaf19331b664a9d22958b778c40ec60ed1cbef791aef  src/share/pixmaps/favicon.ico
+    8df0786f993a974b1f0a5128e761d6e6ceff3477d53637643e3d0b7f75608441  src/share/pixmaps/favicon.ico
 
     56775745530274f324d1d6e7e34a65666b70b3a40fe5fb9c895885f5aa0a6da7  src/share/pixmaps/nsis-header.bmp
 
@@ -219,6 +253,10 @@
 
     efb5d66bb902a281406d3b5cc4092008dbdcb5c77b298c06b3ef79e8bfa16160  src/share/pixmaps/send20mask.bmp
 
+    3cedf80bb07fb0f9cce07de301abc4839f10aa1fb659945e1519166c79dfd722  src/share/qt/Info.plist
+
+    5b9a4417d2ac6e26a44507ad6e7c6a0764cb4ed063339f20442403aacb3cd7de  src/share/qt/clean_mac_info_plist.py
+
     790404aae43cf5e0238bc933c69b32d5c92a5e302e8bc699634b36afe86be530  src/share/qt/extract_strings_qt.py
 
     eb25c24d53894bed646311df57fe37e81e7700c803311beb596b805ba773d28c  src/share/qt/img/reload.xcf
@@ -227,7 +265,7 @@
 
     c7fcbe40d4c299aac20c189b4783886371bc322aeafbba2b69ef12cd79a6a07c  src/share/qt/make_windows_icon.sh
 
-    d9830a6d0661ca3bbe067ca61a75e6a03cec81116b89bf32768c543d5e6a319c  src/share/setup.nsi
+    cb40475896e1b0341108f13817657b8dbbedd891f9273abd99e17a16c09dbf33  src/share/setup.nsi
 
     77823caf9c5b3f320e91a465b4dc0d204f783040688da0c8609afed83a386b81  src/share/ui.rc
 
@@ -235,53 +273,49 @@
 
     7d551040a47782e98842ea52cf05d5cb1b7d43c55eab46b473ba1a0f2da981ad  src/src/addrman.h
 
-    0c6fb007c14787e45ee0f78a2a4655c7b1302e36d3de0ed6401b78b8367f0fbf  src/src/alert.cpp
+    e53f0f28170d71a41f3e688d355a764793f23c50463b573638c617f275638504  src/src/alert.cpp
 
-    ea09fda7b4e5eada1bb0a70da5ad35f3e3fa3f9544cf3f0e6eff2dfebfba0683  src/src/alert.h
+    1b9410406dd432e6fae564b817c2387e319d8df4375c43f40ab2a3a30f3292bf  src/src/alert.h
 
     fed03e071c11311bcac7a8db9cbd485d99e0d56c83c2f18d12946a0e73b3554e  src/src/allocators.h
 
     b829aea2a6e5b2be3a9836e361979bfcc372cd75d9b4973f95b46ccbe720a9ca  src/src/base58.h
 
-    263bc694b1016a2ba50303e60dacf8d4d472ef8a51bb7b9f33415a42c14c3c0b  src/src/bignum.h
+    6259786263d5eef59538c1ead6f7486225332031dd4aa0011fa2064a4817454a  src/src/bignum.h
 
-    17c87884bbe202b92b866d91dbd50b9359722c3c1525c6909669122bbc1465b0  src/src/bitcoinrpc.cpp
+    a030031aaea1511b79acfd430932ade7a2571f3d964193c1bed651d88db2340e  src/src/bitcoinrpc.cpp
 
-    58a5e3eb0ffdb0d7835e8e0ccb7b72c19c38af54e7769155e4770e425ec52335  src/src/bitcoinrpc.h
+    613ed0ab4e0fd05bd85fe2e0de288252c2ca624f9abf8942aeea42e76fee6901  src/src/bitcoinrpc.h
 
-    3ff579a3dd2e820913628889ec16b19d7ac63bf562609b26d522c2c753e5a58c  src/src/bloom.cpp
+    43d871e35f95d8effe4ae362273c95e016811afb15d81575f7254bc329b157a4  src/src/bloom.cpp
 
     cb0979854d82003e0c401aebcc5f4b49e916ff2571aee4ebec6966c439c91fcf  src/src/bloom.h
 
-    143c88198b0148f432f3970e958ad192aad7c2741056620f4884c19d683339ad  src/src/checkpoints.cpp
+    cfc15eefce3699fc2bf6b44621aa0f137548dc2de9dd5071a017df396e0e6b64  src/src/checkpoints.cpp
 
-    72304e9f55721b5116b8380b7fcd4a810e2cbd3e46bd9a894c05a763fb4f9393  src/src/checkpoints.h
+    a54a8abfd2efd5ab4cac2e02cb1fd43be076ac9e15a8260083f53befadb6fd21  src/src/checkpoints.h
 
-    01cdeef31a9c92ac91036c83c4a3b8095a1009bc0b8545acb9638f27603a61bc  src/src/checkqueue.h
+    1a0caede06760890a11e7263c1cdc2c7a4be4d035053b9a871ed3b880a142ae7  src/src/checkqueue.h
 
-    634fdc7c1d9277efc9bb9dd10398194cd9b2e2554d0f69bb11083fe42ce36d60  src/src/clientversion.h
+    475255646a85ce3de30837d69d3df76f2863c8773e138adcbf93fed9c8b5a7b3  src/src/clientversion.h
 
-    2fd24a14735540d061368b2805d805a7e3d7a2864ff43e8f35996da52d7aca6e  src/src/compat.h
+    1c4e9adf19f20bde312d2afdc4a350b1df11a4b27fd5738c16cdaa22f35eee30  src/src/compat.h
 
     60c67b53319627aa0e6a491259c4198e6eb8be196b17780640e7815f1838978e  src/src/crypter.cpp
 
     c4e45dd4a31419039bad409b09f550791bbebd3df266db047d0de2c2b83fe928  src/src/crypter.h
 
-    37d274b03227637c3084b198a2826f7f50c8fd3e5164a1ad20a9747bae5a5f7b  src/src/db.cpp
+    7532adbfaf0f5117f3c5785127893955b041f9513208ef6e83bbf7f7469819fb  src/src/db.cpp
 
-    2be51ba4f39f117ee41e145f4e6c28524c0594a14d57d6945fcd668a5d5e9008  src/src/db.h
+    1bb6b1f38bb1481f29dd08a320f5b404d24e923b6ce9fee1577613365d2e44c9  src/src/db.h
 
     9b7ceaac1e2e0efa544888a145d09ed59054d615bd581f83624f409962c18f8a  src/src/hash.cpp
 
     dd044b02f631fa16658497f0201819c0aa56aa7c6b5f7532563bc7a5f1193149  src/src/hash.h
 
-    281b26746b30d2de680c513969feaf8ff0537b3d312b1bf50499fd10affba667  src/src/init.cpp
+    9d2568a03aaffb7eb14bed2c9de38a6fed8e841ac42a410091f7181f5e0c781c  src/src/init.cpp
 
-    fd5de49920196b6dc2b16884c2d0b2be450e8cafd7601e3980382ce2136391d7  src/src/init.h
-
-    8150b34d6612054818610ca41e7ec78f54a40b9f18e3b069c5c3638ad65165c4  src/src/irc.cpp
-
-    18e668fe787c3fa423f202c8bce6bda627f457b7976301b48f4831c20c59b862  src/src/irc.h
+    e09192aad2b5ae617110477c54812a6cf6719799da364feda06901c4a11f4f01  src/src/init.h
 
     6a1931bd6e6a765e2026127eb03f2ff24b915028991a2282ff20f0b8cb1d1424  src/src/json/LICENSE.txt
 
@@ -317,7 +351,7 @@
 
     57543d1ba37fbf2baa4187d213135e3b368ad24ec5760f790ba0a16a2481bb8e  src/src/keystore.h
 
-    d8559330ba070345172c80f05cf63d05d4b34102c3681e7f859e68e14eab48bb  src/src/leveldb.cpp
+    2ca463bb42d251e0c71e237dc4c6bb7a4bff0cda8f3fb7c5257af073a1d5e4aa  src/src/leveldb.cpp
 
     df8263abb236f7e9ec86e845a290a28939bf233207336b7efbf6f424e6bdbacb  src/src/leveldb.h
 
@@ -559,7 +593,7 @@
 
     06d70afa831277b580c427090950295132a8217ed99dd002babc193982ebf4d4  src/src/leveldb/util/env_test.cc
 
-    b20f3186d5eb9fcd34b184f937682dc34de7c70f0b4cf4a364703cd086ce8620  src/src/leveldb/util/env_win.cc
+    a502bd13b46eaa18982175fae5d5f5233832e7439df27e31376f97dfac97e70f  src/src/leveldb/util/env_win.cc
 
     744628bcf55e7644502b9586473ab0577bf8663fbd3ea99355dbdc7d03f6374e  src/src/leveldb/util/filter_policy.cc
 
@@ -593,25 +627,27 @@
 
     0a73c868bd45d0f671a30a9c5a4770b781b87339336b191bddb91ab12a8696d1  src/src/leveldb/util/testutil.h
 
-    f1e95f5d0bb0e21b5622ef5acf331da099d0e28531544c4ae2bb6d230cd597ee  src/src/main.cpp
+    3e7feacf9c803068fa6ad211d4f6279b2ea370f285f06a82f1566544d0bd304d  src/src/limitedmap.h
 
-    bdd8a7c31344f128e02e0d304c929d4fefc2ca0d35ed74c6de2423c3080422d0  src/src/main.h
+    92ae27019a120b5e65a70b841083ba391e9b938c4d42ef3e0ed5c88d871631f8  src/src/main.cpp
 
-    7c15b88047cdfaa4b8b75c99853e1767831eb54d42949dfb6048abd6878946bd  src/src/makefile.linux-mingw
+    c5cad374402bc5c52ef753315cdf0fbc24d3f9393bf1b946a38d2708d81517c2  src/src/main.h
 
-    aeb52b2d6aa4333a38827ee901df69fb1d8517f67ced2a6d7d2e18141b5682b7  src/src/makefile.mingw
+    5888736a85c09b7544cc133fc65ca5009c7ee337d61a20a55cd593f6888cac6d  src/src/makefile.linux-mingw
 
-    857db4866ddceec9e9fada6d9eefaba028e01291e0f2333fe1c381111bf874d3  src/src/makefile.osx
+    4453eaf19b7d10e2e3fccc4b2dff15af95bda073e4125137cc444f7840bc2c5c  src/src/makefile.mingw
 
-    ad80f2be08ee4761a76daf564ef11200a40baac1e3a725f6f3a67f799c1d759f  src/src/makefile.unix
+    30ed2e70abeabd6add27e076f819defdfd566b959103d8d350001c4230e51dee  src/src/makefile.osx
+
+    0da9dab4983621d23f082fb6d906367cf654223721ec1e3999b458abbeb73ce6  src/src/makefile.unix
 
     28ffd4bb54fd9d18c0da7a7637abec313860266d4dc53ffb414d66267bc05b6a  src/src/mruset.h
 
-    831d1e94f6386b03d77f414c24f71bb8a477447a7dca02d1f688e083ba52f233  src/src/net.cpp
+    7ebea7d8100b8a7610fa5498c453bc7ea8575d8d56e0c4dc542ba2453d91625c  src/src/net.cpp
 
-    980d49dc4e1d92f648b80fa13863ccba6be3a6e3c6c9f201c2187dc7443a0e8f  src/src/net.h
+    b61c67304c00ffbbc687288459e73c2c6665f3452bc3c758003241f9a62c96cb  src/src/net.h
 
-    e29f5045f24794c1067c6674b813b57c12dfc302af97e4665db4bcdafd75674f  src/src/netbase.cpp
+    8c94b66243c46852c07c7e84fba945d39e0ba47422a333430983b79ec7804b6c  src/src/netbase.cpp
 
     2be47438bc97af8e9a948386124115c64d1d7f9364849dde8a640b11585d6d29  src/src/netbase.h
 
@@ -621,71 +657,71 @@
 
     240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d  src/src/obj/.gitignore
 
-    cf06e0495b165d5ef4dd33a762dbed441bee5c30f3ecf8bd9b3281635b7f6fba  src/src/protocol.cpp
+    903e807c7540657464de4ed2a4f26c09f2cfd45c54be572d11829c3cfd9c1f41  src/src/protocol.cpp
 
-    76602bee1cdc79be1f438c3ec89e6c9b99eecf631011cd6dbe1e6498b39f8b69  src/src/protocol.h
+    d1a0ef9fdb7e1be7cf52894983318dc908312ba2b6a2ff9508898b1d7a717107  src/src/protocol.h
 
-    78320527491d87b1d9d15ed72ed75091027baedbd63da98610b356e235b69e11  src/src/qt/aboutdialog.cpp
+    36cff7c81eea27d19beb8ebfeea04c614a9b1bd0bb31089f435291097066a8dc  src/src/qt/aboutdialog.cpp
 
     9eb8b1f32592daed443ef3fced3a810340f0c9b0e42dfec72f8d06387ce1c235  src/src/qt/aboutdialog.h
 
-    4a198e11539ee0014ceda279f448e3f70cf51c5706007a872940754729cc39c0  src/src/qt/addressbookpage.cpp
+    d303764c2cdc8a07f5bbe595a0aab813039081386ba65f28caa374c4db3f884f  src/src/qt/addressbookpage.cpp
 
-    b0cfce5cbae005485f47de3cbea378096ef24ab89b628e70c33cbfcde45b90e4  src/src/qt/addressbookpage.h
+    2289a0f038adedd6959da07f087ca5bc1dc2d9e5f906d94f33b494f2a3a6823d  src/src/qt/addressbookpage.h
 
-    8576028891a685c40870625a331a538ad15f3802eef1884fab4b96791d833ef8  src/src/qt/addresstablemodel.cpp
+    4ca8245e1f10df2bdb092c3eeb065df954773a124664b778f1831823516e363a  src/src/qt/addresstablemodel.cpp
 
-    252c2b083b96e1babc976b368653b42e29570270e3a982f6617669f92cc6454f  src/src/qt/addresstablemodel.h
+    6586f2598cd989c33f51ec9e7db49c1cfb34197ac8864caf0f39169936e93ace  src/src/qt/addresstablemodel.h
 
-    d8e1b61d344a649711482c14e1626b3ad1b5492b6f7b84756fc5373803490b4a  src/src/qt/askpassphrasedialog.cpp
+    fa37c7e07ef29b5f7b667c78d9257b3ea10354ea3c5372fe718160fbf68297b1  src/src/qt/askpassphrasedialog.cpp
 
-    73a009aef22a64732bd403f6cf89211ab317bb2c864796cd02a316818f688794  src/src/qt/askpassphrasedialog.h
+    74c07ed7ed4d8e83c47fa7220229082fea4b294569ba3e52e502cccd6a3abe9e  src/src/qt/askpassphrasedialog.h
 
-    2c390a581f20c47a0846153f4f61d7ee91b05d50a03e2c348fd10b8f4788a5b3  src/src/qt/bitcoin.cpp
+    a54174b009f757598e7cc9adcdb346733d0a0a479f569f9f6f89361ba3148d9f  src/src/qt/bitcoin.cpp
 
-    ddc209d7d0cd5e2153f8c0183a8c8dbce225939e69a48b2c873870297587bdf9  src/src/qt/bitcoin.qrc
+    9f04a53ab461e6289ba03982082a6f836c2d35cb85d1a10cec770f75b73941ed  src/src/qt/bitcoin.qrc
 
     28573eda16d0549d51b64fddaea1151a5522453f8c7ab854b61c3a4ff17b6b1d  src/src/qt/bitcoinaddressvalidator.cpp
 
-    25cd6d6f9af76d3dbb7d0a1255b7441ac7fb9f7220146f51260848165d9eaef3  src/src/qt/bitcoinaddressvalidator.h
+    523f0aa84b8bbf420138c9c74703e4c6bc93870862e88e6ad1b831bdd5b828ed  src/src/qt/bitcoinaddressvalidator.h
 
-    d52b3fa487349fb46119c59e7bfa9c92101ee99dc1febc90427837a7a8dfdebe  src/src/qt/bitcoinamountfield.cpp
+    c9848e1f256390c78607b8e4e070266393a3c49fad309c6f9043c06fd7bd34d0  src/src/qt/bitcoinamountfield.cpp
 
-    3b6fd2f3925748a6823e868c64ec0f05878ebbea3f30685e668210e7f3a2b37f  src/src/qt/bitcoinamountfield.h
+    65baedc9982da35319bc384abed7e34bc52e70248ef0e826e9b4db4c533c1fa3  src/src/qt/bitcoinamountfield.h
 
-    39bb6e211ec1996e52f79eded209549f1ac117e92ffa527e04a8b7435cbd8d2c  src/src/qt/bitcoingui.cpp
+    4f6a2cdd48d9b54dd11a98f1c30de9551871f9ac4cd9544ddb3a69a8c6bc9ff0  src/src/qt/bitcoingui.cpp
 
-    32ae7f6ad6958faea2f9b9879afef42b5022ad59b981a8e9096e76d2b1ad082c  src/src/qt/bitcoingui.h
+    fed877ec2c28db4e2b9335f49bc9448eb67f72a06989e440e986393a40f17807  src/src/qt/bitcoingui.h
 
-    3566281854fdf3e0e5d85c6c918639eee9ad874784e8c76e2416c07615311a3b  src/src/qt/bitcoinstrings.cpp
+    6eee09adb49fb108223c61f84b447eb0bb6640386ded59d7662d7ff0af314144  src/src/qt/bitcoinstrings.cpp
 
     604500fb7d16d1dd0f814f2801f82fac36b3e7b3b711e84a1354adbe512eef97  src/src/qt/bitcoinunits.cpp
 
-    8d3bbc7667abbfd2cccae5a4166a47b5f4795b4e56585b1d667c3e1b24439425  src/src/qt/bitcoinunits.h
+    c76ceeab1803b0a977299aeb4c2a71e19ec925ae16890208021a96b27aa4381e  src/src/qt/bitcoinunits.h
 
-    e7f815374c5ce0c65aa1b07b5001c2d437202839b6301b1c50e4c3c0f4052be1  src/src/qt/clientmodel.cpp
+    e9db77fed6e4da4de9b4c474198608e1373bc5a8a015c6578a81c6e8fd4c0e5d  src/src/qt/clientmodel.cpp
 
-    b750d6364beeb63f31e79781231dcfcccbc8b3843d8732c4671bd5629b8dbb87  src/src/qt/clientmodel.h
+    8fdff502c648e3cd73f57c00e1e9c577897f1ba5459adaf7ddd0064e7f1b0afc  src/src/qt/clientmodel.h
 
     1fc811a41c768b43159cd1123802ca4c085f63e96cebc6140839c27cf996db6c  src/src/qt/csvmodelwriter.cpp
 
-    cbb91214e05ba22d5580dbd273968b2e8444b402dbcd96e5f1ad64c39e955628  src/src/qt/csvmodelwriter.h
+    d1ca48764ba10cf63f3eb6a2145cae89beb013d9d6347cf8662db25bb178767d  src/src/qt/csvmodelwriter.h
 
-    b8afd73c11153278cf33801ee8d38847117be73850270b9a68bf7e54ad17c2b4  src/src/qt/editaddressdialog.cpp
+    69b57a5d9f5bb5281e5f373cf24f82c329e65ddeefb1b05f87018371aeb42f01  src/src/qt/editaddressdialog.cpp
 
-    62c6620ba8ee54900572ad192db68357516d7b343021e9161e5a8df07d4b1910  src/src/qt/editaddressdialog.h
+    78eca8105c0030b951677c9388bb4cebc08f292049aeb04fa3345c0963c16461  src/src/qt/editaddressdialog.h
 
     08e60d93d9b1707b760659b1e640e5119ab46681f712f7840267bf1789c84c67  src/src/qt/forms/aboutdialog.ui
 
-    788eec49f31f9d4c0908760adcffa9765423438a0e6812c0136d0c68d0bbc223  src/src/qt/forms/addressbookpage.ui
+    3f942c7cf0ee0f139a2330aa4eb59532bfaf62e437f8fe85bd7fc60636021f24  src/src/qt/forms/addressbookpage.ui
 
     257540cba3daaa3a1d7984782e70fc3768e24651537ca92a7cae6d01720fb3d5  src/src/qt/forms/askpassphrasedialog.ui
 
     cfa9e3c3a3447bb8b1ffe866250a9759e0d6242eb5c2474ac6919e3329f73d72  src/src/qt/forms/editaddressdialog.ui
 
-    3dcf149584680367c1b9cd83f0a22bc33523063943206c126832c50179f9834c  src/src/qt/forms/optionsdialog.ui
+    366d82b53c8a31fa83367c9b31671e3764a56d7964952fd255e8c644b34dc0c2  src/src/qt/forms/optionsdialog.ui
 
-    5644979ca579c6445a2137451f3a23d8364a41d82340df3ad6a5f163b66f3ae9  src/src/qt/forms/overviewpage.ui
+    e92b323eec4ecf6e577fd79d246bcc9aa85c7afcd6328eb6903e8b3446fe6c4e  src/src/qt/forms/overviewpage.ui
 
     4a3907b432a303f0a60111aa0b2d98a772e7fb4a74644e3d8e6337fd2be42c45  src/src/qt/forms/qrcodedialog.ui
 
@@ -699,143 +735,161 @@
 
     780b3c74e56a2674bf6435cf1491fd170845ea04d154d9b5063495e2d9d675ff  src/src/qt/forms/transactiondescdialog.ui
 
-    eeedbaea6b4c35b8d00f7ecdc5ed4de744610f36cb4672f8f2f8a4d1030cd5ff  src/src/qt/guiconstants.h
+    3badade08a51c4e29eac2d83e7ca50858f4607441d3653cad8b22615295a2938  src/src/qt/guiconstants.h
 
-    9a46f6495a8034efd24d8fee3554309af8019453bb5d11bd3ab71fe20aca23aa  src/src/qt/guiutil.cpp
+    40ca69c5974b92e6d042fcd992c31ed19668f564e12ce95bb893b692dacc6b39  src/src/qt/guiutil.cpp
 
-    7087a83daf1c60432c4df86236a5cfb28f3f3ed42f52eb44f4b390cf18d9e1bd  src/src/qt/guiutil.h
+    fa24b9268a2f4d9834c40d1a8228c8c734d1f207a3dc85d871945919842dff62  src/src/qt/guiutil.h
 
-    383dd63ceea303dc8a565664688036316a14de596d2ba9b86e861298e8b5e3b8  src/src/qt/locale/bitcoin_bg.ts
+    aa207ebfa5879cc57164f6aa94d50735342d2e4c738de82b596d63d21cd3fc94  src/src/qt/locale/bitcoin_af_ZA.ts
 
-    a000d19f7de92cc9666be4d38bcc3adcefc84d80a71c162645c0d9e421778e31  src/src/qt/locale/bitcoin_ca_ES.ts
+    08b43688dfbaafcf446155ab7c2e8b33a19a463f5cc48f7698b9d6c849df79ca  src/src/qt/locale/bitcoin_ar.ts
 
-    0116ee4a8d4dfcac8542dc11be5ae4f16385c4b88b1af5fa8ac64f82eebc9768  src/src/qt/locale/bitcoin_cs.ts
+    b822aed480730d485f65486d9cfba0466032e1de71e16284b7b82c2b5c33e33a  src/src/qt/locale/bitcoin_bg.ts
 
-    f26ab1247dbc6573c09d0d0d65bc33e1bacaebf3df3d442558aa919cae3e4c3c  src/src/qt/locale/bitcoin_da.ts
+    ae9eeab2ab6282082bc0223de2cfd5d8543b1ff7110fc26035489e36e2689bad  src/src/qt/locale/bitcoin_bs.ts
 
-    a19731059325c6b8b5bf3f28211f34545dcf031b6b104bc9af0a4eed5196ba6b  src/src/qt/locale/bitcoin_de.ts
+    e44927effa61a8c9d968e86801acdc0f73ee56707f3515e01f193b13e01fa644  src/src/qt/locale/bitcoin_ca.ts
 
-    724658b74deda5ef56f6cdbd8e277d7a1aaf1842e1ed036db2985bfb103deb3a  src/src/qt/locale/bitcoin_el_GR.ts
+    3f976af9baab7943a03f03b332917559a47e5202ed1c2e5212d0429e6c208baf  src/src/qt/locale/bitcoin_ca_ES.ts
 
-    7852eb9cf2642657b3a6b8960270730be9178f248fd0e7a48c0d5655c82d7e2f  src/src/qt/locale/bitcoin_en.ts
+    6b023c4cd5cd004a4c5bdedef0d5ca268412cc5e9d811ec5e5a66e9f86722b97  src/src/qt/locale/bitcoin_cs.ts
 
-    f3f74cbff4c9cdcb406b42d127a4860e1694ee481d42979da65f2efc4e90c5e3  src/src/qt/locale/bitcoin_es.ts
+    26c71679ccae3aeff437c75be2c59c8167890fd6faae436dcff480e11c6189a1  src/src/qt/locale/bitcoin_cy.ts
 
-    569b1a7c586d2260749c79d9f344fd5e7ed2e77bf9da173d9dd9e291047df7c3  src/src/qt/locale/bitcoin_es_CL.ts
+    f9f77d072dfe43201e3ef8971ed0862e0d4994e7fe4e458cc7f6fd547c138857  src/src/qt/locale/bitcoin_da.ts
 
-    014e72f39545efaad4694b65caef96ab87d13a8351b8bb55bea2205e4b5d4bd1  src/src/qt/locale/bitcoin_et.ts
+    74fb5151c766ec3c8a9b67f09e0d241fa5bcf974a8e31647ab0920c6598a176f  src/src/qt/locale/bitcoin_de.ts
 
-    5c188cf7b204e5b9b15c5c5aa2fa97a75a56282ba0a1d54dec90e91b714d51d3  src/src/qt/locale/bitcoin_eu_ES.ts
+    c358d4a4f0ffd142db0febeea19ce11a27b8ab87c65105e95e89b63c8446db92  src/src/qt/locale/bitcoin_el_GR.ts
 
-    766785ed60f93c4c6b0204ca0ab363cc6760f5ded6b49f41f52042214b066c44  src/src/qt/locale/bitcoin_fa.ts
+    0ba08a28441da820d06504e64f231b78867db88138c95eeca2d086b55607025a  src/src/qt/locale/bitcoin_en.ts
 
-    814671c43acd7e22e4b69d0e033d241a94bfaece2b4cac598460dbc2d9ce1577  src/src/qt/locale/bitcoin_fa_IR.ts
+    b5b44918ff3aacc590456af28b27a44c40815250589aff380702774111736e4b  src/src/qt/locale/bitcoin_eo.ts
 
-    2d5dc7f7d0944131a42da12d33c5fadc4f92c41fb8b11597ac4f45999136a159  src/src/qt/locale/bitcoin_fi.ts
+    164f91bf3d0937aee5b01b2d06999f3d029a4c469b1846a7f91ac4141ebbccb8  src/src/qt/locale/bitcoin_es.ts
 
-    0af9ff7878505de67d2c24202b40d88f2baa8a895ae8da2ed24cef0aed04dd38  src/src/qt/locale/bitcoin_fr.ts
+    b37010b655a7262eba1001e51aefe47e7b25d7119f12eb60a4afbb69a1e36806  src/src/qt/locale/bitcoin_es_CL.ts
 
-    93f1363d13b316364f4eac234db12b218d5f51f7e018f5e82eb98854f582edf5  src/src/qt/locale/bitcoin_fr_CA.ts
+    02bc7e1f916b6541889c54527a18fe5eaa9306572498f586478fab125b63338c  src/src/qt/locale/bitcoin_et.ts
 
-    5d528be0b7843b9d42046ae46589e0ca5a38b5168edd5d749ae7ef0245986066  src/src/qt/locale/bitcoin_gu_IN.ts
+    aebb11d73b2dd03fc04ce22e604c8ae07b73e1a0277975754090697ef988e613  src/src/qt/locale/bitcoin_eu_ES.ts
 
-    eb80b09e880770666ae1aaa6bbf91c5d88ea043e562f83504ef67712419b94f1  src/src/qt/locale/bitcoin_he.ts
+    2ca3c7274259966ee16cdf60651d1ab1bec55a0d852757292f70248ed5afa57a  src/src/qt/locale/bitcoin_fa.ts
 
-    a816bfe4aed990f32f74acb62154e86c85cd028a8b9d7e160e6d50ed31075ee4  src/src/qt/locale/bitcoin_hi_IN.ts
+    6e601fbd296dd52720e3585611e8d2d539c5cfc5330d24a10897fd1fab35abb5  src/src/qt/locale/bitcoin_fa_IR.ts
 
-    299aec69075b1cb2f108ac5ea3609b46670b2f7d403ebdbc3c441d7975736e5b  src/src/qt/locale/bitcoin_hr.ts
+    b6d112389a912fd58a9dcea482f48c4e0d5806bce60c144faf340a1b1af6ff29  src/src/qt/locale/bitcoin_fi.ts
 
-    9ab6e03e5c4eb43b9fa4f7050dc6de330b9703f06872f1ae9ee5fa824ee794b9  src/src/qt/locale/bitcoin_hu.ts
+    f19f22cf4674d6a1177e3e3136bf9e9aaa30814b3d1fd0c6810893984285a873  src/src/qt/locale/bitcoin_fr.ts
 
-    c0e84cd755a2a87cc720464d44d6e0bbefbe81f8a3fdc429662dbe8aa9867996  src/src/qt/locale/bitcoin_it.ts
+    151c937cf8c13aa63f8f4a1b188b8cac262783055b3532204d4d6c14ad5c3e7d  src/src/qt/locale/bitcoin_fr_CA.ts
 
-    3a118c03b7944ed10c9148c10ad17dddeee247a7cdcafc78cc8bc2786d68cea0  src/src/qt/locale/bitcoin_ja.ts
+    f764340845ba84891fe9a651f1c5ed574a507610f3032ff469bad4284582453e  src/src/qt/locale/bitcoin_gu_IN.ts
 
-    9c5d08bb977e1dd6703f292c94d3cab3b483a6a9c858a495a2e609dd6716e8b3  src/src/qt/locale/bitcoin_lt.ts
+    a419b28be82647e3931d32b9a9272bfe76c70f7ba26a563c8c2f2ef01f863fc5  src/src/qt/locale/bitcoin_he.ts
 
-    41d6bb6479e89b0dbf779bca44a84242974523a6ecb7fc344ffa68e98cd6b934  src/src/qt/locale/bitcoin_nb.ts
+    220c6e903315af17363633fd3b9b1be83b03a2bb6067fbd674708c04dc12c39c  src/src/qt/locale/bitcoin_hi_IN.ts
 
-    472a7587be58cea25662a17523657b0917be56cc456f19ca3143c52316b66146  src/src/qt/locale/bitcoin_nl.ts
+    f32bfe46ccfa0deb662b86dbfec696d86aaceb520d01dfe151a568a6f4257ddb  src/src/qt/locale/bitcoin_hr.ts
 
-    b2e259013020abb2ef659dff85611f2c2e6fc66ae38c28b86581089d5872ffe2  src/src/qt/locale/bitcoin_pl.ts
+    41a9c9318bd719fd90dfb471e50ed1af4cc30e4a8fb33855795979450a4ea78b  src/src/qt/locale/bitcoin_hu.ts
 
-    64423cb8771e10497ec005c77aea000a8769566428716a92ebc1d6189e987a19  src/src/qt/locale/bitcoin_pt_BR.ts
+    30ab2985f22b35d600f886bcc80113858489ce98ec76aaae986dc0697bae4065  src/src/qt/locale/bitcoin_it.ts
 
-    f18b718d317fdb77df5121b9a888023275f53b9320ef0fd46b386dff0b70fd66  src/src/qt/locale/bitcoin_pt_PT.ts
+    1154f736cab9d443996346db49c7aff6dc51f629b67ae67ca3596510f23138a9  src/src/qt/locale/bitcoin_ja.ts
 
-    e41820dd1d5167519a69c20ed46d398af46820dab22a9ccd145e054fe667e0a6  src/src/qt/locale/bitcoin_ro_RO.ts
+    76ad52e445d06749cf6ae350f64110226d9b5c582300e3215a7906ffbbbc483c  src/src/qt/locale/bitcoin_la.ts
 
-    d03b782a6ce97e140d49e0b7f1aa29a7db7398e402c4f8e0dd9a7b6e41b3ff54  src/src/qt/locale/bitcoin_ru.ts
+    cde46112e63435d048884ad7de2bdbfd65833e44e93ac0fb4eb52cef4ce12d73  src/src/qt/locale/bitcoin_lt.ts
 
-    2d46eadf558a8f1cdc40a4d9bfcf26b3f69bdca64321f612378def094435dd05  src/src/qt/locale/bitcoin_sk.ts
+    87e7459da549f80f35d85852e545350b5bec66382fe9ae428c6cefb825dc336d  src/src/qt/locale/bitcoin_lv_LV.ts
 
-    4ac1b76babc9fd5fc0e8019d236216b734b1589fa27695035fbc55d4300ca31c  src/src/qt/locale/bitcoin_sr.ts
+    1138ce7693fd12ba572c272e8de43af7ad3daffea91d32d9f9b545c81a055d73  src/src/qt/locale/bitcoin_nb.ts
 
-    f8d1ec4023103787441e407e6af70683ee5c59172ba8095604263b4f01afc3c2  src/src/qt/locale/bitcoin_sv.ts
+    c61d92c2eeed29e642086abe8a3a8d7027b284f40b33ed18e32d40d077f518f8  src/src/qt/locale/bitcoin_nl.ts
 
-    affda40955dd96bb6fc36d58fe9a5194c461d571776754989ec3d8a16735070f  src/src/qt/locale/bitcoin_th_TH.ts
+    11c18be27d28c136a5477d2823dee04149dc651d463211010488d296e2320134  src/src/qt/locale/bitcoin_pl.ts
 
-    8a3c7374987e92673a0c782c6940fb5a84d9dfa7a29737e8112579ff1a311c78  src/src/qt/locale/bitcoin_tr.ts
+    62777b9753ff843bd8f0ac324597492ec5a915cda4f4c2252876ca1151d7899e  src/src/qt/locale/bitcoin_pt_BR.ts
 
-    388fe10fb41cc4c1a4a2f478a1129cd5a7cc84e559bcf19c9b0af24ca649a75f  src/src/qt/locale/bitcoin_uk.ts
+    4a56cd9985433fc5164d18c4cfbd7f28d13e1c15a972fdcb34492652b45f18ad  src/src/qt/locale/bitcoin_pt_PT.ts
 
-    9b7688488e6a4928b2e73410030755216c500895db739c9f575aa8ab46bae1cb  src/src/qt/locale/bitcoin_zh_CN.ts
+    944c14017177ddcfdcca4ea5d5805eeca63bc19ffd84b2ccbc65c44e07c3348f  src/src/qt/locale/bitcoin_ro_RO.ts
 
-    382917517bd937aba2c987de9e0ca04f2f5f451ffb6de8907adea4bfa7c807cc  src/src/qt/locale/bitcoin_zh_TW.ts
+    f447253d646bcc09a21c18c4481ff58b33d5af5ac7a5e2f6a65b5574a30c2309  src/src/qt/locale/bitcoin_ru.ts
 
-    6c3777aae8793eab894e8e5cce46961e95bf15d9564fff90aa1564aa9ad70bb8  src/src/qt/macdockiconhandler.h
+    e229d59a8185a90e1ca7fed21d8ff434435342ec6759cf5bc9556d19488f9417  src/src/qt/locale/bitcoin_sk.ts
 
-    cf268650f3a1a084e1d1a801ad407a744c336dfc072da1061831a15c176b0998  src/src/qt/macdockiconhandler.mm
+    86be36be35f7cddbbefa1c7cc9546035e4d67c6589b68b782e1429780850d7ce  src/src/qt/locale/bitcoin_sr.ts
 
-    e3914949445cf093845def42abe8169b01ebec5022f7939f60971b3b3e3c3431  src/src/qt/monitoreddatamapper.cpp
+    650ab63e6d8c46d85040c683c6de0c9a03b72d888a0b7feacb559bc48ce0be2f  src/src/qt/locale/bitcoin_sv.ts
 
-    dd87be8a939e5d9dfc6192a7bb755276e037f9d7631d3c3b9c24fecc09340c05  src/src/qt/monitoreddatamapper.h
+    1bd721014083042891a69f6424e0aca8ff12ffcb5d886c3eca2bb75d2f094736  src/src/qt/locale/bitcoin_th_TH.ts
 
-    7dd03b024ac96d46812cb81bcdc2aba769a343ac7e42f6aa658c278cc35d6fba  src/src/qt/notificator.cpp
+    53fba9eaeac532eee18f221a19649808fd20d745bab3a9b5e1d2ebbd9fc287d0  src/src/qt/locale/bitcoin_tr.ts
 
-    96d266cf045a542ad6aca78dc8447131a7a0ef176aa080e57b77403c7070171f  src/src/qt/notificator.h
+    c325786450029b33609acf121c920fbc9a1b1935ac1a421bbd107c70444e69f4  src/src/qt/locale/bitcoin_uk.ts
 
-    df74db1a8c849da435729fcafe31dcc952509b3f4c89e21b8ffd43d165c68ef9  src/src/qt/optionsdialog.cpp
+    f0ab9f3ce81d77630de33fb0deff91db8d2b4e6053415b641c224b04a0976d1f  src/src/qt/locale/bitcoin_zh_CN.ts
+
+    fcb12ba86cf7438a2e2ba7b40997cda12d23aa27902773d870fd4ed1e49ec92b  src/src/qt/locale/bitcoin_zh_TW.ts
+
+    a9c03fb72a831f906d6715340078c321e04ff4d9f04b234ea3dff0ee01c70209  src/src/qt/macdockiconhandler.h
+
+    ae76cf4da4f884d456eee4b47ebec6000624950f737ee6d0b750626f14f09468  src/src/qt/macdockiconhandler.mm
+
+    5605fc3491bd94f1252ca89135c03e4f552b55ced040b1367d0e9752e16d04ad  src/src/qt/monitoreddatamapper.cpp
+
+    77545b3b9893ad79af359021c1f36add61e0e77462927e709fc6ef1dedf9f4d7  src/src/qt/monitoreddatamapper.h
+
+    705362577da4999e0e542c19463821f470cca3be1c6487545fa415363fc036d7  src/src/qt/notificator.cpp
+
+    9e45c08750afbea1d0b57ed2910785eabe6d43861af5abb93fb45e4db489cf33  src/src/qt/notificator.h
+
+    d6e26298264015c813ee936bddffb9f241672eae0ad0f9b66389c25cef4b95bd  src/src/qt/optionsdialog.cpp
 
     458034004536044722980bb38f9a5b0dc4b0eac76f9e68f51ceb25fedefa5f64  src/src/qt/optionsdialog.h
 
-    f25d9c927900177e9abcf70386a36df76206aba164d64a2ae5df5d9d0e805247  src/src/qt/optionsmodel.cpp
+    5c7b0d41650a9320e6bbd5344a370c300ad4aac9cc57de75c1e45fb8bd46af26  src/src/qt/optionsmodel.cpp
 
     e86de40664e10733f1e8f09fa3d7745e45fe587b072666c3aa71a249bd4d9eee  src/src/qt/optionsmodel.h
 
-    3fad9a0b52b0f42631d80bded8dbf2557b501cad21cf63d2253e4df703705345  src/src/qt/overviewpage.cpp
+    b06272a8d8b92aacd4101cc042b693c4c24da77fb5f85ec9b09a5f097794ed14  src/src/qt/overviewpage.cpp
 
-    2f339e0d31936355af99312ad0fff59ba98b2e4d3c3251f21a4bff00f479fd56  src/src/qt/overviewpage.h
+    da349d55b7c833a66dfd76d7560361ae0e69b50144607284d08ce38b0217ab33  src/src/qt/overviewpage.h
+
+    2197e18816f494e0d55c81101741083f18ffe0e1bcb3a08297d4983cabdb1d75  src/src/qt/paymentserver.cpp
+
+    e276864a48e4d19b4133e336c548e9065e52fbe6cb376b0f923e986fb9a36983  src/src/qt/paymentserver.h
 
     9f95f7b5a210dd6ad96cfc4ec82fd3a421bae53c464acbc40215624424cbb174  src/src/qt/qrcodedialog.cpp
 
     c1e34092481a12265f37aca7838ce4739e8bf81db69810b8729baaaaa2c3256e  src/src/qt/qrcodedialog.h
 
-    39e0d1648ac2e19a3c1047b3513e40d216ec14adf88200eed089036d56662467  src/src/qt/qtipcserver.cpp
-
-    93d196a20e2b6378968d072272b43bb2165fd8350b7fe0f167e6b52f881e3f49  src/src/qt/qtipcserver.h
-
     102283e03e0eaeaf7bfba74c525f36a20869e8d5ccdb98d15b1cbb199790e557  src/src/qt/qvalidatedlineedit.cpp
 
-    92d27401c03f77cd136324c5cc3b6a4164e44c943de69871f9046cc33edc82b6  src/src/qt/qvalidatedlineedit.h
+    2fc139b4b224ff5765e99df18e659cde0cdf05c01e0461ca65f9b8af6413a4f5  src/src/qt/qvalidatedlineedit.h
 
     eca163dda99fbee4f5e132bd9c2e05cbfd708b20321b8351d7b0595c64951f46  src/src/qt/qvaluecombobox.cpp
 
-    b9996b6e9c27ccf1480a34dbe71afb8d1549992547955ab2fc619002281e4a2a  src/src/qt/qvaluecombobox.h
+    f1a1241569e104be01964031275456cdd023ec9fa77d73cd7b3c16fd0aa2141e  src/src/qt/qvaluecombobox.h
 
-    b7883b23baf1c236c2d57a921be7beca5e218c235db072022b1cf25217eb96f7  src/src/qt/res/bitcoin-qt.rc
+    a9f77db68fc2a7f5d07a28d7b750343ae1e0a40933cc73c609b05ee6ef54ca90  src/src/qt/res/bitcoin-qt.rc
 
     f9dd14ade5a13155ae39fd78861fd9c6df394d4394e5511aecc7be6a138143f9  src/src/qt/res/icons/add.png
 
     b088a9edbf2063e53e1de97873d905db397085784c4e47ea9f2f36e3b69f1a74  src/src/qt/res/icons/address-book.png
 
-    67b96dd3fcf5b4c1661d78b03b7ea5e4b5d8ee6d5333e7a0e5510086951ff966  src/src/qt/res/icons/bitcoin.icns
+    6fd4e3947da1a258309828a00e3f665085c5f75821bb186af196f7adbe9caafe  src/src/qt/res/icons/bitcoin.icns
 
-    f0c119e707cde21890e1603bbc426cfa91662591901e907f3267a560f365f193  src/src/qt/res/icons/bitcoin.ico
+    aa75192e7192123830c4a8cba94a0023a73dc78fb891447a6cc2929a17f71d4a  src/src/qt/res/icons/bitcoin.ico
 
-    8064f788f1a64e7cb1b12c5c81eb1e2821c126a91f0398ac01be4be26fc9ff2e  src/src/qt/res/icons/bitcoin.png
+    49aa5d47571bba059fd9beb0637086e1691a8a122c255c0b87eb85a73d1e90f5  src/src/qt/res/icons/bitcoin.png
 
-    67ce8b198735a0a0aef742d196101bd016063173521a2c4a68fc9bd62069efae  src/src/qt/res/icons/bitcoin_testnet.png
+    74fca2cb872b1b18b1c9ef3d336aa4ddcaed2e01bebf4b545c18c20abae034d3  src/src/qt/res/icons/bitcoin_testnet.ico
+
+    8c4c02232e71ef8aba27c73869fe39eb50743c129ea4c141689c78792c4f21c6  src/src/qt/res/icons/bitcoin_testnet.png
 
     d23094dee7d6912f933868433fb865f3d3a5461ab01a69b1e1e60e16da257fa8  src/src/qt/res/icons/clock1.png
 
@@ -895,9 +949,9 @@
 
     726cc79edf1db4f9a609d8778980baba147a9957200dbaf97764b5bfb2b6fdb4  src/src/qt/res/icons/synced.png
 
-    c31a6100cb570b6beb961393cdd30c088254f5d580eb7cbd788ad70622ba2dc4  src/src/qt/res/icons/toolbar.png
+    924a06a3c724f4921d5c709687796d7265a6e8f8b86f364d60f87bb1e6fbc89c  src/src/qt/res/icons/toolbar.png
 
-    1adc2f2d9ca0a1093368f5a8bd9bd18fee9df34c321c4267c828e1cf281db4ed  src/src/qt/res/icons/toolbar_testnet.png
+    868983ed26de9cf5121c833babfe92f28c665d361609fae07c7da741ea88eee9  src/src/qt/res/icons/toolbar_testnet.png
 
     4da59fe0c6c46681576948fb3ea99bba1aea8e5e65540d2a74676f51435886a6  src/src/qt/res/icons/transaction0.png
 
@@ -913,11 +967,13 @@
 
     3c80c893e8a9d12ae8b7428831d99c1801b218e29b69724c2ed684e6e8d3c08d  src/src/qt/res/images/about.png
 
-    655276bbfc9f4abaaa5090471bddc8c3c69ff1238477eec87c70f321248d1a1a  src/src/qt/res/images/splash2.jpg
+    df8ce4d140cfff6fd5b6fbc4acf5042b004fdba06f82c181eb37e2e7feea0c79  src/src/qt/res/images/splash.png
+
+    9719abac131b96fff9f53c45986a26f349f17a052e399609a217989f051a5c43  src/src/qt/res/images/splash_testnet.png
 
     d9a06f016acb4045b5407ea816fcd97878cf013ed84ecae9da969dd07acdd767  src/src/qt/res/movies/update_spinner.mng
 
-    d0bbcc771a43553513bde9347d5dec27360d982dfa13537d4cb9df7d59543b5b  src/src/qt/res/src/bitcoin.svg
+    86cdf6d03ddd38ca949e8d8e3f34bbc87abed12baf48bf090ce9e5b2339b3542  src/src/qt/res/src/bitcoin.svg
 
     4e087a7f7f5fde5df89e8d8c545aa3d432c3d8f3b6230134923ff8c6f8e2d5f8  src/src/qt/res/src/clock1.svg
 
@@ -935,73 +991,89 @@
 
     e869e989208eb9e1ba07efe2564961e0bcd78bf6b056973cccba5e33aa57bfdf  src/src/qt/res/src/questionmark.svg
 
-    049bcca920cbfda8568f5b409ac14f5d30761b9e2ed7108838cdec7883d7233a  src/src/qt/rpcconsole.cpp
+    986fb11f659c8c259d4298a75134c861cd9779e940dfd3f7899b45b8665eca3c  src/src/qt/rpcconsole.cpp
 
     c09746a889d21d1c38d1707564643a50f1184fe1e84a1689887bbfc1fab53669  src/src/qt/rpcconsole.h
 
-    0218a256344174ca26e14bdd965ada547bd4c1e369175c106f73bfcf14047301  src/src/qt/sendcoinsdialog.cpp
+    910f17d896b1dfd88c81f5d45b7a9a6e41d2e83141447c1e18f0782bc587eb65  src/src/qt/sendcoinsdialog.cpp
 
-    26e484a93ce3d5f46c35b26520beb8c5daed3c1009394e933883158755e48202  src/src/qt/sendcoinsdialog.h
+    2cb78c682d8ada22cdcc0b1f8cd5587e911d12e66d6379c2b74f33fa96feff18  src/src/qt/sendcoinsdialog.h
 
-    8f87ab64cb20004c507b4cb4d85d8f7b420fd9ddcaa5619aa5cec5c5b90bb360  src/src/qt/sendcoinsentry.cpp
+    aafd52dfc0bff3e1b8c6b617d6fb29a97ee76179a58dcb2c4dab7d1dc082e1d2  src/src/qt/sendcoinsentry.cpp
 
-    bdbc14edacf0e5bc5d966a4415ed97327800b39f0039c96781100a8ed3b9fa82  src/src/qt/sendcoinsentry.h
+    3d69b3fb9db0404dbaba8c59fb66afa70cb88378d2ba6e010e032b6f18974097  src/src/qt/sendcoinsentry.h
 
-    ca099eded617e8a5a2822a6d16dc002489ac60f3361f3816e1158aeff4e07c43  src/src/qt/signverifymessagedialog.cpp
+    0079effb24d8fa4f2613a2b6cfc744cb35004e6e2fc9dd009ff1d30439c84a1d  src/src/qt/signverifymessagedialog.cpp
 
-    115483a61b2d1e46d1213cffe2d53b646c7a2fcf23e8feecfdcdd74a0ba6c399  src/src/qt/signverifymessagedialog.h
+    a2b1861725db23ab127e81a63d229f8d61d64c997021394a96b874ebfbf85f0c  src/src/qt/signverifymessagedialog.h
+
+    6d68d2eefac8148b3bc81ba4bd4f56ea292ffe6fcf3d8ae162dd4e593d1da0ff  src/src/qt/splashscreen.cpp
+
+    0b5e83140b9992dab8302a2632ae62938090f9db3fd5860df84c40e53e7b0361  src/src/qt/splashscreen.h
 
     e7e6a72ca9d408068e11221105834ed63bb359046afef468fd1786562e1e2964  src/src/qt/test/test_main.cpp
 
-    b3ec35393ac2c9b571e49e2e8c7e1c5ae5c079928cd5feb3905c86ba3f1b1f2b  src/src/qt/test/uritests.cpp
+    a0b8ff0f0efe8076ba797bfc14a29631a68d332bdec0b0b1e2351b78ed563704  src/src/qt/test/uritests.cpp
 
     8c65bf1f5bab9f381ca7c64e3b2867246be8d8ed7ee246454a2e810c8569d060  src/src/qt/test/uritests.h
 
-    fb1b5f7eef75d015fbc64213df2ab6cb9be646301526f84ce05e3a839a707eaf  src/src/qt/transactiondesc.cpp
+    c54688c103c33f62e965d4503f558600a7f1af5c68130b9c7abc23894ebc490a  src/src/qt/transactiondesc.cpp
 
-    57e03e4a34de8516be0ee0bb11223a4022ef7a34ade9ea79d8bafff90b2b2b92  src/src/qt/transactiondesc.h
+    47b9dabda5316cb09bdc45b60b5985274cfa436dca9f05a1fc41ae17acbf27a5  src/src/qt/transactiondesc.h
 
     d68ae5342e624cbcac1469bb682fb95e84c2199df04a525448676ee81c6e6980  src/src/qt/transactiondescdialog.cpp
 
-    fca5973127f5626792b254401678c5dc5128e3bb4cc7da5a6c27998d3cda8944  src/src/qt/transactiondescdialog.h
+    8d3b970a63519959a1d6802b737bc6222ea4b10f10351d8d03be5929487b4a06  src/src/qt/transactiondescdialog.h
 
-    c194b23e15328f055b1bfb34fb47adc3ad2bc6733c28addb52b8d99151b55c04  src/src/qt/transactionfilterproxy.cpp
+    fb52bca822a49a64298b49e5ed95696c588d29c892de61d1b8454deb5166cdaf  src/src/qt/transactionfilterproxy.cpp
 
-    854b83837c8a66879a55eacc300b9eb29e3cb49a9d9dc172c00e25386bc84673  src/src/qt/transactionfilterproxy.h
+    ce442fdf05a9455eba94f17d6be4c8542a8b8f59e41317f10233126af8535155  src/src/qt/transactionfilterproxy.h
 
     3ae2f545cf889b20495801fd08fe930df39657a32f3cff90fd1fb99844c43e17  src/src/qt/transactionrecord.cpp
 
-    c37474163b774952611986c8faa7c2272a2beae9d4297ea15d53e27860c8fcaa  src/src/qt/transactionrecord.h
+    74b859c11298ef9f427d397039c60cba8d3e6dd5d6285c12cfcbcc60df5c6f2c  src/src/qt/transactionrecord.h
 
-    86e4cd050fab8fce84ffb501ff03c15b51dbede5bc974e94670f427ed39360c7  src/src/qt/transactiontablemodel.cpp
+    70058e6427c4d430595a39580a49836cf75aaf99a4fabd3250278484e84578c1  src/src/qt/transactiontablemodel.cpp
 
-    549fc2d4c437cde3a04936de6d079809854ac4a56e57f9692653e565f6f1c91b  src/src/qt/transactiontablemodel.h
+    9d5f0804393e79c094eacbc653b5d3c3df1eb32a16591892ad09d74acb0e8cf5  src/src/qt/transactiontablemodel.h
 
-    8f71370aab943359d3673ced7b800b4eccb64e99d0cbbe7169e796d0be2cefcd  src/src/qt/transactionview.cpp
+    cdcac377815350ff500b7e246e836c442832358d3e0145255cc6f3fb70925797  src/src/qt/transactionview.cpp
 
-    864e761512fcfec25fb46ee81afd74556f26f632e2648464fc679a2e02974ce7  src/src/qt/transactionview.h
+    5c78ea6cbca86700fa038631ebc043ad0c15d41f6ccbf4bb5ec9814509b5a5d1  src/src/qt/transactionview.h
 
-    c1a5db3ea85f34a63ca4fc18247ada10f61bef00aff6305f0ab19be3f2a18a4a  src/src/qt/walletmodel.cpp
+    0f8da841ad9210a785ad1127b6777821657adcc695faf46541f7f4e9f5dd34d2  src/src/qt/walletframe.cpp
 
-    8f297312f570c47b49a5fc42693454bc72938446103a4a3f76aefb2384051a0c  src/src/qt/walletmodel.h
+    66973d2868a4ec4811c3bc4420ce80ba75769703091a5a8f706fdb55b2ba86c0  src/src/qt/walletframe.h
 
-    b50a512bf0240b4efd87a71e56c04147ef22e002c94155a93bf3338995841884  src/src/rpcblockchain.cpp
+    bc99c6608b230cbf2021826b30a3c590571e2ad384ffd41549570a1b2f68c7e9  src/src/qt/walletmodel.cpp
+
+    4aa399f54d0c6d026193021dceba7cc70705c079054cb9106a2230a793f8ab26  src/src/qt/walletmodel.h
+
+    63746919d35e69f2e8af2804569abb97f141619c7a8358c62a7e95aa803e0f61  src/src/qt/walletstack.cpp
+
+    6db6bc666edc2630f4782a9a6fcaac1211dbe333d3ead3d6c0ff52b96a5b1d57  src/src/qt/walletstack.h
+
+    7f1774a729a6a9439f026758b5bce5b2ec658b7fd39a87e2ed4a4eabc4ea6267  src/src/qt/walletview.cpp
+
+    96c740ed1b068f326916d19f4e088b58edb8e8d9550774eb1f1d3bb713f2a952  src/src/qt/walletview.h
+
+    f47e4fb10bdbb69c59168976f18b3db88453fafd94221219e1dc3e243fc9f917  src/src/rpcblockchain.cpp
 
     ad761c26ee38571ff87b2a7dd6c5575c7213aeaffec9e557bb023887bea936d4  src/src/rpcdump.cpp
 
-    e599d6d0e0f466eb362dc60f7e0556477452b8c2c5a909d55dfd135862b02b01  src/src/rpcmining.cpp
+    fba133b9d4a3939766f6e60ad381e7cead4144303f1b943b776e3d8c50463cb6  src/src/rpcmining.cpp
 
-    f488849f8bca13b284142068d50368485178bcdfbc3519b8ae15f34e359880da  src/src/rpcnet.cpp
+    c0f924796b3770813b697957b63b333acb82314bd25eec409dd54e494ff73706  src/src/rpcnet.cpp
 
-    974a426bb7fe33f4a1077822a406c496857543bdaf01fd098198936524a0492d  src/src/rpcrawtransaction.cpp
+    bacb417170001132bdcc3f2397a7d6fb7252cf9d591944991f659799d6c0d2ac  src/src/rpcrawtransaction.cpp
 
-    11b3147ed496d2be65df1b5425c1a0c9ea317a84483b0225fbf59b66f7a0dc3e  src/src/rpcwallet.cpp
+    5883db931123e4c260464bc73e2ff9e1f56c6b8eb3b0d52dcd0c2075e61fccdf  src/src/rpcwallet.cpp
 
-    2aabfe04c9c7754b0faef234762442f1bd4f166ddbc0d4231bcd9e9cdfcc5ae3  src/src/script.cpp
+    d6b7970d19b1a9852b60e15218b293685b70624363defa91ed90cfe6ffb9f757  src/src/script.cpp
 
     5bc412a0b0e7cc71566a86c42ded33f47f0913532d4eb66e55ec2bd3f1d68981  src/src/script.h
 
-    0c6d2a29b6393949663f753323dff728eb7890c2de9c4bee8cc1d1b0a9de431d  src/src/serialize.h
+    20cf24e8cbf887639fcb97d1b563eefd81fc2fa458a978a9bcc3a167487b3347  src/src/serialize.h
 
     15b5bc822247a83b7ba6553d9b25bcf80ca9a3f510d07d87dbbb9e786b7ab137  src/src/sync.cpp
 
@@ -1015,6 +1087,8 @@
 
     989e511fe38229a52a0e8d7568a57ea6568861ac8d0f57222a722a08336aba3e  src/src/test/accounting_tests.cpp
 
+    41ecbeea7933699a88158aaa6479e8cda25cda2af298774d81a517e24e0099f6  src/src/test/alert_tests.cpp
+
     738e8f80ab3efef4f9bf0437b379c2cdd8c66b830fcde97b1b31f3f00d2701d1  src/src/test/allocator_tests.cpp
 
     26792bedf1857e22ec7ccbdc347b8cab9d802f76dd7c50241df57539e54e2b51  src/src/test/base32_tests.cpp
@@ -1023,15 +1097,17 @@
 
     8beda68ef3117921230b33ca4fb64dd85f3cf920fb759955371b90ed26bac992  src/src/test/base64_tests.cpp
 
-    99a76eb5724dee34d239b8430bcf9262958685a05a868f15436f78b8a9843194  src/src/test/bignum_tests.cpp
+    9ce3852b891d8c2ceb45bc4eccb7cde1599feaaeeccfcb8b294358965cc367e5  src/src/test/bignum_tests.cpp
 
     c6064f822001c39c765075583740e44d5310ffe05da1fd9b226ff5f6aed96bf4  src/src/test/bloom_tests.cpp
 
     73a928949137c5ae20cc4dfa58f6e8fc87cc6c2880dbaaada420b4cc08936f1b  src/src/test/canonical_tests.cpp
 
-    18728ba5859468052808230fd099c4ec9d68aeb2c57f592af5980f07162931c5  src/src/test/checkblock_tests.cpp
+    1986bbea3b9c7c5cfcb3841cfbdd1688c5ed8f8163953b8d4312997953d34dcf  src/src/test/checkblock_tests.cpp
 
     7beea9ab49799390c3a8919ce091c737978b5b9838af509f54095fa69358c3c2  src/src/test/compress_tests.cpp
+
+    0749c26163277c31f918badb7e0f660437ac748af1f7582d3f74f07534c2a915  src/src/test/data/alertTests
 
     2c56f0292ffe76083430557700a095e72e1e0483343667159700e6942795810f  src/src/test/data/base58_encode_decode.json
 
@@ -1039,17 +1115,17 @@
 
     414ee73f4e4b0f7d1034a0420398f43e3554331dca35fa97cbbe312119e2dbe5  src/src/test/data/base58_keys_valid.json
 
-    af38b9bc7a76c94d3393acdbd6cc55cf8d34997ad30d95993954bba018c0c8c2  src/src/test/data/script_invalid.json
+    f7242266c004976126137b9204f17ee5637b29b2c06dbbe975081800b408fc93  src/src/test/data/script_invalid.json
 
-    a5c00687e7099152cc6f6a03d5c198b4bd13ea8a5d2118897660fb3eb1878530  src/src/test/data/script_valid.json
+    b7f4c712347d66e222aee84276e055eb2d626e4e48c55f912839f29451e79763  src/src/test/data/script_valid.json
 
     c4dbfb27ce9f4e78bd654601606dfacd2f67b47a504fcafc6a35818e0291317a  src/src/test/data/sig_canonical.json
 
     75a40ad2d83191aefc530624d95ea5a4def0811411d656fbd2b48c333b162b86  src/src/test/data/sig_noncanonical.json
 
-    74b60f3c1d4a887c3680144ebc310dc6961ec8d2451e71e799f4ff4269752e94  src/src/test/data/tx_invalid.json
+    cc785e71518bbe05e694fd934509cdc565735e61af9aba50fd182829d1d15b59  src/src/test/data/tx_invalid.json
 
-    c832124637d5650f91c75d7bd488edd38579d05b6fe830ee184e0e5ea9a085b5  src/src/test/data/tx_valid.json
+    d02f07cd3641371797024fb1265678aa3c824b6e64a5ecc8b9aaa9d4b226ca2b  src/src/test/data/tx_valid.json
 
     c6713baf7ec6b4b314d87351f1338f15bd3da11c0b1464774844c46f58e755a6  src/src/test/getarg_tests.cpp
 
@@ -1059,7 +1135,7 @@
 
     b1a0b9c83772589b485b4a8d080bc6b006535453a5afb5f84507a1d3571a2dcd  src/src/test/mruset_tests.cpp
 
-    7de65d1c6bb71a3d616d12194503affd0aa3387a2576ed52fedf3a22abac6c3f  src/src/test/multisig_tests.cpp
+    2f186559fdeb3e2e0425f6ff2949d580bdf32953ec67bf6d9900115243138b84  src/src/test/multisig_tests.cpp
 
     5f241fe0cd8bc449a352ab96cdf37e05a08209320bd51d70a57f113611eeacf2  src/src/test/netbase_tests.cpp
 
@@ -1067,49 +1143,49 @@
 
     afdad58e1dca599cec530702bb25cdc6a62885d2c7a79935c6993780a58a53df  src/src/test/rpc_tests.cpp
 
-    cc7dea384b09bb20ef2521445cbe0c518b5a613426d9703e5cbed4aba82bddf9  src/src/test/script_P2SH_tests.cpp
+    1423b66bde3ca1cda93cc370ce1fc29930f7b4871ea9f9f74043f96bfb691f77  src/src/test/script_P2SH_tests.cpp
 
     a846f8aad311d8556b476b5c05585e6728176eb636baffc7034b81eae6b50e74  src/src/test/script_tests.cpp
 
-    88f699b1d77b5d490731c54e366f847b31c3edd878d766a0f72d0bc5598e46f8  src/src/test/serialize_tests.cpp
+    cef7a76d558a7ea074c22915ea3af8a3fd2681da2fcee0e9b6b3426fe757d1ea  src/src/test/serialize_tests.cpp
 
-    915e6b4ad163b0e44cb5bb67032cf507b6829bee5254b03bb809bfff4a491b21  src/src/test/sigopcount_tests.cpp
+    c11402be4280cf6f6e13625f13d4189a7113a4e4664d99f7c3905f793c8cf99c  src/src/test/sigopcount_tests.cpp
 
-    f136a768a51969e6051c175c70e38715defcacc3c0c994412ed81724fffd8e2d  src/src/test/test_bitcoin.cpp
+    50651e043e172f389cc1b0743075db17089f6ac356ae807fb61f11e1b20b9dab  src/src/test/test_bitcoin.cpp
 
-    aa23827ecfa98c2123a5235b144a99364bd122040da826ac9481055d7487b0b9  src/src/test/transaction_tests.cpp
+    1e5235343c2faa70023292d61e953c5178fad3663d334ad33cfcccbe2f202eff  src/src/test/transaction_tests.cpp
 
     65df1884fb895ffd948651afacc776eff5b68c1589a164a1590e4c6bd6188a45  src/src/test/uint160_tests.cpp
 
     024b7f8c15445e317983b0533669854f8aa051c6766e6287b27e34d32ce0a2e5  src/src/test/uint256_tests.cpp
 
-    61b7af5ab49398777748c1b321897c1d167b51fe5fe67ba1238f7f2eb8000f50  src/src/test/util_tests.cpp
+    7f54fc443db9c98554586a74d371615c2e2f90fdf11cd7fe85498e318fc4fb3d  src/src/test/util_tests.cpp
 
-    1f869c958fb24106c38ab66474bfe09dde86180954c3b0f162ebebfeb247880c  src/src/test/wallet_tests.cpp
+    ee9de460a4983ac0d883fa9305d58aaff96dd8a9868cc67aaf2a6c0ed9a87528  src/src/test/wallet_tests.cpp
 
     1ed09fae0c6c28ef4cf2d183274c5b9179120c8c627499af0fedb869308cd719  src/src/threadsafety.h
 
-    937bfbfd62f41c942603053ec4524b288fd3d9d75676b37781a78619c2a9010c  src/src/txdb.cpp
+    d2e6875dd43ad9ff0e0306b07a574772990f5153fe7d15923dd5e8d8de8a5824  src/src/txdb.cpp
 
-    eb46f9091d277e508c5081ab5d89393686230068ec27588097b1c4e53ca59d5b  src/src/txdb.h
+    51e373c114dfc67655bc1ad45dc6c54cce636ab48dcc15fad9eb7de1317a9f0f  src/src/txdb.h
 
-    4212b75b8d444f874fdc0e906100f1b94c00ef1d841b68fdf5d3fea79a6ed37e  src/src/ui_interface.h
+    8a6304951b68a9473e5dabf634d1ac41c6afd3826e1ec954f12d87a9ae779618  src/src/ui_interface.h
 
-    68d2285ec160e20276fbdf8fc93707156fce3255ab6737bcb50ae3a409577642  src/src/uint256.h
+    ff78c940d78f954649607d960719ada9992892b1e21b48fd0dd01b291bff730b  src/src/uint256.h
 
-    a9de9b511ffdc8e4199ebacf87b5386699fab47a6ef472aa819da4a014b7f8e8  src/src/util.cpp
+    f8c494292bb893fbebafa9a4a7d843d7942983a2f68f155e586676129445f418  src/src/util.cpp
 
-    a2ac8c745d8e2f452723e6875d4586039c6c46da47c28b0371511a71cbbdbc8e  src/src/util.h
+    6116f43249e7045f876b4b1f5d0436aaa49711b924ef860e2c5cce5eb78d0c77  src/src/util.h
 
-    a850cf0ef3d457c88434e3e1a6ead8d7bec1d09e1a27606c7efa7923cf674baa  src/src/version.cpp
+    baa7e851e02bc921b826ba54313c9923015c0fb6b73fd09f9cd903d1ed9511fb  src/src/version.cpp
 
     bc045f0eea2bb8d18f189986cd0682ca2e74c33a556639c5c2acb58ad3c25248  src/src/version.h
 
-    db7a23c0697b4b81d52cc47e086499ab1415ef11d8b0a8c38ff6f3cf376b1a7c  src/src/wallet.cpp
+    eb37b1760109a01afca4f46f47998ee3d1479e7cdf1222bf9a20da83e98501b9  src/src/wallet.cpp
 
-    f85f12f8cb0f8c8d90bdd4ff4102ac273b163bee6edce0b87f5d04948eeb9b3c  src/src/wallet.h
+    7aa9d028ee739d6b946bf6fb4398f5141bca69fd669c1f30e42e49fcbf944f95  src/src/wallet.h
 
-    3b74eb14af886dfdd74ff4e6c5bb4de01aa4ca4faadc71871edffae4f5d0d19a  src/src/walletdb.cpp
+    a91b3592f4caf0a190a8d14d8d32f023185ae989840b11c792cba3c644cb4ce6  src/src/walletdb.cpp
 
     a8674d072e1d71fb194b23554d934f834e64dd1bc65c9989da1c47c55dd62c18  src/src/walletdb.h
 
@@ -1122,7 +1198,7 @@
 
     b8385fc61727f2936a75dcea86694aad6dbdd5929415a9199151a340574b9367  bitcoin-deps-0.0.5.zip
 
-    git:34d62a8efe4c51b2dd73d56fa03001d4accee4ad bitcoin'
+    git:09e437ba4e5cb7fcc53020c1ceb2451e0ff1606b bitcoin'
 - base_manifests: !omap
   - lucid-i386: ! '44f14badacd571efe6b18a4d1adb2098593638d614e837a6ff6a7f9b3ad58e9d  adduser_3.112ubuntu1_all.deb
 
@@ -1174,9 +1250,9 @@
 
       b5704265dbc829814f3cd4d66bca4ad67ed30821609312e7b0f31cfa68f7c647  debianutils_3.2.2_i386.deb
 
-      ae6a82073d364d0d63d4fead5af10f0535fe4aa9ccc3f9ac76e5c95700cdb7be  dhcp3-client_3.1.3-2ubuntu3.4_i386.deb
+      5da9c5774ed38507ff8170a500cc9cceb70480a8c2637438ef6ee453ba05e14e  dhcp3-client_3.1.3-2ubuntu3.5_i386.deb
 
-      4582f44b8d06d892231304166a960b97406f7cb05bce8540a326c39723a08461  dhcp3-common_3.1.3-2ubuntu3.4_i386.deb
+      4fe78c91758ef2e9e8fb271f21ac307eb0a6c3f6cc73648794486e5c55e495d3  dhcp3-common_3.1.3-2ubuntu3.5_i386.deb
 
       92a3847be76a7fe32e6f4586ae5faa4a8ae2e57ab8b5290d387e05682ad4d048  diffutils_1%3a2.8.1-18_i386.deb
 
@@ -1201,10 +1277,6 @@
       9f14ec027f54410a3c89bf80f11d31eba5d406abb4db05d1a3bfee56d9eb6e20  file_5.03-5ubuntu1_i386.deb
 
       fd82e5ab968ee2836d0413f5bb59ba95d7aeb70be707cb2c3e00b57503d7a043  findutils_4.4.2-1ubuntu1_i386.deb
-
-      4d9cf884870506206a67a544a292c896f0f08c4ae5bda8e8ec1c974918a3aa8c  fontconfig_2.8.0-2ubuntu1_i386.deb
-
-      e43081e95ddbe9a4fa91d7aab7c8f419bd152c3565d39b3fc80c4de8a10d7310  fontconfig-config_2.8.0-2ubuntu1_all.deb
 
       8f1bbe5fe0acc10fc363bf3fe64d38273d4e64a8196ed4e4287de5b0e09b7bfc  g++_4%3a4.4.3-1ubuntu1_i386.deb
 
@@ -1264,49 +1336,11 @@
 
       4c80ddf91f783e4cd6ca78d569da8e6b809c42dac38a6f50cc0f8f5ccda365ab  libaprutil1_1.3.9+dfsg-3ubuntu0.10.04.1_i386.deb
 
-      a57e8f8fa97d43eb7365e73bf0e328b637cb0276319d84815b69bb5680a04b32  libasound2_1.0.22-0ubuntu7_i386.deb
-
       28aee44cf74ca0007ef376edcb9f376f5f9b1772a4b8d9107636f2b7dbb9c5e4  libatm1_1%3a2.5.1-1.2_i386.deb
 
       804d5249271eef4aaf58c3b1267e83ebf46587f47ef50aeb4bbbbd7e9bb83777  libattr1_1%3a2.4.44-1_i386.deb
 
-      485012cfbd08a1bb57b60e30128ad04d631cb8a479cbf94861318654373eac3e  libaudio2_1.9.2-3_i386.deb
-
       42a3259ba3e6ae8c100c3fc474aba52d25411fd40aa3fe7256657a3ed5e590d5  libblkid1_2.17.2-0ubuntu1.10.04.2_i386.deb
-
-      cf848a367b6c352af6c5b3e6d7c4256320da206a48b32afcda22ba60b7cfa55a  libboost1.40-dev_1.40.0-4ubuntu4_i386.deb
-
-      4c058ac3f6e930d8b5ad7a6450ec78c57048736325cc84f1f41b88c66d0f1a5f  libboost-date-time1.40.0_1.40.0-4ubuntu4_i386.deb
-
-      81c424c5eb1a085df2f0075a01294eec941b254a19dcb8a936cd0ee394c2851e  libboost-date-time1.40-dev_1.40.0-4ubuntu4_i386.deb
-
-      f700c64e750b395b6b46523eb7443eeedbfb14e9b5b0caebac4564999d489c82  libboost-filesystem1.40.0_1.40.0-4ubuntu4_i386.deb
-
-      68975aec6082240831d35b71837429d897de75165eaecdcb304f5e8a0b49af06  libboost-filesystem1.40-dev_1.40.0-4ubuntu4_i386.deb
-
-      00fc7253d9779c162f778565f151df0107df3e63061b6026736eb5fb559bbb79  libboost-filesystem-dev_1.40.0.1_i386.deb
-
-      16e76707f0a71646c9d76901fc488ce93ce249355125d926b8c63bb81653c836  libboost-program-options1.40.0_1.40.0-4ubuntu4_i386.deb
-
-      783adac5b11ccf4bdc43815fe3f2c13f4dad0388077a2d8bafbbb05021711019  libboost-program-options1.40-dev_1.40.0-4ubuntu4_i386.deb
-
-      ada14aea7c93bf44f5bdaa61583c86f615adee8bdd45c22c49662790a0171b10  libboost-program-options-dev_1.40.0.1_i386.deb
-
-      44666f371fb6e2b84129a94921057049f7c2a0d5d84b1cb8687ad95ddd329d8a  libboost-serialization1.40.0_1.40.0-4ubuntu4_i386.deb
-
-      9b03bab2eb5237a85dd0cd41fc3be2810b3165dbe8838f391b8c30dd2d35e2c5  libboost-serialization1.40-dev_1.40.0-4ubuntu4_i386.deb
-
-      b5c14ce5715d6eb1007aa700d447c00600319c670428684a042106edc697b059  libboost-system1.40.0_1.40.0-4ubuntu4_i386.deb
-
-      73c7be20f1c085a45e23729fc656fe837a24c5362a262a6a2f8701afa0622047  libboost-system1.40-dev_1.40.0-4ubuntu4_i386.deb
-
-      29e918ceab46854d973b7261e1ba2e2329c584dc0ce80a5d45c92303e04c947b  libboost-system-dev_1.40.0.1_i386.deb
-
-      da352a261ea44aec69450f9bd2303ac05d09c6427c0a57dd982945b71be21d6e  libboost-thread1.40.0_1.40.0-4ubuntu4_i386.deb
-
-      f13f37e411269f5fc239dc1d69b21b8d19e16406bbd52a2d3f0429486a3ebd49  libboost-thread1.40-dev_1.40.0-4ubuntu4_i386.deb
-
-      b8801269e02789fc00f246f41bf69a569f9438b3e13dafd7b239082c4c6151e8  libboost-thread-dev_1.40.0.1_i386.deb
 
       5cbd350807f9735a7231526811059b89a680f6bdecaf97b4a33b1cac3280b3d7  libbsd0_0.2.0-1_i386.deb
 
@@ -1328,17 +1362,11 @@
 
       a296ba83a147ce762f4e145b0a31babeac81501678349c8bf0c73f6bd97afe81  libcomerr2_1.41.11-1ubuntu2.1_i386.deb
 
-      fcb0f2c7d818c95270e00c86cac925b256cf7157270a2a2b341e1dc27ec873f9  libcurl3-gnutls_7.19.7-1ubuntu1.1_i386.deb
+      e043b2f6bad7579bbcd9323c619bfa89be31bc208ff71f57da2694b16e892da9  libcurl3-gnutls_7.19.7-1ubuntu1.2_i386.deb
 
       a154b1fcd70717b122703885f43aa30064bb5be818ee380c50b8589153ce33ae  libcwidget3_0.5.13-1ubuntu1_i386.deb
 
       1dd5e4c336427cd6288392c6b3582bb2056f56cf8c7adcacf0a5577edacfbb20  libdb4.8_4.8.24-1ubuntu1_i386.deb
-
-      7b84ef9f410952ef4e5714af236bbbb5c8c09317c0e2be359c9c1a9814c586ce  libdb4.8++_4.8.24-1ubuntu1_i386.deb
-
-      c0962026c041c26deb588d5a8e77191692a4f19ab38d7fe40e021ecf7448a88e  libdb4.8-dev_4.8.24-1ubuntu1_i386.deb
-
-      466d27d012cefc6d685d0e0bce1fa7f25e13f23aa90c325bdc59084189af0b2d  libdb4.8++-dev_4.8.24-1ubuntu1_i386.deb
 
       82258237dad212305bdc70a76906b9d0e605e8e7eb2ae481b6d335b73b31824e  libdbus-1-3_1.2.16-2ubuntu4.7_i386.deb
 
@@ -1347,8 +1375,6 @@
       8e38c0ee90ca27cedec3d5e6ecdef5d5bc39af88f92e6df3a8d13bd71044c04e  libdigest-sha1-perl_2.12-1build1_i386.deb
 
       e1e21b7c85e229aa30f992edc059fc886d9878a5d0cb67dcccf259f997f6e751  libdrm2_2.4.18-1ubuntu3_i386.deb
-
-      1a5adc6d7cad231f1545bf513925a31efed517fa63c373e12147c9300397031c  libdrm-dev_2.4.18-1ubuntu3_i386.deb
 
       c02b6a83767c92d4895343888ab3ba0451ab2380077042b9401fb935c73a3a5d  libdrm-intel1_2.4.18-1ubuntu3_i386.deb
 
@@ -1364,8 +1390,6 @@
 
       c02b3e707d9ff9f5b4d22cfa4a0f9075fefc955aec42557ace98b944caded275  libexpat1_2.0.1-7ubuntu1.1_i386.deb
 
-      107d336cd66faaf8d183618e16cbed9a3b55497b8ddd2095976a98a6c2522bf7  libfontconfig1_2.8.0-2ubuntu1_i386.deb
-
       66a4d86b93bdf8a3c78d0249da36b0e5f74d3497973cac1716bf89d4635c2cdd  libfreetype6_2.3.11-1ubuntu2.7_i386.deb
 
       e4bb4973d07050a77e79e45471c298b2d27b1735c7704abd7bf89ebf27dd30c7  libfribidi0_0.19.2-1_i386.deb
@@ -1376,21 +1400,11 @@
 
       0183d73e2031e78de216a33b89878308757ad0ff91875a196265c36dbe2fff50  libgdbm3_1.8.3-9_i386.deb
 
-      566228f367d35af0a5a3362612d29733f58372f2079f6f2b38396f409f2abb1b  libgl1-mesa-dev_7.7.1-1ubuntu3.1_i386.deb
-
-      d5f5609c8ecda145f512c67455d63f1ab8f7f9bca447003bf03e6d38529437ef  libgl1-mesa-dri_7.7.1-1ubuntu3.1_i386.deb
-
-      0de6fc954b2ba137871e8943ecfe9f8345ccb1c63abff6b70f35067bfde28c3b  libgl1-mesa-glx_7.7.1-1ubuntu3.1_i386.deb
-
       2e57b83406b3344af7255071873d3d34371ab156acbb1aa3948a22ed1ca51f00  libglib2.0-0_2.24.1-0ubuntu2_i386.deb
-
-      d30287933cb7420c338a089f22ea55e8303c152a8e27b545645e7c663930e78d  libglu1-mesa_7.7.1-1ubuntu3.1_i386.deb
-
-      e8d56e6f70f78ac6c7caf2856a0f925abbaf313f3414f54f52653a977c27131a  libglu1-mesa-dev_7.7.1-1ubuntu3.1_i386.deb
 
       496eb34529e444d4733c32a7646ad251a64d295748d00513509a1ae7cbb91b02  libgmp3c2_2%3a4.3.2+dfsg-1ubuntu1_i386.deb
 
-      9fa309dd2abadff16e6c4e849bd02ba674a0053f1086c649d4e3abe44e8df756  libgnutls26_2.8.5-2ubuntu0.3_i386.deb
+      1b981389b22430d1367e2c36477a49f90e581d110b9271f25a198ec02163de14  libgnutls26_2.8.5-2ubuntu0.4_i386.deb
 
       99ccdc41e6793e129cf390d97f07a5555a51de2bb48ea6bd896a0dc7ac3f1be1  libgomp1_4.4.3-4ubuntu5.1_i386.deb
 
@@ -1400,15 +1414,9 @@
 
       783bba505094578b9b06c257d85472bcd942deb7b7d33f3d5159e1bcd9b7a9a1  libgssapi-krb5-2_1.8.1+dfsg-2ubuntu0.11_i386.deb
 
-      ca8112e23a5d129f57de474a7bb1fc3d20b3dbdf4100223e91fbeabb25bb1446  libice6_2%3a1.0.6-1_i386.deb
-
-      68f1d966b7fcd598fbd5d5ee3bb154b3170cb1036c9547d1a3f2e8f24c8b161d  libicu42_4.2.1-3ubuntu0.10.04.1_i386.deb
-
       1e9217bf99faaf9ca298b186c244c49c0337f4c14d0eaadeccd2d2c7c8034665  libidn11_1.15-2_i386.deb
 
       92604cf2d3e82f33dced7f99446d7c4d15f4a197555f4ff7d15fa904fdaa9add  libio-string-perl_1.08-2_all.deb
-
-      3d2b292893d7a5fa34dee2e8ed39c944959ce36216d3fd7f71fd38ab9c2c3d04  libjpeg62_6b-15ubuntu1_i386.deb
 
       f5f7b1c64dca010f5971472b8b6d29ea42d5e58eca28b2acde6fac029b8a691c  libk5crypto3_1.8.1+dfsg-2ubuntu0.11_i386.deb
 
@@ -1420,8 +1428,6 @@
 
       637b6c345ca7b29a4f45cc44612339d437571e427ae36b86cbfea5778a381f5a  libkrb5support0_1.8.1+dfsg-2ubuntu0.11_i386.deb
 
-      fd4ca93892abfe71df609bb8d7c4873b5fe7b440160245f15a6e0cfca17dc8e0  liblcms1_1.18.dfsg-1ubuntu2.10.04.1_i386.deb
-
       10d5fba2b128ddfeee27ddbeef777ed4a6c0bd213206025da5e85dc7b1f0690a  libldap-2.4-2_2.4.21-0ubuntu5.7_i386.deb
 
       af980de898c081d2b7208401fc173e5e884ccfd8bd99f7f332c168c14cf8a943  liblocale-gettext-perl_1.05-6_i386.deb
@@ -1432,11 +1438,7 @@
 
       40c3ec8170d1124092a492bb40c692c9444046ca9b0919db82bbaa415b8f2c86  libmagic1_5.03-5ubuntu1_i386.deb
 
-      1ef43611d38a2e6af7b1e6b9c54c001d91264f9922fcbb5be366dbbfa19bf0bf  libmng1_1.0.9-1ubuntu1_i386.deb
-
       28989ef6301b814e12198660f9c10be22db32602d0d30e54a8922770e4570d2c  libmpfr1ldbl_2.4.2-3ubuntu1_i386.deb
-
-      6333cc2a150341eec0af9cd01a59a62d23c88d4957836e09aa3978636fa92164  libmysqlclient16_5.1.67-0ubuntu0.10.04.1_i386.deb
 
       6536c787c62d2369c7f2a84a1695cacc9998f861bf8bcb1252713dc9ce4c4f3b  libncurses5_5.7+20090803-2ubuntu3_i386.deb
 
@@ -1462,63 +1464,11 @@
 
       87db65e47a58e76e49408b35d00ab335d8ae5b17dcb4272e5319ea74aaab5030  libpcre3_7.8-3build1_i386.deb
 
-      a93148c825b4445a63236a70a640ade585c087dad76223ad69e54281d12b25a3  libphonon4_4%3a4.6.2-0ubuntu5.6_i386.deb
-
       72f20547e07f1fc8a294aed36141b7320f0dcd3cfa11e532f8ed8094d28fe241  libplymouth2_0.8.2-2ubuntu2.2_i386.deb
 
       62b07288f3ed597d827b958039f7b12509f0c2bdb84f1a2f9b6fcd79c2744665  libpng12-0_1.2.42-1ubuntu2.5_i386.deb
 
-      7b8b671d88dd751cbb42faf32e345ec6765b3379234d73d3e5f25748bf5e9603  libpng12-dev_1.2.42-1ubuntu2.5_i386.deb
-
       2f76c42c0dfcfff14edc21f7dd2cebd28dc8f2ccd00b164df51ad06c26dd1adb  libpopt0_1.15-1_i386.deb
-
-      206d277f933dddd06560aec99051c4677c548690604ddf515230c976f5fd7e77  libpthread-stubs0_0.3-2_i386.deb
-
-      d8d7dbd8d30cc345ca4c5bb9e87a0781d489cc4a6fb5d88d7b114b98d9be51a8  libpthread-stubs0-dev_0.3-2_i386.deb
-
-      d94c3989f3c74603e980d2d0ded8c95d0c6b7c5d64c86144d8a86c664442e582  libpython2.6_2.6.5-1ubuntu6.1_i386.deb
-
-      07c23641d19b34adc719ae18d30f172969271c844f8514cc8f7481d0f254ea2f  libqt4-assistant_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      69c61efd940fb5e021185bd9539ae050b583c4999812876312c81f0924638c66  libqt4-dbus_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      80e81ef025367da010ea9c7b7d678d1415b7071a8438c05681c5970c28f48428  libqt4-designer_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      24baa9e31b99d9c4d22ca86da1bb37ecd76a6f915bb2ba5bc4cbc8a68afee1c7  libqt4-dev_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      cd724061ad095255fd77bc7ab3d67189920bbc1aaba00cb76be9db5921b1fcd6  libqt4-help_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      f43e3241e276d1ec899cb54eae43e80d29208c181f6b2380d05059c5a0dcf889  libqt4-multimedia_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      c0d16c27facfd3136529a141b2dd75bca5c1b6e7e81f05ef36388d94c656897e  libqt4-network_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      27e1156b65094f8305aabcede80286739aba7e2587bce6aeeeaefbf494e7cc7d  libqt4-opengl_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      64c2dc5c380d95376a48d37f696e98b3fb8c053c3313d2046dec135f1fdc1d34  libqt4-opengl-dev_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      2533f05a3156fe125554490dac54544be62807305bba4808db60304340eb6263  libqt4-qt3support_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      fd1b31625dc70ae9a4d7c346c10143522aae82c1c9618bb9318712f29d6b43a8  libqt4-script_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      cba1c4c438d14cebf125a0cf005bf56f02f1b2864147360846c1fc4ff6466257  libqt4-scripttools_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      36d359de3ed9fa89b4d9b5d0c71c4de6b82956d20cf1ddba41d84c94767b450a  libqt4-sql_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      950cc568263e7902d33a959ed6bf1e6770cc10674d13522d1341cee96ca272cb  libqt4-sql-mysql_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      94b4b62aa4bb2791873f7e5bf185171bee5b749dfe9063cf6b816f4feb721b33  libqt4-svg_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      cb8e3bb126c83f18eee2134cf1b565e4b47db5e42faae300058056890b92b08f  libqt4-test_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      9fae92941b3b27f9a4690acab84d4d164abf433b2aaeac8b766b838f1a62cd2b  libqt4-webkit_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      c11eded43db571bd052ce4af6eca40078cafe847294d9591e3cd706a0312caed  libqt4-xml_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      7825c44ad415f55403be3a4a7904c20f4e9a88f9b19f89f07e819ddaf9c1472f  libqt4-xmlpatterns_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      31c77f48e5b09af4cbeb9645a192c3ef9a1bb4ab238b25dcd99ba45c0a638dfc  libqtcore4_4%3a4.6.2-0ubuntu5.6_i386.deb
-
-      05cdd1a14b9bdfd34741300d457a0a222f96992ba684fc410c1c169873ff505e  libqtgui4_4%3a4.6.2-0ubuntu5.6_i386.deb
 
       b756e8159f8d019b3b97b1c5563a032f327a82ef39a41e3a38e23295d5ef638e  libreadline6_6.1-1_i386.deb
 
@@ -1534,15 +1484,11 @@
 
       3c08a184d17729587fe6803d9a27950ac9c4958d42f4e6795a09d530af19a256  libslang2_2.2.2-2ubuntu1_i386.deb
 
-      0358ffe2e373238848e3ab257d4066fc0319e1102e32d0e3245893fcfc438fbc  libsm6_2%3a1.1.1-1_i386.deb
-
       30d3a36aaa3eac9c9d15fbc675fad2683a406f586bd9955c11db0a5c8591a703  libsqlite3-0_3.6.22-1_i386.deb
 
       4e950d450e1a8611fbd3235396025a565c17f5c4a1f24405415b600bb4728124  libss2_1.41.11-1ubuntu2.1_i386.deb
 
       afd3bcdfd12bea409628ebdbd0d6502e5de4b8c1df542d1c1bbd67b6c841aed7  libssl0.9.8_0.9.8k-7ubuntu8.14_i386.deb
-
-      f2a5344082171752c4894afb1d3d23f64b1c63d00bb53895993c6965efa52e4e  libssl-dev_0.9.8k-7ubuntu8.14_i386.deb
 
       f181b8eec5c3d0cce0906a02f1b14e6b8020528be98e90976e10d775aef2e895  libstdc++6_4.4.3-4ubuntu5.1_i386.deb
 
@@ -1560,8 +1506,6 @@
 
       d57a4cb602c011ffa5fabbcdfd84e3a922654780e0fdee21735ad2aaf09edb0e  libtext-wrapi18n-perl_0.06-7_all.deb
 
-      a29b1971dff31129d134f06569359c09c4c3678fa199686715e844125145140d  libtiff4_3.9.2-2ubuntu0.12_i386.deb
-
       1112d3bde340111a56ffab5ca72404ca1fb180e6f7d87b306d0c4bdb5509f2ec  libtimedate-perl_1.1900-1_all.deb
 
       12526f5e2ca58ade972807f812103d8052fdea3f78d4d7c6057b5bf99d7e9925  libudev0_151-12.3_i386.deb
@@ -1572,49 +1516,35 @@
 
       98726043b17b23af02031b964eafea50c2598a28ced54191c47242dbd061b3da  libwrap0_7.6.q-18_i386.deb
 
-      f06996d62819ebce0827f4d5a0c2e6bdd8fb7d15ab2fcc711a45caaf6722da24  libx11-6_2%3a1.3.2-1ubuntu3_i386.deb
+      73e795a1e0919896e8602ddcf1a8ec70abee51b4c296c9f156a55024f868c582  libx11-6_2%3a1.3.2-1ubuntu3.1_i386.deb
 
-      0f392afa55951eb834e755f8dea552e20ed51ebb0e0cad4e2fad0a49fd702e38  libx11-data_2%3a1.3.2-1ubuntu3_all.deb
-
-      c1dbfe6436544096173e4277ac3ce1f2084a0fb1c56d678432862cf89c94b462  libx11-dev_2%3a1.3.2-1ubuntu3_i386.deb
+      9a419abfd1d436876dc6a9724b3ff781989c0f3f477b3106a38a4d08f063f095  libx11-data_2%3a1.3.2-1ubuntu3.1_all.deb
 
       ca9b3ef0127e6b7233930e7dbc0e213eca58c9f2f5ae8381a7a72326157d3a78  libxapian15_1.0.18-1_i386.deb
 
       481aeb03698d62643af3dd2f1b236cd0be92df6067d8dd7e9dde56ca3b3ee984  libxau6_1%3a1.0.5-1_i386.deb
 
-      f44a6b7ab73f41c759951d3ec740938077fe5550e97862327d55fc38c5c7163c  libxau-dev_1%3a1.0.5-1_i386.deb
-
-      37c64e87d8406ed510aa871c190c06b640ea1fd242730caf0c1d741f08bbb6b4  libxcb1_1.5-2_i386.deb
-
-      cabc1131b355475b25a24b2cd80b39f278c74918e59a710cfd0803682798ab1f  libxcb1-dev_1.5-2_i386.deb
-
-      d2eb05b31fc066dc37adb42a8ac4d6ef27d2174d966edb2f71d7655b715df621  libxdamage1_1%3a1.1.2-1_i386.deb
+      a61a647facd006e8945f9beccbcc2da303af1c161e254152640999c342fc6d23  libxcb1_1.5-2ubuntu0.1_i386.deb
 
       9846458a449dae8da229859e750c198360ca4a8eb3212c6555e916f7cd192315  libxdmcp6_1%3a1.0.3-1_i386.deb
 
-      31cf69270dd6b110e2131fcf6e334887f2dc4cf759fd095eb580385211b44594  libxdmcp-dev_1%3a1.0.3-1_i386.deb
-
-      81c9dc811e484afb48dbf66bfcf646ff146be1f4ce307d3f293a1773dbacdf74  libxext6_2%3a1.1.1-2_i386.deb
-
-      10623a95f2175a7f988be8189fad119d187453abaab34619c1b411b28c5d4bf2  libxfixes3_1%3a4.0.4-1_i386.deb
+      fc16e2a702c72acc9404996d7671bd333c3afcee206c5fb3596f7b4858d4b12d  libxext6_2%3a1.1.1-2ubuntu0.1_i386.deb
 
       2af24a7c1af06810fb836338db8bcc0f74dcce1a06b1f7e9152cc1414bd425f7  libxml2_2.7.6.dfsg-1ubuntu1.8_i386.deb
 
       835d13ff4b2454c9e74cc3a4a744f253042ea4e235ab8843dcbb4837a47be9f0  libxmuu1_2%3a1.0.5-1_i386.deb
 
-      b67934ad838dd2fcb95bebd006b35d398329760f4a9378ed62e5c3d5b4b1d088  libxrender1_1%3a0.9.5-1_i386.deb
-
-      18ca35fd725cf094244167663dcb160f3094d90c41990179ef4e1d5c27ff3e1a  libxt6_1%3a1.0.7-1_i386.deb
-
-      fe60a438dc6be0feed0c9bd748c01126b9c9a7436b6bd2e809351f28aba029bc  libxxf86vm1_1%3a1.1.0-2_i386.deb
-
       1a5ecef0dbbe6af6ac535a7f14cc0f728265944c4da8d512744cd96c4a514350  linux-firmware_1.34.14_all.deb
 
-      1d0e058cf3166aef120afb95bad54907a17e576c792931c7515e4bc79ab6ef9d  linux-image-2.6.32-46-virtual_2.6.32-46.107_i386.deb
+      639986d48815d45cfec75ea741808fb73501e8493118c03fcabaedad15fdfdb7  linux-image-2.6.32-46-virtual_2.6.32-46.108_i386.deb
+
+      8759e84fd4466e0a04939d4004aa29a0f3126b7a39ed6f02b349ba229f55bd03  linux-image-2.6.32-47-virtual_2.6.32-47.109_i386.deb
 
       d40456d1dfbc0da26536324772430bfd3e54bc63bdbd13100fbd0fa2a34e47d2  linux-image-virtual_2.6.32.46.53_i386.deb
 
-      0d82ed66681c17bc7890a02f7ad5c71d2c23b5531a0ee9872245f37eb113c40b  linux-libc-dev_2.6.32-46.107_i386.deb
+      95285f1f17dfb00625d0583360d1cbb3227090b0561d38418f34ffb65ab8e771  linux-image-virtual_2.6.32.47.54_i386.deb
+
+      a5884b608ebaa4c998e4fff6192e1e51ac1f64727e09855d7f53567b7ddf2f79  linux-libc-dev_2.6.32-47.109_i386.deb
 
       4b52aa0486d33952d2e372085ab250e1ab600916caeace7c0b608edc0c5f1e1d  locales_2.11+git20100304-3_all.deb
 
@@ -1640,8 +1570,6 @@
 
       23be81e49ef3b88b165f7edc124686009b5fe4b52d2f8450dba522e18be96ab2  mawk_1.3.3-15ubuntu2_i386.deb
 
-      b21746f9f9b1f1788cbc477c65a348166fdc44ed93fb60ba27685dd9bd9da349  mesa-common-dev_7.7.1-1ubuntu3.1_i386.deb
-
       dccced10c3155caf74fbac3e3e70156587c9f597b4257fd209f3629dba9ae19b  mime-support_3.48-1ubuntu1_all.deb
 
       814ce3794f244979a4f3c307f9d128c9daa257a5bcd18c8d11dc9569b6791a6c  mingw32_4.2.1.dfsg-1ubuntu2_i386.deb
@@ -1655,8 +1583,6 @@
       2a4feb7bedf927327233ecc6953064af29e782865744cf58ad5bee7a9de5894d  mount_2.17.2-0ubuntu1.10.04.2_i386.deb
 
       21143d9269bfc85d7079bd2e54244a04422b109010c82c4b2fb7021c37a22669  mountall_2.15.3_i386.deb
-
-      753516566adebcf770731787be491c1653434310b709c245b6be34f630c6cb8b  mysql-common_5.1.67-0ubuntu0.10.04.1_all.deb
 
       144117faaf64673e8fdff5a5c2eb3ba07792d677ece8e5327cb94c9c6addd1e7  ncurses-base_5.7+20090803-2ubuntu3_all.deb
 
@@ -1692,8 +1618,6 @@
 
       bf5c4251a82ad9329ec98d3d0060996d5c3fc4e8e9176c82e2c3ce472b6ed0b5  perl-modules_5.10.1-8ubuntu2.3_all.deb
 
-      9cc055c96a53dc11e2d3ac6c22b99622cc0626c6d0ecf916827c741671eae204  pkg-config_0.22-1build2_i386.deb
-
       127d16aeb4884b33bd71f614b8ab0a587506031d3a247ef762b8fdbfb8f92089  plymouth_0.8.2-2ubuntu2.2_i386.deb
 
       10b8adbb70fc398b5ebf6476f4d1fe8b2e2a34aab5f7e0fc22193fbac8dce0e9  procps_1%3a3.2.8-1ubuntu4.3_i386.deb
@@ -1707,8 +1631,6 @@
       93ebfffe64a97b9c05e6ee4130bbf05439c91058d5328a1879c0eeb593bb0e5b  python-central_0.6.15ubuntu1_all.deb
 
       789979c1da82521b74f22dea54628f2b8daf3eb73d6ac2e30df4bbcacf4360ac  python-minimal_2.6.5-0ubuntu1_all.deb
-
-      79f1814becf720615d71f6425d7f077d89ece6c863a1a89c4dacbca04b3a72e3  qt4-qmake_4%3a4.6.2-0ubuntu5.6_i386.deb
 
       4d882e3b158005ac80d70ec4eb1966ef87b3830e661e659fdef23c48fc83bba0  readline-common_6.1-1_all.deb
 
@@ -1738,8 +1660,6 @@
 
       a3740ab75d7faef1f80db6f9e8ad3efc9e2e69169d5de0b660bb0426614aa5a0  tcpd_7.6.q-18_i386.deb
 
-      cc1ef3593b1712209b8c3c3069040afbac1abec24f0e8c7da50c58265f208b78  ttf-dejavu-core_2.30-2_all.deb
-
       406fd7647950a32dd5121b4f75b26588be2a3e17004af3f9fbd053c91f9c1d08  tzdata_2012e-0ubuntu0.10.04_all.deb
 
       0b3c066009bb8da3fb6b989a6272b41f8ffa78e4cdb57f3b4c51848789953179  ubuntu-keyring_2010.11.09_all.deb
@@ -1764,30 +1684,18 @@
 
       b307321b233744d85f38e47a8abe7166750bee6935cbf2256870088f108f505b  whiptail_0.52.10-5ubuntu1_i386.deb
 
-      02b2ed036b018db6e6318a390ea223032e4af2f92fcfcb4a2f3adcd3539e2df4  x11-common_1%3a7.5+5ubuntu1.1_all.deb
-
-      c40f1d6850d6b3941cee6494318a77bf112a0ec22f684889a324f11cf78de78f  x11proto-core-dev_7.0.16-1_all.deb
-
-      8060124900ac065148ba58e14d5bbc56583f5c89a307443a6c040b1df8882d1e  x11proto-input-dev_2.0-2_all.deb
-
-      b53e903c4582c70966ae1b288b64eeaa6f7e25f98934806dbdfacd12d816a8a0  x11proto-kb-dev_1.0.4-1_all.deb
-
       3ecd1c600c63ffc752ee73448e4e08b8339fef2397cc5720c6506cc7fece8285  xauth_1%3a1.0.4-1_i386.deb
 
       e6f260f9d05261d3b0af7fe4fa18b2490ba72e6bb812058d00253391207e3bdc  xkb-data_1.8-1ubuntu8.1~10.04.1_all.deb
 
       f8a33b5e2f20182e97e1f3bce11e40fb865871bab6a06d8303ac93ed15c24f72  xml-core_0.13_all.deb
 
-      2bf3ec0033b456e82e4f7940e0aee592d57fd19c46a4d100ddd64c4be14d8f1d  xtrans-dev_1.2.5-1_all.deb
-
       26ec2673d76d3f325891e9634eba7c81b6ca1fa02dcca5144dcc7b2ebae2e08a  xz-utils_4.999.9beta+20091116-1_i386.deb
 
       76448677f00312141cbacf170af5353967f92a8a5ab154bd6e30dfa92931fafc  zlib1g_1%3a1.2.3.3.dfsg-15ubuntu1_i386.deb
 
-      e1041b3a4fff2c094f2364bc28d7624e50b4da38aab91f2a43f2e732ceb2b699  zlib1g-dev_1%3a1.2.3.3.dfsg-15ubuntu1_i386.deb
-
 '
-- release: 0.8.1-win32
+- release: 0.8.2-win32
 - name: bitcoin
 - type: build
 - optionals: 
