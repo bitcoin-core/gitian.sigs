@@ -1,24 +1,24 @@
 --- !omap
 - out_manifest: |
     c608150403ef2ae626db5930ad84e67d5e11e5e4869b40911e612e48a8e16cb6  bin/32/bitcoin-cli
-    bdb4294db35f1b4a552ad0a01324f359fa3572c6beb4fc5b4ac876db6eb3eb20  bin/32/bitcoin-qt
-    16a1d2eb945dfbc4ec3e82423151ae37789514794c7421b686a4e201bcf94493  bin/32/bitcoind
-    a1bc3f2ab9cb88d64bad6a9a7817df71f2133e90308a98b9f165b6d7e49b13b1  bin/32/test_bitcoin
-    04822c85db470e5782ba80ac62866d7506c5a95e3c3f4043a0438e29ef46e98f  bin/32/test_bitcoin-qt
+    3a4e43af7b8d8533146d616b864189492a1dc01dda5af278619aba9c23f6d0e0  bin/32/bitcoin-qt
+    08bd8243d59107ba22da5a2dba2005f4f53a0f9698e9f37c991c16ee58b6196c  bin/32/bitcoind
+    41b453ffe18f5d1a9e05188a799db36589a412340b2b561738b6372ff4c0bf30  bin/32/test_bitcoin
+    3235cfe05a352b130b4079a06dd17e481e32de8cab5369a9a8b46e006af90462  bin/32/test_bitcoin-qt
     87aa4e5264c448beca78767fb406f3ad19ab61c817864217bde968546804e2f7  bin/64/bitcoin-cli
-    816420da0cbf58cf8cd631d9c67dd8fd86660a730054b0e9b61e325d25ffc912  bin/64/bitcoin-qt
-    fdc794722391ead56ab75952a3c8b93a66cf952e8add50d74e72d73501a78262  bin/64/bitcoind
-    c2c690b652189e5358f0ada0300b7905e14b5477ea630f48c36a471f5e5558c1  bin/64/test_bitcoin
-    69e93628194562a29fb74b96037d6d320434684ec5dc81005b85469372af4d0e  bin/64/test_bitcoin-qt
-    c33e7189397014cc32e9672afb385ed6ce5b847428bce8c25f26f93d4b66d81b  src/bitcoin-0.9.2.tar.gz
+    65a12c295bc4aeed0aff75e27894e26e4dc07d1ec49522df8edec1401bae468a  bin/64/bitcoin-qt
+    5db71a99c119335aa38b594f51e1baaef2d52752403f532f9e3869eb5bc78efb  bin/64/bitcoind
+    72baf3c7724b66448fb3b0f94c2fe6395d641d9b17ae5070cb76dee09fad93a5  bin/64/test_bitcoin
+    ce865c49b8cdabb1cfedf717d641ab86431d889b0cf1d1321e1d2538a53f8084  bin/64/test_bitcoin-qt
+    12a22fb8c7a2d6e1bd16e291a1442f7c0bb909c139622b3a9d23415b4cbd178f  src/bitcoin-0.9.2.tar.gz
 - in_manifest: |-
     d2ab9b7d14186b88e39ef54595b5cb82709094218d0517b3a61b0186bbf131cd  bitcoin-desc.yml
-    83dbac9855bc2bfad2a1bdab83fa5c01ca8547139e544ff44fd963b23672ce30  bitcoin-deps-linux32-gitian-r6.zip
-    72862aa31e3ca0de46b85054b7e1b40bc94e5338dafd1094c4d2c305b6e4e747  bitcoin-deps-linux64-gitian-r6.zip
-    bcc0a4ef00889c7aa50c9ac706b7395e84367e904871a6a83cde06b0ec8adf73  boost-linux32-1.55.0-gitian-r1.zip
-    a12589bb5292ecc2dbb292c5b5dd2c55f1dd8ea542bf196ce91174533d33b9c4  boost-linux64-1.55.0-gitian-r1.zip
-    319e2617715093bbd3b861108bfe0f51e4833313dfce153b2e45aaf04f20e87d  qt-linux32-4.6.4-gitian-r1.tar.gz
-    2f03831060994b8c92769eed89f919df8f9ed03f10dcde1dd59a9426c76f87cc  qt-linux64-4.6.4-gitian-r1.tar.gz
+    46710f673467e367738d8806e45b4cb5931aaeea61f4b6b55a68eea56d5006c5  bitcoin-deps-linux32-gitian-r6.zip
+    f03be39fb26670243d3a659e64d18e19d03dec5c11e9912011107768390b5268  bitcoin-deps-linux64-gitian-r6.zip
+    f29b7d9577417333fb56e023c2977f5726a7c297f320b175a4108cf7cd4c2d29  boost-linux32-1.55.0-gitian-r1.zip
+    88232451c4104f7eb16e469ac6474fd1231bd485687253f7b2bdf46c0781d535  boost-linux64-1.55.0-gitian-r1.zip
+    5a8e4840c6ceea8239dd0a503cb187acbe53ddb43362661da394eed4e5a2db37  qt-linux32-4.6.4-gitian-r1.tar.gz
+    fe62eae1c1838f81a68d0067cedef95519925baf239cbc94642b5bf5c63d6e25  qt-linux64-4.6.4-gitian-r1.tar.gz
     git:e39a3f2c698fb5f74ad7ba97b8ae79bb860432a5 bitcoin
 - base_manifests: !omap
   - precise-i386: |
