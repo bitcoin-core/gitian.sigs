@@ -12,17 +12,17 @@
     da3c4257da1f6352b8e9e7936c563e44ebc676db16e953e6b0ac299d9cc239f6  64/bitcoind.exe
     66e3536f2fbcbca57ce0d298363578e2d97a9933079cff45ce399fcba78472d0  64/test_bitcoin-qt.exe
     965f3dad7c3dc34601cb226a9ef43f60689f954b54d4199da18f523c0cd37c32  64/test_bitcoin.exe
-    c33e7189397014cc32e9672afb385ed6ce5b847428bce8c25f26f93d4b66d81b  src/bitcoin-0.9.2.tar.gz
+    12a22fb8c7a2d6e1bd16e291a1442f7c0bb909c139622b3a9d23415b4cbd178f  src/bitcoin-0.9.2.tar.gz
 - in_manifest: |-
     26a35505712dd9ffe45a4a1518042b2d7b46a3236188657d7d421cf266059256  bitcoin-desc.yml
-    4968c1799df94868d879b63c30218ba81750161a764c6f590aec49d858db77b0  qt-win32-5.2.0-gitian-r3.zip
-    ee1cc8067388c220532123f93f1f9a069ee3a359d61853c68b4fccdd36ca5740  qt-win64-5.2.0-gitian-r3.zip
-    8b580448b358763704cc317227e35b436436043530a8fa00104b22e33bb71851  boost-win32-1.55.0-gitian-r6.zip
-    bfb0426a27c3880ecb25e016a3dcb5e7cd7a222a5b9f5f2a0cc4976e83a8c406  boost-win64-1.55.0-gitian-r6.zip
-    49666607ac405dad423b4be8d5589c4c5a15564c72f1d6d877f8dc5dac7e668b  bitcoin-deps-win32-gitian-r13.zip
-    24b66140a25077a34c5b80e2a6ae1522dc8e6f1b0734b1d95651d7c8325f8d17  bitcoin-deps-win64-gitian-r13.zip
-    864d40147480616ffcf5755a7560777c3aac6ee12d7f865dd30482dd7c004284  protobuf-win32-2.5.0-gitian-r4.zip
-    0dde18f07a43fe8870a78cc7756fa55619a7782124ed51e37418cc80c9f0dc37  protobuf-win64-2.5.0-gitian-r4.zip
+    963e3e5e85879010a91143c90a711a5d1d5aba992e38672cdf7b54e42c56b2f1  qt-win32-5.2.0-gitian-r3.zip
+    751c579830d173ef3e6f194e83d18b92ebef6df03289db13ab77a52b6bc86ef0  qt-win64-5.2.0-gitian-r3.zip
+    60dc2d3b61e9c7d5dbe2f90d5955772ad748a47918ff2d8b74e8db9b1b91c909  boost-win32-1.55.0-gitian-r6.zip
+    f65fcaf346bc7b73bc8db3a8614f4f6bee2f61fcbe495e9881133a7c2612a167  boost-win64-1.55.0-gitian-r6.zip
+    70de248cd0dd7e7476194129e818402e974ca9c5751cbf591644dc9f332d3b59  bitcoin-deps-win32-gitian-r13.zip
+    9eace4c76f639f4f3580a478eee4f50246e1bbb5ccdcf37a158261a5a3fa3e65  bitcoin-deps-win64-gitian-r13.zip
+    e2e403e1a08869c7eed4d4293bce13d51ec6a63592918b90ae215a0eceb44cb4  protobuf-win32-2.5.0-gitian-r4.zip
+    a0999037e8b0ef9ade13efd88fee261ba401f5ca910068b7e0cd3262ba667db0  protobuf-win64-2.5.0-gitian-r4.zip
     git:e39a3f2c698fb5f74ad7ba97b8ae79bb860432a5 bitcoin
 - base_manifests: !omap
   - precise-amd64: |
@@ -59,8 +59,8 @@
       64e958bee37b656227e3be1549d230ba130b30752c321db157958105e956cecf  debianutils_4.2.1ubuntu2_amd64.deb
       3bd64570da91c575f95f62b05c036b68b9be6669d0c61c06d54548616f1a8947  diffutils_1%3a3.2-1ubuntu1_amd64.deb
       fe16a3c5002712e2c55d8efa0634d544482fd9c8233831832a40013a0d70a68d  dmsetup_2%3a1.02.48-4ubuntu7.4_amd64.deb
-      57a0b436abaa40e97b97eaf655bdbeefb2562b3cbe407216162329b0968de1b7  dpkg-dev_1.16.1.2ubuntu7.4_all.deb
-      4aa8e3debd6b9853575f52105ed060c32d00d94b5ce26bdf2bb27a0e0013c8e2  dpkg_1.16.1.2ubuntu7.4_amd64.deb
+      ec55ac8c839220e1f5abef498def4b06cc75ac23927e2517adbccf3ab0d88efe  dpkg-dev_1.16.1.2ubuntu7.5_all.deb
+      d2b236f6c12986526f8d1e40a309855dc7f3e71d3232f3a398b981331d16b51d  dpkg_1.16.1.2ubuntu7.5_amd64.deb
       2233f5fb8702c975597af5e540fd3405aa9ab9fe8f789814ca14986f4a8a16d0  e2fslibs_1.42-1ubuntu2_amd64.deb
       deaaed1c71b4d2913e16b5871b45925aed749027b80b2a91fc41d3f1ad271e4d  e2fsprogs_1.42-1ubuntu2_amd64.deb
       fc1a1c7c942536c34c1e2489c9cc4e7f988eb41d04c0cee955521d2b4bbbad6c  eject_2.1.5+deb1+cvs20081104-9_amd64.deb
@@ -130,7 +130,7 @@
       2240219ab425e2c21d15f949a848b84dbc6a0f5df0a9296336e394f26b917feb  libdb5.1_5.1.25-11build1_amd64.deb
       8d6c5ffa191a84f8fed0f330a26231de95ad7146b31ea68896cf2e446774d406  libdbus-1-3_1.4.18-1ubuntu1.4_amd64.deb
       ce9514f070a43887e801e1b8b6d0cc28dae6af5fd7a1c09cc9e414dc86eecca0  libdevmapper1.02.1_2%3a1.02.48-4ubuntu7.4_amd64.deb
-      69ce94bfd0bbe0ee7ad638e0541656ad777d7e556b2f07333c0c7b3f99aa1309  libdpkg-perl_1.16.1.2ubuntu7.4_all.deb
+      03aed9e733539ac8ed159ae7984cd7346d9a92f6418171f6a3ca9c2454ebcb89  libdpkg-perl_1.16.1.2ubuntu7.5_all.deb
       6009a976de819f8d0d1e79375ce282302361e6b86654821c0dd1def990206d2b  libdrm-intel1_2.4.46-1ubuntu0.0.0.1_amd64.deb
       c5d43cb9ed4e404f382b2fc1c347e3e491ad5ad040ae8ebef704dd022ef4e144  libdrm-nouveau1a_2.4.46-1ubuntu0.0.0.1_amd64.deb
       cf64752141147ed69b53531d1d07168a27075e736d69d979a31344dfb04ffaeb  libdrm-radeon1_2.4.46-1ubuntu0.0.0.1_amd64.deb
