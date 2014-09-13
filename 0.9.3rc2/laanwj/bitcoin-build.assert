@@ -1338,7 +1338,7 @@
 
 '
 - cache_package_manifest: ''
-- release: 0.9.3rc2-linux
+- release: 0.9.3rc2
 - name: bitcoin
 - type: build
 - optionals: 
