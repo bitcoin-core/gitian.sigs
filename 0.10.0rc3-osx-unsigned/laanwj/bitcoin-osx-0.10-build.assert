@@ -1,18 +1,18 @@
 --- !omap
-- out_manifest: ! '30b51b75427c5a9543ea1d21602169b660d10eddae0503d1bbefa65330d52795  bitcoin-0.10.0-osx-unsigned.dmg
+- out_manifest: ! '21dd0edc00d96637e23ca6d4ba72abed751a7899e70c439a96d3fa12eef53fe7  bitcoin-0.10.0-osx-unsigned.dmg
 
-    3d7b1b1830c571c11212b1f89300cf9397222f99b61cb8a76e654a7c5ccb7d65  bitcoin-0.10.0-osx-unsigned.tar.gz
+    dec5a1ab7957549e17872e14f8b9f9ba0be61e3c451b049906a2d9eb1dd2220b  bitcoin-0.10.0-osx-unsigned.tar.gz
 
-    68f730a816c8e520988d93d5ad41ef8bf6c94c482ca61c4a41e08772cf0c1fb1  bitcoin-0.10.0-osx64.tar.gz
+    be9819798cc8922da7dc44c1251d35cb8e6599b2998b3d2a6c0d81ab06776213  bitcoin-0.10.0-osx64.tar.gz
 
-    8c6826004caed24304994b5757c4bbde90d5c584974ee6b61078acf55f05c702  src/bitcoin-0.10.0.tar.gz
+    31018641f7e1c1896742934945c350127f97f36f777986057cddb17a5e20690e  src/bitcoin-0.10.0.tar.gz
 
 '
 - in_manifest: ! '073028b3c12b11eec8e334d1425b28aaf25115a236f8c77f545a2a7842a8d14e  bitcoin-osx-0.10-desc.yml
 
     518465117e6b52066dd562538c366f5df9f3fc15919b6efc6ae71131a5d06a2c  MacOSX10.7.sdk.tar.gz
 
-    git:4e7c219122eccc6eca66d4cf95c697bea1480aab bitcoin'
+    git:249bf0e0492758d71dc5d8fa77103b31b604979f bitcoin'
 - base_manifests: !omap
   - precise-amd64: ! 'edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
 
@@ -388,7 +388,7 @@
 
       6d1405430065456e935d99095817e163541d3ad728e8e9c73ee8b48cc79d2825  libss2_1.42-1ubuntu2_amd64.deb
 
-      3e4d5b717e6b56489576a2dfd2c0d7ecddf23b352051f0016297d702cc11d908  libssl1.0.0_1.0.1-4ubuntu5.20_amd64.deb
+      fa155a174114bced68e70ab981afa58f14fdf8a44eaac0fb86a925c7bac6ba1b  libssl1.0.0_1.0.1-4ubuntu5.21_amd64.deb
 
       232ff1166d4d567998e9a77a5a77c859f28bf3c7a0d96baaf21907ad07a0342d  libstdc++6_4.6.3-1ubuntu5_amd64.deb
 
@@ -446,13 +446,13 @@
 
       8b25c231e925c9e3079c13ed220de977a9e831beca73719aa41df12848501b46  linux-image-3.2.0-58-virtual_3.2.0-58.88_amd64.deb
 
-      ad405e8e1eabea13f58a58d6ceffa9a4eaa863bef1e80b22a454d4a8160cfad1  linux-image-3.2.0-74-virtual_3.2.0-74.109_amd64.deb
+      682a615fb5f4e0a7ee70fdb2a358029aa73fd0624ffc6638852bdc9e0ecb2f51  linux-image-3.2.0-75-virtual_3.2.0-75.110_amd64.deb
 
       8f43a0a2667725836057a463f737f925870fd82834213d64a7affb2e227b97ed  linux-image-virtual_3.2.0.58.69_amd64.deb
 
-      5b8d72c92d75f6377e1a3aa667611ba7d73497a39d231f2c5afc789f1caf9336  linux-image-virtual_3.2.0.74.88_amd64.deb
+      696d9c912ff6d441531ebbda8567a3cdf11e61265e6bed71963cddce223fdd90  linux-image-virtual_3.2.0.75.89_amd64.deb
 
-      2dfe188dbc2962d696cb3f550540f7b092abdd205efcb6717549bdcbc3dcea34  linux-libc-dev_3.2.0-74.109_amd64.deb
+      481bc92a92f40b9d75554e627eb9af7a590cc13ff98db4aa9449b63b00631d90  linux-libc-dev_3.2.0-75.110_amd64.deb
 
       bca0256f7f038da304f7530d328ce60fa2d24f0e1554f2993df2f39a3c4b45e0  locales_2.13+git20120306-3_all.deb
 
@@ -504,7 +504,7 @@
 
       6cf1a3dce0fb150dfbcc3a9a935749de2404372fd4f1a5bf4bef2b7e913cb643  openssh-server_1%3a5.9p1-5ubuntu1.4_amd64.deb
 
-      51aab4cc73c3258f8211da4552463589055b861360d30006f94e7dfbf834e0b0  openssl_1.0.1-4ubuntu5.20_amd64.deb
+      ca656bb0f4240115d8dcbad7333bff104e9b06c319111c3e34dd7d416615c4f9  openssl_1.0.1-4ubuntu5.21_amd64.deb
 
       ed9eb5c3c9ea3cd555b1aa16cf93f4130b59325ef6786f2c5d421a8c0213c1c6  os-prober_1.51ubuntu3_amd64.deb
 
@@ -601,9 +601,7 @@
       46e68ab922ba0b8d29f1b6360fe1551eaed878336e0c13ed61d886704cd749d8  zlib1g-dev_1%3a1.2.3.4.dfsg-3ubuntu4_amd64.deb
 
 '
-- cache_common_manifest: ! 'a08b1a55523e7f57768cb66c35f47a926710e5b6c82822e1ccfbe38fcce37db2  BitcoindComparisonTool.jar
-
-    fff00023dd79486d444c8e29922f4072e1d451fc5a4d2b6075852ead7f2b7b52  boost_1_55_0.tar.bz2
+- cache_common_manifest: ! 'fff00023dd79486d444c8e29922f4072e1d451fc5a4d2b6075852ead7f2b7b52  boost_1_55_0.tar.bz2
 
     04d3e2e438ac8d4cc4b110b68cdd61bd59226c6588739a4a386869467f5ced7c  ccache-3.1.9.tar.bz2
 
@@ -657,8 +655,6 @@
 
     e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  download-stamps/.stamp_fetched-native_protobuf-protobuf-2.5.0.tar.bz2
 
-    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  download-stamps/.stamp_fetched-openssl-openssl-1.0.1j.tar.gz
-
     e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  download-stamps/.stamp_fetched-openssl-openssl-1.0.1k.tar.gz
 
     e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  download-stamps/.stamp_fetched-protobuf-protobuf-2.5.0.tar.bz2
@@ -683,15 +679,7 @@
 
     823705472f816df21c8f6aa026dd162b280806838bb55b3432b0fb1fcca7eb86  expat-2.1.0.tar.gz
 
-    dc62447533bca844463a3c3fd4083b57c90f18a70506e7a9f4936b5a1e516a99  fontconfig-2.11.1.tar.bz2
-
     c0848b29d52ef3ca27ad92e08351f023c5e24ce8cea7d8fe69fc96358e65f75e  freetype-2.5.3.tar.bz2
-
-    7f8e9a804b9c6d07164cf754207be838ece1219425d64e28cfa3e70d5c759aaf  gmp-6.0.0a.tar.bz2
-
-    feb4b5b2e79a63b72ec47a693b1cf35cf1cea1f60a2bb2615bf21f74c7a60bb0  guava-13.0.1.jar
-
-    fa97521a2e72174485a96276bcf6f573d5e44ca6aba2f62de87b33b5bb0d4b91  h2-1.3.167.jar
 
     97b75547b2bd761306ab3e15ae297f01e7ab9760b922bc657f4ef72e4e052142  ld64-127.2.tar.gz
 
@@ -711,11 +699,7 @@
 
     26f3985bad7768b8483b793448ae49414cdc4451d0ec83e7c1944367e15f9f07  miniupnpc-1.9.20140701.tar.gz
 
-    2923e453e880bb949e3d4da9f83dd3cb6f08946d35de0b864d0339cf70934464  miniupnpc-1.9.tar.gz
-
     9d1c8a9836aa63e2c6adb684186cbd4371c9e9dcc01d6e3bb447abf2d4d3d093  openssl-1.0.1h.tar.gz
-
-    1b60ca8789ba6f03e8ef20da2293b8dc131c39d83814e775069f02d26354edf3  openssl-1.0.1j.tar.gz
 
     8f9faeaebad088e772f4ef5e38252d472be4d878c6b3a2718c10a4fcebe7a41c  openssl-1.0.1k.tar.gz
 
@@ -728,12 +712,6 @@
     9ad4d46c721b53a429ed5a2eecfd3c239a9ab566562f183f99d3125f1a234250  qt-everywhere-opensource-src-4.6.4.tar.gz
 
     84e924181d4ad6db00239d87250cc89868484a14841f77fb85ab1f1dbdcd7da1  qt-everywhere-opensource-src-5.2.1.tar.gz
-
-    931f39d351429fb96c2f749e7ecb1a256a8ebbf5edca7995c9cc085b94d1841d  sc-light-jdk15on-1.47.0.2.jar
-
-    367b909030f714ee1176ab096b681e06348f03385e98d1bce0ed801b5452357e  slf4j-api-1.6.4.jar
-
-    064bd81796710f713f9f4a2309c0e032309934c2d2b4f7d3b6958325e584e13f  slf4j-jdk14-1.6.4.jar
 
     18406961fd4a1ec5c7ea35c91d6a80a2f8bb797a2bd243a610bd75e13eff9aca  toolchain4-1.tar.gz
 
@@ -748,66 +726,36 @@
 '
 - cache_package_manifest: ! 'dbc8c58e320606106c1791073e998c8b4400f1d6829e22da3df5dbe8c25ff000  x86_64-apple-darwin11/bdb/bdb-4.8.30-6eda55e5f25.tar.gz
 
-    dbc8c58e320606106c1791073e998c8b4400f1d6829e22da3df5dbe8c25ff000  x86_64-apple-darwin11/bdb/bdb-4.8.30-76a581890c1.tar.gz
-
     12cbc2199d78ef5cc868010e4a91d5e45af966116615b3f1449a3c22ea1ad208  x86_64-apple-darwin11/boost/boost-1_55_0-1787b082afc.tar.gz
 
-    af620c471ce6930a4c95c4aef94935cc584763527af2c87f74266e10cdb128e5  x86_64-apple-darwin11/boost/boost-1_55_0-5344e51df3a.tar.gz
-
     2ab6fb3efe789a54258241e71f3d93983a3b1ec7db4d848011ddc88a4449cf25  x86_64-apple-darwin11/miniupnpc/miniupnpc-1.9.20140701-24ac0d87002.tar.gz
-
-    2ab6fb3efe789a54258241e71f3d93983a3b1ec7db4d848011ddc88a4449cf25  x86_64-apple-darwin11/miniupnpc/miniupnpc-1.9.20140701-e9317c3e531.tar.gz
-
-    dbc45b3ac1913f0312cf29a04fcd088c3043090366ada3798f4af04bf3a8ff1a  x86_64-apple-darwin11/native_ccache/native_ccache-3.1.9-6571ea8d611.tar.gz
 
     323c36c8bc0ecec839d28589e77ffa863eb93a7ca75f002ad871071330f89cce  x86_64-apple-darwin11/native_ccache/native_ccache-3.1.9-bb020b1ef22.tar.gz
 
     56ad07e938439d7e4df66bab0a9a2a8ba91bb9d43e20f69d78d699c60ab33fea  x86_64-apple-darwin11/native_cctools/native_cctools-809-7beda52d8e3.tar.gz
 
-    40ed7f8ca504026172b5c9bb8a09baefe2ab2541cd0932d87b5f2f258d8fb12e  x86_64-apple-darwin11/native_cctools/native_cctools-809-dc09c492939.tar.gz
-
     35fb33ec64fb0d789a7c40d566b1f43529a7c104211cf0c602bf1f327c9fe6f7  x86_64-apple-darwin11/native_cdrkit/native_cdrkit-1.1.11-ac01283e029.tar.gz
 
-    35fb33ec64fb0d789a7c40d566b1f43529a7c104211cf0c602bf1f327c9fe6f7  x86_64-apple-darwin11/native_cdrkit/native_cdrkit-1.1.11-b157ba7c98b.tar.gz
-
-    0868e372842048bbd6688325e835e6f4e99ec4efe540138642039f48998c6730  x86_64-apple-darwin11/native_comparisontool/native_comparisontool-0f7b5d8-b38ab210fde.tar.gz
-
     0868e372842048bbd6688325e835e6f4e99ec4efe540138642039f48998c6730  x86_64-apple-darwin11/native_comparisontool/native_comparisontool-0f7b5d8-f61384c0717.tar.gz
-
-    9288003b7fc45dfa1ffc7c4dbb4324b16293f8a53dffcc822384146e0852b97d  x86_64-apple-darwin11/native_libdmg-hfsplus/native_libdmg-hfsplus-0.1-2f6494084c2.tar.gz
 
     60a65f0e6fce76a7a8c086b4fcc6a06512f48a4fe0d52c2257e488db6f888062  x86_64-apple-darwin11/native_libdmg-hfsplus/native_libdmg-hfsplus-0.1-a55c7ae5291.tar.gz
 
     3d1944ed75bd32053ac49dc5b01384437d82961f79a944c74993b8dd302f9b2c  x86_64-apple-darwin11/native_libuuid/native_libuuid-1.41.14-e66beb236fb.tar.gz
 
-    3d1944ed75bd32053ac49dc5b01384437d82961f79a944c74993b8dd302f9b2c  x86_64-apple-darwin11/native_libuuid/native_libuuid-1.41.14-fa452cf4405.tar.gz
-
-    23a9d289b743946818029b1d6127a2d49be8843e3333da5f2ce89130bb67ecb9  x86_64-apple-darwin11/native_openssl/native_openssl-1.0.1h-0452e1b1e2e.tar.gz
-
     23a9d289b743946818029b1d6127a2d49be8843e3333da5f2ce89130bb67ecb9  x86_64-apple-darwin11/native_openssl/native_openssl-1.0.1h-07021d3cef5.tar.gz
 
     32419efa96bc1031325180ad1120e52feb08c69e50c6388ed16e3e386f960d03  x86_64-apple-darwin11/native_protobuf/native_protobuf-2.5.0-318c221076d.tar.gz
 
-    3eff3faed58346d79d1a00eacef2fdc2e10fdcd8c66f43bbd946f4b844e6f049  x86_64-apple-darwin11/native_protobuf/native_protobuf-2.5.0-7d0b63bff6a.tar.gz
-
-    443563b70d0ad8b24301d819a3af6955e7023e720b18bd677df7da6d8c6b4d2e  x86_64-apple-darwin11/openssl/openssl-1.0.1j-af085d559a8.tar.gz
-
-    7e0abd42132790a6521743b24c84de93465204f482ecb9b5917d96fe3beb229e  x86_64-apple-darwin11/openssl/openssl-1.0.1k-8d5e8e332f2.tar.gz
+    46bcc54ba86faf44fb303396714bdcf7ea2b390140c10bca7ab166c1f8361db9  x86_64-apple-darwin11/openssl/openssl-1.0.1k-49c5957fd55.tar.gz
 
     bd9588b8ebf3e6cd44d56b340c7e2f9acc8e27752229cb09290982f8f95caa5a  x86_64-apple-darwin11/protobuf/protobuf-2.5.0-4780ce32b66.tar.gz
 
-    bd9588b8ebf3e6cd44d56b340c7e2f9acc8e27752229cb09290982f8f95caa5a  x86_64-apple-darwin11/protobuf/protobuf-2.5.0-7dd2a13c8ee.tar.gz
-
     5345331c27874a1a6c0f54486da0e960d73cf1e6368faa738a7ebcaa7be9afac  x86_64-apple-darwin11/qrencode/qrencode-3.4.3-65ce4bc785e.tar.gz
 
-    5345331c27874a1a6c0f54486da0e960d73cf1e6368faa738a7ebcaa7be9afac  x86_64-apple-darwin11/qrencode/qrencode-3.4.3-ea36c43d2c0.tar.gz
-
-    335e6da1d1d25a7e835952ed881c36f1cf2fa7267ded9ee47ae0923428dbbec7  x86_64-apple-darwin11/qt/qt-5.2.1-2761962c600.tar.gz
-
-    335e6da1d1d25a7e835952ed881c36f1cf2fa7267ded9ee47ae0923428dbbec7  x86_64-apple-darwin11/qt/qt-5.2.1-d80a2df7a54.tar.gz
+    335e6da1d1d25a7e835952ed881c36f1cf2fa7267ded9ee47ae0923428dbbec7  x86_64-apple-darwin11/qt/qt-5.2.1-6f392edfed6.tar.gz
 
 '
-- release: 0.10.0rc2-osx-unsigned
+- release: 0.10.0rc3-osx-unsigned
 - name: bitcoin-osx-0.10
 - type: build
 - optionals:

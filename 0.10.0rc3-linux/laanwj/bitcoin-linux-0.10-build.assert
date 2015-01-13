@@ -1,14 +1,14 @@
 --- !omap
-- out_manifest: ! '65ef1f9fe5452eb3f72152874b7d1741dd7d80e611ebdfb70d9793bdf3a8db3a  bitcoin-0.10.0-linux32.tar.gz
+- out_manifest: ! '75840d962cdbfe210b817c91b8662c889420e54350cbcd19225eec8dae974ab2  bitcoin-0.10.0-linux32.tar.gz
 
-    0f76f379614ff5d64506018bf9e580a36913a61c911bb456318fc5655f8e9c3f  bitcoin-0.10.0-linux64.tar.gz
+    ffa520e1980e979f77fe528b293338c8ecea94b8905f3dd8e6081ecd0552a054  bitcoin-0.10.0-linux64.tar.gz
 
-    8c6826004caed24304994b5757c4bbde90d5c584974ee6b61078acf55f05c702  src/bitcoin-0.10.0.tar.gz
+    31018641f7e1c1896742934945c350127f97f36f777986057cddb17a5e20690e  src/bitcoin-0.10.0.tar.gz
 
 '
 - in_manifest: ! 'a0ba3cfc79f819e4fc7e10e99591aa80e116d83c540b0f15d18136c5e719aec5  bitcoin-linux-0.10-desc.yml
 
-    git:4e7c219122eccc6eca66d4cf95c697bea1480aab bitcoin'
+    git:249bf0e0492758d71dc5d8fa77103b31b604979f bitcoin'
 - base_manifests: !omap
   - precise-amd64: ! 'edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
 
@@ -368,7 +368,7 @@
 
       6d1405430065456e935d99095817e163541d3ad728e8e9c73ee8b48cc79d2825  libss2_1.42-1ubuntu2_amd64.deb
 
-      3e4d5b717e6b56489576a2dfd2c0d7ecddf23b352051f0016297d702cc11d908  libssl1.0.0_1.0.1-4ubuntu5.20_amd64.deb
+      fa155a174114bced68e70ab981afa58f14fdf8a44eaac0fb86a925c7bac6ba1b  libssl1.0.0_1.0.1-4ubuntu5.21_amd64.deb
 
       232ff1166d4d567998e9a77a5a77c859f28bf3c7a0d96baaf21907ad07a0342d  libstdc++6_4.6.3-1ubuntu5_amd64.deb
 
@@ -424,13 +424,13 @@
 
       8b25c231e925c9e3079c13ed220de977a9e831beca73719aa41df12848501b46  linux-image-3.2.0-58-virtual_3.2.0-58.88_amd64.deb
 
-      ad405e8e1eabea13f58a58d6ceffa9a4eaa863bef1e80b22a454d4a8160cfad1  linux-image-3.2.0-74-virtual_3.2.0-74.109_amd64.deb
+      682a615fb5f4e0a7ee70fdb2a358029aa73fd0624ffc6638852bdc9e0ecb2f51  linux-image-3.2.0-75-virtual_3.2.0-75.110_amd64.deb
 
       8f43a0a2667725836057a463f737f925870fd82834213d64a7affb2e227b97ed  linux-image-virtual_3.2.0.58.69_amd64.deb
 
-      5b8d72c92d75f6377e1a3aa667611ba7d73497a39d231f2c5afc789f1caf9336  linux-image-virtual_3.2.0.74.88_amd64.deb
+      696d9c912ff6d441531ebbda8567a3cdf11e61265e6bed71963cddce223fdd90  linux-image-virtual_3.2.0.75.89_amd64.deb
 
-      2dfe188dbc2962d696cb3f550540f7b092abdd205efcb6717549bdcbc3dcea34  linux-libc-dev_3.2.0-74.109_amd64.deb
+      481bc92a92f40b9d75554e627eb9af7a590cc13ff98db4aa9449b63b00631d90  linux-libc-dev_3.2.0-75.110_amd64.deb
 
       bca0256f7f038da304f7530d328ce60fa2d24f0e1554f2993df2f39a3c4b45e0  locales_2.13+git20120306-3_all.deb
 
@@ -482,7 +482,7 @@
 
       6cf1a3dce0fb150dfbcc3a9a935749de2404372fd4f1a5bf4bef2b7e913cb643  openssh-server_1%3a5.9p1-5ubuntu1.4_amd64.deb
 
-      51aab4cc73c3258f8211da4552463589055b861360d30006f94e7dfbf834e0b0  openssl_1.0.1-4ubuntu5.20_amd64.deb
+      ca656bb0f4240115d8dcbad7333bff104e9b06c319111c3e34dd7d416615c4f9  openssl_1.0.1-4ubuntu5.21_amd64.deb
 
       ed9eb5c3c9ea3cd555b1aa16cf93f4130b59325ef6786f2c5d421a8c0213c1c6  os-prober_1.51ubuntu3_amd64.deb
 
@@ -577,9 +577,7 @@
       af0c73bd8d99f280a54570bc2008fccc57be5b6c9f3e1418c34497a8d5a2ffba  zlib1g_1%3a1.2.3.4.dfsg-3ubuntu4_amd64.deb
 
 '
-- cache_common_manifest: ! 'a08b1a55523e7f57768cb66c35f47a926710e5b6c82822e1ccfbe38fcce37db2  BitcoindComparisonTool.jar
-
-    fff00023dd79486d444c8e29922f4072e1d451fc5a4d2b6075852ead7f2b7b52  boost_1_55_0.tar.bz2
+- cache_common_manifest: ! 'fff00023dd79486d444c8e29922f4072e1d451fc5a4d2b6075852ead7f2b7b52  boost_1_55_0.tar.bz2
 
     04d3e2e438ac8d4cc4b110b68cdd61bd59226c6588739a4a386869467f5ced7c  ccache-3.1.9.tar.bz2
 
@@ -633,8 +631,6 @@
 
     e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  download-stamps/.stamp_fetched-native_protobuf-protobuf-2.5.0.tar.bz2
 
-    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  download-stamps/.stamp_fetched-openssl-openssl-1.0.1j.tar.gz
-
     e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  download-stamps/.stamp_fetched-openssl-openssl-1.0.1k.tar.gz
 
     e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  download-stamps/.stamp_fetched-protobuf-protobuf-2.5.0.tar.bz2
@@ -659,15 +655,7 @@
 
     823705472f816df21c8f6aa026dd162b280806838bb55b3432b0fb1fcca7eb86  expat-2.1.0.tar.gz
 
-    dc62447533bca844463a3c3fd4083b57c90f18a70506e7a9f4936b5a1e516a99  fontconfig-2.11.1.tar.bz2
-
     c0848b29d52ef3ca27ad92e08351f023c5e24ce8cea7d8fe69fc96358e65f75e  freetype-2.5.3.tar.bz2
-
-    7f8e9a804b9c6d07164cf754207be838ece1219425d64e28cfa3e70d5c759aaf  gmp-6.0.0a.tar.bz2
-
-    feb4b5b2e79a63b72ec47a693b1cf35cf1cea1f60a2bb2615bf21f74c7a60bb0  guava-13.0.1.jar
-
-    fa97521a2e72174485a96276bcf6f573d5e44ca6aba2f62de87b33b5bb0d4b91  h2-1.3.167.jar
 
     97b75547b2bd761306ab3e15ae297f01e7ab9760b922bc657f4ef72e4e052142  ld64-127.2.tar.gz
 
@@ -687,11 +675,7 @@
 
     26f3985bad7768b8483b793448ae49414cdc4451d0ec83e7c1944367e15f9f07  miniupnpc-1.9.20140701.tar.gz
 
-    2923e453e880bb949e3d4da9f83dd3cb6f08946d35de0b864d0339cf70934464  miniupnpc-1.9.tar.gz
-
     9d1c8a9836aa63e2c6adb684186cbd4371c9e9dcc01d6e3bb447abf2d4d3d093  openssl-1.0.1h.tar.gz
-
-    1b60ca8789ba6f03e8ef20da2293b8dc131c39d83814e775069f02d26354edf3  openssl-1.0.1j.tar.gz
 
     8f9faeaebad088e772f4ef5e38252d472be4d878c6b3a2718c10a4fcebe7a41c  openssl-1.0.1k.tar.gz
 
@@ -704,12 +688,6 @@
     9ad4d46c721b53a429ed5a2eecfd3c239a9ab566562f183f99d3125f1a234250  qt-everywhere-opensource-src-4.6.4.tar.gz
 
     84e924181d4ad6db00239d87250cc89868484a14841f77fb85ab1f1dbdcd7da1  qt-everywhere-opensource-src-5.2.1.tar.gz
-
-    931f39d351429fb96c2f749e7ecb1a256a8ebbf5edca7995c9cc085b94d1841d  sc-light-jdk15on-1.47.0.2.jar
-
-    367b909030f714ee1176ab096b681e06348f03385e98d1bce0ed801b5452357e  slf4j-api-1.6.4.jar
-
-    064bd81796710f713f9f4a2309c0e032309934c2d2b4f7d3b6958325e584e13f  slf4j-jdk14-1.6.4.jar
 
     18406961fd4a1ec5c7ea35c91d6a80a2f8bb797a2bd243a610bd75e13eff9aca  toolchain4-1.tar.gz
 
@@ -724,190 +702,98 @@
 '
 - cache_package_manifest: ! 'a039254f8e5f9f06c3a3ca4acdc51eb697bc3d280fbb72a60de44dbaba464b96  i686-pc-linux-gnu/bdb/bdb-4.8.30-5861f6cccc8.tar.gz
 
-    a039254f8e5f9f06c3a3ca4acdc51eb697bc3d280fbb72a60de44dbaba464b96  i686-pc-linux-gnu/bdb/bdb-4.8.30-cd80c1acb5a.tar.gz
-
-    6eae2fd2f40e28e5d4042c9c4b154c112a14f7aa7e9005c1d2ea30fb8e5cf816  i686-pc-linux-gnu/boost/boost-1_55_0-2ce8a1d5959.tar.gz
-
     6eae2fd2f40e28e5d4042c9c4b154c112a14f7aa7e9005c1d2ea30fb8e5cf816  i686-pc-linux-gnu/boost/boost-1_55_0-eec6d011f6d.tar.gz
-
-    e636b6eb0ea36a4c2b5805c41f5c12192b9266254aad88a94e103de894dbeb76  i686-pc-linux-gnu/dbus/dbus-1.8.6-23de8d608f3.tar.gz
 
     e636b6eb0ea36a4c2b5805c41f5c12192b9266254aad88a94e103de894dbeb76  i686-pc-linux-gnu/dbus/dbus-1.8.6-cda57257371.tar.gz
 
-    13fc932706a5c0e5f711a3028bcb4462b48285f93a24d02d8ee3768a19d1507a  i686-pc-linux-gnu/expat/expat-2.1.0-7c38095aca2.tar.gz
-
     13fc932706a5c0e5f711a3028bcb4462b48285f93a24d02d8ee3768a19d1507a  i686-pc-linux-gnu/expat/expat-2.1.0-bfae5efeca9.tar.gz
 
-    464b98abdf50f9ac3eecff2ddaec1b4fbdd059bb81b12021a3ac2ce90014298a  i686-pc-linux-gnu/freetype/freetype-2.5.3-40f5cab6219.tar.gz
-
     464b98abdf50f9ac3eecff2ddaec1b4fbdd059bb81b12021a3ac2ce90014298a  i686-pc-linux-gnu/freetype/freetype-2.5.3-7d74ab99930.tar.gz
-
-    93122f3cdc14bfbe6f6b34629256a8b4991df466f6bf7625db0139b934a490ef  i686-pc-linux-gnu/libICE/libICE-1.0.9-167e9913fe6.tar.gz
 
     93122f3cdc14bfbe6f6b34629256a8b4991df466f6bf7625db0139b934a490ef  i686-pc-linux-gnu/libICE/libICE-1.0.9-9d38e3c4970.tar.gz
 
     644da3b4055dde912aae52f394056486537c4d853dd54eb3f8c801abc310a6b7  i686-pc-linux-gnu/libSM/libSM-1.2.2-d55361e26b6.tar.gz
 
-    644da3b4055dde912aae52f394056486537c4d853dd54eb3f8c801abc310a6b7  i686-pc-linux-gnu/libSM/libSM-1.2.2-f35554fd644.tar.gz
-
     250b833cc74c74d652923ca87ee563bb4db3a90543e4221f2cc610f3cee5749b  i686-pc-linux-gnu/libX11/libX11-1.6.2-244fe90390f.tar.gz
 
-    250b833cc74c74d652923ca87ee563bb4db3a90543e4221f2cc610f3cee5749b  i686-pc-linux-gnu/libX11/libX11-1.6.2-31b91b774d8.tar.gz
-
     bb12fe61bd1cbdbd0e321b96f8d076d4e7f46ebf5deee4525f95697d6c418465  i686-pc-linux-gnu/libXau/libXau-1.0.8-60998779c30.tar.gz
-
-    bb12fe61bd1cbdbd0e321b96f8d076d4e7f46ebf5deee4525f95697d6c418465  i686-pc-linux-gnu/libXau/libXau-1.0.8-9696e7f1d5d.tar.gz
-
-    19ad22be60d787f5f7b3bf090414b5f3cadb4844ebd05a4404e2475e214b7190  i686-pc-linux-gnu/libXext/libXext-1.3.2-e9f6efc5b3c.tar.gz
 
     19ad22be60d787f5f7b3bf090414b5f3cadb4844ebd05a4404e2475e214b7190  i686-pc-linux-gnu/libXext/libXext-1.3.2-f0ad7f4a03d.tar.gz
 
     8b9a3116a591ba9b7710d64f4192c784abde1d7d46078345564a01b187a4826c  i686-pc-linux-gnu/libxcb/libxcb-1.10-1eab0b380cb.tar.gz
 
-    8b9a3116a591ba9b7710d64f4192c784abde1d7d46078345564a01b187a4826c  i686-pc-linux-gnu/libxcb/libxcb-1.10-e798cd08f81.tar.gz
-
-    949bb208b2565b28687df5880aeb3371d7a6a033dfd7f50eee41f8e003c46f2a  i686-pc-linux-gnu/miniupnpc/miniupnpc-1.9.20140701-243c427e069.tar.gz
-
     949bb208b2565b28687df5880aeb3371d7a6a033dfd7f50eee41f8e003c46f2a  i686-pc-linux-gnu/miniupnpc/miniupnpc-1.9.20140701-2dce4012ce4.tar.gz
-
-    28e1c539b29059cd16ccd5d8a1236f3e1e92c9ef0eb412ccae8bba8ea450c85e  i686-pc-linux-gnu/native_ccache/native_ccache-3.1.9-6571ea8d611.tar.gz
 
     dc0a03517f2eacf1bd354832183b20899ab7ac0d443e0e42c59ef913977c6ba5  i686-pc-linux-gnu/native_ccache/native_ccache-3.1.9-6fc67438c9c.tar.gz
 
     0868e372842048bbd6688325e835e6f4e99ec4efe540138642039f48998c6730  i686-pc-linux-gnu/native_comparisontool/native_comparisontool-0f7b5d8-860fcdf3272.tar.gz
 
-    0868e372842048bbd6688325e835e6f4e99ec4efe540138642039f48998c6730  i686-pc-linux-gnu/native_comparisontool/native_comparisontool-0f7b5d8-b38ab210fde.tar.gz
-
     793a1042951978e772d1c2402bf587d9020a3b188072d0420388c0c6e13e7e4d  i686-pc-linux-gnu/native_protobuf/native_protobuf-2.5.0-1b12ca29025.tar.gz
 
-    cb51aec7289135e8975e8541717923dfef1794cd077cc623bf2a3a7d28fe0776  i686-pc-linux-gnu/native_protobuf/native_protobuf-2.5.0-7d0b63bff6a.tar.gz
-
-    73a4c42ba72d5646cbc0325fab296cfaa0d9910d8e482b8264fd57720d2d6424  i686-pc-linux-gnu/openssl/openssl-1.0.1j-bb83bfada89.tar.gz
-
-    641017ff270e28a538d6d7ccc69b808bd46bec6f34660efbdb4a6f3f202c83ba  i686-pc-linux-gnu/openssl/openssl-1.0.1k-8767df8c89c.tar.gz
+    c326c4bc21ab8b5e01e3127bbbbc6bbb3a775b9a4a32049d0fa92f5337cddef0  i686-pc-linux-gnu/openssl/openssl-1.0.1k-182087a6cdb.tar.gz
 
     4c543a7ce15deab4aa466b3e4919fe43c67cd4be45e2e15732e3996a09a7053e  i686-pc-linux-gnu/protobuf/protobuf-2.5.0-562b4128919.tar.gz
 
-    4c543a7ce15deab4aa466b3e4919fe43c67cd4be45e2e15732e3996a09a7053e  i686-pc-linux-gnu/protobuf/protobuf-2.5.0-d5edfb926cc.tar.gz
-
-    76f526bbc33e34fb680bac582ce7e0b77692498b442acd441db6687edfe04b31  i686-pc-linux-gnu/qrencode/qrencode-3.4.3-aaa72c62bad.tar.gz
-
     76f526bbc33e34fb680bac582ce7e0b77692498b442acd441db6687edfe04b31  i686-pc-linux-gnu/qrencode/qrencode-3.4.3-c4a5c5efa1f.tar.gz
 
-    5fa7b15717e561ce8493cd04b3fef934b399213e87ad8bd2615fd43bd548e67f  i686-pc-linux-gnu/qt46/qt46-4.6.4-922e0e15d62.tar.gz
-
-    3da41f7a0c9e423409e990eca1d5ea011b0aa73d7b0924b45cf914182437cbd5  i686-pc-linux-gnu/qt46/qt46-4.6.4-c889f866788.tar.gz
-
-    34d26ec5cf01eb5627da2c138b2b1262e5420e0b2e11f8ca32317c8cfb254561  i686-pc-linux-gnu/xcb_proto/xcb_proto-1.10-10d1e372991.tar.gz
+    5fa7b15717e561ce8493cd04b3fef934b399213e87ad8bd2615fd43bd548e67f  i686-pc-linux-gnu/qt46/qt46-4.6.4-04609ee4bc3.tar.gz
 
     34d26ec5cf01eb5627da2c138b2b1262e5420e0b2e11f8ca32317c8cfb254561  i686-pc-linux-gnu/xcb_proto/xcb_proto-1.10-18452eb65a6.tar.gz
 
     9df41bed60bdbb1fce3b07fd0100a7cdc8f9884171dfd56256a4a262c28b6307  i686-pc-linux-gnu/xextproto/xextproto-7.3.0-182a6763520.tar.gz
 
-    9df41bed60bdbb1fce3b07fd0100a7cdc8f9884171dfd56256a4a262c28b6307  i686-pc-linux-gnu/xextproto/xextproto-7.3.0-cb377c91609.tar.gz
-
-    f6c4d80be9858de30e3cf73a982313555f0cf68a63ba86036dc51457857ade03  i686-pc-linux-gnu/xproto/xproto-7.0.26-60e1a094a50.tar.gz
-
     f6c4d80be9858de30e3cf73a982313555f0cf68a63ba86036dc51457857ade03  i686-pc-linux-gnu/xproto/xproto-7.0.26-9276f2b698c.tar.gz
 
     75a46094c3d4dcc92802b21866bb958b631a901a7ba1d61315fc90ce16dff673  i686-pc-linux-gnu/xtrans/xtrans-1.3.4-0a3fb400a7b.tar.gz
 
-    75a46094c3d4dcc92802b21866bb958b631a901a7ba1d61315fc90ce16dff673  i686-pc-linux-gnu/xtrans/xtrans-1.3.4-d9bf2019603.tar.gz
-
     12bb5bce758a7eaa4048fee7b03b1c983c24eae942af1f69eef84797fefba3dd  x86_64-unknown-linux-gnu/bdb/bdb-4.8.30-5861f6cccc8.tar.gz
-
-    12bb5bce758a7eaa4048fee7b03b1c983c24eae942af1f69eef84797fefba3dd  x86_64-unknown-linux-gnu/bdb/bdb-4.8.30-cd80c1acb5a.tar.gz
-
-    a2d13775017426c82d8021cea0279dbe412bde0225c02b9c9381d39724e67d9e  x86_64-unknown-linux-gnu/boost/boost-1_55_0-2ce8a1d5959.tar.gz
 
     a2d13775017426c82d8021cea0279dbe412bde0225c02b9c9381d39724e67d9e  x86_64-unknown-linux-gnu/boost/boost-1_55_0-eec6d011f6d.tar.gz
 
-    fb0028d89de31b769977b5ddf89de5911d98a8b742acf9ca8699106e62cc5dce  x86_64-unknown-linux-gnu/dbus/dbus-1.8.6-23de8d608f3.tar.gz
-
     fb0028d89de31b769977b5ddf89de5911d98a8b742acf9ca8699106e62cc5dce  x86_64-unknown-linux-gnu/dbus/dbus-1.8.6-cda57257371.tar.gz
-
-    79fa2d64773a40b7402cc50cbc0d11410f332fcda331cce86ba7e358d58a254a  x86_64-unknown-linux-gnu/expat/expat-2.1.0-7c38095aca2.tar.gz
 
     79fa2d64773a40b7402cc50cbc0d11410f332fcda331cce86ba7e358d58a254a  x86_64-unknown-linux-gnu/expat/expat-2.1.0-bfae5efeca9.tar.gz
 
-    4e37040d470c204fddbe7724cb89ea35d446a1c4b552f26a1b35cb0c396202a1  x86_64-unknown-linux-gnu/freetype/freetype-2.5.3-40f5cab6219.tar.gz
-
     4e37040d470c204fddbe7724cb89ea35d446a1c4b552f26a1b35cb0c396202a1  x86_64-unknown-linux-gnu/freetype/freetype-2.5.3-7d74ab99930.tar.gz
-
-    044166925fbb6121acac197e3158577e82f3a6534c52af5eaf437efe962361d4  x86_64-unknown-linux-gnu/libICE/libICE-1.0.9-167e9913fe6.tar.gz
 
     044166925fbb6121acac197e3158577e82f3a6534c52af5eaf437efe962361d4  x86_64-unknown-linux-gnu/libICE/libICE-1.0.9-9d38e3c4970.tar.gz
 
     821524107d862f908b17c484fcab5cfa52d8acf52e6e2677baeb29f9577c98cd  x86_64-unknown-linux-gnu/libSM/libSM-1.2.2-d55361e26b6.tar.gz
 
-    821524107d862f908b17c484fcab5cfa52d8acf52e6e2677baeb29f9577c98cd  x86_64-unknown-linux-gnu/libSM/libSM-1.2.2-f35554fd644.tar.gz
-
     996a49e1b96e4079ba48eb65ad0c4ce2de95f25312ca1ce777fb1725e1360fc2  x86_64-unknown-linux-gnu/libX11/libX11-1.6.2-244fe90390f.tar.gz
 
-    996a49e1b96e4079ba48eb65ad0c4ce2de95f25312ca1ce777fb1725e1360fc2  x86_64-unknown-linux-gnu/libX11/libX11-1.6.2-31b91b774d8.tar.gz
-
     20b41b71e333e73c044ab42edb51989a416b6a23db16f51af4f33e8c735b39a1  x86_64-unknown-linux-gnu/libXau/libXau-1.0.8-60998779c30.tar.gz
-
-    20b41b71e333e73c044ab42edb51989a416b6a23db16f51af4f33e8c735b39a1  x86_64-unknown-linux-gnu/libXau/libXau-1.0.8-9696e7f1d5d.tar.gz
-
-    df6a368cee255ab32d960daddfc5d5d2e92193f0ffca100565a4359d4145fde8  x86_64-unknown-linux-gnu/libXext/libXext-1.3.2-e9f6efc5b3c.tar.gz
 
     df6a368cee255ab32d960daddfc5d5d2e92193f0ffca100565a4359d4145fde8  x86_64-unknown-linux-gnu/libXext/libXext-1.3.2-f0ad7f4a03d.tar.gz
 
     103b760bc5c5e1812411ac949bd83a29afb828fdecf10be71d50780d11fbcca1  x86_64-unknown-linux-gnu/libxcb/libxcb-1.10-1eab0b380cb.tar.gz
 
-    103b760bc5c5e1812411ac949bd83a29afb828fdecf10be71d50780d11fbcca1  x86_64-unknown-linux-gnu/libxcb/libxcb-1.10-e798cd08f81.tar.gz
-
-    67d9692e13a6de9916849018d72898d7e7283ad93cc44c5750c460f386956ac5  x86_64-unknown-linux-gnu/miniupnpc/miniupnpc-1.9.20140701-243c427e069.tar.gz
-
     67d9692e13a6de9916849018d72898d7e7283ad93cc44c5750c460f386956ac5  x86_64-unknown-linux-gnu/miniupnpc/miniupnpc-1.9.20140701-2dce4012ce4.tar.gz
-
-    6c706a975f58832b8ef4ce8c6a233e4a18aa27eba84fce08c550788039c2640a  x86_64-unknown-linux-gnu/native_ccache/native_ccache-3.1.9-6571ea8d611.tar.gz
 
     ee77ca23915f8b579440355b2a8c68521c5d49c275fd37a92a28bce75197a7f8  x86_64-unknown-linux-gnu/native_ccache/native_ccache-3.1.9-6fc67438c9c.tar.gz
 
     0868e372842048bbd6688325e835e6f4e99ec4efe540138642039f48998c6730  x86_64-unknown-linux-gnu/native_comparisontool/native_comparisontool-0f7b5d8-860fcdf3272.tar.gz
 
-    0868e372842048bbd6688325e835e6f4e99ec4efe540138642039f48998c6730  x86_64-unknown-linux-gnu/native_comparisontool/native_comparisontool-0f7b5d8-b38ab210fde.tar.gz
-
     04947c19b00dbce7378babdad13b6030a556cce99772fd7e17a3ca228eaebcc5  x86_64-unknown-linux-gnu/native_protobuf/native_protobuf-2.5.0-1b12ca29025.tar.gz
 
-    92eb5b1b39193defdee9ffc8e3f742d13821a0397a126776d999c30679d88a6e  x86_64-unknown-linux-gnu/native_protobuf/native_protobuf-2.5.0-7d0b63bff6a.tar.gz
-
-    b3dbec960010163bfac96d0a3a48d1dc98388bce03438e36799a1e9277f75bff  x86_64-unknown-linux-gnu/openssl/openssl-1.0.1j-bb83bfada89.tar.gz
-
-    3657c1a1f90b6712088f5ed233b99782b8c0381f260e8cc9edf186fd16748911  x86_64-unknown-linux-gnu/openssl/openssl-1.0.1k-8767df8c89c.tar.gz
+    23883859724cc9c10a99c739af677662d75c06b3700789da2d634d36473c8192  x86_64-unknown-linux-gnu/openssl/openssl-1.0.1k-182087a6cdb.tar.gz
 
     6f4d7f15fc6a5c95891d5bb1f9bb9ece8821c52c4944c7d394cd9f2934d1ee0d  x86_64-unknown-linux-gnu/protobuf/protobuf-2.5.0-562b4128919.tar.gz
 
-    6f4d7f15fc6a5c95891d5bb1f9bb9ece8821c52c4944c7d394cd9f2934d1ee0d  x86_64-unknown-linux-gnu/protobuf/protobuf-2.5.0-d5edfb926cc.tar.gz
-
-    612f7fe195ec28770aa5edcb68c97cdee17b92126bae3506083cc866c67c1200  x86_64-unknown-linux-gnu/qrencode/qrencode-3.4.3-aaa72c62bad.tar.gz
-
     612f7fe195ec28770aa5edcb68c97cdee17b92126bae3506083cc866c67c1200  x86_64-unknown-linux-gnu/qrencode/qrencode-3.4.3-c4a5c5efa1f.tar.gz
 
-    c1e67903a9b4b2d714c7d6bc3a996ee464cbf767ea4ae4739da427c1bc37c4bc  x86_64-unknown-linux-gnu/qt46/qt46-4.6.4-922e0e15d62.tar.gz
-
-    865ae4acf8f49ffe4fe1adfdb857dc537bda7361689c055f39e66bbf65a16a2c  x86_64-unknown-linux-gnu/qt46/qt46-4.6.4-c889f866788.tar.gz
-
-    e5f2788b71b7bc97ce7a7e49177847c1d9c479f40694ceb6e522930b52d9eb19  x86_64-unknown-linux-gnu/xcb_proto/xcb_proto-1.10-10d1e372991.tar.gz
+    c1e67903a9b4b2d714c7d6bc3a996ee464cbf767ea4ae4739da427c1bc37c4bc  x86_64-unknown-linux-gnu/qt46/qt46-4.6.4-04609ee4bc3.tar.gz
 
     e5f2788b71b7bc97ce7a7e49177847c1d9c479f40694ceb6e522930b52d9eb19  x86_64-unknown-linux-gnu/xcb_proto/xcb_proto-1.10-18452eb65a6.tar.gz
 
     0df338c2c7729fa744ba53d9d461740066efd15e2444fdabad1f5498ddd724ae  x86_64-unknown-linux-gnu/xextproto/xextproto-7.3.0-182a6763520.tar.gz
 
-    0df338c2c7729fa744ba53d9d461740066efd15e2444fdabad1f5498ddd724ae  x86_64-unknown-linux-gnu/xextproto/xextproto-7.3.0-cb377c91609.tar.gz
-
-    693619a2ebb71aa4323225e980b2cbea279cf9adeeffe9744812f31f669e89aa  x86_64-unknown-linux-gnu/xproto/xproto-7.0.26-60e1a094a50.tar.gz
-
     693619a2ebb71aa4323225e980b2cbea279cf9adeeffe9744812f31f669e89aa  x86_64-unknown-linux-gnu/xproto/xproto-7.0.26-9276f2b698c.tar.gz
 
     8eda4feac62a33bb08386cfd2ae40b01a5f2cf9391f65d445cd36686727411c2  x86_64-unknown-linux-gnu/xtrans/xtrans-1.3.4-0a3fb400a7b.tar.gz
 
-    8eda4feac62a33bb08386cfd2ae40b01a5f2cf9391f65d445cd36686727411c2  x86_64-unknown-linux-gnu/xtrans/xtrans-1.3.4-d9bf2019603.tar.gz
-
 '
-- release: 0.10.0rc2-linux
+- release: 0.10.0rc3-linux
 - name: bitcoin-linux-0.10
 - type: build
 - optionals:
