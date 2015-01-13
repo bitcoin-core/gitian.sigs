@@ -758,4 +758,4 @@
 - release: 0.10.0rc3-osx-unsigned
 - name: bitcoin-osx-0.10
 - type: build
-- optionals:
+- optionals: 

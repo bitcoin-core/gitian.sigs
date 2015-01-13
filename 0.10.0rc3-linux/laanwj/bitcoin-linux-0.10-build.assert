@@ -796,4 +796,4 @@
 - release: 0.10.0rc3-linux
 - name: bitcoin-linux-0.10
 - type: build
-- optionals:
+- optionals: 
