@@ -1,10 +1,10 @@
 --- !omap
-- out_manifest: ! 'aae644b2f741a31bb6a5edafb8e79921608bad153d352e6aebdb06530737c588  bitcoin-osx-signed.dmg
+- out_manifest: ! 'ccb80a8476a8d6cee6378784efeb199357f7c34ae11a96c0f2af9a6c9a16d1a1  bitcoin-osx-signed.dmg
 
 '
 - in_manifest: ! '2c27979592d575a169abc6e7d253a1024c3d9f35c8c4d77b37d7eed6f55db404  bitcoin-dmg-signer-desc.yml
 
-    4b8c716f792b773ac3ef38cca5c298107001523f5eb6a6cc22c8ae7fbd94b48a  bitcoin-osx-unsigned.tar.gz
+    06e3b556c8d3a14497ce3b99b00c932276231c8160cb003f95188825bd9f097a  bitcoin-osx-unsigned.tar.gz
 
     83c4721a74cddfed2b9a828aa983b6cb0daa2acd4023107a29d5c2f4931e6f1c  signature.tar.gz
 
