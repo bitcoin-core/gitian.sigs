@@ -1,14 +1,14 @@
 --- !omap
-- out_manifest: ! '9ea749f2601d89818796add5b90b7d9c0187c3094f0628a76b09b3264714c977  bitcoin-0.10.0-linux32.tar.gz
+- out_manifest: ! '896b06cd4c029b5dc9be54c1da107ede7f4c933c47b0d6a0b39b0d8a08ff4db7  bitcoin-0.10.1-linux32.tar.gz
 
-    4be12ac4e1a2e1a27135009eb3dc003529f9e56c11df97e59c5b0415f79ed4ec  bitcoin-0.10.0-linux64.tar.gz
+    21e1a77ebf719c5ec2d560a10997ce47bd138baca371756a7d62bd628b717d70  bitcoin-0.10.1-linux64.tar.gz
 
-    a516cf6d9f58a117607148405334b35d3178df1ba1c59229609d2bcd08d30624  src/bitcoin-0.10.0.tar.gz
+    585caa903d6ee104acf0bf266c6a79f6716285d431733b54c30dae3e31770482  src/bitcoin-0.10.1.tar.gz
 
 '
 - in_manifest: ! 'bb14652d5f58ede539d408b5af3e688e853c6fabc16b1f9bdcb16c61ba6b19f2  bitcoin-linux-0.10-desc.yml
 
-    git:047a89831760ff124740fe9f58411d57ee087078 bitcoin'
+    git:fe3122580e9bc6e1b7d6c11fb6b2175e7a06f528 bitcoin'
 - base_manifests: !omap
   - precise-amd64: ! 'edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
 
@@ -34,9 +34,9 @@
 
       4d2d8299d216886bc6a0e5c027e16d9ddbb0f8b96e6a0dbef1f01789467b130a  bash_4.2-2ubuntu2.6_amd64.deb
 
-      fbcd95e17de18f3f138e46894648e7c453a9eccb47c1fb32bc17af57e16fac54  binutils_2.22-6ubuntu1.2_amd64.deb
+      cc098a7e379dda8e42fd0f08f9c5b6f8c55b6d0dd5cf71cfbb63bfc7f34019ab  binutils_2.22-6ubuntu1.3_amd64.deb
 
-      1c43be4685cf2814bfc29d1f3226d421ddd3a1fbedb00b572f2a730758b0d759  binutils-gold_2.22-6ubuntu1.2_amd64.deb
+      a7ec1e221fe8f70019f2577b36e1c5807b2ff49368910c76ba80d627ff9726d4  binutils-gold_2.22-6ubuntu1.3_amd64.deb
 
       7d8af79b5110d03fb1f5e5874c96e860da1a397136ba977b6410c87cd8a564f4  bridge-utils_1.5-2ubuntu7_amd64.deb
 
@@ -50,7 +50,7 @@
 
       2832016d28038cb654edb2dc6ea961e25832e80fff038fce55d2199cc8e75286  bzip2_1.0.6-1_amd64.deb
 
-      722c89d9e2769d93ec12838589af3a4f8bed689741afcab839b6deada9d55b25  ca-certificates_20130906ubuntu0.12.04.1_all.deb
+      0f2c6398a770602b33f0d66fceb61726a06ca436b79ee0c1d182518c240afc4a  ca-certificates_20141019ubuntu0.12.04.1_all.deb
 
       072e18de39d2353ca1fa2d208102e1050fb2192db0aa3a7599dcd92c6e958912  cgroup-lite_1.1.5_all.deb
 
@@ -68,7 +68,7 @@
 
       21fdace6135f34d11812bc451d4140728a2323c82373630a12d5c3362ca6adf7  crda_1.1.2-1ubuntu1_amd64.deb
 
-      da50a76a7727908d425a26252d8b87dc742919f9cec2103697e3a18cb9f5dfc9  cron_3.0pl1-120ubuntu4_amd64.deb
+      32d604bc1c307a9d98fc71015fd387b35e857273f64106852bb3343d1110b0cc  cron_3.0pl1-120ubuntu3_amd64.deb
 
       f239880c28adb06d164f1533a2f3d8b78607bb4ad91b9a3dba161675b01d06cf  dash_0.5.7-2ubuntu2_amd64.deb
 
@@ -90,9 +90,9 @@
 
       ec55ac8c839220e1f5abef498def4b06cc75ac23927e2517adbccf3ab0d88efe  dpkg-dev_1.16.1.2ubuntu7.5_all.deb
 
-      2233f5fb8702c975597af5e540fd3405aa9ab9fe8f789814ca14986f4a8a16d0  e2fslibs_1.42-1ubuntu2_amd64.deb
+      f31be9ecb49337089fa0d08571863bdce746dc8ae4915b39a543187bd18edac7  e2fslibs_1.42-1ubuntu2.2_amd64.deb
 
-      deaaed1c71b4d2913e16b5871b45925aed749027b80b2a91fc41d3f1ad271e4d  e2fsprogs_1.42-1ubuntu2_amd64.deb
+      62519d55876720fd50f7c8cb552806af0ab36b1f916aeed17a0196451ab373d5  e2fsprogs_1.42-1ubuntu2.2_amd64.deb
 
       fc1a1c7c942536c34c1e2489c9cc4e7f988eb41d04c0cee955521d2b4bbbad6c  eject_2.1.5+deb1+cvs20081104-9_amd64.deb
 
@@ -132,15 +132,23 @@
 
       8e502c8cbeb332079eb0d1b356e6211ac2e8f2bcd04593083451df1ff04a5a79  g++-multilib_4%3a4.6.3-1ubuntu5_amd64.deb
 
-      bcb0aa4f1e2cbb4408584bc310489428ccae541bf0b74a28e8d340c23938850a  gnupg_1.4.11-3ubuntu2.7_amd64.deb
+      7328d928fd0e2c2527b2760ea80c15ae9f06f089ed9dda72e0483f04cb234672  gnupg_1.4.11-3ubuntu2.9_amd64.deb
 
-      84bd4b1e15226cb4526c0d9f230d37b0f6e1376d074cff2b5b08961d01655168  gpgv_1.4.11-3ubuntu2.7_amd64.deb
+      3387d1874c02bbec6d95bdd21c9477f0a8c2fe8485e59727b4804a0f7a3ebfb3  gpgv_1.4.11-3ubuntu2.9_amd64.deb
 
       40d2a394b23a60e29be6bcbdda3f04538456d550a173799d6915c8f6259e6a03  grep_2.10-1_amd64.deb
 
       61f71d3422160c2a1f8914d32eee929398a31f3a62c377d256572476c9a03b2b  grub_0.97-29ubuntu66_amd64.deb
 
+      922921edb706f5aae9dc48f0f5f77ae223cc4ab6fb1a7f041bda607e8cfffb1d  grub2-common_1.99-21ubuntu3.17_amd64.deb
+
       0b30d74241e03d94d60bd88d8ecf0e15999f7a8ad78553999306bba07a37c1cb  grub-common_1.99-21ubuntu3.17_amd64.deb
+
+      7e19b975f4302b0bddf852cf366c6d8d64a3e9e795add20c6b04247d8b668023  grub-gfxpayload-lists_0.6_amd64.deb
+
+      b3bcdf17205a5044e7adb56b11e995112327d324a89d921cbd5bf7dc9ac1b6fc  grub-pc_1.99-21ubuntu3.17_amd64.deb
+
+      467d4e9f4ee4f4ff2d245d472f20f9dd17b89a86434fe9782180e380b014f1cb  grub-pc-bin_1.99-21ubuntu3.17_amd64.deb
 
       125a83c3fda730f490d043fe07963e4758ffe740d482196c8a55a323f823f8a5  gzip_1.4-1ubuntu2_amd64.deb
 
@@ -214,25 +222,25 @@
 
       9c4e359db61fe0c68473d7754f7215c148c00593d6dfa54e878134024961e552  libbz2-1.0_1.0.6-1_amd64.deb
 
-      1c4687fe6ef34a3d3d5c139cca71cc215bfcc086048dd150b4f0ffd09e5deafa  libc6_2.15-0ubuntu10.10_amd64.deb
+      2be90cd8ee2feaf109b42e397909476f1cfe38f49922b1629393ea5064416842  libc6_2.15-0ubuntu10.12_amd64.deb
 
-      baea9efcecffd32153467e9048c34353c0d6514d87b90a2134a95f4c6fe82458  libc6-dev_2.15-0ubuntu10.10_amd64.deb
+      daaf10cf8fc23b37fcaa18b5ea0c8b7c9c544eafe29742b531b56d477bfe0b18  libc6-dev_2.15-0ubuntu10.12_amd64.deb
 
-      561a500f9c7f488396304bb8b9488bdd6300482b3c24970b0471ba7bf1e99dc2  libc6-dev-i386_2.15-0ubuntu10.10_amd64.deb
+      79b1a08c792f0f8ba5724ff23cb7b8a28eccc2d8a67c1e31e50d52a0cd0138d8  libc6-dev-i386_2.15-0ubuntu10.12_amd64.deb
 
-      bd6093d3f5a990da4865869d8d4f19f58778380ee8f7010044ddf3070e0b6027  libc6-i386_2.15-0ubuntu10.10_amd64.deb
+      78ab4b73a6f0862c21b79a417844f5f23aa7a503bf3c536ba005d3600d9507b8  libc6-i386_2.15-0ubuntu10.12_amd64.deb
 
       d5439638e9360bbf31214b4685e7575190a44ce3eb67d173f83196e86e759d2c  libcap2_1%3a2.22-1ubuntu3_amd64.deb
 
       a44f4dbbcfd8bd94b9dc9700aa495fc7117157a51b2afe3e0b57ad1d07ac2258  libcap2-bin_1%3a2.22-1ubuntu3_amd64.deb
 
-      1ab8effb3385b3bf31c96e7d166cfea24b4d1d3de1f9260ab7c7648b6115fe02  libc-bin_2.15-0ubuntu10.10_amd64.deb
+      39bd4e58dd0ea8dc041a1cb6615c21689787d37fb22828b6d2a02f32c317a6b3  libc-bin_2.15-0ubuntu10.12_amd64.deb
 
-      1e0cfa2820446e1dc38b0fad0d1a5e52ac968441278cc8dde18d09eb01284726  libc-dev-bin_2.15-0ubuntu10.10_amd64.deb
+      ae3540e90eeb6d7342381d050e3062e7823dab81f639ba03b214fe1a2bed8cc7  libc-dev-bin_2.15-0ubuntu10.12_amd64.deb
 
       e12f72c19858e5816153ee36238543da6dc35fdb2b28661b3f54b7fb427208b8  libclass-isa-perl_0.36-3_all.deb
 
-      7c262727865a74b440e59dcf1f206d674bf8b034ce68d425c7b3a3516386885c  libcomerr2_1.42-1ubuntu2_amd64.deb
+      36196de5fbc9d57122fb6a5d823462b7f68c42b333380651c4db963f038c4fe8  libcomerr2_1.42-1ubuntu2.2_amd64.deb
 
       20e175ece65fe20efe97293d4f92b59d846ac19325971508ad528892e70b8796  libcurl3-gnutls_7.22.0-3ubuntu4.12_amd64.deb
 
@@ -264,7 +272,7 @@
 
       6f84c3afe62cfe155ff28b147b2040059845819fe555a8002903caeaf687893a  libffi6_3.0.11~rc1-5_amd64.deb
 
-      9ac3bfcf2a68515b92c22e1f6fe7b67690a8c879877142cc52ab4e11acbb5d64  libfreetype6_2.4.8-1ubuntu2.1_amd64.deb
+      7e7942f579e1636589a83b840cb43ca98228922db5573e3e71a7d47e6b4822e6  libfreetype6_2.4.8-1ubuntu2.2_amd64.deb
 
       a89d700b8c537c2f43e6a42f3e379a16a92e26e9045062ca340932b8a518c61b  libfribidi0_0.19.2-1_amd64.deb
 
@@ -272,7 +280,7 @@
 
       aac526da2f2e44d76b11c6f6b6f8fbb646df0b73a2e1455da2ece45c7e3e401e  libgcc1_1%3a4.6.3-1ubuntu5_amd64.deb
 
-      e9b06c51662ef808b8d4625cc2fc853433aee066cfa189b92bbd5426efe067d6  libgcrypt11_1.5.0-3ubuntu0.3_amd64.deb
+      0ef494fe09f032688f135459462f4914ae00a04022c38ea362af4a889a59ed0c  libgcrypt11_1.5.0-3ubuntu0.4_amd64.deb
 
       92ce1ee56b2f4a2a8a71dd1a124b69e43423be3a6a3fdb87e5fc0635dde3fcbb  libgdbm3_1.8.3-10_amd64.deb
 
@@ -280,7 +288,7 @@
 
       d70a15b9f294716870761388148829bb6502ebacbdd0d0eb3e2642f4196e4faf  libgmp10_2%3a5.0.2+dfsg-2ubuntu1_amd64.deb
 
-      d4917572aee6dd131507308661714be23e212aec99e4e2587ae29a129db4910f  libgnutls26_2.12.14-5ubuntu3.8_amd64.deb
+      051c238078c16d84078e59aaa5a7ec69a2d3c1f92e4705541b9c843516615f12  libgnutls26_2.12.14-5ubuntu3.9_amd64.deb
 
       001196c1d8efe72b76b49fdb9fa2930400806ef8d514539133598be4f3c59e40  libgomp1_4.6.3-1ubuntu5_amd64.deb
 
@@ -392,9 +400,9 @@
 
       c28bea8cdd5e89486397f2f037c9ea79f12fb56a4a8f8517209ab57e628809e5  libsqlite3-0_3.7.9-2ubuntu1.1_amd64.deb
 
-      6d1405430065456e935d99095817e163541d3ad728e8e9c73ee8b48cc79d2825  libss2_1.42-1ubuntu2_amd64.deb
+      00e695ba6888477f010f9b465b71e71de037190488d4408543877b4d4fc7c3e7  libss2_1.42-1ubuntu2.2_amd64.deb
 
-      fa155a174114bced68e70ab981afa58f14fdf8a44eaac0fb86a925c7bac6ba1b  libssl1.0.0_1.0.1-4ubuntu5.21_amd64.deb
+      fdc73775974166984b0fe5fd467ae334dfa034c0961922137db310698c6c1a40  libssl1.0.0_1.0.1-4ubuntu5.25_amd64.deb
 
       232ff1166d4d567998e9a77a5a77c859f28bf3c7a0d96baaf21907ad07a0342d  libstdc++6_4.6.3-1ubuntu5_amd64.deb
 
@@ -448,15 +456,15 @@
 
       c7b4ac71d75cf97ac154902f9bb6807ba2e404adc599f961a7e24e56f6951fb0  linux-firmware_1.79.18_all.deb
 
-      ad405e8e1eabea13f58a58d6ceffa9a4eaa863bef1e80b22a454d4a8160cfad1  linux-image-3.2.0-74-virtual_3.2.0-74.109_amd64.deb
+      d90e40ca58ee4f48868efe7a32dc6b05ba5af8febc3219724e444b6a0b1a1c86  linux-image-3.2.0-79-generic_3.2.0-79.115_amd64.deb
 
-      e49bae06781a157544b57f42bd212af8b68a60482935fb5241f7f1ca07963517  linux-image-3.2.0-76-virtual_3.2.0-76.111_amd64.deb
+      193446b7769a02506be5f93b25800fe025e50d9017ac230b978446b391d41648  linux-image-3.2.0-79-virtual_3.2.0-79.115_amd64.deb
 
-      5b8d72c92d75f6377e1a3aa667611ba7d73497a39d231f2c5afc789f1caf9336  linux-image-virtual_3.2.0.74.88_amd64.deb
+      df31c15a06d7cb68626a70d86193cc0109286f25d1fd654ed7f108bbb8e1a174  linux-image-generic_3.2.0.79.93_amd64.deb
 
-      4fa66397802c8e4e122de9ae4b892b8f67235df398db0e446cb008de8efcf011  linux-image-virtual_3.2.0.76.90_amd64.deb
+      b03c2d29b0a01bf03aa72d326de3d324aa750ff1acbb52029f9b4c82d35cd7d9  linux-image-virtual_3.2.0.79.93_amd64.deb
 
-      92c1ca77b1f7b3268a8bcf7da44c738362c9b9b6e25dca93afc021407a0720da  linux-libc-dev_3.2.0-76.111_amd64.deb
+      bb10bf527a69c059293c56a313bf1d21e89b54242e45bdf139c0a9a82e9d8577  linux-libc-dev_3.2.0-79.115_amd64.deb
 
       bca0256f7f038da304f7530d328ce60fa2d24f0e1554f2993df2f39a3c4b45e0  locales_2.13+git20120306-3_all.deb
 
@@ -492,7 +500,7 @@
 
       1df62e40fcaebd670842807c8ad2ef0db7be2a886e82656854ad9ec8c4bf5e60  mountall_2.36.4ubuntu0.1_amd64.deb
 
-      3af5b7a6ac794dbd3095989c5e140ecde5a3a7b7851e45dc94ef4b928eb30aa4  multiarch-support_2.15-0ubuntu10.10_amd64.deb
+      3f95d562ac860830f1fdf87505a2360567226f6661d7032fc834c076309e6c21  multiarch-support_2.15-0ubuntu10.12_amd64.deb
 
       21d7f5767aba1be570c5e04220b73f05c8d0892302d099d75ee9cfa826a7598b  ncurses-base_5.9-4_all.deb
 
@@ -510,7 +518,7 @@
 
       6cf1a3dce0fb150dfbcc3a9a935749de2404372fd4f1a5bf4bef2b7e913cb643  openssh-server_1%3a5.9p1-5ubuntu1.4_amd64.deb
 
-      ca656bb0f4240115d8dcbad7333bff104e9b06c319111c3e34dd7d416615c4f9  openssl_1.0.1-4ubuntu5.21_amd64.deb
+      2bcb4c64b40d63971ca18e973514de32be564af9e8a4713aebd5bb5f3b41e5e5  openssl_1.0.1-4ubuntu5.25_amd64.deb
 
       ed9eb5c3c9ea3cd555b1aa16cf93f4130b59325ef6786f2c5d421a8c0213c1c6  os-prober_1.51ubuntu3_amd64.deb
 
@@ -568,7 +576,7 @@
 
       fb582b656e202bcd18b1c0be00c051f5408762525565c2886a882682a92d16d5  subversion_1.6.17dfsg-3ubuntu3.4_amd64.deb
 
-      1a27108603d3994ba965ea19afcd966f0ec215834e9897190bfa264711ad89f9  sudo_1.8.3p1-1ubuntu3.6_amd64.deb
+      a82819817113945d9df9fd435045e4cae7d133ef0d3a8c150f350843a864d455  sudo_1.8.3p1-1ubuntu3.7_amd64.deb
 
       6be601e70852c8c7a9540b4c3bc3fd9401de93e6f881d227d0681a21b03e1763  sysvinit-utils_2.88dsf-13.10ubuntu11.1_amd64.deb
 
@@ -578,7 +586,7 @@
 
       c52bf53d1f2bf733eb0add71b32322c686a7bd396cb8893cbd89210165d90838  tcpd_7.6.q-21_amd64.deb
 
-      0547299e6ca83056c277d8cdecfcbb010085506338b272504dac1d5bb271d18f  tzdata_2015a-0ubuntu0.12.04_all.deb
+      4beffe4e50461060974fa1b77fe2dba49f1a52dd88e8c1f3107e47d919304699  tzdata_2015b-0ubuntu0.12.04_all.deb
 
       c60651841ad91dcb6d44dec85dae5c0360b3893558a1de2cbedd589595a43ff4  ubuntu-keyring_2011.11.21.1_all.deb
 
@@ -623,7 +631,7 @@
 
     03ba62749b843b131c7304a044a98c6ffacd65b1399b921d69add0375f79d8ad  cctools-809.tar.gz
 
-    b50d64c214a65b1a79afe3a964c691931a4233e2ba605d793eb85d0ac3652564  cdrkit-1.1.11.tar.bz2
+    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  cdrkit-1.1.11.tar.bz2
 
     d1c030756ecc182defee9fe885638c1785d35a2c2a297b4604c0e0dcc78e47da  cdrkit-1.1.11.tar.gz
 
@@ -699,33 +707,33 @@
 
     dbc7a138a3218d9b80a0626b5b692d76934d6746d8cbb762751be33785d8d9f5  e2fsprogs-libs-1.41.14.tar.gz
 
-    823705472f816df21c8f6aa026dd162b280806838bb55b3432b0fb1fcca7eb86  expat-2.1.0.tar.gz
+    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  expat-2.1.0.tar.gz
 
     c0848b29d52ef3ca27ad92e08351f023c5e24ce8cea7d8fe69fc96358e65f75e  freetype-2.5.3.tar.bz2
 
     97b75547b2bd761306ab3e15ae297f01e7ab9760b922bc657f4ef72e4e052142  ld64-127.2.tar.gz
 
-    8f7032f2c1c64352b5423f6b48a8ebdc339cc63064af34d66a6c9aa79759e202  libICE-1.0.9.tar.bz2
+    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  libICE-1.0.9.tar.bz2
 
-    0baca8c9f5d934450a70896c4ad38d06475521255ca63b717a6510fdb6e287bd  libSM-1.2.2.tar.bz2
+    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  libSM-1.2.2.tar.bz2
 
     2aa027e837231d2eeea90f3a4afe19948a6eb4c8b2bec0241eba7dbc8106bd16  libX11-1.6.2.tar.bz2
 
-    fdd477320aeb5cdd67272838722d6b7d544887dfe7de46e1e7cc0c27c2bea4f2  libXau-1.0.8.tar.bz2
+    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  libXau-1.0.8.tar.bz2
 
     f829075bc646cdc085fa25d98d5885d83b1759ceb355933127c257e8e50432e0  libXext-1.3.2.tar.bz2
 
     6569a02eb31c2827080d7d59001869ea14484c281efab0ae7f2b86af5c3120b3  libdmg-hfsplus-v0.1.tar.gz
 
-    32c7acf1608b9c8b71b743b9780adb7a7b347563dbfb4a5263761056da44cc96  libpng-1.6.8.tar.gz
+    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  libpng-1.6.8.tar.gz
 
-    98d9ab05b636dd088603b64229dd1ab2d2cc02ab807892e107d674f9c3f2d5b5  libxcb-1.10.tar.bz2
+    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  libxcb-1.10.tar.bz2
 
     26f3985bad7768b8483b793448ae49414cdc4451d0ec83e7c1944367e15f9f07  miniupnpc-1.9.20140701.tar.gz
 
     2923e453e880bb949e3d4da9f83dd3cb6f08946d35de0b864d0339cf70934464  miniupnpc-1.9.tar.gz
 
-    9d1c8a9836aa63e2c6adb684186cbd4371c9e9dcc01d6e3bb447abf2d4d3d093  openssl-1.0.1h.tar.gz
+    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  openssl-1.0.1h.tar.gz
 
     3c179f46ca77069a6a0bac70212a9b3b838b2f66129cb52d568837fc79d8fcc7  openssl-1.0.1i.tar.gz
 
@@ -733,15 +741,13 @@
 
     8f9faeaebad088e772f4ef5e38252d472be4d878c6b3a2718c10a4fcebe7a41c  openssl-1.0.1k.tar.gz
 
-    13bfc5ae543cf3aa180ac2485c0bc89495e3ae711fc6fab4f8ffe90dfb4bb677  protobuf-2.5.0.tar.bz2
+    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  protobuf-2.5.0.tar.bz2
 
     ecd43b988a8b673b483e4f69f931596360a5e90fc415c75c4c259faa690df198  pull-tests-0f7b5d8.jar
 
     dfd71487513c871bad485806bfd1fdb304dedc84d2b01a8fb8e0940b50597a98  qrencode-3.4.3.tar.bz2
 
-    9ad4d46c721b53a429ed5a2eecfd3c239a9ab566562f183f99d3125f1a234250  qt-everywhere-opensource-src-4.6.4.tar.gz
-
-    395ec72277c5786c65b8163ef5817fd03d0a1f524a6d47f53624baf8056f1081  qt-everywhere-opensource-src-5.2.0.tar.gz
+    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  qt-everywhere-opensource-src-4.6.4.tar.gz
 
     84e924181d4ad6db00239d87250cc89868484a14841f77fb85ab1f1dbdcd7da1  qt-everywhere-opensource-src-5.2.1.tar.gz
 
@@ -755,7 +761,7 @@
 
     054d4ee3efd52508c753e9f7bc655ef185a29bd2850dd9e2fc2ccc33544f583a  xtrans-1.3.4.tar.bz2
 
-    36658cb768a54c1d4dec43c3116c27ed893e88b02ecfcb44f2166f9c0b7f2a0d  zlib-1.2.8.tar.gz
+    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  zlib-1.2.8.tar.gz
 
 '
 - cache_package_manifest: ! 'a039254f8e5f9f06c3a3ca4acdc51eb697bc3d280fbb72a60de44dbaba464b96  i686-pc-linux-gnu/bdb/bdb-4.8.30-5861f6cccc8.tar.gz
