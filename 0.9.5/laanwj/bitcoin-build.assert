@@ -1384,7 +1384,7 @@
 '
 - cache_common_manifest: ''
 - cache_package_manifest: ''
-- release: 0.9.5-linux
+- release: 0.9.5
 - name: bitcoin
 - type: build
 - optionals: 
