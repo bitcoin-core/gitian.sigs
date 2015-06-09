@@ -84,7 +84,7 @@
 
       64e958bee37b656227e3be1549d230ba130b30752c321db157958105e956cecf  debianutils_4.2.1ubuntu2_amd64.deb
 
-      abc06482b4ff53704076624264687327ed7a4f7bd3a130791278aa30c8eecc1f  debootstrap_1.0.40~ubuntu0.7_all.deb
+      034bf43603c2a0578a775b98928992322281da33b011c1f84a54470df306ece1  debootstrap_1.0.40~ubuntu0.8_all.deb
 
       3bd64570da91c575f95f62b05c036b68b9be6669d0c61c06d54548616f1a8947  diffutils_1%3a3.2-1ubuntu1_amd64.deb
 
@@ -396,7 +396,7 @@
 
       00e695ba6888477f010f9b465b71e71de037190488d4408543877b4d4fc7c3e7  libss2_1.42-1ubuntu2.2_amd64.deb
 
-      fdc73775974166984b0fe5fd467ae334dfa034c0961922137db310698c6c1a40  libssl1.0.0_1.0.1-4ubuntu5.25_amd64.deb
+      4750bd3e5eef6de7377adc3243f15271fa039f091b020e1388141f69a056bed6  libssl1.0.0_1.0.1-4ubuntu5.27_amd64.deb
 
       d325f6c3f376b275057048c98bbe81924fdad0f9bcedb47e21d9d01be0f52924  libstdc++6-4.6-dev_4.6.3-1ubuntu5_amd64.deb
 
@@ -406,7 +406,7 @@
 
       a8524fb074495a47a786c32accb56b72ad8fe29367126dcdf1b2a980562c5e18  libswitch-perl_2.16-2_all.deb
 
-      87bce4e276ec60e75b1edc37335d8e3de1a6b56f8f98113118f4bee382816922  libtasn1-3_2.10-1ubuntu1.3_amd64.deb
+      8d4f0b72ec3c673dc6549fc454da941ed7ae0569a1ca9853cc5a524c02acedae  libtasn1-3_2.10-1ubuntu1.4_amd64.deb
 
       0afc83137a8a51752bc6deda5f501bef8c16900a03cb05d2519b9002f42a3da2  libtext-charwidth-perl_0.04-7build1_amd64.deb
 
@@ -520,7 +520,7 @@
 
       6cf1a3dce0fb150dfbcc3a9a935749de2404372fd4f1a5bf4bef2b7e913cb643  openssh-server_1%3a5.9p1-5ubuntu1.4_amd64.deb
 
-      2bcb4c64b40d63971ca18e973514de32be564af9e8a4713aebd5bb5f3b41e5e5  openssl_1.0.1-4ubuntu5.25_amd64.deb
+      01f0c65a33a49056d05097b4c325bcedc10f22e8f68ca5dabe408e268841cda0  openssl_1.0.1-4ubuntu5.27_amd64.deb
 
       ed9eb5c3c9ea3cd555b1aa16cf93f4130b59325ef6786f2c5d421a8c0213c1c6  os-prober_1.51ubuntu3_amd64.deb
 
