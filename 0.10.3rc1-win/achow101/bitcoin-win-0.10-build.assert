@@ -1,18 +1,18 @@
 --- !omap
-- out_manifest: ! 'a105039e422a864069f96dfee7eb0351973b85e62ad9ab112c7adbbe6353e7be  bitcoin-0.10.3-win32-setup.exe
+- out_manifest: ! '7ff38e1c4c1dc846b01c98e74ce472296cdde6aeaa07ae583d7a679bfde208c8  bitcoin-0.10.2-win32-setup.exe
 
-    5b1a0fc44657052e61b5c8f645645339df55641206e8c8177ff1fbc931a76d34  bitcoin-0.10.3-win32.zip
+    cdb2a3777db6495117a0d24f4ea0c99028ca23a5bc88e699a197c62c27cc51a1  bitcoin-0.10.2-win32.zip
 
-    57a9b02b2320058f160f2de1b9fa8ed44dc76eef275cc1b5038b963c706695f5  bitcoin-0.10.3-win64-setup.exe
+    278a4bc50c89fdda184897e96c112e2c89086822f7c3b5c9c75b5cc93503ad3a  bitcoin-0.10.2-win64-setup.exe
 
-    8d03f4f1ae0465f7b576648b6d98861f124230c7b95a5fec3ee787aefaa01fde  bitcoin-0.10.3-win64.zip
+    a3b4ff393758a232687d984b210d3b1acf72443611db86f3d1fa9d9c0c01e3b8  bitcoin-0.10.2-win64.zip
 
-    825faee1b63b89a430d8ec9a874f8b885a0d21cc76812ebcce0eb8209ebb6fc8  src/bitcoin-0.10.3.tar.gz
+    15ec97be9bb843dd315c9835a8791c874bedb41cb994f88508fc5767f4043121  src/bitcoin-0.10.2.tar.gz
 
 '
-- in_manifest: ! 'e67d6c01b8944ed00efee2cf9bcfe38b6107e52fa31dff385768491b466e0057  bitcoin-win-0.10-desc.yml
+- in_manifest: ! 'fb8ea67d1789767c0ce1e906f6502aee361229b5cd1264b4e8b9efaa56e4a9ca  bitcoin-win-0.10-desc.yml
 
-    git:8d598c26e34e36619180f73926043a43bfe68879 bitcoin'
+    git:44d6bc85285f2cbbee0a7b94924975d3e9d84875 bitcoin'
 - base_manifests: !omap
   - precise-amd64: ! 'edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
 
@@ -853,6 +853,8 @@
 
     969244f07df6dd122c0058d3a5b3f536fedfe5c0616767a3403d1154f61ec80d  download-stamps/.stamp_fetched-libxcb-libxcb-1.10.tar.bz2.hash
 
+    a2ebda643dffd0ae40903541be7d38fec3dca4122bffbe715a0d986da5ebb2e4  download-stamps/.stamp_fetched-miniupnpc-miniupnpc-1.9.20140701.tar.gz.hash
+
     e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  download-stamps/.stamp_fetched-miniupnpc-miniupnpc-1.9.20151008.tar.gz
 
     62630a77efcd2c42ed07e66e50fe7f3363862b83e57a211efd1cfab68da6e3d5  download-stamps/.stamp_fetched-miniupnpc-miniupnpc-1.9.20151008.tar.gz.hash
@@ -898,6 +900,8 @@
     3147bce8610ed55ad617a4c0abf781964aa4e267e451b6510e7c6830924de67b  download-stamps/.stamp_fetched-qrencode-qrencode-3.4.3.tar.bz2.hash
 
     e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  download-stamps/.stamp_fetched-qt-qt-everywhere-opensource-src-5.2.1.tar.gz
+
+    4d1072c69d8688b1941dd74e347877d7c86d89a654c071ff89ec73a6af94ef6a  download-stamps/.stamp_fetched-qt-qt-everywhere-opensource-src-5.2.1.tar.gz.hash
 
     0b149fd58431d2727394f6966338a4c5d7c4b42db6b4cfe2afb287693b750575  download-stamps/.stamp_fetched-qt-qtbase-opensource-src-5.5.0.tar.gz.hash
 
@@ -946,6 +950,8 @@
     6569a02eb31c2827080d7d59001869ea14484c281efab0ae7f2b86af5c3120b3  libdmg-hfsplus-v0.1.tar.gz
 
     98d9ab05b636dd088603b64229dd1ab2d2cc02ab807892e107d674f9c3f2d5b5  libxcb-1.10.tar.bz2
+
+    26f3985bad7768b8483b793448ae49414cdc4451d0ec83e7c1944367e15f9f07  miniupnpc-1.9.20140701.tar.gz
 
     e444ac3b587ce82709c4d0cfca1fe71f44f9fc433e9f946b12b9e1bfe667a633  miniupnpc-1.9.20151008.tar.gz
 
@@ -1021,7 +1027,7 @@
     9bdc45fc1235cd0d2ca0f8f941c71e6604c9c389d03ed36708d13c38635c20ce  x86_64-w64-mingw32/qt/qt-5.2.1-d2f6d690fc2.tar.gz
 
 '
-- release: 0.10.3-win-unsigned
+- release: 0.10.3rc1-win
 - name: bitcoin-win-0.10
 - type: build
 - optionals: 
