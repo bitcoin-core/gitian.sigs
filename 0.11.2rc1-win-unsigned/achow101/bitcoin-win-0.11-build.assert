@@ -1,20 +1,20 @@
 --- !omap
-- out_manifest: ! '51be75f17d32b569e0b07282d550fbf2ff42c9c15adb89141420a56750edb024  bitcoin-0.11.0-win-unsigned.tar.gz
+- out_manifest: ! '1d2acfaef33dae792cd713b4f84c06a7aa08e1a58b353a15688dca693834fab2  bitcoin-0.11.2-win-unsigned.tar.gz
 
-    6c5269e721348b49b891ce40ba393fd8bd4d8e66d6c66433c2dd09f1a48dc162  bitcoin-0.11.0-win32-setup-unsigned.exe
+    f200ba2f29243a20e521fd2d6e8fd3dc3c4b5b4947c53a57f170b9202070449d  bitcoin-0.11.2-win32-setup-unsigned.exe
 
-    62dedc212d52d16ef1d108c4bd4e8e666178fe1121aeace02d46f5358932b50c  bitcoin-0.11.0-win32.zip
+    acf9dd9878f86d806023ddf747fc1484183a0fd2911d33ddce78f3800de48ce8  bitcoin-0.11.2-win32.zip
 
-    b61a0e8e17945707a51e5ba6cda03251e30f4d73ca3ac1082e214900e6db8f8e  bitcoin-0.11.0-win64-setup-unsigned.exe
+    1cda94e3fabae32c2d896a33c965108918cc5fbd1c02673d3993aa08dd1f389a  bitcoin-0.11.2-win64-setup-unsigned.exe
 
-    d83375034c96a9dfba7387ea2a6f3a05a64b63714db46f3dbfc434c8a814ec59  bitcoin-0.11.0-win64.zip
+    208c86b32d7c1d6a443fedf4a674cabb638795ee02b4afefecb0c70f9fa567a7  bitcoin-0.11.2-win64.zip
 
-    31afaa249a97d95d31119bd23a00d934584662ac3f483c7e8e6e2cb02fb6e8a0  src/bitcoin-0.11.0.tar.gz
+    be87b7170e1866e1e36b85040ac83553e3f079f68b949933e0a25cefcbef53cb  src/bitcoin-0.11.2.tar.gz
 
 '
-- in_manifest: ! '8ad41bd8a9f4f45470173d0c648cb81265dd7e9a896deb919e84616c44253bdc  bitcoin-win-0.11-desc.yml
+- in_manifest: ! 'c7f2c5a1e5d2bdb9e359fad3f66c6eb8963eaa592bf3ba87e7e049b312f2edde  bitcoin-win-0.11-desc.yml
 
-    git:d7d87a1db1b90094a0dd517b89ef1c40eaedf14c bitcoin'
+    git:984587ac5d3e5593737605a89b442cf0a439a79a bitcoin'
 - base_manifests: !omap
   - precise-amd64: ! 'edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
 
@@ -576,7 +576,7 @@
 
       874233a6c787aa1ddfddf7a567e4f348f3b0c18638ded8cdd3794a11347aaa72  linux-libc-dev_3.2.0-23.36_amd64.deb
 
-      2abf9b164888b10d420753d76b0fc153646eccac96ae3bed063a61fc6b7fd81e  linux-libc-dev_3.2.0-92.131_amd64.deb
+      e767450ad308f088b3df04da2df2e285c475bd6a5e11fa39193b0c2001fe4bd5  linux-libc-dev_3.2.0-93.133_amd64.deb
 
       bca0256f7f038da304f7530d328ce60fa2d24f0e1554f2993df2f39a3c4b45e0  locales_2.13+git20120306-3_all.deb
 
@@ -855,6 +855,8 @@
 
     969244f07df6dd122c0058d3a5b3f536fedfe5c0616767a3403d1154f61ec80d  download-stamps/.stamp_fetched-libxcb-libxcb-1.10.tar.bz2.hash
 
+    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  download-stamps/.stamp_fetched-miniupnpc-miniupnpc-1.9.20140701.tar.gz
+
     a2ebda643dffd0ae40903541be7d38fec3dca4122bffbe715a0d986da5ebb2e4  download-stamps/.stamp_fetched-miniupnpc-miniupnpc-1.9.20140701.tar.gz.hash
 
     e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  download-stamps/.stamp_fetched-miniupnpc-miniupnpc-1.9.20151008.tar.gz
@@ -1024,6 +1026,10 @@
 
     631b193d98e841dbc6e5d0aa14c17bf287168ec694b96211a18336c33faac009  i686-w64-mingw32/openssl/openssl-1.0.1k-5a7cb92a94f.tar.gz.hash
 
+    a4a6376034789952bc0026d91cfb9ca1aca301949d131454b5a77da5e7ea082a  i686-w64-mingw32/openssl/openssl-1.0.1k-ad8360d8135.tar.gz
+
+    e55592f45692a35eb14b1e596426bbe5e41efe9aaf3a6d57019e3001d4081452  i686-w64-mingw32/openssl/openssl-1.0.1k-ad8360d8135.tar.gz.hash
+
     2cca35f7f1b5d403bed75884b52cbbee8dbdb8eaab67779e6f4d2397dd01e3f5  i686-w64-mingw32/protobuf/protobuf-2.5.0-d0441605907.tar.gz
 
     4faa288fb478583cf02ddccd369886422565e53509309a045b9373860183025e  i686-w64-mingw32/protobuf/protobuf-2.5.0-d0441605907.tar.gz.hash
@@ -1039,6 +1045,10 @@
     475030952eb416030e54bca9b4634ebdad3abdf8800fbb0bcc58cd3eeda88746  i686-w64-mingw32/qt/qt-5.5.0-1ba937d14a1.tar.gz
 
     8bf648cb8def6c9ce820ecdc75cbbd3f25d95e0acbb179a9290841ca01c7b401  i686-w64-mingw32/qt/qt-5.5.0-1ba937d14a1.tar.gz.hash
+
+    475030952eb416030e54bca9b4634ebdad3abdf8800fbb0bcc58cd3eeda88746  i686-w64-mingw32/qt/qt-5.5.0-f63c81d2ac2.tar.gz
+
+    bb3246ef3d652c156c069257d82d6bc75ed4ccf121300db558ce4309e72c9b22  i686-w64-mingw32/qt/qt-5.5.0-f63c81d2ac2.tar.gz.hash
 
     ba4d2da48ad182b3c612f98472bf440aa97dfa3458f7db0f6e814908f60bcae5  x86_64-w64-mingw32/bdb/bdb-4.8.30-e129dbe8591.tar.gz
 
@@ -1076,6 +1086,10 @@
 
     92d4aa6bdecf47cfe2bbc3b2c1e8e19a6d6eb87864896a1831e17ac0b2d3d687  x86_64-w64-mingw32/openssl/openssl-1.0.1k-5a7cb92a94f.tar.gz.hash
 
+    d5e8b350553d3c50c9d368f3fae9f4deca717a61fd40685fd643a1afc09c3a58  x86_64-w64-mingw32/openssl/openssl-1.0.1k-ad8360d8135.tar.gz
+
+    9d31c15a00d865394a30a40c3db9c081ce71a09f4228bd43b38c7b3c0903d58c  x86_64-w64-mingw32/openssl/openssl-1.0.1k-ad8360d8135.tar.gz.hash
+
     c1446a287c4281d98683872f5b3f633a28b6aea0375750269de6025f5848f0f5  x86_64-w64-mingw32/protobuf/protobuf-2.5.0-d0441605907.tar.gz
 
     751529a1a48bd1888e19dc649621a05cc4a14362d7c31db3e22ef0187d47ae95  x86_64-w64-mingw32/protobuf/protobuf-2.5.0-d0441605907.tar.gz.hash
@@ -1091,6 +1105,10 @@
     4ceba5f5068d88e56bfcff56c432b4acebe9e12b7bfa364e833ef563257d45d3  x86_64-w64-mingw32/qt/qt-5.5.0-1ba937d14a1.tar.gz
 
     19b358d643351bc28716b775caf3e728490d07e585e0a38f40c9ce19fc2bb00f  x86_64-w64-mingw32/qt/qt-5.5.0-1ba937d14a1.tar.gz.hash
+
+    4ceba5f5068d88e56bfcff56c432b4acebe9e12b7bfa364e833ef563257d45d3  x86_64-w64-mingw32/qt/qt-5.5.0-f63c81d2ac2.tar.gz
+
+    99f4d0425589457483fa22c17e02f227cb74db4be0c79ea2b6b19173c8b5670e  x86_64-w64-mingw32/qt/qt-5.5.0-f63c81d2ac2.tar.gz.hash
 
 '
 - release: 0.11.2rc1-win-unsigned

@@ -1,14 +1,14 @@
 --- !omap
-- out_manifest: ! 'f0ce99f3c48da05b404186c86af4b94de85c1136493df5c558596a54a8c5aeb2  bitcoin-0.11.0-linux32.tar.gz
+- out_manifest: ! '0d30e6affd8527e881394e4210cfb39232aa3552368a9397414de99f06356313  bitcoin-0.11.2-linux32.tar.gz
 
-    42eacc71223266d7427a6820f9adc81913128763798796aed840378b9d12147f  bitcoin-0.11.0-linux64.tar.gz
+    9ed955966a2889611a41171c0319fa88f65f6360c120254891fd09d4579fa6e4  bitcoin-0.11.2-linux64.tar.gz
 
-    31afaa249a97d95d31119bd23a00d934584662ac3f483c7e8e6e2cb02fb6e8a0  src/bitcoin-0.11.0.tar.gz
+    be87b7170e1866e1e36b85040ac83553e3f079f68b949933e0a25cefcbef53cb  src/bitcoin-0.11.2.tar.gz
 
 '
-- in_manifest: ! '36fa88204160316d1406d128cbae55c40cdda335e18539828dbeaf01641c6b7d  bitcoin-linux-0.11-desc.yml
+- in_manifest: ! 'd4a1266d55ffa5187c95e5726f232d3e027c46e76eb7750877d05f7a0017cd0a  bitcoin-linux-0.11-desc.yml
 
-    git:d7d87a1db1b90094a0dd517b89ef1c40eaedf14c bitcoin'
+    git:984587ac5d3e5593737605a89b442cf0a439a79a bitcoin'
 - base_manifests: !omap
   - precise-amd64: ! 'edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
 
@@ -576,7 +576,7 @@
 
       874233a6c787aa1ddfddf7a567e4f348f3b0c18638ded8cdd3794a11347aaa72  linux-libc-dev_3.2.0-23.36_amd64.deb
 
-      2abf9b164888b10d420753d76b0fc153646eccac96ae3bed063a61fc6b7fd81e  linux-libc-dev_3.2.0-92.131_amd64.deb
+      e767450ad308f088b3df04da2df2e285c475bd6a5e11fa39193b0c2001fe4bd5  linux-libc-dev_3.2.0-93.133_amd64.deb
 
       bca0256f7f038da304f7530d328ce60fa2d24f0e1554f2993df2f39a3c4b45e0  locales_2.13+git20120306-3_all.deb
 
@@ -845,6 +845,8 @@
 
     969244f07df6dd122c0058d3a5b3f536fedfe5c0616767a3403d1154f61ec80d  download-stamps/.stamp_fetched-libxcb-libxcb-1.10.tar.bz2.hash
 
+    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  download-stamps/.stamp_fetched-miniupnpc-miniupnpc-1.9.20140701.tar.gz
+
     a2ebda643dffd0ae40903541be7d38fec3dca4122bffbe715a0d986da5ebb2e4  download-stamps/.stamp_fetched-miniupnpc-miniupnpc-1.9.20140701.tar.gz.hash
 
     e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  download-stamps/.stamp_fetched-miniupnpc-miniupnpc-1.9.20151008.tar.gz
@@ -1042,6 +1044,10 @@
 
     6ef0936aab726ff6d35dafdf81bd96912d82d6134351c74147bccff21743536f  i686-pc-linux-gnu/native_protobuf/native_protobuf-2.5.0-8d27223fe24.tar.gz.hash
 
+    c24770dfe21110cb286d2ef0d518de50897b6610611e4615127f6e64fb47144b  i686-pc-linux-gnu/openssl/openssl-1.0.1k-467e1bee3f5.tar.gz
+
+    12345dabc43ee91e290ca022d499bc05b36728b5980376308646732183e42823  i686-pc-linux-gnu/openssl/openssl-1.0.1k-467e1bee3f5.tar.gz.hash
+
     df1b2245460453440b80be6904d901c09ca5575974090cc1127aef9c7efb7e2f  i686-pc-linux-gnu/openssl/openssl-1.0.1k-b4011475c97.tar.gz
 
     a0dbb727e126ec017cba5cf8238330f48fb75a580d89c6885f5798eea1545c95  i686-pc-linux-gnu/openssl/openssl-1.0.1k-b4011475c97.tar.gz.hash
@@ -1061,6 +1067,10 @@
     45c858b38f90167db1cb56793c689d46a97ee28be43761f470db68f64d639a3b  i686-pc-linux-gnu/qt/qt-5.5.0-33767815ff7.tar.gz
 
     1d4c574b732275f6659c84c34f528379e139f6dd8a72cced550f8dd26e3665bf  i686-pc-linux-gnu/qt/qt-5.5.0-33767815ff7.tar.gz.hash
+
+    82033b480ce8abf9b786ae12e303a95c0f41c98f33c5be47572c5510991ec66f  i686-pc-linux-gnu/qt/qt-5.5.0-92979175bfc.tar.gz
+
+    d5d2590c7cd392f3e12d15f0f624e7c769629e9af94e82653e28803c8ca3dc74  i686-pc-linux-gnu/qt/qt-5.5.0-92979175bfc.tar.gz.hash
 
     4f52e5338ddfdf2560abab008898bbb424c5cf9515a4eebd80e3713384807fde  i686-pc-linux-gnu/xcb_proto/xcb_proto-1.10-432820d7b98.tar.gz
 
@@ -1142,6 +1152,10 @@
 
     0b126f291adc81718abfcaebce49b360d07c20dd7b7590d60493ffcb4a4e836d  x86_64-unknown-linux-gnu/native_protobuf/native_protobuf-2.5.0-8d27223fe24.tar.gz.hash
 
+    6598f338136bfc461f54279ecfd713dc1a21b482a9f18b349904920696929ded  x86_64-unknown-linux-gnu/openssl/openssl-1.0.1k-467e1bee3f5.tar.gz
+
+    400fb7cdc1648942d73c9c6dc113134c40233383bfa57be0428b2e36614a99a7  x86_64-unknown-linux-gnu/openssl/openssl-1.0.1k-467e1bee3f5.tar.gz.hash
+
     d002a57df6bf13273002b37d530e9214b3b87f8abcff170bb97c4a8758a116e4  x86_64-unknown-linux-gnu/openssl/openssl-1.0.1k-b4011475c97.tar.gz
 
     f740b2da28896664847dcf3d40234d36281e290b39bc3781bd7c2eb8402bb92a  x86_64-unknown-linux-gnu/openssl/openssl-1.0.1k-b4011475c97.tar.gz.hash
@@ -1161,6 +1175,10 @@
     683310571aef67c0c07497da5e3f114a57b1d7407f49930a4e76ec85d0b53c19  x86_64-unknown-linux-gnu/qt/qt-5.5.0-33767815ff7.tar.gz
 
     47d0e2f045617b954813b2e68fe217821cbda8422d2b28fe84ffc755794c8f28  x86_64-unknown-linux-gnu/qt/qt-5.5.0-33767815ff7.tar.gz.hash
+
+    8d6aae819dde6ebf8b869da3561ce055e9f18c1c6cfa825604627f179778e60c  x86_64-unknown-linux-gnu/qt/qt-5.5.0-92979175bfc.tar.gz
+
+    be2cf605f57c27a8144b7d9e2cba390bbbb3900726283a0c25f4399e0a23565e  x86_64-unknown-linux-gnu/qt/qt-5.5.0-92979175bfc.tar.gz.hash
 
     2713addde36380ce5c65fa8a3938037a8b724fb3144255201cfd7239733bb39a  x86_64-unknown-linux-gnu/xcb_proto/xcb_proto-1.10-432820d7b98.tar.gz
 
