@@ -539,4 +539,4 @@
 - release: 0.10.4rc1-win
 - name: bitcoin-win-0.10
 - type: build
-- optionals: 
+- optionals:

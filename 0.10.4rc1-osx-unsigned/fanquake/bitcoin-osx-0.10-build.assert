@@ -538,4 +538,4 @@
 - release: 0.10.4rc1-osx-unsigned
 - name: bitcoin-osx-0.10
 - type: build
-- optionals: 
+- optionals:

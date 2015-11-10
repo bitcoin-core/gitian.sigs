@@ -411,4 +411,4 @@
 - release: 0.10.4rc1-osx-signed
 - name: bitcoin-dmg-signer
 - type: build
-- optionals: 
+- optionals:
