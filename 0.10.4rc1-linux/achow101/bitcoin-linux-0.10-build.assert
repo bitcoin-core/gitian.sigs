@@ -1,14 +1,14 @@
 --- !omap
-- out_manifest: ! '9ea749f2601d89818796add5b90b7d9c0187c3094f0628a76b09b3264714c977  bitcoin-0.10.0-linux32.tar.gz
+- out_manifest: ! 'ed8b84ee738e51e62f6e37bbe4100cb44c0feb1d71c67af80db3a5b89f7111bc  bitcoin-0.10.4-linux32.tar.gz
 
-    4be12ac4e1a2e1a27135009eb3dc003529f9e56c11df97e59c5b0415f79ed4ec  bitcoin-0.10.0-linux64.tar.gz
+    ce06893a72c5e2023ea0be98817fc56cb2e3ebd0f141af804fbe9f073b45661c  bitcoin-0.10.4-linux64.tar.gz
 
-    a516cf6d9f58a117607148405334b35d3178df1ba1c59229609d2bcd08d30624  src/bitcoin-0.10.0.tar.gz
+    98a92947f5c3b5e36b25aaf69e15e98e8b08237c936ba15ec7af33e586d5b0c4  src/bitcoin-0.10.4.tar.gz
 
 '
-- in_manifest: ! 'bb14652d5f58ede539d408b5af3e688e853c6fabc16b1f9bdcb16c61ba6b19f2  bitcoin-linux-0.10-desc.yml
+- in_manifest: ! 'dd40c459ced30d0e46a96c050543b2062c01a77dd2cd10a00603e2311b26bcbf  bitcoin-linux-0.10-desc.yml
 
-    git:047a89831760ff124740fe9f58411d57ee087078 bitcoin'
+    git:c2e7baf2bdb2e2c163bcadaebe68ee00c9a27e7c bitcoin'
 - base_manifests: !omap
   - precise-amd64: ! 'edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
 
@@ -574,7 +574,7 @@
 
       874233a6c787aa1ddfddf7a567e4f348f3b0c18638ded8cdd3794a11347aaa72  linux-libc-dev_3.2.0-23.36_amd64.deb
 
-      2abf9b164888b10d420753d76b0fc153646eccac96ae3bed063a61fc6b7fd81e  linux-libc-dev_3.2.0-92.131_amd64.deb
+      e767450ad308f088b3df04da2df2e285c475bd6a5e11fa39193b0c2001fe4bd5  linux-libc-dev_3.2.0-93.133_amd64.deb
 
       bca0256f7f038da304f7530d328ce60fa2d24f0e1554f2993df2f39a3c4b45e0  locales_2.13+git20120306-3_all.deb
 
@@ -1012,11 +1012,15 @@
 
     c326c4bc21ab8b5e01e3127bbbbc6bbb3a775b9a4a32049d0fa92f5337cddef0  i686-pc-linux-gnu/openssl/openssl-1.0.1k-182087a6cdb.tar.gz
 
+    ce61d50087429a164c5df7d78edf3e689c27c7c3ecfe61b76dcd03112e8de16c  i686-pc-linux-gnu/openssl/openssl-1.0.1k-d027b547cde.tar.gz
+
     4c543a7ce15deab4aa466b3e4919fe43c67cd4be45e2e15732e3996a09a7053e  i686-pc-linux-gnu/protobuf/protobuf-2.5.0-562b4128919.tar.gz
 
     76f526bbc33e34fb680bac582ce7e0b77692498b442acd441db6687edfe04b31  i686-pc-linux-gnu/qrencode/qrencode-3.4.3-c4a5c5efa1f.tar.gz
 
     5fa7b15717e561ce8493cd04b3fef934b399213e87ad8bd2615fd43bd548e67f  i686-pc-linux-gnu/qt46/qt46-4.6.4-04609ee4bc3.tar.gz
+
+    5fa7b15717e561ce8493cd04b3fef934b399213e87ad8bd2615fd43bd548e67f  i686-pc-linux-gnu/qt46/qt46-4.6.4-a50e210b50e.tar.gz
 
     34d26ec5cf01eb5627da2c138b2b1262e5420e0b2e11f8ca32317c8cfb254561  i686-pc-linux-gnu/xcb_proto/xcb_proto-1.10-18452eb65a6.tar.gz
 
@@ -1060,11 +1064,15 @@
 
     23883859724cc9c10a99c739af677662d75c06b3700789da2d634d36473c8192  x86_64-unknown-linux-gnu/openssl/openssl-1.0.1k-182087a6cdb.tar.gz
 
+    d3bcf5884deabcf11f1fa39d15a74bdcf443ed9847043748dbfe25618f3bf3a2  x86_64-unknown-linux-gnu/openssl/openssl-1.0.1k-d027b547cde.tar.gz
+
     6f4d7f15fc6a5c95891d5bb1f9bb9ece8821c52c4944c7d394cd9f2934d1ee0d  x86_64-unknown-linux-gnu/protobuf/protobuf-2.5.0-562b4128919.tar.gz
 
     612f7fe195ec28770aa5edcb68c97cdee17b92126bae3506083cc866c67c1200  x86_64-unknown-linux-gnu/qrencode/qrencode-3.4.3-c4a5c5efa1f.tar.gz
 
     c1e67903a9b4b2d714c7d6bc3a996ee464cbf767ea4ae4739da427c1bc37c4bc  x86_64-unknown-linux-gnu/qt46/qt46-4.6.4-04609ee4bc3.tar.gz
+
+    4e28383b16cb68bc39b7ceb754072b83979307d04f8fca5849ebe8533f5286cc  x86_64-unknown-linux-gnu/qt46/qt46-4.6.4-a50e210b50e.tar.gz
 
     e5f2788b71b7bc97ce7a7e49177847c1d9c479f40694ceb6e522930b52d9eb19  x86_64-unknown-linux-gnu/xcb_proto/xcb_proto-1.10-18452eb65a6.tar.gz
 

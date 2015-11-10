@@ -1,18 +1,18 @@
 --- !omap
-- out_manifest: ! 'd3c0179628ac93488bc15af262b89ef880a11c8c0931b73c2e7280a822ad3974  bitcoin-0.10.0-win32-setup.exe
+- out_manifest: ! '639757ec3c56f280096fab6dd32af7f5ccacb7672fff2ffbf73635ad26003e4a  bitcoin-0.10.4-win32-setup.exe
 
-    f1e1f7bee6470c0b96785de91dc0515799b14e1ac8c1e7219dfd4bc8b4f858a3  bitcoin-0.10.0-win32.zip
+    5fd5e08b520482684f8feada89c36bc8cb08da524c51d70df4ad018c418d7a3b  bitcoin-0.10.4-win32.zip
 
-    ae137fa83802dc85ef58ef181a7dae7f3f3155062581008616cd10beef147549  bitcoin-0.10.0-win64-setup.exe
+    76316add1595d8a8695f34b47283e79a1386a92338817d3390408730f190eb19  bitcoin-0.10.4-win64-setup.exe
 
-    dd2fe8b361dff438b98bc890d2e2098c8ecac46650b4378376e0d48851d65a53  bitcoin-0.10.0-win64.zip
+    686a95dc4d06451c609ddb0d6b59c546a81736407cb85155ebd95892b9aa370e  bitcoin-0.10.4-win64.zip
 
-    a516cf6d9f58a117607148405334b35d3178df1ba1c59229609d2bcd08d30624  src/bitcoin-0.10.0.tar.gz
+    98a92947f5c3b5e36b25aaf69e15e98e8b08237c936ba15ec7af33e586d5b0c4  src/bitcoin-0.10.4.tar.gz
 
 '
-- in_manifest: ! 'fb8ea67d1789767c0ce1e906f6502aee361229b5cd1264b4e8b9efaa56e4a9ca  bitcoin-win-0.10-desc.yml
+- in_manifest: ! 'e67d6c01b8944ed00efee2cf9bcfe38b6107e52fa31dff385768491b466e0057  bitcoin-win-0.10-desc.yml
 
-    git:047a89831760ff124740fe9f58411d57ee087078 bitcoin'
+    git:c2e7baf2bdb2e2c163bcadaebe68ee00c9a27e7c bitcoin'
 - base_manifests: !omap
   - precise-amd64: ! 'edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
 
@@ -574,7 +574,7 @@
 
       874233a6c787aa1ddfddf7a567e4f348f3b0c18638ded8cdd3794a11347aaa72  linux-libc-dev_3.2.0-23.36_amd64.deb
 
-      2abf9b164888b10d420753d76b0fc153646eccac96ae3bed063a61fc6b7fd81e  linux-libc-dev_3.2.0-92.131_amd64.deb
+      e767450ad308f088b3df04da2df2e285c475bd6a5e11fa39193b0c2001fe4bd5  linux-libc-dev_3.2.0-93.133_amd64.deb
 
       bca0256f7f038da304f7530d328ce60fa2d24f0e1554f2993df2f39a3c4b45e0  locales_2.13+git20120306-3_all.deb
 
@@ -596,7 +596,7 @@
 
       1e56642e0d87c769d7188c1f29fcad571a98d62e7d05dadeb729b6705ca3d5ed  lxc_0.7.5-3ubuntu52_amd64.deb
 
-      bc6fd5db66d82d2b1d9520d54e146e29846c2b4a7aa960c54166b25aa2356007  lxc_0.7.5-3ubuntu69_amd64.deb
+      32374b0e6e01824404b88b4e88f94dcf99e9dc5251ae3f1b0809a5436f76fb91  lxc_0.7.5-3ubuntu70_amd64.deb
 
       93dbcb14256be5a950924e908b39cb39124ce17716bd9abb38b61de504d0e8f9  m4_1.4.16-2ubuntu1_amd64.deb
 
@@ -1002,11 +1002,15 @@
 
     2689c205256eeecf0c278c46af8250784a48475982581ff7e4b1e7fbb5e6d575  i686-w64-mingw32/native_protobuf/native_protobuf-2.5.0-7d15374bfd5.tar.gz
 
+    1c1bb676659b1b56b21f5d11e9dd810c4d0720817daeb88cda9b8a230b246801  i686-w64-mingw32/openssl/openssl-1.0.1k-62016734f25.tar.gz
+
     1c1bb676659b1b56b21f5d11e9dd810c4d0720817daeb88cda9b8a230b246801  i686-w64-mingw32/openssl/openssl-1.0.1k-74808c6a1c9.tar.gz
 
     4fb779aa334215b7ffa04ef062bc9900fd987610057131f62d0cfc3cb19492d6  i686-w64-mingw32/protobuf/protobuf-2.5.0-b66ad37e1b1.tar.gz
 
     1c3d7a4d802a5bda18f0bb11f84427696264f197cb3adb5d56a1caf43b55115b  i686-w64-mingw32/qrencode/qrencode-3.4.3-0b4951f0630.tar.gz
+
+    ed1eae8fce3de546b3a62fa20b8deb9381724c83d03fb1f66c28296c36ac6bb4  i686-w64-mingw32/qt/qt-5.2.1-10e40be515d.tar.gz
 
     ed1eae8fce3de546b3a62fa20b8deb9381724c83d03fb1f66c28296c36ac6bb4  i686-w64-mingw32/qt/qt-5.2.1-d2f6d690fc2.tar.gz
 
@@ -1024,11 +1028,15 @@
 
     d71ab480c02ca19ab9852e6c1fee5cc5852b6f6205f62a8b58f865a3130d7d12  x86_64-w64-mingw32/native_protobuf/native_protobuf-2.5.0-7d15374bfd5.tar.gz
 
+    7498a8ba231a8066d8ca6a18db76f92db0d7b4bdd2ffcc1f70cff5c06998b27d  x86_64-w64-mingw32/openssl/openssl-1.0.1k-62016734f25.tar.gz
+
     7498a8ba231a8066d8ca6a18db76f92db0d7b4bdd2ffcc1f70cff5c06998b27d  x86_64-w64-mingw32/openssl/openssl-1.0.1k-74808c6a1c9.tar.gz
 
     05c7e58b620268633bfe7210c7cc4c9c54ddd9d8aa381c46828f9f9b889057b2  x86_64-w64-mingw32/protobuf/protobuf-2.5.0-b66ad37e1b1.tar.gz
 
     682b8baf9a27e1b65848b414bde8d53b7694ce3dad1ede5bbf61fb57377b0f3c  x86_64-w64-mingw32/qrencode/qrencode-3.4.3-0b4951f0630.tar.gz
+
+    9bdc45fc1235cd0d2ca0f8f941c71e6604c9c389d03ed36708d13c38635c20ce  x86_64-w64-mingw32/qt/qt-5.2.1-10e40be515d.tar.gz
 
     9bdc45fc1235cd0d2ca0f8f941c71e6604c9c389d03ed36708d13c38635c20ce  x86_64-w64-mingw32/qt/qt-5.2.1-d2f6d690fc2.tar.gz
 
