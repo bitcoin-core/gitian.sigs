@@ -1,7 +1,7 @@
 --- !omap
 - out_manifest: ! '7617e4302ed9627e80afc47ce9fdf34c2939e6049848db53c5998121186ab115  bitcoin-0.12.0-osx-unsigned.dmg
 
-    f153f1555b60edd61fa57a9b2f6b43d8d6449fd5c0e6a4ef0f4ba745c6376566  bitcoin-0.12.0-osx-unsigned.tar.gz
+    c427d4076e1827d5fd3d645d26f3e1504ffe8b53c33c559c5dc49605d0b10cbd  bitcoin-0.12.0-osx-unsigned.tar.gz
 
     31c2f964d362738cb60336e567369f63afdb09e3f91f498efe4c8fccce8017dd  bitcoin-0.12.0-osx64.tar.gz
 
@@ -942,29 +942,29 @@
 
     8c2cf3ec50d8d30a324b8569c5eaf79dd9b73741d354767a2e981b7b04470788  x86_64-apple-darwin11/miniupnpc/miniupnpc-1.9.20151026-4c86fee327d.tar.gz.hash
 
-    4b8f0004c3010b7e0feb98c0524aa022b7f435f5d0b2098f73f9dfc8a1162eab  x86_64-apple-darwin11/native_ccache/native_ccache-3.2.4-c61e8c81bf2.tar.gz
+    4a25598d2525b6eef0da63e34b083bfbc14380be2fed3606c81b7fef7a38b85e  x86_64-apple-darwin11/native_ccache/native_ccache-3.2.4-c61e8c81bf2.tar.gz
 
-    07ffbc9b8a12c3162d3af08ee0c937c454a83fe405caf34132f074e0791187ad  x86_64-apple-darwin11/native_ccache/native_ccache-3.2.4-c61e8c81bf2.tar.gz.hash
+    b1c387282f95035f03da9b2f20acd80ad548fb7fd13f640c42a0313716cdf4fe  x86_64-apple-darwin11/native_ccache/native_ccache-3.2.4-c61e8c81bf2.tar.gz.hash
 
-    1696773b267ab2089d965767b44e34a09104a08145d51ff1e81e4dd5b14d21f2  x86_64-apple-darwin11/native_cctools/native_cctools-ee31ae567931c426136c94aad457c7b51d844beb-9cd1fe0b799.tar.gz
+    2cdc21d8e1428f7926e1fa117da44378064c17cecb5b72e3058d232043618f5c  x86_64-apple-darwin11/native_cctools/native_cctools-ee31ae567931c426136c94aad457c7b51d844beb-9cd1fe0b799.tar.gz
 
-    ed240411c1729f216ac29a9bc0d178742975463f701d238c47437250168e92a7  x86_64-apple-darwin11/native_cctools/native_cctools-ee31ae567931c426136c94aad457c7b51d844beb-9cd1fe0b799.tar.gz.hash
+    cef2471b117d2621b13696972705ec90496da523069cbb2f9002d9e6c9d82efd  x86_64-apple-darwin11/native_cctools/native_cctools-ee31ae567931c426136c94aad457c7b51d844beb-9cd1fe0b799.tar.gz.hash
 
-    03fa24c7bb0435f6a837cfb552d1a548dffa81ecc8b6a279527331fc691fa813  x86_64-apple-darwin11/native_cdrkit/native_cdrkit-1.1.11-7e30dc7501c.tar.gz
+    7fd274c2b03b92a4b6479a8ebc03646399aad1f1918cf8a2d396cf8f554d0e60  x86_64-apple-darwin11/native_cdrkit/native_cdrkit-1.1.11-7e30dc7501c.tar.gz
 
-    0b5cb47bf799feac3d564b23450caf2e0fca962aa73fbe53ef1eaa86ed0f3994  x86_64-apple-darwin11/native_cdrkit/native_cdrkit-1.1.11-7e30dc7501c.tar.gz.hash
+    277696d7628e0f7e466669df7954e7cd65dae58a162148a8aeeb64383ef91a2a  x86_64-apple-darwin11/native_cdrkit/native_cdrkit-1.1.11-7e30dc7501c.tar.gz.hash
 
     cf14b900101da7fdc83b0ac09c04045dd8bc57e9d8d3417076ec1fe2848257b9  x86_64-apple-darwin11/native_comparisontool/native_comparisontool-8c6666f-3d5c9c14355.tar.gz
 
     a54d153cff8f86679b027dad0658f3e7073b6ce3d0d5722bd42b4bfa5b21f29b  x86_64-apple-darwin11/native_comparisontool/native_comparisontool-8c6666f-3d5c9c14355.tar.gz.hash
 
-    ec196761f29e9fdec693f978edeecfd87adc8b91e61b10f35c6be2634dc02493  x86_64-apple-darwin11/native_libdmg-hfsplus/native_libdmg-hfsplus-0.1-0cd26399a32.tar.gz
+    295028c13c443ed536261e03bae264263bfe7385fc7255287778cdf0faab01f3  x86_64-apple-darwin11/native_libdmg-hfsplus/native_libdmg-hfsplus-0.1-0cd26399a32.tar.gz
 
-    d83e2472c654efec4df15608f7a9ce10f0fb43be0563f64a93a659943d9a2948  x86_64-apple-darwin11/native_libdmg-hfsplus/native_libdmg-hfsplus-0.1-0cd26399a32.tar.gz.hash
+    2eddc60feef9daf8efe3cd44a465656e204b296c6d8b83eee735704b625a1e62  x86_64-apple-darwin11/native_libdmg-hfsplus/native_libdmg-hfsplus-0.1-0cd26399a32.tar.gz.hash
 
-    e72645e06b571e9fe2c01b346a62e7aa9e12fd6f3adae9f3699caf696c7d9cf8  x86_64-apple-darwin11/native_protobuf/native_protobuf-2.6.1-de13c7a620f.tar.gz
+    3dfa2f289b8c44dbd9aa39432c0d734c711febb552b91078eb2bbc81ce885ac3  x86_64-apple-darwin11/native_protobuf/native_protobuf-2.6.1-de13c7a620f.tar.gz
 
-    424eca2bf865c54236f5912a968de6ab0576280b3be9de0823943e8a17e2f6ea  x86_64-apple-darwin11/native_protobuf/native_protobuf-2.6.1-de13c7a620f.tar.gz.hash
+    18a59368d4f99ad86780a547ab4bd00ec361ebc26ed0fe4f250bab6c63fb7eaa  x86_64-apple-darwin11/native_protobuf/native_protobuf-2.6.1-de13c7a620f.tar.gz.hash
 
     6439dd4e841f89f15812c78d7117772a27e175709983fef9da53df98731d3cce  x86_64-apple-darwin11/openssl/openssl-1.0.1k-d5484d2b3be.tar.gz
 
@@ -978,9 +978,9 @@
 
     93ae2f8eefd89f9d8ba729d911f531ced7e7defc9b3747f96db9812ef3751c3d  x86_64-apple-darwin11/qrencode/qrencode-3.4.4-a14e62049cc.tar.gz.hash
 
-    34f91069ab7ac60c18c55622d26f94cd4182586ea57e500547b96c8c374ff99b  x86_64-apple-darwin11/qt/qt-5.5.0-f5c005964f0.tar.gz
+    842ec1896495d37733a38cf51d6312104a2ff8be51b432f1715941fdd919a950  x86_64-apple-darwin11/qt/qt-5.5.0-f5c005964f0.tar.gz
 
-    6e3c6ae402f2183591723a6fdaa918b02649612b041afaef9a9fc4215f835fbb  x86_64-apple-darwin11/qt/qt-5.5.0-f5c005964f0.tar.gz.hash
+    204e64b5107616ae1946e6dc33f50fd7f21f5b3aaab076b921a7f474bddc8a22  x86_64-apple-darwin11/qt/qt-5.5.0-f5c005964f0.tar.gz.hash
 
     135f1bf7b1bbdef3d39311d078247133e9e7dfa89df6b154095e8e85a112ebb2  x86_64-apple-darwin11/zeromq/zeromq-4.0.7-a97c4fc1386.tar.gz
 
