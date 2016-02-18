@@ -1,11 +1,11 @@
 --- !omap
 - out_manifest: |
-    46ef9d35b4fbd89e74065647173ae0bbe8e04c6b47413a421576b0800a04ef37  bitcoin-0.12.0-linux32.tar.gz
-    c713f82859a27e9e0f9e7fb926f074bef855e255bfbb1207ce6987534233137a  bitcoin-0.12.0-linux64.tar.gz
-    123ceefdef2adabab445e6907dd8377fc92cd4dbedce9584021abda5d71fb445  src/bitcoin-0.12.0.tar.gz
+    42cee702ece98d5bd488c6f231a07dfa0299f3e4010d6f76f021a8a432a48ed7  bitcoin-0.12.0-linux32.tar.gz
+    ad97b28524d4f64f06549fb7d0ca45cfaa0f35090cf230cd80f3ad8cb8eaf9bd  bitcoin-0.12.0-linux64.tar.gz
+    0f1cda66c841a548a07cc37e80b0727354b1236d9f374c7d44362acdb85eb3e1  src/bitcoin-0.12.0.tar.gz
 - in_manifest: |-
     2c6df1fd62d807b3b0c72bbb3b5f46b36fabe1ef5a85554df34795eb35448372  bitcoin-linux-0.12-desc.yml
-    git:68134263e2bf73e3226c24d8fc6145520a3e8624 bitcoin
+    git:188ca9c305d3dd0fb462b9d6a44048b1d99a05f3 bitcoin
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -603,7 +603,7 @@
     5a2f229b270d4c97599d94fbaabc5591bf9ad1ae9664c07ffe1c428478d9f101  x86_64-unknown-linux-gnu/xtrans/xtrans-1.3.4-23b01cec3da.tar.gz.hash
     493e89f3cfda4c4e96e7ba8ad16db003d88651b85882bbdd4e7a3a5d006531ab  x86_64-unknown-linux-gnu/zeromq/zeromq-4.0.7-7957e086cef.tar.gz
     259a1419e49f200463d69f67e6b7efc1c9f37947b43834f86e79fa87ae00a470  x86_64-unknown-linux-gnu/zeromq/zeromq-4.0.7-7957e086cef.tar.gz.hash
-- release: 0.12.0rc5-linux
+- release: 0.12.0-linux
 - name: bitcoin-linux-0.12
 - type: build
 - optionals: 
