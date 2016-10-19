@@ -1,25 +1,25 @@
 --- !omap
 - out_manifest: |
-    c16f6b124ad45b2701a340f846ed5c33fa98c153077cb8f9a043ddf564df36a9  bitcoin-0.13.0-aarch64-linux-gnu-debug.tar.gz
-    f94123e37530f9de25988ff93e5568a93aa5146f689e63fb0ec1f962cf0bbfcd  bitcoin-0.13.0-aarch64-linux-gnu.tar.gz
-    d95b77c406a23896a93e85273ffdb20d3e076ddc67218d99e061443347a7fce0  bitcoin-0.13.0-arm-linux-gnueabihf-debug.tar.gz
-    7c657ec6f6a5dbb93b9394da510d5dff8dd461df8b80a9410f994bc53c876303  bitcoin-0.13.0-arm-linux-gnueabihf.tar.gz
-    314528f516f0e2be6087f6fc168ad22b0b2b488563957b0667dbf09c721508ab  bitcoin-0.13.0-i686-pc-linux-gnu-debug.tar.gz
-    d6da2801dd9d92183beea16d0f57edcea85fc749cdc2abec543096c8635ad244  bitcoin-0.13.0-i686-pc-linux-gnu.tar.gz
-    e2fedc92dcfb76c7200c138b55b7fa2f9d70cf3063af7b7ae6e2f1e26d5ce465  bitcoin-0.13.0-x86_64-linux-gnu-debug.tar.gz
-    bcc1e42d61f88621301bbb00512376287f9df4568255f8b98bc10547dced96c8  bitcoin-0.13.0-x86_64-linux-gnu.tar.gz
-    0c7d7049689bb17f4256f1e5ec20777f42acef61814d434b38e6c17091161cda  src/bitcoin-0.13.0.tar.gz
+    173206fa6387e0981fe8a891e9e4505d0772a790da3ea4fe6dd2fdf0968fc01d  bitcoin-0.13.0-aarch64-linux-gnu-debug.tar.gz
+    7dd7e63f3556a82665cdfaefa55efa91f5aa27076604dd03593b5c875d875354  bitcoin-0.13.0-aarch64-linux-gnu.tar.gz
+    24ba98ca65ce1948374a489dfe39e1ae7c781c4d52662f7efe04aa9799eaa12b  bitcoin-0.13.0-arm-linux-gnueabihf-debug.tar.gz
+    cc132211695f1b232110608c71447f2e5aa7b5481b579b4d68464ee36ad931e0  bitcoin-0.13.0-arm-linux-gnueabihf.tar.gz
+    f80da9b92fd26a552199e9181914de2960fa5dfb083fba9efa16cf17868876c2  bitcoin-0.13.0-i686-pc-linux-gnu-debug.tar.gz
+    aebda1da33ba916d8d2950328b8b8b60bcf3964d932574acee8840c00e31011f  bitcoin-0.13.0-i686-pc-linux-gnu.tar.gz
+    1900d3d366d118324528e84069736c6ef227c96f969508bd68b0ea8a42bc383a  bitcoin-0.13.0-x86_64-linux-gnu-debug.tar.gz
+    ce755357a2ee19529e031b0c198d00b66aeb53bbfc816113bfc5844d61e51f9d  bitcoin-0.13.0-x86_64-linux-gnu.tar.gz
+    ac38270f75f61362ba3146a934cda6dcfd3219c751b372bc86a5faa8aed11de9  src/bitcoin-0.13.0.tar.gz
 - in_manifest: |-
     1782679b5be645ebc345ce570801b1275f14c6c408c98f882b23cc9307a11951  bitcoin-linux-0.13-desc.yml
-    git:a402396dce64c42ea73535b7dde4a9164d430438 bitcoin
+    git:e1169b052991671db1043f432a85b31f9245a4c2 bitcoin
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
       6ba0c69e6d2e8280eb00ff7fab2c1f74b1ed45a087ae5c86241c522296cdb2d1  apparmor_2.8.95~2430-0ubuntu5.3_amd64.deb
       acfbe24412719585ad24ea39bd1f4f208544f31c11b4a8bc4b0df8a715099f9a  apparmor_2.8.95~2430-0ubuntu5_amd64.deb
-      7c7f1322cd1a9371f8114f15878a23f2b6e8b35491f1ab2f76c2a0cb0bfd4ad4  apt-utils_1.0.1ubuntu2.14_amd64.deb
+      38703bc431a170c249fbf873dc7d7bc0456d2fb653dd797dd5b944e6e29d6ebd  apt-utils_1.0.1ubuntu2.15_amd64.deb
       390ba7af3e2c868b81e46ee6faf81468c1e62c9411209912ac13a38401368d01  apt-utils_1.0.1ubuntu2_amd64.deb
-      fe8dbb1971036ed7826c1bc4ac5c0f14692774252fa4371907ff2400948eae9e  apt_1.0.1ubuntu2.14_amd64.deb
+      54fc79616536176a014f41096356c589df02644ca1e8b0a88f4ce7d1a30fdc96  apt_1.0.1ubuntu2.15_amd64.deb
       97c1b69a2d459a3be8c11a8457940dd1ca5c7da140566b30dfca72e2e408950f  apt_1.0.1ubuntu2_amd64.deb
       79639ce363f7964dc6d034dc13b489ada1a0e0d3c6f0c27e5f6c86405164eef8  autoconf_2.69-6_all.deb
       5c89874cdd37762176158cb32d66ba3f251574408a0b142f73d939ca3f359a7c  automake_1%3a1.14.1-2ubuntu1_all.deb
@@ -56,7 +56,7 @@
       5de5833564851330700fa933358d84dc564dd5355a8023066fd5e5994a7640b4  cpp-arm-linux-gnueabihf_4%3a4.8.2-1_amd64.deb
       870229f8770d82dd5f1180681a3da52fa746a61b2e2a591ac2269261cfd81ed2  cpp_4%3a4.8.2-1ubuntu6_amd64.deb
       40fb20e8588676d056705e7888d61ad32f00ad8e0fad9ce20485044b68afe249  cron_3.0pl1-124ubuntu2_amd64.deb
-      66bfb5f9bbc97282f1b19910c55b2a515c94a44115431805b4bc586c91ee465f  curl_7.35.0-1ubuntu2.8_amd64.deb
+      af8fe9a3eff29602eba662d6fc6cd9ca0dadf7c7a48f4f3d5cb8aed25a8f881b  curl_7.35.0-1ubuntu2.9_amd64.deb
       5befdfa1b3adc0c41e43d4fa1b3c960efe54f170d434c85d94012611024c6069  dash_0.5.7-4ubuntu1_amd64.deb
       4abe6a0ae30ef2f6daa8c6053f64472cd4f82d29eb5c293ee7887a0a4a234b6e  debconf-i18n_1.5.51ubuntu2_all.deb
       85670d1a5b314c12c2f7c60e7fb075eb0e47fa1643a5a9a92cb900927a9f99a7  debconf_1.5.51ubuntu2_all.deb
@@ -132,9 +132,9 @@
       d89cf318d3c7562e34b310fa61cbc0a45aade994d79cdf7b06766a78f015fc2f  iptables_1.4.21-1ubuntu1_amd64.deb
       7886d5418a7ac87946916121387d271db2ab931fd87be49927b42b4ae08a4f35  iputils-ping_3%3a20121221-4ubuntu1.1_amd64.deb
       500daf10d08660bd56c83d1e2cf0a047c30a3402fe821c09f810c822c4677e21  iputils-ping_3%3a20121221-4ubuntu1_amd64.deb
-      bf41801b58c62241b8e46ad73a99d70dd5eed3de80e5b4cbd4d91d1635c6405b  isc-dhcp-client_4.2.4-7ubuntu12.5_amd64.deb
+      b2d36d1b0f92c96b8619f9eca079d6a2a50ed577ff1bdd3a57a9c0df3b564182  isc-dhcp-client_4.2.4-7ubuntu12.7_amd64.deb
       3968ee764beab796a25925d56d2b0189346173765ca370cdb2505c3674650fdd  isc-dhcp-client_4.2.4-7ubuntu12_amd64.deb
-      986090c2237e9804cbd414316011be104a517d2d219d893f1c2d3cf8d15bfb25  isc-dhcp-common_4.2.4-7ubuntu12.5_amd64.deb
+      fe620dad315a7c56d7db12b7c2b9695ff40643f2774c37c3d7ddb0efd8de6a59  isc-dhcp-common_4.2.4-7ubuntu12.7_amd64.deb
       b723b8eb94356f8b37837dcb3b77742b7d5bdf91a9cb19d1110b458992ce7ab1  isc-dhcp-common_4.2.4-7ubuntu12_amd64.deb
       17b7d3ada3e39bcb566c5cfd38d8b8c54e43f881d7b0721ab8a6c4d3323d24c7  kbd_1.15.5-1ubuntu1_amd64.deb
       997ddef05a1f2afe5eb96289a526bef665157e7fc481a77215bbf67277ae47ff  keyboard-configuration_1.70ubuntu8_all.deb
@@ -162,9 +162,9 @@
       e6617d53afa551f7591e38af77099a54614da4bbb2eb9b22641969052c491203  libapparmor1_2.8.95~2430-0ubuntu5_amd64.deb
       422a3f162a4b99eab8d9378240bb8fc06b4f0caa1b06f7884db3626fc23af984  libapr1_1.5.0-1_amd64.deb
       c415d795be6e3012544d2595e57e6aaa6d30be18e6740495fc670808f1dd7bb9  libaprutil1_1.5.3-1_amd64.deb
-      7790452d2d345fd05c928aaa0fec0f2e3337e5a7cf9d52d01120c9ae452a8ac6  libapt-inst1.5_1.0.1ubuntu2.14_amd64.deb
+      60dae18023327617673c92bd2338d4ec0dcad2ea05ba99525e4539de619504d9  libapt-inst1.5_1.0.1ubuntu2.15_amd64.deb
       7421b0a1756d33fc691bcb3ba24164889af40d618d1c7a31c83fe449d827e422  libapt-inst1.5_1.0.1ubuntu2_amd64.deb
-      4c795edc32086458b7030d6a2e0074877157f200c9966e3902fe72a399efe842  libapt-pkg4.12_1.0.1ubuntu2.14_amd64.deb
+      c643b7aa87ed3d81965bd6b4af6086099766f8a0ffdf7cc7a4b90ad048d6c597  libapt-pkg4.12_1.0.1ubuntu2.15_amd64.deb
       84eadc5b816f725be3de6d3740b3c9a7c61f224f52d91f177b7448dd552d30ec  libapt-pkg4.12_1.0.1ubuntu2_amd64.deb
       6bda339c1f27f1157ec900fc32ceaeb5d487b1b62cc81eaf55c65d9ee6a10fe6  libarchive-extract-perl_0.70-1_all.deb
       5317b23bb639a4c40b0601aaf160c45b67f48ff19bfbc6151d00250841b476f5  libasan0-armhf-cross_4.8.4-2ubuntu1~14.04.1cross0.11.2_all.deb
@@ -210,9 +210,9 @@
       c42936ac171d9cf5b99e5380688ee71cb153f223539310a451117d747dc794b9  libcloog-isl4_0.18.2-1_amd64.deb
       0bfc60d1afb59c7b70dc27826bed460487303fda57749e165e9aa61d5d842459  libcomerr2_1.42.9-3ubuntu1.3_amd64.deb
       c2489968a1a7030a1d54ec2fa25e101ffdb608c7e3621fba8255e7385538865b  libcomerr2_1.42.9-3ubuntu1_amd64.deb
-      f088de0a38912aaa576da7e484a2441f8d18da46efa0641f1edac54b229f9caa  libcurl3-gnutls_7.35.0-1ubuntu2.8_amd64.deb
+      b8dd9d08f024a0abd604bb25e2d9c181dfe235ca2fee6951b2b1c27c5060f3d4  libcurl3-gnutls_7.35.0-1ubuntu2.9_amd64.deb
       210bc9e45e845434ec082b0f014a2763bc3c6564c7e4b66c950ffed95dc80cea  libcurl3-gnutls_7.35.0-1ubuntu2_amd64.deb
-      6dde0db762aae6d0dccf7ffe55863b753390f65fc7e6637bf6473b339aa85f3a  libcurl3_7.35.0-1ubuntu2.8_amd64.deb
+      3c5d43827527564f472609a23ea50ecac9784acbbddadfe55ff91d946440d97b  libcurl3_7.35.0-1ubuntu2.9_amd64.deb
       eb81b387ce9d181caecfca99c93362792cb1f1e17655f27e388d0749f65c3030  libdb5.3_5.3.28-3ubuntu3_amd64.deb
       8991f490e859542bbe8f5a0d9c656e00e326eb275d5c80c74ba2b62341de1031  libdbus-1-3_1.6.18-0ubuntu4.3_amd64.deb
       24f4ef1aee77e6c5b5d06f07cf6509a1c6359537b06fca9eee7d694e1a641651  libdbus-1-3_1.6.18-0ubuntu4_amd64.deb
@@ -264,6 +264,7 @@
       d7e35695985c36030d8551a4126c63df79bf37101dd4747496a5f4c2c47ea488  libheimntlm0-heimdal_1.6~git20131207+dfsg-1ubuntu1_amd64.deb
       1b53dbfced0b70bf4ccf547364d61c891c7b6abf7ad8512eb99e092559a01e31  libhx509-5-heimdal_1.6~git20131207+dfsg-1ubuntu1.1_amd64.deb
       5e6435fad30cd03b9088267367ecc8b6163d20de6c8c57ab1f0303dfb6b68293  libhx509-5-heimdal_1.6~git20131207+dfsg-1ubuntu1_amd64.deb
+      88d1c3572be21908a16a62d15efb07b7098629a52dc290c0ea023f15381677cf  libidn11_1.28-1ubuntu2.1_amd64.deb
       12af9de1e5781cbd5dc94cf7102a924bae1ed4b2c81f3d6cb071202c37f7933a  libidn11_1.28-1ubuntu2_amd64.deb
       7529ac268ecac0f3132f7b13c9846c14984d41d3c1cfbc2060787de9ba208989  libisl10_0.12.2-1_amd64.deb
       88bc0a9e137353a90d478fc6acf989a8e93dca78ce02b5ccbe7754b04d1c535e  libitm1-arm64-cross_4.8.4-2ubuntu1~14.04.1cross0.11.2_all.deb
@@ -337,9 +338,9 @@
       b1895d40ded3a9001d5a03ad36cd8b8b7e15abfffcfe8f55d7e8ca3c4e311353  libpython2.7-stdlib_2.7.6-8ubuntu0.2_amd64.deb
       21d0bb3bc4ee13388c2033df4c9a005ec1356320fa8fc6a686df62b2029f8fd0  libpython3-stdlib_3.4.0-0ubuntu2_amd64.deb
       64f9c324e03b20c5565af8826232b506db866f79c1b15776a8734f73b137e0bc  libpython3.4-minimal_3.4.0-2ubuntu1_amd64.deb
-      f55554d6af317f95809dec0cf29d737ed8ad35cd548fdcb56afb7fb34da1a6e5  libpython3.4-minimal_3.4.3-1ubuntu1~14.04.3_amd64.deb
+      41076b88c92e0d982033f3c03aad89eb3d589d56bb54d43b9304752f9f1ed818  libpython3.4-minimal_3.4.3-1ubuntu1~14.04.4_amd64.deb
       8dac42f3b1857911b34aee2f35715dc1dabab92cf7bdc667ae1b85aefe9dfb3a  libpython3.4-stdlib_3.4.0-2ubuntu1_amd64.deb
-      c051a3b66ab32ba997d952b866a6a6b3cf0a6c666eae4218e53f6186c458777c  libpython3.4-stdlib_3.4.3-1ubuntu1~14.04.3_amd64.deb
+      c6e30fff83edb50215e680daa3015c408347f51fd06f1bdce971bd2fa8cc57a9  libpython3.4-stdlib_3.4.3-1ubuntu1~14.04.4_amd64.deb
       e6d8b79ec0b7a678e4ba41d368dfc6b47339ecf88c7af7482f11532bf9c8cd05  libquadmath0_4.8.2-19ubuntu1_amd64.deb
       8fe897df95ffb5294c1e99e87defdddafc805be84e54945c6273d0913a25308a  libquadmath0_4.8.4-2ubuntu1~14.04.3_amd64.deb
       446a8ba11a4007dcf74324dd8656368ecf548635d3dea5959af50a6878324ea8  libreadline6_6.3-4ubuntu2_amd64.deb
@@ -370,7 +371,7 @@
       edd482e586af852b92a1a26c0141fd4dd8959a0e59ce414f8a3ce360d7c4ef36  libsqlite3-0_3.8.2-1ubuntu2_amd64.deb
       0b5411e1a24c209d1dde53394714d01d6d67e61d8fc7c7e52df009045691dc31  libss2_1.42.9-3ubuntu1.3_amd64.deb
       d16fb7a71f3fc3f5c422e36251f113fc6d8e546f02366e6d9a2dc15a5a9be66a  libss2_1.42.9-3ubuntu1_amd64.deb
-      f44f661796eb9b48ce880dc930fe12b9b9599c012343c2485b8380ff299a2c88  libssl1.0.0_1.0.1f-1ubuntu2.19_amd64.deb
+      126114563b6377fea0ddaed838cf0ca765f84a3978b389689881f8cbb66d19c6  libssl1.0.0_1.0.1f-1ubuntu2.21_amd64.deb
       000043f7e6da7992c5a78160e3c49bf6a811774086dbe2f5a6063ef5a093ff0d  libssl1.0.0_1.0.1f-1ubuntu2_amd64.deb
       5a3045bba01e9bff3e07d6889ec5ccbf59da8511e579abedb59b04b5cb1e6628  libstdc++-4.8-dev-arm64-cross_4.8.4-2ubuntu1~14.04.1cross0.11.2_all.deb
       5d07fbe47aa378c0f94804be4de0f4d550e477d780e6007fa18c02e4d53c5a7a  libstdc++-4.8-dev-armhf-cross_4.8.4-2ubuntu1~14.04.1cross0.11.2_all.deb
@@ -416,16 +417,16 @@
       26bc3c1bfcaa158bed2e044eb90c1aa3d608129ce3c610cfa90202adc1b17732  linux-libc-dev-armel-cross_3.13.0-12.32cross1.104_all.deb
       327cfa8923b3a65988a1628d9dc620ed440d3fb89212a4a8a33ff7777d9cf4aa  linux-libc-dev-armhf-cross_3.13.0-12.32cross1.104_all.deb
       1a5d88e47eaeb28456e11449fd42244e7af7ccfc9d12a36ede2afb94d19f37d7  linux-libc-dev_3.13.0-24.46_amd64.deb
-      490dae3ab516630e2d658e173f02c4ba38d30e800889d8e1f7737bbc4ea7f847  linux-libc-dev_3.13.0-93.140_amd64.deb
+      f54c7924ce187665819c6eacb04e1fdd0a4ae842f5ad6cfc2acaf6b035d2c7ee  linux-libc-dev_3.13.0-98.145_amd64.deb
       998a5dfc01f07e24fe96321e2ce5a707ba1aef154c1cbacb2483722a0eee2df1  locales_2.13+git20120306-12.1_all.deb
       d78a27a94732ed1109754b72c4f1aa0d6fa81e595a18d62ef64fb7c6939f0871  locales_2.13+git20120306-12_all.deb
       c375ea23cf7c61fdc7d2029b6661481d2163d6fec6c5fd78ec8fd8fd5ce4c048  lockfile-progs_0.1.17_amd64.deb
       2b9764af85d375b1bf1581543a0c83bb9b73cf77b9aa7466a99317c729196dc8  login_1%3a4.1.5.1-1ubuntu9.2_amd64.deb
       4d69fec8a6e54d83f715ded22c1e71d97552833f30257797ad98f40d2ec7993b  login_1%3a4.1.5.1-1ubuntu9_amd64.deb
       53a1626da7decfbb604551c8a4d675ced99d396b0b025d17d435cec90861da08  logrotate_3.8.7-1ubuntu1_amd64.deb
-      c43f6d909b3064adf36e012fded1fee78c229b71eda9fed4a645636571ee740a  lsb-base_4.1+Debian11ubuntu6.1_all.deb
+      bc58bc1585409a41be7dd1d37678eca52ec3f1e156177d7cfa7f2e047ce7bbe9  lsb-base_4.1+Debian11ubuntu6.2_all.deb
       635264a0aa64fbb3ab8c7369f9e6f84888edaa9b2341a0ccccf45ce023c9323e  lsb-base_4.1+Debian11ubuntu6_all.deb
-      3512039c6f2e5864444417355f4ea6a9ff14201cbe76862298993c7286802097  lsb-release_4.1+Debian11ubuntu6.1_all.deb
+      6024bd044b11bd61aed28034d09415a2f3fa5208e5ec41e40e57f9f3899814b4  lsb-release_4.1+Debian11ubuntu6.2_all.deb
       d01171ab22e659be45cfa078d130c02cf7157b0a1e47fb2570507e7de630594c  lsb-release_4.1+Debian11ubuntu6_all.deb
       68c4483aa25c9c980e4c64a07ec90a80e8382c23ca11791d3e961dde244472df  lxc_1.0.3-0ubuntu3_amd64.deb
       1bd94be2110a84bef71f7a8e7c36f994266ff9d044651d9e72f837df57c0a98f  lxc_1.0.8-0ubuntu0.3_amd64.deb
@@ -447,9 +448,9 @@
       ef921d19b77685cec007c146616056ee679d80ee4ef834b9e2da8c01fa139eef  net-tools_1.60-25ubuntu2_amd64.deb
       ca6cb202c674c6b8615b6560dc9c6cd87530e8862ccc9aa79c888de6b2154377  netbase_5.2_all.deb
       2a8a27ca24e402f6d23ff730179812ee47cb067d1f3f82e627ec9bdcdeff1637  netcat-openbsd_1.105-7ubuntu1_amd64.deb
-      bd7db5f913e5e1e8eff2d21686a24fa6ff09bb166ec17b5e373a55d0a6ad3dfe  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2.14.04.8_amd64.deb
+      a3475e6a53da6795976a902eb701c40e967aca146357e1b32988644dfa548492  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2.14.04.10_amd64.deb
       d3870e5e0fc0599ce330436566b82449db07aa82fe3ce4a653130ccbb5847a85  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2_amd64.deb
-      d6df05098d33695405da8970aee9647fff0906e3859a1ec8638f6525ba44ee10  openssl_1.0.1f-1ubuntu2.19_amd64.deb
+      142a9b33ba16d9b984137a0ca808da8f8d4a97347376c6401166ad8539e81c01  openssl_1.0.1f-1ubuntu2.21_amd64.deb
       c9d9b15d13d8cf9ef31c55cad6ba3eaa4226f093b66871765d9955be351eb6b9  passwd_1%3a4.1.5.1-1ubuntu9.2_amd64.deb
       2c03f439990da1d02e5478c5261de7b5ee6de68052f99ca74df114ad7c135bae  passwd_1%3a4.1.5.1-1ubuntu9_amd64.deb
       a99d2cfac18163722a394c8d35909c1a94f90d12206fa4c0489042bbe514c3f8  patch_2.7.1-4_amd64.deb
@@ -474,9 +475,9 @@
       ef1d2cd670fd1c3dd6ed92f33557e98e2f959cb3c2ae6435fc315affa01e348b  python3-lxc_1.0.8-0ubuntu0.3_amd64.deb
       4028f087be9dda00544bc739f4799bbe15acc8095d8487f7ac330e0bd77ea22e  python3-minimal_3.4.0-0ubuntu2_amd64.deb
       45b0772602f2ae199fb6512eabc8d2cc5dd2f5e2e4aca192e0359fbf307d3925  python3.4-minimal_3.4.0-2ubuntu1_amd64.deb
-      528123fb6a2f6c5abe4b4b6b56d3308b65f0bab6318dde8f2b6f12dd159eb1bf  python3.4-minimal_3.4.3-1ubuntu1~14.04.3_amd64.deb
+      3a137c9b3d38f93ab0c94a8046eb03c8eb3e96a3e00f7c0e0106286eb990a34a  python3.4-minimal_3.4.3-1ubuntu1~14.04.4_amd64.deb
       1983d82e6f753d4ee94a0552882a43405e3507fdaa9b5f7167c614081256072a  python3.4_3.4.0-2ubuntu1_amd64.deb
-      d4f5c54235c47a51332e6e15d3246bbab3c03b37613a1250619379620c1567b6  python3.4_3.4.3-1ubuntu1~14.04.3_amd64.deb
+      bd7673ba733b8cfabe4a928ee4b586e5d93b9fc46fa7cacdfea647e34417adbc  python3.4_3.4.3-1ubuntu1~14.04.4_amd64.deb
       e1856a097784129b4a52c31c348fadd4eb82097762bcd652179946ebfab4592b  python3_3.4.0-0ubuntu2_amd64.deb
       d508f50de23b8d2dcaf5dd06b48ca284345bcd4e9cc4d1ac8ef764c0c3d95160  python_2.7.5-5ubuntu3_amd64.deb
       af5a20614ca5f5465d213f8da561739facbc375b724ff25cbded840373c9ee32  readline-common_6.3-4ubuntu2_all.deb
@@ -497,7 +498,7 @@
       effa15d814f14ffec9b8a7c0ee9f823779aa124deef1ec4b5495a4b437ac4d1b  sysvinit-utils_2.88dsf-41ubuntu6_amd64.deb
       e2ad9f15b9c8b2099e6aeb18c9714ef74ac9fa61ce0c55bdba828ae006b26e06  tar_1.27.1-1_amd64.deb
       161b910d8798ba29515e92f5d073f7edbd48f6c702e97f5c86310129d2701d31  tzdata_2014b-1_all.deb
-      3cf1593d2e899d332db35ca9a5a70582caed9d3d4f43dd1e528929a1bf56c317  tzdata_2016f-0ubuntu0.14.04_all.deb
+      d9c2fb08e7a05d625eeab4d612184dbcd637e4caf7cde2fa428012cb385ecb10  tzdata_2016g-0ubuntu0.14.04_all.deb
       315a58b14eec1e9252b2a2e294f2a4be1ccd043adb58bf5b7f56a538843ed504  ubuntu-keyring_2012.05.19_all.deb
       9a65bc091e3a18d604ccb93bd6347f02b7b908feb00f957b0085afcaa91f5453  ubuntu-minimal_1.325_amd64.deb
       6a540d4b23468eaca26a285940c16f19454af7af85de3a903f3118775a95a577  ucf_3.0027+nmu1_all.deb
@@ -584,6 +585,8 @@
     bc2bf6994975cdb290b7f1c1588b864d916d1b4b9cde59ba20777543fe2256aa  aarch64-linux-gnu/bdb/bdb-4.8.30-864a87540b7.tar.gz.hash
     56932a1ebb8dfc1b5f81e5cf03fdbe2f4bae3db3c4ab3ed00efa3f9d354fb958  aarch64-linux-gnu/boost/boost-1_59_0-87a8bb36ff8.tar.gz
     c0350c7016ec75f5b1587898eb6978aa22dabb828ff9d6fde52ce02cd9f4a66d  aarch64-linux-gnu/boost/boost-1_59_0-87a8bb36ff8.tar.gz.hash
+    d3357f11757c14e742d86a70199f37ff031906fd3595b9e5357e061acbec962d  aarch64-linux-gnu/boost/boost-1_59_0-a60273f63f8.tar.gz
+    1d76228f61683528b51bb84128108537fa2fd37e2153d258e9238b8572dbecfa  aarch64-linux-gnu/boost/boost-1_59_0-a60273f63f8.tar.gz.hash
     a6f4162a1f9ab3aa4642bff5770d2b5da66d6bdb0201ae853eb3d9795ab44d15  aarch64-linux-gnu/libevent/libevent-2.0.22-7a324093811.tar.gz
     9e387bf3bd720d5c9075336ac02f03a077d96569fa96b2ed07b3f2d2751333e2  aarch64-linux-gnu/libevent/libevent-2.0.22-7a324093811.tar.gz.hash
     46cf78cab6c6b7022b08d18f74aebb4a466fbc313f0a760a25afab1123cdf507  aarch64-linux-gnu/miniupnpc/miniupnpc-2.0-30b82f324e6.tar.gz
@@ -606,6 +609,8 @@
     28cbed822398f6fd1d14c445e381cafefda148ea14f5d73dc3e829f6ff22a66f  arm-linux-gnueabihf/bdb/bdb-4.8.30-4f5a65b100a.tar.gz.hash
     9b9ad714d57f80ab333c21bcb04627305d3653e6909e0fe879b69a245408cef0  arm-linux-gnueabihf/boost/boost-1_59_0-0ecf4ab094a.tar.gz
     8c9ab85df3c9a2f3a6994f93255fa8e88cd5c5e18dd52363bd6b9bf0961c34c7  arm-linux-gnueabihf/boost/boost-1_59_0-0ecf4ab094a.tar.gz.hash
+    660e00d8579f4630d0a3cd5b51256c389dd358c64a7f52d6b09ddd7218e53434  arm-linux-gnueabihf/boost/boost-1_59_0-953addfa603.tar.gz
+    8cb3b735d6d9cf59f2620fc9bb61e9a94f4705b70ae70e179cec0f9fbaf23235  arm-linux-gnueabihf/boost/boost-1_59_0-953addfa603.tar.gz.hash
     ede693bf42e579124e0746cb0f442abb7ce7432e9e0513d9f63c5f5003c925f8  arm-linux-gnueabihf/libevent/libevent-2.0.22-d5d81925b97.tar.gz
     d973c261441ed2b44d45989694d0565da15e056aaca68cb3ea54a859dc62b0f9  arm-linux-gnueabihf/libevent/libevent-2.0.22-d5d81925b97.tar.gz.hash
     18e2c56a4cde4b1077d2c409e751e70853047a0b81a2b11ceeacee52903a39aa  arm-linux-gnueabihf/miniupnpc/miniupnpc-2.0-7799df2bf49.tar.gz
@@ -626,6 +631,8 @@
     5dfe39f5d8e00bb73ad6945627add2ed4916e29026cfac4b7baa2aeecd1d8f95  arm-linux-gnueabihf/zeromq/zeromq-4.1.4-afa7e582ea9.tar.gz.hash
     7c66c5fc0dc52e8d5586690c227e0c942d2359b671263b7c4cf46cf2034e0533  i686-pc-linux-gnu/bdb/bdb-4.8.30-e682b01be48.tar.gz
     c1cd0a1657f490e5ec5341bc5cc04d372de1690460ec6fd51075ae9f43df21f8  i686-pc-linux-gnu/bdb/bdb-4.8.30-e682b01be48.tar.gz.hash
+    1a20f670946f556c5aaeb079daf19c3f0cd23ebbd2b6ce11ef5c8462f680f7d5  i686-pc-linux-gnu/boost/boost-1_59_0-52e79de721f.tar.gz
+    a9003c5e84a899fa05b777895215ed62386641baea3b336b732e43feb9445965  i686-pc-linux-gnu/boost/boost-1_59_0-52e79de721f.tar.gz.hash
     06c480f378b0895f4aec0bed0abe81324a00ffd57f862747392ba6738b265c7f  i686-pc-linux-gnu/boost/boost-1_59_0-a66228a0bc5.tar.gz
     e46bf85aac82319a7d9258f86b9d5c6994c1c1509676ff882b579863b46d875c  i686-pc-linux-gnu/boost/boost-1_59_0-a66228a0bc5.tar.gz.hash
     956c074aa1749b3c023e3aba30db06928cdad9f1e51c81644a8e1ac2436c6f29  i686-pc-linux-gnu/dbus/dbus-1.8.6-012ff2dafea.tar.gz
@@ -676,6 +683,8 @@
     a29d9eb26523be97b8f6c7dddeb9a9e99482d602b00a0e72f5f05d9accd6e3a0  x86_64-linux-gnu/bdb/bdb-4.8.30-f6048142090.tar.gz.hash
     e41ceade1e7ebf4114f4aa82552621d6888e5224d9759ca57ead5ee8b958ea93  x86_64-linux-gnu/boost/boost-1_59_0-5a3623eb568.tar.gz
     f12f8c7a7e87c417a8913317eed6c39741e3c73ba6e2410cb20f03d3f276f953  x86_64-linux-gnu/boost/boost-1_59_0-5a3623eb568.tar.gz.hash
+    6c6d14ea9315631c86592b6e7a4c9f3af857a0bb31bc1a9b03acedeb582f16a7  x86_64-linux-gnu/boost/boost-1_59_0-aba9b0c8029.tar.gz
+    4feae936d8c55fc9020d9bfe3ce0de46c4cacbaddacce56b0b693dff86edc271  x86_64-linux-gnu/boost/boost-1_59_0-aba9b0c8029.tar.gz.hash
     84d2a6d0a7cd88e6ec216361c7d6545a5c74b5739f20880a35237b62892353a0  x86_64-linux-gnu/dbus/dbus-1.8.6-f9cd1d91aad.tar.gz
     9ff3de8573c0068f4860f0c422d7d788971ac096bee8c87d9159fd39ce03eb45  x86_64-linux-gnu/dbus/dbus-1.8.6-f9cd1d91aad.tar.gz.hash
     4f70485f64ad4cb184ad8d9101c6d482ca7e75971f4be9a4f86d53f7061cab4a  x86_64-linux-gnu/expat/expat-2.1.1-a0a8f8fcc9c.tar.gz
@@ -723,4 +732,5 @@
 - release: 0.13.1rc1-linux
 - name: bitcoin-linux-0.13
 - type: build
-- optionals: 
+- optionals:
+
