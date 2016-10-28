@@ -1169,7 +1169,7 @@
     eb9bc94fe0d8866d9888c322b1f533626d53e57ce20d81a6b430611c37cd2b9b  x86_64-w64-mingw32/qt/qt-5.6.1-efe2cef6e23.tar.gz.hash
 
 '
-- release: 0.13.1rc3-win
+- release: 0.13.1rc3-win-unsigned
 - name: bitcoin-win-0.13
 - type: build
 - optionals: 
