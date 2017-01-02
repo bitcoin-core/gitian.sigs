@@ -399,7 +399,7 @@
     5345331c27874a1a6c0f54486da0e960d73cf1e6368faa738a7ebcaa7be9afac  x86_64-apple-darwin11/qrencode/qrencode-3.4.3-ea36c43d2c0.tar.gz
     335e6da1d1d25a7e835952ed881c36f1cf2fa7267ded9ee47ae0923428dbbec7  x86_64-apple-darwin11/qt/qt-5.2.1-6f392edfed6.tar.gz
     335e6da1d1d25a7e835952ed881c36f1cf2fa7267ded9ee47ae0923428dbbec7  x86_64-apple-darwin11/qt/qt-5.2.1-d80a2df7a54.tar.gz
-- release: 0.10.1-osx
+- release: 0.10.1-osx-unsigned
 - name: bitcoin-osx-0.10
 - type: build
 - optionals: 

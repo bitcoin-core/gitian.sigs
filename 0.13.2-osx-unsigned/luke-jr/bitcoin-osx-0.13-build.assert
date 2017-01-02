@@ -610,7 +610,7 @@
     5dd2c116d86539a06f586d0e868405c6104969ded418ab137d2490bfa7aa0c94  x86_64-apple-darwin11/qt/qt-5.6.1-79ed794048f.tar.gz.hash
     3af678425f374cbf29c91e80e7488206c21554c68b815dd504612d50be4b7930  x86_64-apple-darwin11/zeromq/zeromq-4.1.4-ad7d9756a2a.tar.gz
     6463ce0df1f5abf44446d6c69e073d1f384f5e515a5b149d93eb46093718cfcf  x86_64-apple-darwin11/zeromq/zeromq-4.1.4-ad7d9756a2a.tar.gz.hash
-- release: 0.13.2-osx
+- release: 0.13.2-osx-unsigned
 - name: bitcoin-osx-0.13
 - type: build
 - optionals: 
