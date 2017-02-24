@@ -1,8 +1,8 @@
 --- !!omap
 - out_manifest: |
-    0e331e4e6af3e6f70c9ccc77315067401e55ac1cddf4b5aa9dd79fb21484960e  bitcoin-0.14.0-osx-unsigned.dmg
-    b83cc49bfdf3dbe6968322423f3420357fac207567ea52911fcc016fedecaefd  bitcoin-0.14.0-osx-unsigned.tar.gz
-    da6820d3a1a743719eb1612fd07b5349586c1e2a143137654982579253e04b4f  bitcoin-0.14.0-osx64.tar.gz
+    8d4bb27b5ab1916f04b74a2bcdccf8781c46fea96a3d5eb4a4a7f587577df64c  bitcoin-0.14.0-osx-unsigned.dmg
+    73ba7d52758a896987b0f2783a932a7714b526fd228eed199c30538234542179  bitcoin-0.14.0-osx-unsigned.tar.gz
+    594abf98faa9832ae20d61ae8ebd758d9bbaa607557f7cd8d4eef52e3f0c5173  bitcoin-0.14.0-osx64.tar.gz
     eda7c76cd3514371d6dacea00b8265974928f568a299faaee826227a335bdd6a  src/bitcoin-0.14.0.tar.gz
 - in_manifest: |-
     1416b16ba333dd7ff4a9c22d8820da7bd99ca009b9660b471eec0971b9614bd8  bitcoin-osx-0.14-desc.yml
@@ -324,12 +324,9 @@
       368157b36a2f83945929397a3532ec4ee6e3cb59338caae8b68190840ac781d3  libxrandr2_2%3a1.5.0-1~trusty1_amd64.deb
       64e1d395ae62765fb7bb701356b44225ddf840d4332331599b59451e4132effc  libxrender1_1%3a0.9.8-1build0.14.04.1_amd64.deb
       ce6486e1bf18818735fd9b6aca6659dbfe73b3cb0d40558fb559fae3dc1746b0  linux-firmware_1.127.23_all.deb
-      d5a92a620437a4943b09332c73d5231386825e8f67fa3223d07fd6859b162505  linux-image-3.13.0-108-generic_3.13.0-108.155_amd64.deb
       2d15a37d03660fb0b974688936d8adae4d765854e7fb2c5f0739375f7037b378  linux-image-3.13.0-110-generic_3.13.0-110.157_amd64.deb
-      d9dc4de39639f05d0884e4a762dab4fb51f062aa063f540aad4b020fffab9952  linux-image-extra-3.13.0-108-generic_3.13.0-108.155_amd64.deb
       89cdfb4351aed76a34b22d7f345d53cc77cd26e5479b18904f19906f10efafa1  linux-image-extra-3.13.0-110-generic_3.13.0-110.157_amd64.deb
       dd1a34a763d73376c3eebc0cec5a60816ca4d0b5b6494c911a41b03b99720898  linux-image-generic_3.13.0.110.118_amd64.deb
-      78a7de484b326326015de964ec8c2a9ab26b4cd77f3bdd10ce440af892b00422  linux-image-virtual_3.13.0.108.116_amd64.deb
       b5e89fa55c466b2429f337b8aacb57b90e51e519a4ba9fd28b17a8faa6dfd5ae  linux-image-virtual_3.13.0.110.118_amd64.deb
       e4cecf33639ec3a2a89daeba819550f2721cae7e707fc5d443e7f4542e686735  linux-libc-dev_3.13.0-110.157_amd64.deb
       998a5dfc01f07e24fe96321e2ce5a707ba1aef154c1cbacb2483722a0eee2df1  locales_2.13+git20120306-12.1_all.deb
