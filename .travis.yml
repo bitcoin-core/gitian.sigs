@@ -1,0 +1,8 @@
+os: linux
+language: generic
+sudo: false
+branches:
+  only:
+    - master
+script:
+    - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then scripts/compare-sigs.py; fi
