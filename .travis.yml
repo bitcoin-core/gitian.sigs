@@ -1,5 +1,5 @@
 os: linux
-language: generic
+language: minimal
 sudo: false
 branches:
   only:
