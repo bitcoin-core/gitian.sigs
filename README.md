@@ -1,14 +1,64 @@
-This repository contains gitian signatures for Bitcoin.
-It should be updated on each release.
+This repository contains Gitian signatures for all releases of
+Bitcoin Core, as well as the public pgp keys used to sign the
+Gitian results.
 
 ## How to Make and Submit Gitian Sigs
 
-See the release process in the Bitcoin Core repository on how to build the
-release archives to create gitian sigs. This can be found in
-`doc/release-process.md`. Be sure to use the release process of **the tag that
-you're building**, so for example https://github.com/bitcoin/bitcoin/blob/v0.9.3/doc/release-process.md for
-`v0.9.3`.
+See the [the Bitcoin Core Gitian documentation](https://github.com/bitcoin-core/docs/blob/master/gitian-building.md).
 
-[Instructions for setting up a gitian build environment](https://github.com/bitcoin/bitcoin/blob/master/doc/gitian-building.md)
-can also be found there.
+## PGP keys of Gitian builders and Developers
 
+This list contains the public keys of Gitian builers and active developers.
+
+The most recent version of each pgp key used by the Gitian builder can be found
+on most pgp key servers.
+
+For your convenience, a mirror of commonly used keys is provided in the folder
+`gitian-keys`. To import those keys,
+
+```sh
+gpg --import ./gitian-keys/*.pgp
+```
+
+Also, make sure to fetch the latest version from the key server to see if any
+key was revoked in the meantime.
+To fetch the latest version of all pgp keys in your gpg homedir,
+
+```sh
+gpg --refresh-keys
+```
+
+To fetch based on a list with the fingerprint of the primary keys:
+
+```sh
+echo "
+152812300785C96444D3334D17565732E08E5E41
+E944AE667CF960B1004BC32FCA662BE18B877A60
+07DF3E57A548CCFB7530709189BBB8663E2E65CE
+912FD3228387123DC97E0E57D5566241A0295FA9
+C519EBCF3B926298946783EFF6430754120EC2F4
+F20F56EF6A067F70E8A5C99FFF95FAA971697405
+C060A6635913D98A3587D7DB1C2491FFEB0EF770
+BF6273FAEF7CC0BA1F562E50989F6B3048A116B5
+9A1689B60D1B3CCE9262307A2F40A9BF167FBA47
+E777299FC265DD04793070EB944D35F9AC3DB76A
+01CDF4627A3B88AAE4A571C87588242FBE38D3A8
+D3CC177286005BB8FF673294C5242A1AB3936517
+D2D1085B9425F9DEFA06E7932270E30C522739F6
+32EE5C4C3FA15CCADB46ABE529D4BCB6416F53EC
+4B4E840451149DD7FB0D633477DFAB5C3108B9A8
+71A3B16735405025D447E8F274810B012346C9A6
+E463A93F5F3117EEDE6C7316BD02942421F4889F
+B8B3F1C0E58C15DB6A81D30C3648A882F4316B9B
+CA03882CB1FC067B5D3ACFE4D300116E1C875A3D
+9692B91BBF0E8D34DFD33B1882C5C009628ECF0C
+37EC7D7B0A217CDB4B4E007E7FAB114267E4FA04
+D62A803E27E7F43486035ADBBCD04D8E9CCCAC2A
+D762373D24904A3E42F33B08B9A408E71DAAC974
+133EAC179436F14A5CF1B794860FEB804E669320
+ED9BDF7AD6A55E232E84524257FF9BDBCC301009
+77E72E69DA7EE0A148C06B21B34821D4944DE5F7
+79D00BAC68B56D422F945A8F8E3A8F3247DBCBBF
+AEC1884398647C47413C1C3FB1179EB7347DC10D
+" | while read LINE; do gpg --keyserver hkp://subset.pool.sks-keyservers.net --recv-keys $LINE; done
+```
