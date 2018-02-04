@@ -1,13 +1,13 @@
 --- !omap
 - out_manifest: |
-    3df2d565eb814e7eb715d5a22f194e5ea073893ecf3ccf7fd0ed29f698f27ecb  bitcoin-0.16.0-win32-setup.exe
-    89bc615f59862aacd69a95e758e3879901aa0a075574bd762453916249b924dc  bitcoin-0.16.0-win64-setup.exe
+    115dfb12360e0e43a06afda5d9ffac746b4b673a3cce9d811ddfa8dda156bcf6  bitcoin-0.16.0-win32-setup.exe
+    58e4e14388094644b803bfaae9aada5ee05982654091c343801abba045c5a501  bitcoin-0.16.0-win64-setup.exe
 - in_manifest: |-
     c949d2938e965fca91bfc508e7649ba4e089309da884726acb20753f10b9f094  bitcoin-win-signer-desc.yml
     f9a8cdb38b9c309326764ebc937cba1523a3a751a7ab05df3ecc99d18ae466c9  osslsigncode-1.7.1.tar.gz
     a8c4e9cafba922f89de0df1f2152e7be286aba73f78505169bc351a7938dd911  osslsigncode-Backports-to-1.7.1.patch
-    ea7b803b45c2b8d46528b16e136826a506f41e944362e6e9a1f5635a5ee743c6  bitcoin-win-unsigned.tar.gz
-    git:677e433ec125e3a68e05771fd3f936bd8ebd57f1 signature
+    fe0a1c71054b73a23edefb3221decf7076881ef3884c7a1128c87afb282bd7de  bitcoin-win-unsigned.tar.gz
+    git:32d66971cffe757189d23d6b418791037c90ab82 signature
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
