@@ -10,7 +10,7 @@ import subprocess
 travis_commit_range = os.getenv('TRAVIS_COMMIT_RANGE')
 if not travis_commit_range:
     print("Travis commit range is empty, exiting...")
-    sys.exit(0)
+    sys.exit(1)
 
 try:
     result = subprocess.check_output(['git', 'diff', '--no-commit-id', '--name-status', '-r', travis_commit_range])
@@ -23,7 +23,7 @@ print(files_added)
 subdir_name = ""
     
 for file_added in files_added:
-    file_added = file_added.split()
+    file_added = file_added.split(maxsplit=1)
 
     # Exclude certain files from some checks
     if file_added[1].startswith("scripts/") or file_added[1] in ['README.md', '.travis.yml', '.gitattributes']:
