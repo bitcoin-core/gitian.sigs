@@ -197,7 +197,7 @@
       a87d9e4af516cfc6ce04957d291a36347863939b4a61cbe4f16f1235d7b31b72  libdbus-1-3_1.12.2-1ubuntu1_amd64.deb
       7a3e3979966479aa108ff5ef991d00a080a37ea79822276c2ec1b6d5bf522333  libdebconfclient0_0.213ubuntu1_amd64.deb
       6ba9c0edd44421480af99ca8115d08197a541d9ac5e0c031cc650b5960d6bbd8  libdevmapper1.02.1_2%3a1.02.145-4.1ubuntu3_amd64.deb
-      655b846ebc19b759f3c76ca58e9ea7b88cff9b0b8fc68a577d2f657606011d49  libdns-export1100_1%3a9.11.3+dfsg-1ubuntu1.1_amd64.deb
+      a8e74eb806e7035bd01df1f1044dc72b89d7e02155936b75af7f5577a28a4b8f  libdns-export1100_1%3a9.11.3+dfsg-1ubuntu1.2_amd64.deb
       0b0ff4da4f97526452e443e3eba779116813a7135a0face6713dd4536fae0892  libdns-export1100_1%3a9.11.3+dfsg-1ubuntu1_amd64.deb
       2684524345c50525fcab9a65c828a5bdf2561920a3041fbe36bd42df6e991bb7  libdpkg-perl_1.19.0.5ubuntu2_all.deb
       5602704f613f916d06bbf9d62d93a989e830b0ab3baca22c6d3ccf91792562c8  libelf1_0.170-0.4_amd64.deb
@@ -223,9 +223,9 @@
       d12d02c0d237e2ff766c02e31f4779a455c81d9f7a8ebbc7a083cc2d77d5cf13  libgdbm5_1.14.1-6_amd64.deb
       5ebe2f31f36042bec9c390e8e890b24a3a1f21ec1b2f70eabee62c3bf63fd511  libgirepository-1.0-1_1.56.1-1_amd64.deb
       eb1df17e88a067c9fb4fc61c72decb9120ce11cb61b6ebbacd837cf24d7293e4  libglib2.0-0_2.56.1-2ubuntu1_amd64.deb
-      91684d41f618ff0f37d87d92c67bdce04f35192ac7f828a33d49d16e89782a58  libglib2.0-0_2.56.2-0ubuntu0.18.04.1_amd64.deb
+      10ad56647b16eb4f4134d6d432a70a1a5d8cb4df2201e53ef9109b04078e490c  libglib2.0-0_2.56.2-0ubuntu0.18.04.2_amd64.deb
       95c46d4540b666679715696d597d026c454455251cc4fa294dfbfb8071848b15  libglib2.0-data_2.56.1-2ubuntu1_all.deb
-      1be1a0b52026e395858ba5bf7354b2955a1dd4d5ca50431cd484d18d2e527009  libglib2.0-data_2.56.2-0ubuntu0.18.04.1_all.deb
+      77735d268205542a6f0283b02ce14677415391ddcab24e4f25c2b7a9bfa1aebb  libglib2.0-data_2.56.2-0ubuntu0.18.04.2_all.deb
       5b4ea4fdbc5cf9b2eb9ce7b05de58a36b507982d9fa8c84765d41279e4645be1  libgmp10_2%3a6.1.2+dfsg-2_amd64.deb
       bed4a513a5dc7ae82b0be7191a874f1ad6778a7fab14c5a27c0e62b367584452  libgnutls30_3.5.18-1ubuntu1_amd64.deb
       c52a35bee91511a7ef843be3b6deb56353270720f6466e0c878c3f0e802999a0  libgomp1-arm64-cross_8-20180414-1ubuntu2cross1_all.deb
@@ -245,7 +245,7 @@
       583990ffb2f9e0ea825d4ce3a7c6db0af4f3afc544114c5b6769d95ff5e0b310  libip4tc0_1.6.1-2ubuntu2_amd64.deb
       349a023039d8be9f82af597a16975bd07d5227536d0c13b2dc87e85e70a2ac7f  libip6tc0_1.6.1-2ubuntu2_amd64.deb
       cbfeeb56a1f71663508b9dae6db88cdf2559429997f29148cd394b99fece343e  libiptc0_1.6.1-2ubuntu2_amd64.deb
-      8d4ebaa2ceebb7b658f5cb8a063c608521effad9d907523650c9d5599d77e0c1  libisc-export169_1%3a9.11.3+dfsg-1ubuntu1.1_amd64.deb
+      c3c242201cda367baf6d40cf4b1136a94e668107aed5d294a301353fcdf7f43e  libisc-export169_1%3a9.11.3+dfsg-1ubuntu1.2_amd64.deb
       1b1a89ebd4efbc00d89568a944374172e351871ce8a253a172a6f16d8552c0dd  libisc-export169_1%3a9.11.3+dfsg-1ubuntu1_amd64.deb
       07a0827aba14140b1833ca19ced3f939b2d075646094926d43678a0d19cc942f  libisl19_0.19-1_amd64.deb
       8877028cbfab0f85df0cb2eeab8fa1422da2bfd3050a270070ed3fe7251b317b  libitm1-arm64-cross_8-20180414-1ubuntu2cross1_all.deb
@@ -313,7 +313,9 @@
       8efffc8297cd3d6a86835417abd071b1eacacd1683780297d8d7b149816324b4  libpython3-stdlib_3.6.5-3_amd64.deb
       22e8d528ab2636408236270dea5e2f1ff03e3cf77d2f7f2fbe8378e725eb5072  libpython3-stdlib_3.6.5-3ubuntu1_amd64.deb
       ce512b47c542886ab93a2667f6ea90edfa063eb0bc5d6a9ac782dfa44e201be2  libpython3.6-minimal_3.6.5-3_amd64.deb
+      4fa2c29863ae90639519cda058fb7712bf5c557dfdd40bca444e061b40117e61  libpython3.6-minimal_3.6.6-1~18.04_amd64.deb
       ff164729742f8e8cfc1024d6b62d9d7dff64761a0a83ed6028e44dc6dfa6a618  libpython3.6-stdlib_3.6.5-3_amd64.deb
+      7e1d05616c31b44419935360aca95e79d9d472ca02f2cae394d1651a56bd0af7  libpython3.6-stdlib_3.6.6-1~18.04_amd64.deb
       e06e02b5f1c7bb418ba2f3c6d1ec9f64368178f8f6e5e937d7bbc8017fc8923e  libquadmath0_8-20180414-1ubuntu2_amd64.deb
       8706403267e95615f1b70db31ff16709361982728b308466346e01c20a743dd5  libreadline7_7.0-3_amd64.deb
       387e00fbdf31384eb031cd3297c1cbec4d22b07e724d8ce2d8b219fdabac9ba8  libroken18-heimdal_7.5.0+dfsg-1_amd64.deb
@@ -434,7 +436,9 @@
       9fdb6f981280b2ded7f7af8df08e507ae9c95bae2238ffadd6f0013b9c4da15f  python3-minimal_3.6.5-3ubuntu1_amd64.deb
       6c893d278b4e5a4a02289633c1867cd64ae33fa9ce31b351d2b8e6c63f7d8449  python3-yaml_3.12-1build2_amd64.deb
       a033297a970487552f82a210df18b206ddc465627e68ddcbad2603818083d946  python3.6-minimal_3.6.5-3_amd64.deb
+      7525cb4edc3870c818d520d976dbb26cb96bdb446e6e88a842e77b7a920cd7bc  python3.6-minimal_3.6.6-1~18.04_amd64.deb
       98ee1f9e9b6feb8be0e7e45a3d037b573932a693333f618272c36441b2dd6b84  python3.6_3.6.5-3_amd64.deb
+      b2d99a6b1b29deb53c466ee851d38cdb5e641e0dfb8d96276ba161c4359fee6b  python3.6_3.6.6-1~18.04_amd64.deb
       cdc58a9d2abbf17ce9a6892724f6008f0a5a98eea9f9b788eb3fef757f8c4b52  python3_3.6.5-3_amd64.deb
       acd7f997890e8253a7ebad0ccde45a6ee88a5e7d7dd705b7f79b6e16d7d80790  python3_3.6.5-3ubuntu1_amd64.deb
       9be87952c519f94d24129911e03a24035ce47358cb528492f4a53b2e31efc6d4  python_2.7.15~rc1-1_amd64.deb
@@ -473,8 +477,10 @@
       2e6dafb986ee8ebbc4e1c344fab090a41710cab878fc9cd89336cdd1740518c5  zlib1g_1%3a1.2.11.dfsg-0ubuntu2_amd64.deb
 - cache_common_manifest: |
     a09c9ba4684670a0375e42d9d67e7f12c1f62581a27f28f7c825d6d7032ccc6a  807d6fd1be5d2224872e381870c0a75387fe05e6.tar.gz
+    b57cadfd26e4754efdf89e9e37de87885f9b5c847b2615688ca04adfaf6ca604  biplist-0.9.tar.gz
     4c0549764c5fe50b28042ec21aa2e14fe1a2224e239a1dae77d9e7f3932aa4c6  biplist-1.0.3.tar.gz
     7bcc5caace97baa948931d712ea5f37038dbb1c5d89b43ad4def4ed7cb683332  boost_1_64_0.tar.bz2
+    fa9d7f38367431bc86b19ad107d709ca7ecf1574fdacca01698bdf0a47cd8567  ccache-3.3.4.tar.bz2
     b50d64c214a65b1a79afe3a964c691931a4233e2ba605d793eb85d0ac3652564  cdrkit-1.1.11.tar.bz2
     99b28a6b48e793705228a390471991386daa33a9717cd9ca007fcdde69608fd9  clang-llvm-3.7.1-x86_64-linux-gnu-ubuntu-14.04.tar.xz
     12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef  db-4.8.30.NC.tar.gz
@@ -482,6 +488,7 @@
     535bec5356b1ff4a753fcd87f14509297d2fa044955d3bb0308e5c2e54bb2d09  download-stamps/.stamp_fetched-bdb-db-4.8.30.NC.tar.gz.hash
     150079aa5f2d25b3c47f7d8f100c91589ff979c806b9588abdf3fd41c0d80869  download-stamps/.stamp_fetched-boost-boost_1_64_0.tar.bz2.hash
     8593f5665da44100a147fcee43d52b28afadce1c1e641acb991e0907219c13af  download-stamps/.stamp_fetched-dbus-dbus-1.10.18.tar.gz.hash
+    926ed1208ad1b7cc14c0df479fcb95acb7cbfda6335f62b4daf6b863cad12ba8  download-stamps/.stamp_fetched-expat-expat-2.2.1.tar.bz2.hash
     81650451b3d2a2b01147ea377e22f635934c363a4b972f2f4fd06cb088f9c58b  download-stamps/.stamp_fetched-expat-expat-2.2.5.tar.bz2.hash
     23191199041c56052c2b9afcd71d748c1e0afd0de0d02d282b48329c86f69166  download-stamps/.stamp_fetched-fontconfig-fontconfig-2.12.1.tar.bz2.hash
     b021625812c54a575243819fb614697008df8e858bdfc9e11a5cc092da87e8b0  download-stamps/.stamp_fetched-freetype-freetype-2.7.1.tar.bz2.hash
@@ -490,24 +497,31 @@
     5dc2dc482dc96dac714057334bd8931ef3e0097c95138519c42d3774efaf6fc8  download-stamps/.stamp_fetched-libXext-libXext-1.3.2.tar.bz2.hash
     532370ca823eacfac7d833ceb42f6a07f6cfc9d82d30a73047400c29235ecd75  download-stamps/.stamp_fetched-libevent-release-2.1.8-stable.tar.gz.hash
     969244f07df6dd122c0058d3a5b3f536fedfe5c0616767a3403d1154f61ec80d  download-stamps/.stamp_fetched-libxcb-libxcb-1.10.tar.bz2.hash
+    40708024b9c3d26e55007cb5fa4b61cc909c84178ceb599eafbab0ac6aaaf6eb  download-stamps/.stamp_fetched-miniupnpc-miniupnpc-2.0.20170509.tar.gz.hash
     6d08ccdcc3ad793df90e48a692496a19e9a528d01c79a3ce1e156f607e14f730  download-stamps/.stamp_fetched-miniupnpc-miniupnpc-2.0.20180203.tar.gz.hash
+    dcc59df61c91326e1883572b08e395950055b38308d9e79d2dce30d5f5cacf04  download-stamps/.stamp_fetched-native_biplist-biplist-0.9.tar.gz.hash
     d6b485443284cf3b6c0221522ed8b898f80505916b18ec362c45be3c3e6d470e  download-stamps/.stamp_fetched-native_biplist-biplist-1.0.3.tar.gz.hash
+    bf5ff075466ce96217cf52d57e43e20cd7467dce0815aa1c7f1d43eab2dd2599  download-stamps/.stamp_fetched-native_ccache-ccache-3.3.4.tar.bz2.hash
     e4218ec55578cb3ac4584875699a79ee6f00c5034c25fe80ba91ddf9b4d0bcce  download-stamps/.stamp_fetched-native_cctools-807d6fd1be5d2224872e381870c0a75387fe05e6.tar.gz.hash
     242fda2b08636d4016c2274f98007e3e055075a3e40f01a0bf44d2dd67b9d44b  download-stamps/.stamp_fetched-native_cdrkit-cdrkit-1.1.11.tar.bz2.hash
     04748232b0333d24937c79128a26a7d7c570dac05c6a8f26110967e795801a5a  download-stamps/.stamp_fetched-native_ds_store-v1.1.2.tar.gz.hash
     c92c765d4e59b48da8191377c2dd2f29563b65dcb9bd47e44bc80d071160b1a6  download-stamps/.stamp_fetched-native_libdmg-hfsplus-libdmg-hfsplus-v0.1.tar.gz.hash
+    c5d2ae938ee390eb66e4eecaa6b74635daaa2d2515e6ff51249ae9e7ae210fd3  download-stamps/.stamp_fetched-native_mac_alias-v2.0.6.tar.gz.hash
     cb8b0081c0555ce0bdcefdad036d0df9f3169e2caeceb2b1c8c13d9e5efff758  download-stamps/.stamp_fetched-native_mac_alias-v2.0.7.tar.gz.hash
     e412c568c1086517540477f53471bd60e4963b4d1c741eb3077f7384f5e2e013  download-stamps/.stamp_fetched-native_protobuf-protobuf-2.6.1.tar.bz2.hash
     3728c9a0ac4bd203cbc38b0fc668914eeaaeb7a1c4d3ed9fe18c3a86028e497e  download-stamps/.stamp_fetched-openssl-openssl-1.0.1k.tar.gz.hash
     e412c568c1086517540477f53471bd60e4963b4d1c741eb3077f7384f5e2e013  download-stamps/.stamp_fetched-protobuf-protobuf-2.6.1.tar.bz2.hash
     4f1aae01029d0f1b99e12c7c7277ad2aa6029c6deb679a8b39fbea5f49bceeea  download-stamps/.stamp_fetched-qrencode-qrencode-3.4.4.tar.bz2.hash
+    d9ba3be2b05c4e4004d87ac162c3a07f87d4a9144fb1b5befc1d5097a52c6772  download-stamps/.stamp_fetched-qt-qtbase-opensource-src-5.7.1.tar.gz.hash
     4087b01b390bfeadddaa22ef8013896f9131052e52780b6604ee056027cde126  download-stamps/.stamp_fetched-qt-qtbase-opensource-src-5.9.6.tar.xz.hash
     4af4da419d7b883f3408f4481d01673d281d6cfb94ff377d4bd8355db55fcb06  download-stamps/.stamp_fetched-xcb_proto-xcb-proto-1.10.tar.bz2.hash
     ee2477a7137b31b74af6257a0667cf4865dc30627db29457533ad21090a9004b  download-stamps/.stamp_fetched-xextproto-xextproto-7.3.0.tar.bz2.hash
     bd6d9005476f33b17b4a42e0b621c97d083653dfee0412067b1956c2520fbd9b  download-stamps/.stamp_fetched-xproto-xproto-7.0.26.tar.bz2.hash
     72bd9b346743d9042c03f23f20d669a792193cacbcc40d5e6868bc08288bc904  download-stamps/.stamp_fetched-xtrans-xtrans-1.3.4.tar.bz2.hash
+    c17ee6cbe36cdeac4c0d0022272e9c60cbd69d0c19b5b892934a8ed120fb1e3b  download-stamps/.stamp_fetched-zeromq-zeromq-4.2.2.tar.gz.hash
     b78d5486eff2dc50c8556922b1d137cc61ba472be197d1d00d56cdfc6c55936f  download-stamps/.stamp_fetched-zeromq-zeromq-4.2.3.tar.gz.hash
     15eb999e692fc7accf1b7ff83271f2a6c82149b6b9aebf52319e4730c857aa9e  download-stamps/.stamp_fetched-zlib-zlib-1.2.11.tar.gz.hash
+    1868cadae4c82a018e361e2b2091de103cd820aaacb0d6cfa49bd2cd83978885  expat-2.2.1.tar.bz2
     d9dc32efba7e74f788fcc4f212a43216fc37cf5f23f4c2339664d473353aedf6  expat-2.2.5.tar.bz2
     b449a3e10c47e1d1c7a6ec6e2016cca73d3bd68fbbd4f0ae5cc6b573f7d6c7f3  fontconfig-2.12.1.tar.bz2
     3a3bb2c4e15ffb433f2032f50a5b5a92558206822e22bfe8cbe339af4aa82f88  freetype-2.7.1.tar.bz2
@@ -516,20 +530,26 @@
     f829075bc646cdc085fa25d98d5885d83b1759ceb355933127c257e8e50432e0  libXext-1.3.2.tar.bz2
     6569a02eb31c2827080d7d59001869ea14484c281efab0ae7f2b86af5c3120b3  libdmg-hfsplus-v0.1.tar.gz
     98d9ab05b636dd088603b64229dd1ab2d2cc02ab807892e107d674f9c3f2d5b5  libxcb-1.10.tar.bz2
+    d3c368627f5cdfb66d3ebd64ca39ba54d6ff14a61966dbecb8dd296b7039f16a  miniupnpc-2.0.20170509.tar.gz
     90dda8c7563ca6cd4a83e23b3c66dbbea89603a1675bfdb852897c2c9cc220b7  miniupnpc-2.0.20180203.tar.gz
     8f9faeaebad088e772f4ef5e38252d472be4d878c6b3a2718c10a4fcebe7a41c  openssl-1.0.1k.tar.gz
     ee445612d544d885ae240ffbcbf9267faa9f593b7b101f21d58beceb92661910  protobuf-2.6.1.tar.bz2
     efe5188b1ddbcbf98763b819b146be6a90481aac30cfc8d858ab78a19cde1fa5  qrencode-3.4.4.tar.bz2
+    95f83e532d23b3ddbde7973f380ecae1bac13230340557276f75f2e37984e410  qtbase-opensource-src-5.7.1.tar.gz
     eed620cb268b199bd83b3fc6a471c51d51e1dc2dbb5374fc97a0cc75facbe36f  qtbase-opensource-src-5.9.6.tar.xz
+    22d67de915cb8cd93e16fdd38fa006224ad9170bd217c2be1e53045a8dd02f0f  qttools-opensource-src-5.7.1.tar.gz
     50e75417ec0c74bb8b1989d1d8e981ee83690dce7dfc0c2169f7c00f397e5117  qttools-opensource-src-5.9.6.tar.xz
+    3a15aebd523c6d89fb97b2d3df866c94149653a26d27a00aac9b6d3020bc5a1d  qttranslations-opensource-src-5.7.1.tar.gz
     9822084f8e2d2939ba39f4af4c0c2320e45d5996762a9423f833055607604ed8  qttranslations-opensource-src-5.9.6.tar.xz
     316ddb401745ac5d222d7c529ef1eada12f58f6376a66c1118eee803cb70f83d  release-2.1.8-stable.tar.gz
     3b3ecb7bf0a5157f5b6010bc3af7c141fb0ad3527084e63336220d22744bc20c  v1.1.2.tar.gz
+    78a3332d9a597eebf09ae652d38ad1e263b28db5c2e6dd725fad357b03b77371  v2.0.6.tar.gz
     6f606d3b6bccd2112aeabf1a063f5b5ece87005a5d7e97c8faca23b916e88838  v2.0.7.tar.gz
     7ef40ddd855b750bc597d2a435da21e55e502a0fefa85b274f2c922800baaf05  xcb-proto-1.10.tar.bz2
     f3f4b23ac8db9c3a9e0d8edb591713f3d70ef9c3b175970dd8823dfc92aa5bb0  xextproto-7.3.0.tar.bz2
     636162c1759805a5a0114a369dffdeccb8af8c859ef6e1445f26a4e6e046514f  xproto-7.0.26.tar.bz2
     054d4ee3efd52508c753e9f7bc655ef185a29bd2850dd9e2fc2ccc33544f583a  xtrans-1.3.4.tar.bz2
+    5b23f4ca9ef545d5bd3af55d305765e3ee06b986263b31967435d285a3e6df6b  zeromq-4.2.2.tar.gz
     8f1e2b2aade4dbfde98d82366d61baef2f62e812530160d2e6d0a5bb24e40bc0  zeromq-4.2.3.tar.gz
     c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1  zlib-1.2.11.tar.gz
 - cache_package_manifest: |
