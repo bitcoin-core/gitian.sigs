@@ -1,18 +1,18 @@
 --- !!omap
 - out_manifest: |
-    b9b5b4e8aca22e55743b028a8d55bf54c0364a61210b472f0d8e19efd8d23896  bitcoin-0.18.0rc1-aarch64-linux-gnu-debug.tar.gz
-    05192e13f191c076af9dbc0554bb75f2c09084b634ad7323c08d1c124d17c709  bitcoin-0.18.0rc1-aarch64-linux-gnu.tar.gz
+    3ee74310d156136b9ac4cd8da67c7ffc738ba3134ab4fcc225781f177721b075  bitcoin-0.18.0rc1-aarch64-linux-gnu-debug.tar.gz
+    48dcd8bf5ce6d2d9d590f377f70d4ae4cb725a6f76a26d5b5c35c297d9396194  bitcoin-0.18.0rc1-aarch64-linux-gnu.tar.gz
     07acb7196c9441610e6144618f66059b3889b24a3ff5f5136e2fa40109cbe483  bitcoin-0.18.0rc1-arm-linux-gnueabihf-debug.tar.gz
     322fa22a2a78e936184c4d0dcf94c79371a06a4b7025bd9dba18128599f9754f  bitcoin-0.18.0rc1-arm-linux-gnueabihf.tar.gz
     ce9e2809759ee2a758b31438ab1d61606ce519bd7af7a6184781f35afbf9635f  bitcoin-0.18.0rc1-i686-pc-linux-gnu-debug.tar.gz
     2d538a5cbac652632b06fee5a8fb05cfd42d98932ad064df6ea2c566a2d7aaf3  bitcoin-0.18.0rc1-i686-pc-linux-gnu.tar.gz
-    0b1b1f4a36c6523cb54cefe0089566d2a5a3b24ad7c5625d00e76fbd0f430aac  bitcoin-0.18.0rc1-riscv64-linux-gnu-debug.tar.gz
-    2c8ad57b3a0b9a21c920216150475138674eddfd1beca33600814435c2ce8cd2  bitcoin-0.18.0rc1-riscv64-linux-gnu.tar.gz
+    61f3a578a4ff5a5b0b1be5052426d0aa357df6254e105dbc317342c84143522f  bitcoin-0.18.0rc1-riscv64-linux-gnu-debug.tar.gz
+    726e923b00c59ce68d84e4ef580cd95758c7e4124e216417c9e9807a33bd4043  bitcoin-0.18.0rc1-riscv64-linux-gnu.tar.gz
     a58389d72c9ab664d8195ef032dd6e832980192d7d358369341b8e6104b097e9  bitcoin-0.18.0rc1-x86_64-linux-gnu-debug.tar.gz
     c3ef8cce062814b6646dfd539bcdef2da27911667240657c706850fcdb308f93  bitcoin-0.18.0rc1-x86_64-linux-gnu.tar.gz
     169988c577d7ee362149f8afb71aa3cbdebdedee1f3d15a9ed5178d1964fe6a1  src/bitcoin-0.18.0rc1.tar.gz
 - in_manifest: |-
-    43f4a588e48abfbacfb8a292a807b0e1b70e76e49cae1319a1d4bd1e39c3b079  bitcoin-linux-0.18-desc.yml
+    7878947869ea0c1df97ac69942d5768987e0890e4754126a807fe85541c46b14  bitcoin-linux-0.18-desc.yml
     git:6a178e52618dff0405d2a239c9f3cc0c4582fb50 bitcoin
 - base_manifests: !!omap
   - bionic-amd64: |
@@ -42,6 +42,7 @@
       ac8da1df654f8a43a9a82eb67d257dd903db075f078814cac3a30d5deeef4bf7  bsdutils_1%3a2.31.1-0.4ubuntu3.3_amd64.deb
       842bf6a7fbe2b179185ebfa3032771972a4f18405c398a792759f1a98b419a85  bsdutils_1%3a2.31.1-0.4ubuntu3_amd64.deb
       bb2ac7aae21544446f45e200aacb961f0dcc42c8caacdc8da37d392b222abfa0  build-essential_12.4ubuntu1_amd64.deb
+      dc5fb08a31210901d047b6af208ebde915ea09628ff36fea93ce0837d887fb2e  busybox-initramfs_1%3a1.27.2-2ubuntu3.1_amd64.deb
       48c4216f5494e5edf7b58d1fb39be8ff47525554926f848ea5a1e3325e2d3e65  busybox-initramfs_1%3a1.27.2-2ubuntu3_amd64.deb
       69a037ca02b43dcbb578cfd29a2d703ed55771cc68e681c5f67343b85e3fa244  bzip2_1.0.6-8.1_amd64.deb
       195ffe05ae7d060146f890b1db225f5e8c3a8c505ffbea1fba30a520a1cd58d8  ca-certificates_20180409_all.deb
@@ -147,11 +148,11 @@
       220e0bfc812916f6f94d603096298591272dc4645a057b7734d211c7f81e9ec7  hostname_3.20_amd64.deb
       5be3de2fafd378bbd0a39106536c6960087bdbaa0fad88f35396ec9e1401282e  init-system-helpers_1.51_all.deb
       dfed676bd0592994647f8478c92f66b8649930546794fe9c63e5e090a4f115b9  init_1.51_amd64.deb
-      09cc319dd5500ded0961c3fd75c4042493827df07822d9fb954a5dbe68893e76  initramfs-tools-bin_0.130ubuntu3.6_amd64.deb
+      95df92d371bb43cb2b672e620e360e2d11d9836d4cb532af0aeda4463a7c1901  initramfs-tools-bin_0.130ubuntu3.7_amd64.deb
       6a230e81093a00d7a53fc044bae1304994b89161fb4ab5da3679677e3d5b9f99  initramfs-tools-bin_0.130ubuntu3_amd64.deb
-      6827264f2228342804a9da375b395ed8a33a50cee187e953df9a34e279f1cbfc  initramfs-tools-core_0.130ubuntu3.6_all.deb
+      1169511d4bf81b45b068d06971d3dc57c8fa2b60b27159984f7df158b40fef04  initramfs-tools-core_0.130ubuntu3.7_all.deb
       1aa674aefb65ba370e4a470d72fa32fbac5eb07024c7486e58b52a7cb6022f1f  initramfs-tools-core_0.130ubuntu3_all.deb
-      61162f4a2b91d0871af74f5ff0199992c77310c45a4016ea6eb32ad3b85f0483  initramfs-tools_0.130ubuntu3.6_all.deb
+      dd6f9a5c9ab7e6afd9ef4707726a5719d2cef3b4394ee774ab4dd3c6f4b564ce  initramfs-tools_0.130ubuntu3.7_all.deb
       a657d7cfcdf08faf3d84a25cf7cb551d565db4703a501e30152b15f20cfb639d  initramfs-tools_0.130ubuntu3_all.deb
       dffa3066d361d48f5c791609aa7026e98a7868f5c21cfd2c2139f0ad9c4b7908  iproute2_4.15.0-2ubuntu1_amd64.deb
       8f3d5fc01ac860d0e63af7342d567c9b9aa387ed3cb0a04797467e119c2a855e  iptables_1.6.1-2ubuntu2_amd64.deb
@@ -304,6 +305,7 @@
       d8cf39755d6d1da57a4a191eac46e246ee1f4f5ecfe0ccef5ac0c4d219b456c3  libhogweed4_3.4-1_amd64.deb
       99b3774d1df23ca1340352bbf5b23f50238b4022ca165b271ea1e94a68e257a3  libhx509-5-heimdal_7.5.0+dfsg-1_amd64.deb
       7a2f29ea19f2a14007fd84f25eb88db4fb3ca43bdb07fdb681329d2b5daca500  libicu60_60.2-3ubuntu3_amd64.deb
+      fc23712a9ffd26dcea7ed93f5c2f59a96a249e407dcb93fb6977e681c4b1af9c  libidn11_1.33-2.1ubuntu1.1_amd64.deb
       f453173ab7715b33b42200724630384ebfe79c0b2dc74735fd35549fc11b6532  libidn11_1.33-2.1ubuntu1_amd64.deb
       7c1fb7783db47e5eb7ef5ae0946bb9bf667ffd7b26e5951177981310f449a4ca  libidn2-0_2.0.4-1.1build2_amd64.deb
       583990ffb2f9e0ea825d4ce3a7c6db0af4f3afc544114c5b6769d95ff5e0b310  libip4tc0_1.6.1-2ubuntu2_amd64.deb
@@ -472,7 +474,7 @@
       8cddb4bbd59ebc6edc6d9ecc02086817022b0162cef00a6cd02772b9d185efa2  linux-libc-dev-armhf-cross_4.15.0-35.38cross1.1_all.deb
       0e709b8838370e531e47e4ca60a48f4a9d90d2270d9110175ceaa069b7245bd5  linux-libc-dev-riscv64-cross_4.15.0-35.38cross1.2_all.deb
       4a73fc5ea2d0284e9c9c84cba68cbe5880505afbae0a3201c65c336daf8f8239  linux-libc-dev_4.15.0-20.21_amd64.deb
-      bd38bc30ae0f6cc76a9c986b3ad958eabacd71abff59e3888908426c3c7e4c5a  linux-libc-dev_4.15.0-45.48_amd64.deb
+      dda44b80da4d9b7149a2525f17f906f6b7b10a7b8c3df5e6f48d9cc58ca6e6b1  linux-libc-dev_4.15.0-46.49_amd64.deb
       315d6ee1c21ca410dec962affd563528ee4bc1ec8b9fdab5755f74236658d374  locales_2.27-3ubuntu1_all.deb
       565f3725508d78b7c5bfd021c8c5437c7f8703be2d5d591d5b0197b901f26a86  login_1%3a4.5-1ubuntu1_amd64.deb
       7e3ddaba91f40115337042afd94352b157e9c31cf02fc6da6237f6a6ff7c4405  logrotate_3.11.0-0.1ubuntu1_amd64.deb
@@ -522,6 +524,7 @@
       9d7ebb8667b2a9fefe2d0202349ca58216f515a2c0d30d8561557d5a881d9f31  python2.7_2.7.15~rc1-1ubuntu0.1_amd64.deb
       47f7bb0fe28baabb97982388bed7e8ebe4a9a59caa3c0184d47c52711f61f2e0  python3-dbus_1.2.6-1_amd64.deb
       f12891060d6851adc12b31147bd9b6379dc8d36ff2f9ebda383d1c2eebebad8f  python3-gi_3.26.1-2_amd64.deb
+      3e7771eb3acb2e8b98f34f839f046e0c3382c3b115c6f4afc991bf801f0531ed  python3-gi_3.26.1-2ubuntu1_amd64.deb
       8a0d89bb2a9d630927444948391e3fe921c2ac4f4e63934155af80436d0995fa  python3-minimal_3.6.5-3_amd64.deb
       5a535025423b658181d50e8af9f376aae6fd85efaa6931ae148554788912774d  python3-minimal_3.6.7-1~18.04_amd64.deb
       7a0e008e7407096d52a177ed39d3f8e9e234105e0d8685efa97976f50412ccd2  python3-netifaces_0.10.4-0.1build4_amd64.deb
@@ -754,8 +757,8 @@
     0a474316fd35f1ca329a253cb9d2b5bff631f5d0ab6d872d194dedc72970988d  aarch64-linux-gnu/protobuf/protobuf-2.6.1-c2535a45005.tar.gz.hash
     7a6b775d483ab8f827e0d47cad22f3bed6ec8a8269c1e80b1c5024470ef91078  aarch64-linux-gnu/qrencode/qrencode-3.4.4-92f35d51cab.tar.gz
     d5faa893a65cc62f185175879071eb3c9fcabd4d579d943d17f920be80613c0c  aarch64-linux-gnu/qrencode/qrencode-3.4.4-92f35d51cab.tar.gz.hash
-    0ea0505957b2782ae27df05c02e23d03eec2022e6c1d70ce3ee95f7240458f3e  aarch64-linux-gnu/qt/qt-5.9.7-00e49c28923.tar.gz
-    1072bd255200dd801d8209b0efd44f6325ae3d5b768a84c4c4a838687e80e0f0  aarch64-linux-gnu/qt/qt-5.9.7-00e49c28923.tar.gz.hash
+    dd83cac462d64e279f6aff80f78906beac42e848c2f48804c838771cb8cf57e6  aarch64-linux-gnu/qt/qt-5.9.7-00e49c28923.tar.gz
+    bf21b91a1dc669f36d90879832b250aee0686329551ee89e5118535c28b4b7f0  aarch64-linux-gnu/qt/qt-5.9.7-00e49c28923.tar.gz.hash
     50b41730ef0d79f95dd8cede1e41450ab91915fa0b62ffa8d5e02df814893b26  aarch64-linux-gnu/xcb_proto/xcb_proto-1.10-f77e7dc6364.tar.gz
     8447397e1fba525d67b6016236b33bba8cea671629a06194b6c695288b70d6ca  aarch64-linux-gnu/xcb_proto/xcb_proto-1.10-f77e7dc6364.tar.gz.hash
     40ae5b8c61411b8757fa36f9f188c4cd0c4c22a18644c23cc70085ca50259bc4  aarch64-linux-gnu/xextproto/xextproto-7.3.0-2cab4966c14.tar.gz
@@ -800,8 +803,8 @@
     e0138b5be3adafe8da13b312cd134700461e739c89c3dd80779a919b702af0c8  arm-linux-gnueabihf/protobuf/protobuf-2.6.1-c11af519d68.tar.gz.hash
     cdb5c5819101f686ca199771f72ff6fbc0a1a321e09bd4c1634ee756867371c6  arm-linux-gnueabihf/qrencode/qrencode-3.4.4-6bffc14803d.tar.gz
     39bff665d5a69e3930c57de08f5e7235d05498d26092a06794fefea2ba796624  arm-linux-gnueabihf/qrencode/qrencode-3.4.4-6bffc14803d.tar.gz.hash
-    9b085ecbb6b26e98964ab79328b163072a747998fbfc0ee1e0067ff5ecc306a6  arm-linux-gnueabihf/qt/qt-5.9.7-c955d435ca5.tar.gz
-    4de2ca82c85f76c3ce8bd0ed8e28441de638bc1ca681c3fb30ff4aa48665d44c  arm-linux-gnueabihf/qt/qt-5.9.7-c955d435ca5.tar.gz.hash
+    12bb4f52a8c27337c566f6b692373b78c17e893abc30abf74ce51bae04275a9e  arm-linux-gnueabihf/qt/qt-5.9.7-c955d435ca5.tar.gz
+    73270dfe2dc2ce9a82a4d17452ad05653fcda9f44d63b7e36123c722efc31ab0  arm-linux-gnueabihf/qt/qt-5.9.7-c955d435ca5.tar.gz.hash
     2ffd0fff8557c54edcc22c90c73cdc21ece4d36ba4fbbb7e3c30bd5e3b2c3356  arm-linux-gnueabihf/xcb_proto/xcb_proto-1.10-111cf9e0a1e.tar.gz
     b1b4b5fd02706015825196ad5638950cb4449f9e47cff188451ac2f0cbc953ad  arm-linux-gnueabihf/xcb_proto/xcb_proto-1.10-111cf9e0a1e.tar.gz.hash
     3017baeb800412747994e9dd13eea8493fe953e85b6670ae141f06d78e801c85  arm-linux-gnueabihf/xextproto/xextproto-7.3.0-28f5d53c767.tar.gz
@@ -846,8 +849,8 @@
     d84af26f4bed432149ce3f5a43392056416fad8c53506d4fd5ee29697fbfa969  i686-pc-linux-gnu/protobuf/protobuf-2.6.1-798ca26823e.tar.gz.hash
     3e8bbfd7f273126246883bab688537696464c04bb882e80aa06dc3821998efef  i686-pc-linux-gnu/qrencode/qrencode-3.4.4-be551f82e5b.tar.gz
     7ecff97b06dcbb74b73202dbddc650c44c848ab50dd1b51660fe4606d9058687  i686-pc-linux-gnu/qrencode/qrencode-3.4.4-be551f82e5b.tar.gz.hash
-    90c7d7357691e5f07638d8c06423346ab06be51000794a43d505a16a72061cec  i686-pc-linux-gnu/qt/qt-5.9.7-6f4a01ad343.tar.gz
-    8cbd063263885c6661ffcc7112bf48f28c0bc0e22a5ebc6a00d2686b0dd82427  i686-pc-linux-gnu/qt/qt-5.9.7-6f4a01ad343.tar.gz.hash
+    7db0a1cbec038322b2de8e3be7eacb902077fd41d8e5599c64f7bf9be38da1b6  i686-pc-linux-gnu/qt/qt-5.9.7-6f4a01ad343.tar.gz
+    9ada58531ef4fc112a8c0255da4cc17d14ae1b86e20e6dc5e493abfc277ddb21  i686-pc-linux-gnu/qt/qt-5.9.7-6f4a01ad343.tar.gz.hash
     534ca4620ff97d31bcab7187e3859962b24cc228fd71bf377bda414c8f104ba9  i686-pc-linux-gnu/xcb_proto/xcb_proto-1.10-d5a4202ee91.tar.gz
     6398bf91010df36af90050bdcc4bc6b39a03f6eb180653c4412f4460bafc288f  i686-pc-linux-gnu/xcb_proto/xcb_proto-1.10-d5a4202ee91.tar.gz.hash
     f315ccab656b69bf08a7d91ba84da1c7f0ad157389fde3ee0601a98e6fcd4122  i686-pc-linux-gnu/xextproto/xextproto-7.3.0-c6e81442101.tar.gz
@@ -938,8 +941,8 @@
     bc4c9cfe7167546b3ae220f00faf4ca21d0f459ecb330b0ad68eab2afcc251ad  x86_64-linux-gnu/protobuf/protobuf-2.6.1-d0145fee638.tar.gz.hash
     51a86c746a93b7343d6519febf3f788555c04bc1266a4d9ef0d65eee6ca66cbb  x86_64-linux-gnu/qrencode/qrencode-3.4.4-b57049c44f8.tar.gz
     41b44d188233cf15dda97aabe8c4b484e40dcefa95b476702d07d134cc64b098  x86_64-linux-gnu/qrencode/qrencode-3.4.4-b57049c44f8.tar.gz.hash
-    41fd5534e3dcf031cb63aeaccec5d47380170d7f71141fa6e8c738528e8405d9  x86_64-linux-gnu/qt/qt-5.9.7-ef914701800.tar.gz
-    775be0648220be79fadd8530c40361362bebf010bcddcde078f40f33b920fe9b  x86_64-linux-gnu/qt/qt-5.9.7-ef914701800.tar.gz.hash
+    0ac790fd91a41931d27d282669be04d9dc54a8ae5abba7aa8ff3f0c80b2202aa  x86_64-linux-gnu/qt/qt-5.9.7-ef914701800.tar.gz
+    702c6981c4567e1f341609d3ea9f2052c79bf370ca44dd10964b09f62c4e5a89  x86_64-linux-gnu/qt/qt-5.9.7-ef914701800.tar.gz.hash
     4ea0a187c5178d8b4ed0e0d2fa1e5c0dbbe04070e2cafe44f13266a87d6c39b1  x86_64-linux-gnu/xcb_proto/xcb_proto-1.10-2e5bb6a9279.tar.gz
     a76e55006160696cb49fd93438faa537fbff0c1f3d4196146ea0a761ed9b123a  x86_64-linux-gnu/xcb_proto/xcb_proto-1.10-2e5bb6a9279.tar.gz.hash
     653d571d2045877d8b5086662eaf2701e98aed44c3457455e89085010f1ee968  x86_64-linux-gnu/xextproto/xextproto-7.3.0-f4a8d457d76.tar.gz
