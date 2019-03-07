@@ -9,7 +9,7 @@
     51e10d29177c5367ecd25847c2d13a78b62fa23561e7f22f3cd828995dca1028  bitcoin-0.18.0rc1-win64.zip
     169988c577d7ee362149f8afb71aa3cbdebdedee1f3d15a9ed5178d1964fe6a1  src/bitcoin-0.18.0rc1.tar.gz
 - in_manifest: |-
-    18bec16c8178739f6aeb2d6b1170ee4e2cc542ae069441e00551db79ea66d821  bitcoin-win-0.18-desc.yml
+    8dd382aa3ef3e1d09645ced7d0cafc3bf36709ffa86f512c1e1fccb65892d057  bitcoin-win-0.18-desc.yml
     git:6a178e52618dff0405d2a239c9f3cc0c4582fb50 bitcoin
 - base_manifests: !!omap
   - bionic-amd64: |
@@ -38,6 +38,7 @@
       ac8da1df654f8a43a9a82eb67d257dd903db075f078814cac3a30d5deeef4bf7  bsdutils_1%3a2.31.1-0.4ubuntu3.3_amd64.deb
       842bf6a7fbe2b179185ebfa3032771972a4f18405c398a792759f1a98b419a85  bsdutils_1%3a2.31.1-0.4ubuntu3_amd64.deb
       bb2ac7aae21544446f45e200aacb961f0dcc42c8caacdc8da37d392b222abfa0  build-essential_12.4ubuntu1_amd64.deb
+      dc5fb08a31210901d047b6af208ebde915ea09628ff36fea93ce0837d887fb2e  busybox-initramfs_1%3a1.27.2-2ubuntu3.1_amd64.deb
       48c4216f5494e5edf7b58d1fb39be8ff47525554926f848ea5a1e3325e2d3e65  busybox-initramfs_1%3a1.27.2-2ubuntu3_amd64.deb
       69a037ca02b43dcbb578cfd29a2d703ed55771cc68e681c5f67343b85e3fa244  bzip2_1.0.6-8.1_amd64.deb
       195ffe05ae7d060146f890b1db225f5e8c3a8c505ffbea1fba30a520a1cd58d8  ca-certificates_20180409_all.deb
@@ -108,11 +109,11 @@
       220e0bfc812916f6f94d603096298591272dc4645a057b7734d211c7f81e9ec7  hostname_3.20_amd64.deb
       5be3de2fafd378bbd0a39106536c6960087bdbaa0fad88f35396ec9e1401282e  init-system-helpers_1.51_all.deb
       dfed676bd0592994647f8478c92f66b8649930546794fe9c63e5e090a4f115b9  init_1.51_amd64.deb
-      09cc319dd5500ded0961c3fd75c4042493827df07822d9fb954a5dbe68893e76  initramfs-tools-bin_0.130ubuntu3.6_amd64.deb
+      95df92d371bb43cb2b672e620e360e2d11d9836d4cb532af0aeda4463a7c1901  initramfs-tools-bin_0.130ubuntu3.7_amd64.deb
       6a230e81093a00d7a53fc044bae1304994b89161fb4ab5da3679677e3d5b9f99  initramfs-tools-bin_0.130ubuntu3_amd64.deb
-      6827264f2228342804a9da375b395ed8a33a50cee187e953df9a34e279f1cbfc  initramfs-tools-core_0.130ubuntu3.6_all.deb
+      1169511d4bf81b45b068d06971d3dc57c8fa2b60b27159984f7df158b40fef04  initramfs-tools-core_0.130ubuntu3.7_all.deb
       1aa674aefb65ba370e4a470d72fa32fbac5eb07024c7486e58b52a7cb6022f1f  initramfs-tools-core_0.130ubuntu3_all.deb
-      61162f4a2b91d0871af74f5ff0199992c77310c45a4016ea6eb32ad3b85f0483  initramfs-tools_0.130ubuntu3.6_all.deb
+      dd6f9a5c9ab7e6afd9ef4707726a5719d2cef3b4394ee774ab4dd3c6f4b564ce  initramfs-tools_0.130ubuntu3.7_all.deb
       a657d7cfcdf08faf3d84a25cf7cb551d565db4703a501e30152b15f20cfb639d  initramfs-tools_0.130ubuntu3_all.deb
       dffa3066d361d48f5c791609aa7026e98a7868f5c21cfd2c2139f0ad9c4b7908  iproute2_4.15.0-2ubuntu1_amd64.deb
       8f3d5fc01ac860d0e63af7342d567c9b9aa387ed3cb0a04797467e119c2a855e  iptables_1.6.1-2ubuntu2_amd64.deb
@@ -222,6 +223,7 @@
       d8cf39755d6d1da57a4a191eac46e246ee1f4f5ecfe0ccef5ac0c4d219b456c3  libhogweed4_3.4-1_amd64.deb
       99b3774d1df23ca1340352bbf5b23f50238b4022ca165b271ea1e94a68e257a3  libhx509-5-heimdal_7.5.0+dfsg-1_amd64.deb
       7a2f29ea19f2a14007fd84f25eb88db4fb3ca43bdb07fdb681329d2b5daca500  libicu60_60.2-3ubuntu3_amd64.deb
+      fc23712a9ffd26dcea7ed93f5c2f59a96a249e407dcb93fb6977e681c4b1af9c  libidn11_1.33-2.1ubuntu1.1_amd64.deb
       f453173ab7715b33b42200724630384ebfe79c0b2dc74735fd35549fc11b6532  libidn11_1.33-2.1ubuntu1_amd64.deb
       7c1fb7783db47e5eb7ef5ae0946bb9bf667ffd7b26e5951177981310f449a4ca  libidn2-0_2.0.4-1.1build2_amd64.deb
       583990ffb2f9e0ea825d4ce3a7c6db0af4f3afc544114c5b6769d95ff5e0b310  libip4tc0_1.6.1-2ubuntu2_amd64.deb
@@ -359,7 +361,7 @@
       ca52a957fae55f7499cb2b862fa1955303ca2a9eb6c7d5f463fadb1c48dcdbd7  libzstd1_1.3.3+dfsg-2ubuntu1_amd64.deb
       cbcfa830664e90769caad94bb82d760d7927b75cb293586123354e043725ecf8  linux-base_4.5ubuntu1_all.deb
       4a73fc5ea2d0284e9c9c84cba68cbe5880505afbae0a3201c65c336daf8f8239  linux-libc-dev_4.15.0-20.21_amd64.deb
-      bd38bc30ae0f6cc76a9c986b3ad958eabacd71abff59e3888908426c3c7e4c5a  linux-libc-dev_4.15.0-45.48_amd64.deb
+      dda44b80da4d9b7149a2525f17f906f6b7b10a7b8c3df5e6f48d9cc58ca6e6b1  linux-libc-dev_4.15.0-46.49_amd64.deb
       315d6ee1c21ca410dec962affd563528ee4bc1ec8b9fdab5755f74236658d374  locales_2.27-3ubuntu1_all.deb
       565f3725508d78b7c5bfd021c8c5437c7f8703be2d5d591d5b0197b901f26a86  login_1%3a4.5-1ubuntu1_amd64.deb
       7e3ddaba91f40115337042afd94352b157e9c31cf02fc6da6237f6a6ff7c4405  logrotate_3.11.0-0.1ubuntu1_amd64.deb
@@ -415,6 +417,7 @@
       9d7ebb8667b2a9fefe2d0202349ca58216f515a2c0d30d8561557d5a881d9f31  python2.7_2.7.15~rc1-1ubuntu0.1_amd64.deb
       47f7bb0fe28baabb97982388bed7e8ebe4a9a59caa3c0184d47c52711f61f2e0  python3-dbus_1.2.6-1_amd64.deb
       f12891060d6851adc12b31147bd9b6379dc8d36ff2f9ebda383d1c2eebebad8f  python3-gi_3.26.1-2_amd64.deb
+      3e7771eb3acb2e8b98f34f839f046e0c3382c3b115c6f4afc991bf801f0531ed  python3-gi_3.26.1-2ubuntu1_amd64.deb
       8a0d89bb2a9d630927444948391e3fe921c2ac4f4e63934155af80436d0995fa  python3-minimal_3.6.5-3_amd64.deb
       5a535025423b658181d50e8af9f376aae6fd85efaa6931ae148554788912774d  python3-minimal_3.6.7-1~18.04_amd64.deb
       7a0e008e7407096d52a177ed39d3f8e9e234105e0d8685efa97976f50412ccd2  python3-netifaces_0.10.4-0.1build4_amd64.deb
