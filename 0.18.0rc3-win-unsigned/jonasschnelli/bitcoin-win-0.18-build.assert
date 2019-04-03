@@ -1,23 +1,23 @@
 --- !!omap
 - out_manifest: |
-    63f3743952804a52c5beda5c7678c31f339229cfa41e321f6197ce488c05e358  bitcoin-0.18.0rc2-win-unsigned.tar.gz
-    9f0ed3537e1a3ba29eb8b02995746676ea3175e918ed80f3d980187128e8212c  bitcoin-0.18.0rc2-win32-debug.zip
-    f73bd80dba78031b364f46ac5463e9acdc9d6cc190431ad6495f490516aa2263  bitcoin-0.18.0rc2-win32-setup-unsigned.exe
-    50deb1316baac1b2fd9116d5f59d5832b76818f289bd902756a96dab18bfe24e  bitcoin-0.18.0rc2-win32.zip
-    883c9d2d79f48da29c6a602af612d6a85e516182947e74c96a104aa56e795f46  bitcoin-0.18.0rc2-win64-debug.zip
-    a0040dd62e055b8518c19f5d9c8d4a06c62a8c8eb47bcb2f5a5c0d5c1ca149d3  bitcoin-0.18.0rc2-win64-setup-unsigned.exe
-    4e2275da6b6795a822fac91412f3e5b790d5cb29150017d29472864ff46f7a4d  bitcoin-0.18.0rc2-win64.zip
-    1b907e5352e7d93ee1b207a8c0e36f0de62b30c5a64d20f63b2701fa4d7573b4  src/bitcoin-0.18.0rc2.tar.gz
+    c4c4d0e6f0adc89096ac21e8c2edbd9fe420ab320eaec415b24d1bc68840bb49  bitcoin-0.18.0rc3-win-unsigned.tar.gz
+    a46400efc9de7f14ea752fb1251e07c0cf4ed512ce973e6af4f07e7696ad59a2  bitcoin-0.18.0rc3-win32-debug.zip
+    6ab814a7769554780b40a3c300e5bbbb5e35d3126c9901e65dff208c04739365  bitcoin-0.18.0rc3-win32-setup-unsigned.exe
+    cfa7ec9e23d7b7a84e451697ffe9f573391bba0308e62d031630e2962397afad  bitcoin-0.18.0rc3-win32.zip
+    241a82950612ebd6dd4a5ba62f58d0db2c90be6fa7865854c03ac61837f9e996  bitcoin-0.18.0rc3-win64-debug.zip
+    7fa0a89b76af70d4ddb91b12f9189b8aa69b6c83af9a18a143e0db07dbf5a47b  bitcoin-0.18.0rc3-win64-setup-unsigned.exe
+    bcb9ded4b1fc43303901d34045c11a0d4d69c55eca77dd1b9091c5fca9f4c6e6  bitcoin-0.18.0rc3-win64.zip
+    deb1cacd3d4113cbc64cf2bc95609a73fc3369503229fd997f8c6c2639d00d41  src/bitcoin-0.18.0rc3.tar.gz
 - in_manifest: |-
     8dd382aa3ef3e1d09645ced7d0cafc3bf36709ffa86f512c1e1fccb65892d057  bitcoin-win-0.18-desc.yml
-    git:d3a038200709c48922faab96d0ba558a574fa4d9 bitcoin
+    git:32ec900850446f60d13c8421c4a91f4fff912d13 bitcoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
+      3050d5ca22f4ac2c809b73e7dc7cbf64da6bb445abfe8008ce78ce8433b9b775  apt-utils_1.6.10_amd64.deb
       dd24c2fc6166a8808f32ee48d48ef0ea3f4d8b08ff55028c961987641c618e5a  apt-utils_1.6.1_amd64.deb
-      92d1f0ed6f1c0fc6f0f650d3847bfa0f4090aa1d50b128613036c06e49d0a05a  apt-utils_1.6.8_amd64.deb
+      0017c0305bd1311f95fdc1720d8070f34ff17315c67183b3d7dd7e59e5c72e3e  apt_1.6.10_amd64.deb
       2ff201fadafd345f30c11824fa039d3ab9dfe34411d9ef45a7872a84498de9ff  apt_1.6.1_amd64.deb
-      34f9ef5a862bcda1afaa1fb87ad193e4bb1d2c9cb422e9c9c8a249fb947ea53a  apt_1.6.8_amd64.deb
       a909ad8b2e97f45960a05458140cff737df30bf7c616778a5a0ca74b9d012d93  autoconf_2.69-11_all.deb
       d25ff344a7b808ef3ef8a3717cdad8f589ad20b57ea954054e9cc016fe7dff01  automake_1%3a1.15.1-3ubuntu2_all.deb
       716a1922077df772dcd8d4e462e1c5a9570c48871cbee062c23ae348b3a08fa1  autotools-dev_20180224.1_all.deb
@@ -38,7 +38,7 @@
       ac8da1df654f8a43a9a82eb67d257dd903db075f078814cac3a30d5deeef4bf7  bsdutils_1%3a2.31.1-0.4ubuntu3.3_amd64.deb
       842bf6a7fbe2b179185ebfa3032771972a4f18405c398a792759f1a98b419a85  bsdutils_1%3a2.31.1-0.4ubuntu3_amd64.deb
       bb2ac7aae21544446f45e200aacb961f0dcc42c8caacdc8da37d392b222abfa0  build-essential_12.4ubuntu1_amd64.deb
-      dc5fb08a31210901d047b6af208ebde915ea09628ff36fea93ce0837d887fb2e  busybox-initramfs_1%3a1.27.2-2ubuntu3.1_amd64.deb
+      a0a4415b20f0ec1ab22454b9ad093942a06e2e3e514cfc4a872178a954cc7a94  busybox-initramfs_1%3a1.27.2-2ubuntu3.2_amd64.deb
       48c4216f5494e5edf7b58d1fb39be8ff47525554926f848ea5a1e3325e2d3e65  busybox-initramfs_1%3a1.27.2-2ubuntu3_amd64.deb
       69a037ca02b43dcbb578cfd29a2d703ed55771cc68e681c5f67343b85e3fa244  bzip2_1.0.6-8.1_amd64.deb
       195ffe05ae7d060146f890b1db225f5e8c3a8c505ffbea1fba30a520a1cd58d8  ca-certificates_20180409_all.deb
@@ -62,7 +62,7 @@
       2956dc70a0bd3a56365922c8f90cf9b9d0917a0308d6ea310e0f94d8ea4e11bf  debianutils_4.8.4_amd64.deb
       4a2f0f62cb9c7bc00d535e85f5629eb9f513e9c6161474a95445db1c446b5dc1  diffutils_1%3a3.6-1_amd64.deb
       50dff75c3281b0b7bd58332ca4fc1688588f904f0238d4a3d66c954f160a960f  distro-info-data_0.37_all.deb
-      2cc7b5c22ff0bc304754248f5fb18eab16139073f907ead02b556cb6f471409e  distro-info-data_0.37ubuntu0.2_all.deb
+      9479f328798e29aad614ec36163ae12cbb3bc316acb93ea8df6f1d9b19cc0650  distro-info-data_0.37ubuntu0.3_all.deb
       9d30ebcba80d27fc8b94aae4f71a8b32623897f3a31da9c0fcf08e3da561ebf3  dmsetup_2%3a1.02.145-4.1ubuntu3_amd64.deb
       8fd022350824ff41edf0ec0b5c2fbf333da1ed6eca8a625db8a044762956351a  dnsmasq-base_2.79-1_amd64.deb
       11a5806afe247bb8d756e3d43245d89b213df79653a43a19189bed626bb946c5  dpkg-dev_1.19.0.5ubuntu2.1_all.deb
@@ -76,7 +76,7 @@
       b8f09fccb18feccabb784ec1a8f1bfc7075f5840e4e9e1ae18e77633ce206704  fdisk_2.31.1-0.4ubuntu3.3_amd64.deb
       1634050aa9bcf1b097e6bf143eed1e6cad207de4992c8d298107b7dc322fad32  fdisk_2.31.1-0.4ubuntu3_amd64.deb
       8ab11e14a555a0a3e2ee628b81736497bf2792c984e76937e10fbbaf36aa13d4  file_1%3a5.32-2_amd64.deb
-      9ad57da60104eee39bcd0981e9bb0bd7b83d1b1623571156d8d56d2249aa6041  file_1%3a5.32-2ubuntu0.1_amd64.deb
+      ac4fa523efb30fd2ceff15b9e8921e07f0404aaa0e19c512f9b6695a5b2f8b6c  file_1%3a5.32-2ubuntu0.2_amd64.deb
       70a920ad25287775ed169b20405703f85860e7fba0cf0672e2aea6b800835b26  findutils_4.6.0+git+20170828-2_amd64.deb
       4d86e1a5fd43fa358ca031c270b5f1cca30cd454aaf39de7d5dda4a6651d53ad  g++-7_7.3.0-16ubuntu3_amd64.deb
       5ef39be3d9d07733ddb4f99c93af29f9d83d3ebfe35732a1f23bc372ce0958b3  g++-7_7.3.0-27ubuntu1~18.04_amd64.deb
@@ -136,10 +136,10 @@
       4a9d55a117484f5c8891e5512b2f8800ff25b8bb2ba786b441e16fb891b3ae4d  libapparmor1_2.12-4ubuntu5_amd64.deb
       8fdfc973846218581b0adbf5d7fd95572a5c2bb77af98c508020e7405d8be66b  libapr1_1.6.3-2_amd64.deb
       5a5e6ebf5e49b19d17c9f3ac8eff51d71f392974063891af713f58bb4a239994  libaprutil1_1.6.1-2_amd64.deb
+      61fefae7f6870c5611ffb34903fa37cefaa4305d718fab8d8dccc7c664191aae  libapt-inst2.0_1.6.10_amd64.deb
       cbc9354339b9ce0ab2878bda30ea1dece62ccdf8428124307e49bb91c45a6eed  libapt-inst2.0_1.6.1_amd64.deb
-      0ea5088f558baa18406cfb8438657770ecf7e7ecd0a3987408d774390b27fdc6  libapt-inst2.0_1.6.8_amd64.deb
+      8577e0bf08c193fd0908ab3d0d063ded74659b1b870f0642e573c8362c0e3d83  libapt-pkg5.0_1.6.10_amd64.deb
       6e554b29f2819f124b74bc49caa15c4e9569a17e76ca4d125eb47bdaf0c12b69  libapt-pkg5.0_1.6.1_amd64.deb
-      201495260980ff5518a2b389b6b0b5554d5f84a8947ab05d0c69aa8805133443  libapt-pkg5.0_1.6.8_amd64.deb
       3f66dc6094e4173a559183da65a06fe1be235c1baa268d7145d2abc813164b50  libargon2-0_0~20161029-1.1_amd64.deb
       92f5f15faca8cee48608b58a0300c469c076dd1dd8946b93b8428abd404d54f9  libasan4_7.3.0-16ubuntu3_amd64.deb
       3b408b3f2406cec4cf5d3eb561de8275f8406346b3d37a85b07b506c20be4a23  libasan4_7.3.0-27ubuntu1~18.04_amd64.deb
@@ -260,9 +260,9 @@
       71d6aec17689df877c1e696548e1c769b586ec2272b8b7401d280539502b3c55  liblz4-1_0.0~r131-2ubuntu3_amd64.deb
       92704fce1ad9af92d59052705d2e0e258789a1718afeca9c0fb0a0d37112b27a  liblzma5_5.2.2-1.3_amd64.deb
       878fc7b73f201e2e0bc7633be9f8d81dd0357902d81d4fe70a06435b0089aacd  libmagic-mgc_1%3a5.32-2_amd64.deb
-      df2b1dfcc5be00600a6fd39e294fffab8ca4ef9cdd71e4a37174efcefd2d2b6b  libmagic-mgc_1%3a5.32-2ubuntu0.1_amd64.deb
+      2b96d02aa5a58486a806da4b9ad70fd39353d08cb24bcf1a7a506dc4f3fd0103  libmagic-mgc_1%3a5.32-2ubuntu0.2_amd64.deb
       9b5b0700454080f19f588fa0d9bd328b2baf90963f49a750ff7ff60a964ac7ec  libmagic1_1%3a5.32-2_amd64.deb
-      79722d51dc5accaff5b53dbf5dd5c47a47b1dd4fce3987284ddc79e6c45e315f  libmagic1_1%3a5.32-2ubuntu0.1_amd64.deb
+      9b3ef7515ed51330ea0ccf0d212c6da920d4882b941ff51f84918517a069edbd  libmagic1_1%3a5.32-2ubuntu0.2_amd64.deb
       b0e446accd3884d6b87994170e2c9c4867299f922c6fffe1d1e7861d241f8b5c  libmnl0_1.0.4-2_amd64.deb
       35ad407e44f21573a94b08f0a74f1f0fcf8a805c500d9b7e04f42348633df3b4  libmount1_2.31.1-0.4ubuntu3.3_amd64.deb
       ee0ec4b17ec9391275c5c666ecbc899c261d41f1facd2c19a057dd94a83ebe5e  libmount1_2.31.1-0.4ubuntu3_amd64.deb
@@ -366,7 +366,7 @@
       ca52a957fae55f7499cb2b862fa1955303ca2a9eb6c7d5f463fadb1c48dcdbd7  libzstd1_1.3.3+dfsg-2ubuntu1_amd64.deb
       cbcfa830664e90769caad94bb82d760d7927b75cb293586123354e043725ecf8  linux-base_4.5ubuntu1_all.deb
       4a73fc5ea2d0284e9c9c84cba68cbe5880505afbae0a3201c65c336daf8f8239  linux-libc-dev_4.15.0-20.21_amd64.deb
-      dda44b80da4d9b7149a2525f17f906f6b7b10a7b8c3df5e6f48d9cc58ca6e6b1  linux-libc-dev_4.15.0-46.49_amd64.deb
+      2917351a6b61f1862160a60d187e2b0b0cc4dbcca905704c57567ca495e6d682  linux-libc-dev_4.15.0-47.50_amd64.deb
       315d6ee1c21ca410dec962affd563528ee4bc1ec8b9fdab5755f74236658d374  locales_2.27-3ubuntu1_all.deb
       565f3725508d78b7c5bfd021c8c5437c7f8703be2d5d591d5b0197b901f26a86  login_1%3a4.5-1ubuntu1_amd64.deb
       7e3ddaba91f40115337042afd94352b157e9c31cf02fc6da6237f6a6ff7c4405  logrotate_3.11.0-0.1ubuntu1_amd64.deb
@@ -807,7 +807,7 @@
     e425d770936f1281a1378471a047090fd8910533ef2fb33fb8339a2892f5e262  x86_64-w64-mingw32/zlib/zlib-1.2.11-d59552a85ce.tar.gz.hash
     f0f174ea1f0c0ee7a34768981dfb78a8931a17dc5eb75166a072a4731bb07d38  x86_64-w64-mingw32/zlib/zlib-1.2.11-da60cd57092.tar.gz
     742b1ac6f24c926bb0ff1ac17effb8d9d4ff33faa55ac7c6759e56d5483d9453  x86_64-w64-mingw32/zlib/zlib-1.2.11-da60cd57092.tar.gz.hash
-- release: 0.18.0rc2-win-unsigned
+- release: 0.18.0rc3-win-unsigned
 - name: bitcoin-win-0.18
 - type: build
 - optionals: 
