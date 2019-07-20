@@ -1,6 +1,5 @@
 os: linux
 language: minimal
-sudo: false
 branches:
   only:
     - master
