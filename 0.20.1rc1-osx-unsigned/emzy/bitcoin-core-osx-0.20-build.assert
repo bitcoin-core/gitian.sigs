@@ -1,7 +1,7 @@
 --- !!omap
 - out_manifest: |
     8036adae29624f5b08c29903fc828242a7858182ee77a65687aa6085bdc9deff  bitcoin-0.20.1rc1-osx-unsigned.dmg
-    6e0b29839f86c60bdb4e557ef85339075738d61c6feda333a9c23056f8c4bc32  bitcoin-0.20.1rc1-osx-unsigned.tar.gz
+    5c1f306192674c607bf44dad4a864e99fcfbef262934d19f93ea5af710595096  bitcoin-0.20.1rc1-osx-unsigned.tar.gz
     f8252757068714027d6e1a322a51f406215fc524fe9accea69aec011ab69cd11  bitcoin-0.20.1rc1-osx64.tar.gz
     203577060010be19c3932cc70f98a7fd4425274f6cd342c230d2d238911d1c46  src/bitcoin-0.20.1rc1.tar.gz
 - in_manifest: |-
@@ -605,11 +605,9 @@
     3e35907bf376269a844df08e03cbb43e345c88125374f2228e03724b5f9a2a04  3764b223c011574971ee3ae09ce968ba5dc2f00f.tar.gz
     380c1ca37cfa04a8699d0887a8d3ee1ad27f3d08baba78887c73b09485c0fbd3  3efb201881e7a76a21e0554906cf306432539cef.tar.gz
     56fbdc48ec110966342f0ecddd6f8f89202f4143ed2a3336e42bbf88f940850c  7ac55ec64c96f7800d9818ce64c79670e7f02b67.tar.gz
-    a09c9ba4684670a0375e42d9d67e7f12c1f62581a27f28f7c825d6d7032ccc6a  807d6fd1be5d2224872e381870c0a75387fe05e6.tar.gz
     4c0549764c5fe50b28042ec21aa2e14fe1a2224e239a1dae77d9e7f3932aa4c6  biplist-1.0.3.tar.gz
     430ae8354789de4fd19ee52f3b1f739e1fba576f0aded0897c3c2bc00fb38778  boost_1_70_0.tar.bz2
     b50d64c214a65b1a79afe3a964c691931a4233e2ba605d793eb85d0ac3652564  cdrkit-1.1.11.tar.bz2
-    99b28a6b48e793705228a390471991386daa33a9717cd9ca007fcdde69608fd9  clang-llvm-3.7.1-x86_64-linux-gnu-ubuntu-14.04.tar.xz
     fa5416553ca94a8c071a27134c094a5fb736fe1bd0ecc5ef2d9bc02754e1bef0  clang-llvm-6.0.1-x86_64-linux-gnu-ubuntu-14.04.tar.xz
     12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef  db-4.8.30.NC.tar.gz
     535bec5356b1ff4a753fcd87f14509297d2fa044955d3bb0308e5c2e54bb2d09  download-stamps/.stamp_fetched-bdb-db-4.8.30.NC.tar.gz.hash
@@ -619,18 +617,14 @@
     b021625812c54a575243819fb614697008df8e858bdfc9e11a5cc092da87e8b0  download-stamps/.stamp_fetched-freetype-freetype-2.7.1.tar.bz2.hash
     ec478ded71626e812554194b0117a44d135df66914eb7fa5768b5ea93248edda  download-stamps/.stamp_fetched-libXau-libXau-1.0.8.tar.bz2.hash
     384b61dec35ffc7028bef3fea26e33c2c6ed8fc81a76ae9647ad7c5e37a43680  download-stamps/.stamp_fetched-libevent-release-2.1.11-stable.tar.gz.hash
-    532370ca823eacfac7d833ceb42f6a07f6cfc9d82d30a73047400c29235ecd75  download-stamps/.stamp_fetched-libevent-release-2.1.8-stable.tar.gz.hash
     969244f07df6dd122c0058d3a5b3f536fedfe5c0616767a3403d1154f61ec80d  download-stamps/.stamp_fetched-libxcb-libxcb-1.10.tar.bz2.hash
     6d08ccdcc3ad793df90e48a692496a19e9a528d01c79a3ce1e156f607e14f730  download-stamps/.stamp_fetched-miniupnpc-miniupnpc-2.0.20180203.tar.gz.hash
     d6b485443284cf3b6c0221522ed8b898f80505916b18ec362c45be3c3e6d470e  download-stamps/.stamp_fetched-native_biplist-biplist-1.0.3.tar.gz.hash
     50ac285564ba97c82b9fd4a25446b896f8b911ea56bc23b8b17917bc62272f17  download-stamps/.stamp_fetched-native_cctools-3764b223c011574971ee3ae09ce968ba5dc2f00f.tar.gz.hash
-    e4218ec55578cb3ac4584875699a79ee6f00c5034c25fe80ba91ddf9b4d0bcce  download-stamps/.stamp_fetched-native_cctools-807d6fd1be5d2224872e381870c0a75387fe05e6.tar.gz.hash
     242fda2b08636d4016c2274f98007e3e055075a3e40f01a0bf44d2dd67b9d44b  download-stamps/.stamp_fetched-native_cdrkit-cdrkit-1.1.11.tar.bz2.hash
     04748232b0333d24937c79128a26a7d7c570dac05c6a8f26110967e795801a5a  download-stamps/.stamp_fetched-native_ds_store-v1.1.2.tar.gz.hash
     82d0d25c755fdf8ae9ca63d57aaa66a00dce8c2b2a52986ccba3172745bd476f  download-stamps/.stamp_fetched-native_libdmg-hfsplus-7ac55ec64c96f7800d9818ce64c79670e7f02b67.tar.gz.hash
-    c92c765d4e59b48da8191377c2dd2f29563b65dcb9bd47e44bc80d071160b1a6  download-stamps/.stamp_fetched-native_libdmg-hfsplus-libdmg-hfsplus-v0.1.tar.gz.hash
     cb8b0081c0555ce0bdcefdad036d0df9f3169e2caeceb2b1c8c13d9e5efff758  download-stamps/.stamp_fetched-native_mac_alias-v2.0.7.tar.gz.hash
-    3728c9a0ac4bd203cbc38b0fc668914eeaaeb7a1c4d3ed9fe18c3a86028e497e  download-stamps/.stamp_fetched-openssl-openssl-1.0.1k.tar.gz.hash
     4f1aae01029d0f1b99e12c7c7277ad2aa6029c6deb679a8b39fbea5f49bceeea  download-stamps/.stamp_fetched-qrencode-qrencode-3.4.4.tar.bz2.hash
     ad447287e7b16ee88f4a795ac460c56eaabee9292dfa94e9f80ebb11e3cedea3  download-stamps/.stamp_fetched-qt-qtbase-opensource-src-5.9.8.tar.xz.hash
     4af4da419d7b883f3408f4481d01673d281d6cfb94ff377d4bd8355db55fcb06  download-stamps/.stamp_fetched-xcb_proto-xcb-proto-1.10.tar.bz2.hash
@@ -641,16 +635,13 @@
     b449a3e10c47e1d1c7a6ec6e2016cca73d3bd68fbbd4f0ae5cc6b573f7d6c7f3  fontconfig-2.12.1.tar.bz2
     3a3bb2c4e15ffb433f2032f50a5b5a92558206822e22bfe8cbe339af4aa82f88  freetype-2.7.1.tar.bz2
     fdd477320aeb5cdd67272838722d6b7d544887dfe7de46e1e7cc0c27c2bea4f2  libXau-1.0.8.tar.bz2
-    6569a02eb31c2827080d7d59001869ea14484c281efab0ae7f2b86af5c3120b3  libdmg-hfsplus-v0.1.tar.gz
     98d9ab05b636dd088603b64229dd1ab2d2cc02ab807892e107d674f9c3f2d5b5  libxcb-1.10.tar.bz2
     90dda8c7563ca6cd4a83e23b3c66dbbea89603a1675bfdb852897c2c9cc220b7  miniupnpc-2.0.20180203.tar.gz
-    8f9faeaebad088e772f4ef5e38252d472be4d878c6b3a2718c10a4fcebe7a41c  openssl-1.0.1k.tar.gz
     efe5188b1ddbcbf98763b819b146be6a90481aac30cfc8d858ab78a19cde1fa5  qrencode-3.4.4.tar.bz2
     9b9dec1f67df1f94bce2955c5604de992d529dde72050239154c56352da0907d  qtbase-opensource-src-5.9.8.tar.xz
     a97556eb7b2f30252cdd8a598c396cfce2b2f79d2bae883af6d3b26a2cdcc63c  qttools-opensource-src-5.9.8.tar.xz
     fb5a47799754af73d3bf501fe513342cfe2fc37f64e80df5533f6110e804220c  qttranslations-opensource-src-5.9.8.tar.xz
     229393ab2bf0dc94694f21836846b424f3532585bac3468738b7bf752c03901e  release-2.1.11-stable.tar.gz
-    316ddb401745ac5d222d7c529ef1eada12f58f6376a66c1118eee803cb70f83d  release-2.1.8-stable.tar.gz
     3b3ecb7bf0a5157f5b6010bc3af7c141fb0ad3527084e63336220d22744bc20c  v1.1.2.tar.gz
     6f606d3b6bccd2112aeabf1a063f5b5ece87005a5d7e97c8faca23b916e88838  v2.0.7.tar.gz
     7ef40ddd855b750bc597d2a435da21e55e502a0fefa85b274f2c922800baaf05  xcb-proto-1.10.tar.bz2
@@ -658,36 +649,34 @@
     bcbabe1e2c7d0eec4ed612e10b94b112dd5f06fcefa994a0c79a45d835cd21eb  zeromq-4.3.1.tar.gz
     c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1  zlib-1.2.11.tar.gz
 - cache_package_manifest: |
-    130d8d6a5d39609e50c35a8a355e85719bbba9a92a8df98a39dd34f6a43cd726  x86_64-apple-darwin16/bdb/bdb-4.8.30-7ecc9bc9f36.tar.gz
-    38ce63b1e0d973a0a7978d75eb72117487b0dccc1a484403a690df763cf6bbec  x86_64-apple-darwin16/bdb/bdb-4.8.30-7ecc9bc9f36.tar.gz.hash
-    fc4ebe6b901920986750cda15284e29452403b067b549d76b38ed4abcc281b82  x86_64-apple-darwin16/boost/boost-1_70_0-9815f47f2c0.tar.gz
-    5f1bff67da6a053f597271bd782b755797af9be2530f703aa0c6c108c67c3008  x86_64-apple-darwin16/boost/boost-1_70_0-9815f47f2c0.tar.gz.hash
-    26dae1d1d9393bad1d68636c64e86632a4ccd9bca483083cc21070020dd4cd20  x86_64-apple-darwin16/libevent/libevent-2.1.11-stable-00bb3bd1722.tar.gz
-    2930c581d94ae850e48beefc6c411c851c19662db9e1798a1b3d04e18feab139  x86_64-apple-darwin16/libevent/libevent-2.1.11-stable-00bb3bd1722.tar.gz.hash
-    2bd973f85c408867e0a30163ea8c763dcf7317bac075a02c5a160e886ca25e06  x86_64-apple-darwin16/miniupnpc/miniupnpc-2.0.20180203-c421656019f.tar.gz
-    ce5bd72349edbb53786657e27205958c6f572b55116f27cb57b7cabe19dbe4ea  x86_64-apple-darwin16/miniupnpc/miniupnpc-2.0.20180203-c421656019f.tar.gz.hash
-    2d6ab56c07fedd011f3e94cb387bf389e91395a23da039f3a1c1200a2af6affd  x86_64-apple-darwin16/native_biplist/native_biplist-1.0.3-2ef944c1f23.tar.gz
-    ce9ab899dc799e4fbb1e3f06e0ddc1a21e072793b48b64b1c54640031c7e7ba6  x86_64-apple-darwin16/native_biplist/native_biplist-1.0.3-2ef944c1f23.tar.gz.hash
-    2621d0d79b6159faac56ad90082b44eba90e16e624c3af0d850fe3b88c1e7a4f  x86_64-apple-darwin16/native_cctools/native_cctools-3764b223c011574971ee3ae09ce968ba5dc2f00f-2bb8b5bc226.tar.gz
-    0dfc899181201a54a9fee9ba1814f8a29fc5abfab808c369db248145ac123920  x86_64-apple-darwin16/native_cctools/native_cctools-3764b223c011574971ee3ae09ce968ba5dc2f00f-2bb8b5bc226.tar.gz.hash
-    3fbef2f01654b0c69b7be1b7359b5be6a7b331263e854252dba1e737fc26c245  x86_64-apple-darwin16/native_cdrkit/native_cdrkit-1.1.11-44e8f80ffb1.tar.gz
-    dba4192ffe8f6b384c590be42d2392c9ee09c1c8633ce4c364340b9c7baaa4ad  x86_64-apple-darwin16/native_cdrkit/native_cdrkit-1.1.11-44e8f80ffb1.tar.gz.hash
-    b3f897aa74bbf8039824e14392ad40f7b935295b54794124691d390322ac7d22  x86_64-apple-darwin16/native_ds_store/native_ds_store-1.1.2-1ccc3f308a6.tar.gz
-    7a635117b921bb27de41d04e97a6b8314cf92b8f1d28869d51c158faa7cd5d32  x86_64-apple-darwin16/native_ds_store/native_ds_store-1.1.2-1ccc3f308a6.tar.gz.hash
-    595e84184ae8bade70976aa1278ec35ccca089854e0286e6eab7a40195aac62f  x86_64-apple-darwin16/native_libdmg-hfsplus/native_libdmg-hfsplus-7ac55ec64c96f7800d9818ce64c79670e7f02b67-080c2e29e38.tar.gz
-    29f561643664830a30f4da74919817c7c3c9be6cff93fc630e591f2dafa95e35  x86_64-apple-darwin16/native_libdmg-hfsplus/native_libdmg-hfsplus-7ac55ec64c96f7800d9818ce64c79670e7f02b67-080c2e29e38.tar.gz.hash
-    cbdf2376d5fde9a6849809a78cda1d3c383a9c173dce43dd2ebee5c88d54bd57  x86_64-apple-darwin16/native_mac_alias/native_mac_alias-2.0.7-32b6e3640c2.tar.gz
-    1ed06dd265175c85abbda333c09e40db898718b65498354d315030a9cef2e506  x86_64-apple-darwin16/native_mac_alias/native_mac_alias-2.0.7-32b6e3640c2.tar.gz.hash
-    4f6f9d23dcc7540904a2ac73d865228eb5e70e68baa24f2ad4fd7364f7ae3052  x86_64-apple-darwin16/qrencode/qrencode-3.4.4-cf8e63d3ab7.tar.gz
-    6010671d27420aa6eeb6d739be602533850d79ed9531918f55fad759d96aaed6  x86_64-apple-darwin16/qrencode/qrencode-3.4.4-cf8e63d3ab7.tar.gz.hash
-    e2732bf00772498e7ee00c4be2e1d20c12d34d8cba077f7ee17468bbe604b50e  x86_64-apple-darwin16/qt/qt-5.9.8-33ca93b505a.tar.gz
-    e39ddd3bdac7c9e1ff99d539f86fa26189fb8adbbbb9fb2b001ede1a6af0a23e  x86_64-apple-darwin16/qt/qt-5.9.8-33ca93b505a.tar.gz.hash
-    b9cad7608eec3986eeaea33654519fe1587dac3e23950564d846212767a73cb9  x86_64-apple-darwin16/qt/qt-5.9.8-744d5c2eaaf.tar.gz
-    5f73d4b9116b8f9dd9f84f8c863760ebdc08cf7392c267ec16283296fbd7de3c  x86_64-apple-darwin16/qt/qt-5.9.8-744d5c2eaaf.tar.gz.hash
-    41c58ae54bd9175e2e42b84b52b2654ee89d582424bde92487d7fc97e630f18f  x86_64-apple-darwin16/zeromq/zeromq-4.3.1-ea0d91fe368.tar.gz
-    6868fdeef8687ecbe608d429dc0cedbb73bc0ef70dd92295a17fa16aa1a8a6cf  x86_64-apple-darwin16/zeromq/zeromq-4.3.1-ea0d91fe368.tar.gz.hash
-    5f4b7ed3062b6decd66b20688586ba403f333b2270284215371503df38159add  x86_64-apple-darwin16/zlib/zlib-1.2.11-c3c600fa912.tar.gz
-    52b6ee14dcd733154e8f1fa40e260c6c5851823c63545b69149b883978c66b1a  x86_64-apple-darwin16/zlib/zlib-1.2.11-c3c600fa912.tar.gz.hash
+    851460ca1f321ad91499865eb353bd05ab1c518d7df0f1384d1a5ac0085bc1ef  x86_64-apple-darwin16/bdb/bdb-4.8.30-7ecc9bc9f36.tar.gz
+    19afcb0289ec9611e0ba2951be6926ca2ae66f4e2286668c60eddb557209dab1  x86_64-apple-darwin16/bdb/bdb-4.8.30-7ecc9bc9f36.tar.gz.hash
+    64ebd0338af0b296a176cea903354ec1a0ff3506bfc59de9b764027caf1b4635  x86_64-apple-darwin16/boost/boost-1_70_0-9815f47f2c0.tar.gz
+    d5b761efb22abcacb07a6bbe7211089b05d4cfde90f6b2be98525f8f04989198  x86_64-apple-darwin16/boost/boost-1_70_0-9815f47f2c0.tar.gz.hash
+    d13fca5452343a4d9f2768bbbbfcf7b6bffe8cd17b6c611d94990abb3ea2597a  x86_64-apple-darwin16/libevent/libevent-2.1.11-stable-00bb3bd1722.tar.gz
+    23b68b4f54fd1321f0ffa22f44825831bb246f2a8bc543b53fc18411c588aefa  x86_64-apple-darwin16/libevent/libevent-2.1.11-stable-00bb3bd1722.tar.gz.hash
+    78b094a71c03a63e606d56db932400215975a472be297995e428cae93c118230  x86_64-apple-darwin16/miniupnpc/miniupnpc-2.0.20180203-c421656019f.tar.gz
+    0bd69182194085a377b5a3f839ed8ad2d2c048a99c21dd468aeb627405e38906  x86_64-apple-darwin16/miniupnpc/miniupnpc-2.0.20180203-c421656019f.tar.gz.hash
+    532ba32c4331eb7c3f70fb689aec583601d594670009801bb118530fd8c17796  x86_64-apple-darwin16/native_biplist/native_biplist-1.0.3-2ef944c1f23.tar.gz
+    57f7e8de35166a12f3cf8efb211f0b297e297755812fc0e13b097ff88c7a9a57  x86_64-apple-darwin16/native_biplist/native_biplist-1.0.3-2ef944c1f23.tar.gz.hash
+    eba82a2d89d17b71ebef14ef0a5a61e91374b119f91ca8f4806dd9376766baef  x86_64-apple-darwin16/native_cctools/native_cctools-3764b223c011574971ee3ae09ce968ba5dc2f00f-2bb8b5bc226.tar.gz
+    0429e1b72067e32f3b80ac47fbde080330d6ed09b5720e052dbe14993c7381d9  x86_64-apple-darwin16/native_cctools/native_cctools-3764b223c011574971ee3ae09ce968ba5dc2f00f-2bb8b5bc226.tar.gz.hash
+    a6a62dee72597250944bf23762f50311a839d1615d00362f9878b34da2e022c7  x86_64-apple-darwin16/native_cdrkit/native_cdrkit-1.1.11-44e8f80ffb1.tar.gz
+    33c0f92a3f34ea33281f032144cfb5d3c98fcbd7e011f4898ff5c22357067679  x86_64-apple-darwin16/native_cdrkit/native_cdrkit-1.1.11-44e8f80ffb1.tar.gz.hash
+    d2e1a209195976d71bd20c5448d87151ff77f9707d0c5f969d98589c97370cc5  x86_64-apple-darwin16/native_ds_store/native_ds_store-1.1.2-1ccc3f308a6.tar.gz
+    f90845cbfd7bcf30b3e979303feb73f35d5a6c8b7f302d8f10f85dd5bf808963  x86_64-apple-darwin16/native_ds_store/native_ds_store-1.1.2-1ccc3f308a6.tar.gz.hash
+    d960486ea163f8d12cee6f6c69dad0c7042e964d28eac4601efa51aaafe8ac8d  x86_64-apple-darwin16/native_libdmg-hfsplus/native_libdmg-hfsplus-7ac55ec64c96f7800d9818ce64c79670e7f02b67-080c2e29e38.tar.gz
+    558aafff51cd5e0a0475ed5f587fa43ba8bff2e15871138526730f3983833885  x86_64-apple-darwin16/native_libdmg-hfsplus/native_libdmg-hfsplus-7ac55ec64c96f7800d9818ce64c79670e7f02b67-080c2e29e38.tar.gz.hash
+    1fd432a20f51c157484d8a483b28574f50038c3c42ff17f09a64b7158f4de191  x86_64-apple-darwin16/native_mac_alias/native_mac_alias-2.0.7-32b6e3640c2.tar.gz
+    f52504a6b6a02984e6f1d9bdd140467d463f63edb6ae35c151b8b9379ee9d00f  x86_64-apple-darwin16/native_mac_alias/native_mac_alias-2.0.7-32b6e3640c2.tar.gz.hash
+    c31c63024c7ceca11d8857d2925908e198293ac3bc0fc29c2e7e7b36c1cf5c41  x86_64-apple-darwin16/qrencode/qrencode-3.4.4-cf8e63d3ab7.tar.gz
+    5f872c2526d06b5775eeb47d61c4ffebbd3d7d66c0498156de0f212932ec264f  x86_64-apple-darwin16/qrencode/qrencode-3.4.4-cf8e63d3ab7.tar.gz.hash
+    60a1c01ea9a9385ae21766bb4b5c0eb70b9d4b6451c2897a73a073cafa1a8899  x86_64-apple-darwin16/qt/qt-5.9.8-744d5c2eaaf.tar.gz
+    c8068c05c04894ab20bc813e1be1ae39d764d4819883e19c51f2ba0e062462e8  x86_64-apple-darwin16/qt/qt-5.9.8-744d5c2eaaf.tar.gz.hash
+    32c593cda259868d0e04e493b8b18764c6e84ed47121834374b7d74b18e0a31a  x86_64-apple-darwin16/zeromq/zeromq-4.3.1-ea0d91fe368.tar.gz
+    2150dbd816d15c6eeb11295f6c5d74699e28e00cdcd3b6a8b77fc9f9d1ddaa1a  x86_64-apple-darwin16/zeromq/zeromq-4.3.1-ea0d91fe368.tar.gz.hash
+    9fb42389db9262959879d5a5797a36e7f072193df62b8e47daa402265790289b  x86_64-apple-darwin16/zlib/zlib-1.2.11-c3c600fa912.tar.gz
+    220d0858de04d2cfaa244ad835af5881b306571ff01bc1aa6eaf4593a8e2f241  x86_64-apple-darwin16/zlib/zlib-1.2.11-c3c600fa912.tar.gz.hash
 - release: 0.20.1rc1-osx-unsigned
 - name: bitcoin-core-osx-0.20
 - type: build
