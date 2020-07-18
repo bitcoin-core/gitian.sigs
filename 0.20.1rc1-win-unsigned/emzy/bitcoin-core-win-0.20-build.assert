@@ -512,11 +512,9 @@
     3e35907bf376269a844df08e03cbb43e345c88125374f2228e03724b5f9a2a04  3764b223c011574971ee3ae09ce968ba5dc2f00f.tar.gz
     380c1ca37cfa04a8699d0887a8d3ee1ad27f3d08baba78887c73b09485c0fbd3  3efb201881e7a76a21e0554906cf306432539cef.tar.gz
     56fbdc48ec110966342f0ecddd6f8f89202f4143ed2a3336e42bbf88f940850c  7ac55ec64c96f7800d9818ce64c79670e7f02b67.tar.gz
-    a09c9ba4684670a0375e42d9d67e7f12c1f62581a27f28f7c825d6d7032ccc6a  807d6fd1be5d2224872e381870c0a75387fe05e6.tar.gz
     4c0549764c5fe50b28042ec21aa2e14fe1a2224e239a1dae77d9e7f3932aa4c6  biplist-1.0.3.tar.gz
     430ae8354789de4fd19ee52f3b1f739e1fba576f0aded0897c3c2bc00fb38778  boost_1_70_0.tar.bz2
     b50d64c214a65b1a79afe3a964c691931a4233e2ba605d793eb85d0ac3652564  cdrkit-1.1.11.tar.bz2
-    99b28a6b48e793705228a390471991386daa33a9717cd9ca007fcdde69608fd9  clang-llvm-3.7.1-x86_64-linux-gnu-ubuntu-14.04.tar.xz
     fa5416553ca94a8c071a27134c094a5fb736fe1bd0ecc5ef2d9bc02754e1bef0  clang-llvm-6.0.1-x86_64-linux-gnu-ubuntu-14.04.tar.xz
     12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef  db-4.8.30.NC.tar.gz
     535bec5356b1ff4a753fcd87f14509297d2fa044955d3bb0308e5c2e54bb2d09  download-stamps/.stamp_fetched-bdb-db-4.8.30.NC.tar.gz.hash
@@ -526,18 +524,14 @@
     b021625812c54a575243819fb614697008df8e858bdfc9e11a5cc092da87e8b0  download-stamps/.stamp_fetched-freetype-freetype-2.7.1.tar.bz2.hash
     ec478ded71626e812554194b0117a44d135df66914eb7fa5768b5ea93248edda  download-stamps/.stamp_fetched-libXau-libXau-1.0.8.tar.bz2.hash
     384b61dec35ffc7028bef3fea26e33c2c6ed8fc81a76ae9647ad7c5e37a43680  download-stamps/.stamp_fetched-libevent-release-2.1.11-stable.tar.gz.hash
-    532370ca823eacfac7d833ceb42f6a07f6cfc9d82d30a73047400c29235ecd75  download-stamps/.stamp_fetched-libevent-release-2.1.8-stable.tar.gz.hash
     969244f07df6dd122c0058d3a5b3f536fedfe5c0616767a3403d1154f61ec80d  download-stamps/.stamp_fetched-libxcb-libxcb-1.10.tar.bz2.hash
     6d08ccdcc3ad793df90e48a692496a19e9a528d01c79a3ce1e156f607e14f730  download-stamps/.stamp_fetched-miniupnpc-miniupnpc-2.0.20180203.tar.gz.hash
     d6b485443284cf3b6c0221522ed8b898f80505916b18ec362c45be3c3e6d470e  download-stamps/.stamp_fetched-native_biplist-biplist-1.0.3.tar.gz.hash
     50ac285564ba97c82b9fd4a25446b896f8b911ea56bc23b8b17917bc62272f17  download-stamps/.stamp_fetched-native_cctools-3764b223c011574971ee3ae09ce968ba5dc2f00f.tar.gz.hash
-    e4218ec55578cb3ac4584875699a79ee6f00c5034c25fe80ba91ddf9b4d0bcce  download-stamps/.stamp_fetched-native_cctools-807d6fd1be5d2224872e381870c0a75387fe05e6.tar.gz.hash
     242fda2b08636d4016c2274f98007e3e055075a3e40f01a0bf44d2dd67b9d44b  download-stamps/.stamp_fetched-native_cdrkit-cdrkit-1.1.11.tar.bz2.hash
     04748232b0333d24937c79128a26a7d7c570dac05c6a8f26110967e795801a5a  download-stamps/.stamp_fetched-native_ds_store-v1.1.2.tar.gz.hash
     82d0d25c755fdf8ae9ca63d57aaa66a00dce8c2b2a52986ccba3172745bd476f  download-stamps/.stamp_fetched-native_libdmg-hfsplus-7ac55ec64c96f7800d9818ce64c79670e7f02b67.tar.gz.hash
-    c92c765d4e59b48da8191377c2dd2f29563b65dcb9bd47e44bc80d071160b1a6  download-stamps/.stamp_fetched-native_libdmg-hfsplus-libdmg-hfsplus-v0.1.tar.gz.hash
     cb8b0081c0555ce0bdcefdad036d0df9f3169e2caeceb2b1c8c13d9e5efff758  download-stamps/.stamp_fetched-native_mac_alias-v2.0.7.tar.gz.hash
-    3728c9a0ac4bd203cbc38b0fc668914eeaaeb7a1c4d3ed9fe18c3a86028e497e  download-stamps/.stamp_fetched-openssl-openssl-1.0.1k.tar.gz.hash
     4f1aae01029d0f1b99e12c7c7277ad2aa6029c6deb679a8b39fbea5f49bceeea  download-stamps/.stamp_fetched-qrencode-qrencode-3.4.4.tar.bz2.hash
     ad447287e7b16ee88f4a795ac460c56eaabee9292dfa94e9f80ebb11e3cedea3  download-stamps/.stamp_fetched-qt-qtbase-opensource-src-5.9.8.tar.xz.hash
     4af4da419d7b883f3408f4481d01673d281d6cfb94ff377d4bd8355db55fcb06  download-stamps/.stamp_fetched-xcb_proto-xcb-proto-1.10.tar.bz2.hash
@@ -548,16 +542,13 @@
     b449a3e10c47e1d1c7a6ec6e2016cca73d3bd68fbbd4f0ae5cc6b573f7d6c7f3  fontconfig-2.12.1.tar.bz2
     3a3bb2c4e15ffb433f2032f50a5b5a92558206822e22bfe8cbe339af4aa82f88  freetype-2.7.1.tar.bz2
     fdd477320aeb5cdd67272838722d6b7d544887dfe7de46e1e7cc0c27c2bea4f2  libXau-1.0.8.tar.bz2
-    6569a02eb31c2827080d7d59001869ea14484c281efab0ae7f2b86af5c3120b3  libdmg-hfsplus-v0.1.tar.gz
     98d9ab05b636dd088603b64229dd1ab2d2cc02ab807892e107d674f9c3f2d5b5  libxcb-1.10.tar.bz2
     90dda8c7563ca6cd4a83e23b3c66dbbea89603a1675bfdb852897c2c9cc220b7  miniupnpc-2.0.20180203.tar.gz
-    8f9faeaebad088e772f4ef5e38252d472be4d878c6b3a2718c10a4fcebe7a41c  openssl-1.0.1k.tar.gz
     efe5188b1ddbcbf98763b819b146be6a90481aac30cfc8d858ab78a19cde1fa5  qrencode-3.4.4.tar.bz2
     9b9dec1f67df1f94bce2955c5604de992d529dde72050239154c56352da0907d  qtbase-opensource-src-5.9.8.tar.xz
     a97556eb7b2f30252cdd8a598c396cfce2b2f79d2bae883af6d3b26a2cdcc63c  qttools-opensource-src-5.9.8.tar.xz
     fb5a47799754af73d3bf501fe513342cfe2fc37f64e80df5533f6110e804220c  qttranslations-opensource-src-5.9.8.tar.xz
     229393ab2bf0dc94694f21836846b424f3532585bac3468738b7bf752c03901e  release-2.1.11-stable.tar.gz
-    316ddb401745ac5d222d7c529ef1eada12f58f6376a66c1118eee803cb70f83d  release-2.1.8-stable.tar.gz
     3b3ecb7bf0a5157f5b6010bc3af7c141fb0ad3527084e63336220d22744bc20c  v1.1.2.tar.gz
     6f606d3b6bccd2112aeabf1a063f5b5ece87005a5d7e97c8faca23b916e88838  v2.0.7.tar.gz
     7ef40ddd855b750bc597d2a435da21e55e502a0fefa85b274f2c922800baaf05  xcb-proto-1.10.tar.bz2
@@ -565,24 +556,22 @@
     bcbabe1e2c7d0eec4ed612e10b94b112dd5f06fcefa994a0c79a45d835cd21eb  zeromq-4.3.1.tar.gz
     c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1  zlib-1.2.11.tar.gz
 - cache_package_manifest: |
-    091338da9075dfbf0edffbdb09b62b23f084c8359e5b533ca8a56580f4acb3c3  x86_64-w64-mingw32/bdb/bdb-4.8.30-17e3f0aea5f.tar.gz
-    13cac3ae5a2e176d13eb41a798e1ea49b1972f09a9a187ebb1cba7bf45142c98  x86_64-w64-mingw32/bdb/bdb-4.8.30-17e3f0aea5f.tar.gz.hash
-    479aa3e4ebb17d14d41e340cd181873625c2d9eab5ae561a9ae4fe936a4f8ec8  x86_64-w64-mingw32/boost/boost-1_70_0-f1f7cc87bed.tar.gz
-    1ceb823519550d023c346436b9b5c886198977565d812f6b435ff2168673ca25  x86_64-w64-mingw32/boost/boost-1_70_0-f1f7cc87bed.tar.gz.hash
-    a5bc25fb2d5271a3363bb25217ba4eb6edf83066b6a2e9d50fdb125f1cae1fda  x86_64-w64-mingw32/libevent/libevent-2.1.11-stable-87365023708.tar.gz
-    413900643384f05afcc996a603380a4d4d5079424468614eae13f92f72ad1106  x86_64-w64-mingw32/libevent/libevent-2.1.11-stable-87365023708.tar.gz.hash
-    7b801081e49d86584cb86ac12dc40603d779ce59338c61f48c402060af87ad8e  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-32a64edbec2.tar.gz
-    4ee14ea3554b8565d9686ef2d3501ce38b5845eee352ec3e0b1432290cfaa5ca  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-32a64edbec2.tar.gz.hash
-    a47c531e1f9b7a1d71a50e737f36db60ac9f3123791849d62e95097b6123c6c2  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-b1676f3c9eb.tar.gz
-    7106c2af5a089784200774e1773dde09970865023e8ea9288e17719066294d28  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-b1676f3c9eb.tar.gz.hash
-    7420742bf7d0ed88b591ff498712e4e83b3a296fe699a8c67997bf2e8fbfb62e  x86_64-w64-mingw32/qt/qt-5.9.8-20a3a401aad.tar.gz
-    cc2526b6ae5bfebeb8be918b84456fbc62b56fb1ab1dc944d3b0ff6024de12dc  x86_64-w64-mingw32/qt/qt-5.9.8-20a3a401aad.tar.gz.hash
-    e63eb93e2ba75f9460b826a335874d65bf1b48cd604b54d4749f646864045c59  x86_64-w64-mingw32/qt/qt-5.9.8-36c5c0bd661.tar.gz
-    3c15a68518c5ed24da93d13f827ae934d5d5aeb6ceb1f3d47da1cdb881538f67  x86_64-w64-mingw32/qt/qt-5.9.8-36c5c0bd661.tar.gz.hash
-    dad8eb5729ac8596e61b974dfa446c52c5f0dfdedcb8dd3d2568e7db9f602c16  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-751d596cd8d.tar.gz
-    0c688b2b5181f494ef25ab29297fd81a3b58aa571052dcda029a5958114650b2  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-751d596cd8d.tar.gz.hash
-    633e6a0a56148315ea9423205305718cffc9c0cf3e8c9303aa91de147e1b2ebc  x86_64-w64-mingw32/zlib/zlib-1.2.11-abc2d84ca3a.tar.gz
-    b5d34794b67527544f030d4467fd4d29a230d55a5b305811c22a0f188c612f2b  x86_64-w64-mingw32/zlib/zlib-1.2.11-abc2d84ca3a.tar.gz.hash
+    8ebba7175a9dc60288fba0071c34113af5730f7e2dbf9f30593bb01cfcd02483  x86_64-w64-mingw32/bdb/bdb-4.8.30-17e3f0aea5f.tar.gz
+    4193ddf711ba7b1471a29fd703edae08aed76db9cd8c4ca16d03dd4310306f1a  x86_64-w64-mingw32/bdb/bdb-4.8.30-17e3f0aea5f.tar.gz.hash
+    c32bc84a2971f9a50611270219bde222aad91ea41fc115ad52cab59f57710713  x86_64-w64-mingw32/boost/boost-1_70_0-f1f7cc87bed.tar.gz
+    a5936615adf30c30aefe96b8df962b3693b23a303c54668a97f3a4023325c3c7  x86_64-w64-mingw32/boost/boost-1_70_0-f1f7cc87bed.tar.gz.hash
+    0a032aefc48aacfbf838b866314fbcac3e6066055be854e1f4806cd4a6fa972d  x86_64-w64-mingw32/libevent/libevent-2.1.11-stable-87365023708.tar.gz
+    1a2ef5a37f56912625a68d102134b24370429707193ab4567b65bc6d5ca6b136  x86_64-w64-mingw32/libevent/libevent-2.1.11-stable-87365023708.tar.gz.hash
+    460094b7258685ae7095e4792edaa4583d1818661d46e4c2ef9526dc89f63b59  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-32a64edbec2.tar.gz
+    a97c83ac4f1c1b8e4033a731a8bcc95809e43bd7a1cf945cb73f98c1f7504952  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-32a64edbec2.tar.gz.hash
+    857cd0afa002f1a0db99f432534e36c2afa1c0e0e9d32d9eaada05d96bbeb262  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-b1676f3c9eb.tar.gz
+    08558c8ddaf9afdfef4c2faca654ca6f1de3e747e8530175ec1b854312a7e4e6  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-b1676f3c9eb.tar.gz.hash
+    40a4492ac95443ae40614fd094ae3266f1e03caa9503a6855540b0aa235f752f  x86_64-w64-mingw32/qt/qt-5.9.8-36c5c0bd661.tar.gz
+    349bb2d123827cda507270c65812e6688bdf65b428edf0f09406cb615eb03b2b  x86_64-w64-mingw32/qt/qt-5.9.8-36c5c0bd661.tar.gz.hash
+    7b0729878677bdd4ae8bc0ce7d3d0d77e53786ad01d8fa404325fa087cfe5701  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-751d596cd8d.tar.gz
+    e6a9d56dba5509e7785b85559716761dc05aaa4e86ae6d5a3406a454e7769050  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-751d596cd8d.tar.gz.hash
+    9fdc3974a05f32797d43af0d25001bb7bf745eecdf3b1237d48c8e630defe3ef  x86_64-w64-mingw32/zlib/zlib-1.2.11-abc2d84ca3a.tar.gz
+    a8f165269c110f48a4081acbd12911e07cbf044f5d3b17c789003feed98bf841  x86_64-w64-mingw32/zlib/zlib-1.2.11-abc2d84ca3a.tar.gz.hash
 - release: 0.20.1rc1-win-unsigned
 - name: bitcoin-core-win-0.20
 - type: build
