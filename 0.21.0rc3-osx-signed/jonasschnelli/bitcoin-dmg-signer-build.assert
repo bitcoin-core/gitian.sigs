@@ -1,17 +1,17 @@
 --- !!omap
-- out_manifest: '998dddf3c0f9b568fc0c39e61e3d61d2843dfb968016b7ceaf23aca94ace2542  bitcoin-osx-signed.dmg
+- out_manifest: '46cfa036d365d69db2a3b78377621d6b214f2d78f3082f9c7ebd7a9b89cfc599  bitcoin-osx-signed.dmg
 
 '
 - in_manifest: |-
     c0838191cc2309cc73afa421af119e696b73521e2d66c184d2de5c80081c2f9b  bitcoin-dmg-signer-desc.yml
-    1d9126049a9b346899f0cd62fcac337a1e8c77aefff84b9eebe0ae77c7a79228  bitcoin-osx-unsigned.tar.gz
-    git:1aaac4fb358a21e680a5b8e770f0538e501bba43 signature
+    5e3a08ae8195190d6f1b12e3e1e9d710e7ad385941a6e8d04e3391f12deddb11  bitcoin-osx-unsigned.tar.gz
+    git:188f596c106e8d8d4ff54496edbdfb4858d50e5d signature
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
-      2630dd875d2279bd168fd2abd691cf6cebbf5f9f11af802f3314cf02261dd1c8  apt-utils_1.6.12ubuntu0.1_amd64.deb
+      67ca5a220023bb9c29549fd495cbf011c38824e2cb8d75ef05db192716aa55fa  apt-utils_1.6.12ubuntu0.2_amd64.deb
       dd24c2fc6166a8808f32ee48d48ef0ea3f4d8b08ff55028c961987641c618e5a  apt-utils_1.6.1_amd64.deb
-      bc9a58c6ef0b1875cf826851d583b439ae788c17971b3f9ea6b1b3a174bd2fcd  apt_1.6.12ubuntu0.1_amd64.deb
+      076bc23e8c2ec6b2531c882121b0199067af35bcc0b9ec1a5ba5559189ecc492  apt_1.6.12ubuntu0.2_amd64.deb
       2ff201fadafd345f30c11824fa039d3ab9dfe34411d9ef45a7872a84498de9ff  apt_1.6.1_amd64.deb
       9abf6982e61cabc44011247b8a39af39bf47cdb96cd12d898bf47b3ebe92a80e  base-files_10.1ubuntu2.10_amd64.deb
       81d5fa6a8c31b739299552338ee1d1a7efe4b302702d157f3b67389bc1a948aa  base-files_10.1ubuntu2_amd64.deb
@@ -130,9 +130,9 @@
       4a9d55a117484f5c8891e5512b2f8800ff25b8bb2ba786b441e16fb891b3ae4d  libapparmor1_2.12-4ubuntu5_amd64.deb
       8fdfc973846218581b0adbf5d7fd95572a5c2bb77af98c508020e7405d8be66b  libapr1_1.6.3-2_amd64.deb
       5a5e6ebf5e49b19d17c9f3ac8eff51d71f392974063891af713f58bb4a239994  libaprutil1_1.6.1-2_amd64.deb
-      09a72e7794e825efbf5f443050fef5f5e2850a60dfe90cf9882c73d98e8cabb6  libapt-inst2.0_1.6.12ubuntu0.1_amd64.deb
+      b057aec5edc4261e607d87414d819f1c62dd5a2db5d75605d97a4e198ad37717  libapt-inst2.0_1.6.12ubuntu0.2_amd64.deb
       cbc9354339b9ce0ab2878bda30ea1dece62ccdf8428124307e49bb91c45a6eed  libapt-inst2.0_1.6.1_amd64.deb
-      b8f0867f94902aee0495e815cfcb7729c55d7cea4bb4fa9e920a48ce58e0a625  libapt-pkg5.0_1.6.12ubuntu0.1_amd64.deb
+      f626e7591dbc625840a05b0f53fe12e82f1088d0be417d1dc14c3e0eb934c95f  libapt-pkg5.0_1.6.12ubuntu0.2_amd64.deb
       6e554b29f2819f124b74bc49caa15c4e9569a17e76ca4d125eb47bdaf0c12b69  libapt-pkg5.0_1.6.1_amd64.deb
       3f66dc6094e4173a559183da65a06fe1be235c1baa268d7145d2abc813164b50  libargon2-0_0~20161029-1.1_amd64.deb
       92f5f15faca8cee48608b58a0300c469c076dd1dd8946b93b8428abd404d54f9  libasan4_7.3.0-16ubuntu3_amd64.deb
@@ -173,7 +173,7 @@
       ff112d63fdb0bab509f4463bfa28b91b55dea86b33329510f8433a1b7dc0f4ff  libcomerr2_1.44.1-1ubuntu1.3_amd64.deb
       4084206f21a9dfbdab57014482a0ebd785d9b6a2ebc0114f8e250c1d8e48d35a  libcryptsetup12_2%3a2.0.2-1ubuntu1.2_amd64.deb
       a3040cc0143fb0e58a23ffa6e8b03860693c7277cbaf1621c72af51e425bfabe  libcryptsetup12_2%3a2.0.2-1ubuntu1_amd64.deb
-      126e9fee221a8ae651952c38f935e8c0c1eff5576641a62fdc7dab56d1dec01a  libcurl3-gnutls_7.58.0-2ubuntu3.10_amd64.deb
+      5138bff22f4a4450712e26251964e8f8eadab27d619020153299251049b82516  libcurl3-gnutls_7.58.0-2ubuntu3.12_amd64.deb
       c9113664ca6b8b77712b20dcc9df2958c68750e44915a96f81d9e7454b196e55  libcurl3-gnutls_7.58.0-2ubuntu3_amd64.deb
       abb7f569252604af9b123cd6c73195cbd54d7b7664479a85fd5fd12fe8ba3b5d  libdb5.3_5.3.28-13.1ubuntu1.1_amd64.deb
       1268f521dbc8ef4aaaafd1d43a0943bdeec9af8f7f7be5c96ca3c9b9a54d2bf4  libdb5.3_5.3.28-13.1ubuntu1_amd64.deb
@@ -342,7 +342,7 @@
       e4c1caa62effed622bbad3ad25cb475cabb43019e411e0e4d701465dba92b728  libss2_1.44.1-1_amd64.deb
       4754a6f32a4c20f0e3650a57ae86dc4cf9d5617938b54c8a4d6567fa1e597fd1  libss2_1.44.1-1ubuntu1.3_amd64.deb
       82e424d50e144320319414a1964d3a980abde4bc39fc7d8c2885819328cb5cb4  libssl1.1_1.1.0g-2ubuntu4_amd64.deb
-      048d0f4c0138b41df07a329544df55b0424adf8cfb30f4daf21124897090ba39  libssl1.1_1.1.1-1ubuntu2.1~18.04.6_amd64.deb
+      6cba7ab11adfe998afb8a1c1b85bf1cb0449101cb4160402bac2507ccc72b632  libssl1.1_1.1.1-1ubuntu2.1~18.04.7_amd64.deb
       e47fe34c143dd0461050eb8e6bcecc250d54951917f5a07ee72d568271d223fe  libstdc++-7-dev_7.3.0-16ubuntu3_amd64.deb
       d7402d9fb25ccde6c7e42a33ac64ea58663b711d47f073e083e2286f355b5a51  libstdc++-7-dev_7.5.0-3ubuntu1~18.04_amd64.deb
       8668c100a679d68520256f9145ef6f9cf3912aa574605884fe866a4962415422  libstdc++6_8-20180414-1ubuntu2_amd64.deb
@@ -409,7 +409,7 @@
       eeb34a6a3c8786fa34f38c93fa3cdbdbb19da8a3227c913c024080443c8b2f96  nplan_0.36.1_all.deb
       541c4eb14d316de90ac3d96a30b5487ffc83850529e909f2bc5b695396feebd2  nplan_0.99-0ubuntu3~18.04.3_all.deb
       fb3b0455003fd76200bd8d6ae1c16cefbd1586eb8727db4b159ab5afccaadfdb  openssl_1.1.0g-2ubuntu4_amd64.deb
-      5fd3a2e6f62b8c2a402ad805b47db07cce0d659b97fbcff4d03860eb0e377905  openssl_1.1.1-1ubuntu2.1~18.04.6_amd64.deb
+      26eec06c925b5468e8c80cd0645c62e0ff613e60a074e5bf92dd9df127f67660  openssl_1.1.1-1ubuntu2.1~18.04.7_amd64.deb
       be39b0ea07800cc98de122adfa1d8e0895806b6715744e51df04b0b203a16202  passwd_1%3a4.5-1ubuntu1_amd64.deb
       27ea80307c4726e680f01e3ce56968c6a1079dd4fbf224feec4a4626e3618f59  passwd_1%3a4.5-1ubuntu2_amd64.deb
       f56fc64546fbbbba26ca1776587bf0c3cad48438bb84c5c423c025ab86d4263e  patch_2.7.6-2ubuntu1.1_amd64.deb
