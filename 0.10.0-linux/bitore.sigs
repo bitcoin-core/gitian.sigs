@@ -1,0 +1,324 @@
+'#':##::'Run::':On::''
+#**BITORE**(((c))((r)))[34173]_118893::
+#'<'/Request>Initiate_Live_Stream:'@AP'%IP'>'"','"'https://api.sec-api.io'"','"'</Live_Feed'>'' '<'/Command'>'"','"'Run'"','"'<'/Line'>'' '<'/Title>Reciepient'"','"'information</label>'' '<'/Command'>'"','"'**approve**'"','"'<'/Action' '<'/Action'>'"','"'<Approve/Format'>'' '<'/Command'>'"','"'Application'"','"'<'/Build'> '<'/Request_Parameters'>Demand'"','"'Transfer'"','"'<'/**approved**_function'>'' '<'/Request'>'"','"'$'"','"'<'/Transfer'>'' '<'/Customer'_Routing'>'<'/Routing'>'' '<'/Customer'_Account'>'<'/Routing'>'' '<'/Recieptient'_Routing'>'<'/Routing'>'' '<'/Recieptient'_Account'>'<'/Routing'>'' '<'/Request'>Initiate_Live_Stream:'@AP'%Ihttps://api.sec-api.io'"','"'</Live_Feed>'' '</Command>Run</Line>'' '</Title>Reciepient'"','"'information</label>'' '</Command'>'"','"'**approve**'"','"'<'/Action' '<'/Action'>'"','"'<Approve/Format'>'' '<'/Command'>'"','"'Application'"','"'<'/Build'> '<'/Request_Parameters'>Demand'"','"'Transfer'"','"'<'/**Approved**'_function'_On'Publish_and_Deplo_Automate_merge-and-install::All-inputs
+'Install:.git/package.yam'"''
+::Automate:':contribute'"''
+::Automate:'Deploy-to-Heroku-Dependabot-RunWizardPro-test-at-ci-installRunwizardPro''@iixixi/iixixi/README::package:config.yaml/Request_Parameter:$RubyGems:''3
+# Toggle side menu
+Cake.Git
+Cake AddIn that extends Cake with Git aliases using LibGit2 and LibGit2Sharp.
+Preprocessor directive
+'#' package::' 
+'#' const::' config'@https://www.bitcore.net''
+'#' install::'Kite/Cake/rust.yam/makefile.dir/src.tgz/Package.yaml/pkg.json''
+'#' Copy to clipboard''
+'#' input::package=Cake.Git&version=1.0.1
+Class GitAliases. Contains functionality for working with GIT using LibGit2 & LibGit2Sharp
+# ::input:'::secrets_(((c))((r))).git.it/package.json/pkg.js/package.yam/pkg.yml
+GitAdd(DirectoryPath, FilePath[])	Add file to index.
+Git:'::Add:'::All::src::''(((c)(r))))''mk..dir:'::*logs:'::All::''
+'Add all file changes to index.
+::Branches:''
+'----'[trunk's]''
+'GitCreateBranch(DirectoryPath, string,'['']')''::const:Branches:'local_user/bin/Bash,/paper/Gitian.sig/Python.js/Jekyll's'{WeBaseRootUrl'}'{Webhooks'}''
+':Branches::''
+'----'[mainbranch']''
+'GitBranchCurrent(DirectoryPath')''	Gets the current branch.
+'Git.Branches(DirectoryPath)','((c)(r))''
+'Gets a list of all branches from the repository.''
+':Checkout'@v1''
+'Versioning::'@'-1''
+GitCheckout'@mvn(DirectoryPath, FilePath[((c))((r))'])	Checkout file.
+1Clean
+GitClean(DirectoryPath)	Remove untracked file(s) workspace.
+Clone
+GitClone(string, DirectoryPath)	Clone unauthenticated using default options.
+GitClone(string, DirectoryPath, GitCloneSettings)	Clone unauthenticated using specific settings.
+GitClone(string, DirectoryPath, string, string)	Clone authenticated using default options.
+GitClone(string, DirectoryPath, string, string, GitCloneSettings)	Clone authenticated using specific settings.
+Commit
+GitCommit(DirectoryPath, string, string, string)	Commit using default options.
+Describe
+GitDescribe(DirectoryPath)	Describe current branch.
+GitDescribe(DirectoryPath, bool, GitDescribeStrategy)	Describe current branch.
+GitDescribe(DirectoryPath, bool, GitDescribeStrategy, Nullable<int>)	Describe current branch.
+GitDescribe(DirectoryPath, GitDescribeStrategy)	Describe current branch.
+GitDescribe(DirectoryPath, string, bool, GitDescribeStrategy, Nullable<int>)	Describe specified commit-ish.
+Diff
+GitDiff(DirectoryPath)	Get changed files from inital commit id up to current.
+GitDiff(DirectoryPath, string)	Get changed files from certain commit id up to current.
+GitDiff(DirectoryPath, string, string)	Get changed files from certain commit id up to current.
+Init
+GitInit(DirectoryPath)	Init using default options.
+Log
+GitLog(DirectoryPath, int)	Get commit log.
+GitLog(DirectoryPath, string)	Get commit from certain commit id up to current.
+GitLogLookup(DirectoryPath, string)	Get specific commit.
+GitLogTag(DirectoryPath, string)	Get commits after a certain tag
+GitLogTip(DirectoryPath)	Get last commit
+Pull
+GitPull(DirectoryPath, string, string)	Pull unauthenticated using default options.
+GitPull(DirectoryPath, string, string, string, string, string)	Pull authenticating using default options.
+Push
+GitPush(DirectoryPath)	Push all branches unauthenticated.
+GitPush(DirectoryPath, string, string)	Push all branches authenticated.
+GitPush(DirectoryPath, string, string, string)	Push specific branch authenticated.
+GitPushRef(DirectoryPath, string, string)	Push a tag to a remote unauthenticated.
+GitPushRef(DirectoryPath, string, string, string, string)	Push a tag to a remote authenticated.
+Remove
+GitRemove(DirectoryPath, bool, FilePath[])	Remove file(s) from index.
+Repository
+GitFindRootFromPath(DirectoryPath)	Finding git root path from subtree.
+GitHasStagedChanges(DirectoryPath)	Checks if a repository contains staged changes.
+GitHasUncommitedChanges(DirectoryPath)	Checks if a repository contains uncommited changes.
+GitHasUntrackedFiles(DirectoryPath)	Checks if a repository contains untracked files.
+GitIsValidRepository(DirectoryPath)	Checks if a specific directory is a valid Git repository.
+Reset
+GitReset(DirectoryPath, GitResetMode)	Resets the current branch head (HEAD) optionally modifying index and working tree to match.
+GitReset(DirectoryPath, GitResetMode, string)	Sets the current branch head (HEAD) to a specified commit, optionally modifying index and working tree to match.
+Tag
+GitTag(DirectoryPath, string)	Applys tagName to repository.
+GitTag(DirectoryPath, string, string)	Applys tagName to repository.
+GitTag(DirectoryPath, string, string, string, string)	Applys tagName to repository as annotated tag.
+GitTag(DirectoryPath, string, string, string, string, string)	Applys tagName to repository as annotated tag.
+Tags
+GitTags(DirectoryPath)	Gets a list of all tags from the repository.
+GitTags(DirectoryPath, bool)	Gets a list of all tags from the repository with the option to load targets of the tags.
+Unstage
+GitUnstage(DirectoryPath, FilePath[])	Removes from the staging area all the modifications of a collection of file since the latest commit (addition, updation or removal).
+GitUnstageAll(DirectoryPath)
+ Source repository 
+Supported Cake/bin/bash.dir/src
+#' curl https://raw.github.com/git/git/Masterbranch/cOnTrIbUtInGmE.mD/ReAdMe.Md/completion/git-completion.bash > ~/.git-completion.bash
+and ~/.git-prompt.sha258.ssh://
+# curl https://raw.github.com/bitore.sigs'@.git.it/man/master/contrib/completion/git-prompt.sh > ~/.git-prompt.bash
+cOnTrIbUtInG.Me.rEaDmE.mE
+Deploy-to-Heroku-Dependabot-RunWizardPro-test-at-ci-install.yaml/api/adk/sdk.s.e/env:WinRawr.Zip/Jdk.J.R.exnv.sun.java/Kubernetes-cluster/DOCKER.Gui.svg-container-BITOREE.sigs'::on:
+':test:'@ci''
+'::then-deploy-heroku
+::Automate:'::Fix:'::All:'::Perfect:''
+'::Automate::':All::'::Installing:'::All*logs''
+Deploy:Makefile_Launch_DependabotHerokuDependaBotRunwizardPro-to-fix-all-Perfect::Launch-Makefile_$Ruby_Gemsfile::Make:clean::Publish::Release'DOCKER.Gui:svn.png.xmlsvnmx'.jpeg.pdf.yml.json'iixixi/iixixi/ReAdMe.Me/cOnTrIbUtInGmE.mE/trunk/TREE/BITORE.sigs
+'#:'##:Start::On:: Run:build_script::/Launch::/On:: #:Request:Pull::energy''Manifest::'=>'::Magic::workflow:runs'::#::pushs::Magic::='>TIERAFORMA'='>shapeshift::'.docX''='>.jpeg.xsvlmnx'' '#:Pushs::
+Branch️es:[trunk]'with::token_item_id':_'('(c)'(r')')')'':'_item_Name:BITORE'34173'[Volume]::464000000000.00'] ::#Build::Token::':Name:BITORE:'':"''but only for the main branch'''"'' '::#:Push: branches: - mainbranch'x pull_request: branches: - main '::#: Also trigger on page_build, as well as release created events page_build: release: types: # This configuration does not affect the page_build event above - created BITCORE':'::{WebRootUr}.net{lWebHooks}variables.product.product_name %}{% if currentVersion'}}== "free-pro-team@latest-utf8/https://www.bitcore}.net{WebRootUr,1l}'' '{UrlBaseWebHooks}'"'' '- /github/collaborating-with-issues-and-pull-requests/about-''pull-request</ActiveProfiles' ' <id'>github''34173'<repositories'> <repository'>BITORE'<'/id'>11883'<'/id> https://repo1.mavn.org/maven2 sdkmnager "platform-tools'platforms'android'-'28' true</enabled github GitHub OWNER Apache Maven Packages https://maven.pkg.github.com https://bitcoreunlimited.net/sfm/api/adk.srepositories> '<'/'{WebRootUrl'}https'//BITCORE.net</profile'>'>AchryTylerWood@Administrator'@.git.it''<'/profiles>port:8333'slack8.github 'ZachryTylerWood@Administrator'o@.git.it.gists'@iixixi/secret.gBITORE'@Gitian.sig'"BITORE.SIGS'@.git.it/secrets.GITHUB_TOKEN'@'.gists.github.git.it' '('('c')('r'))' ##:run://script:'Build::'('('c')'('r')')'itcore.net'"Runtime.J.E. sdk.s.e/api/adk/linux-X32x64'@Versioning:v'-1.3.7.9.1.rpdf.deb'Utf8'//rd.xnvlms.txt-ucode.python.js.node.yml-up:::Command::Const::Build'#:@iixixi/iixixi'##:'://Run::'#://Const::'#Automate'::':'##:::Build:''Automate:🔛
+Trigger the workflow on push or pull request,
+but only for the main branch
+push: branches: - main pull_request: branches: - main
+Also trigger on page_build, as well as release created events
+page_build: release: types: # This configuration does not affect the page_build event above - created Itld:''wallet'/config.ruby.gem.yaml.api/adk/.jdk.s.e. on:
+Trigger the workflow on push or pull request,
+but only for the main branch
+push: branches: - main pull_request: branches: - main
+Also trigger on page_build, as well as release created events
+page_build: release: types: # This configuration does not affect the page_build event above - created yml.json.png@iixixi/iixixi/READme.Md#://Build::'item's:'id':'='('('c')'('r')')'='₿itcoin'='['volume']'['18000000']'''#://::bundle:'with'rake.u/.gem/file/.yaml.json/gemfile''#://run:'='('('c')'('r')')'='₿itcoin'with':'python.javascript/pkg.ml/rake.i/rust.u/pomIU/package.yam'''::#:run::'Build:'script::#:pull_request::pulls_energy_manifest'@ZachryTylerWoo'@Administrator'@.git.it'@moejojoejoejoe/bitore/core/embedder/embedder'::Const:'#:request_pull::'['branches::']'['mainbranch']'@mojojojojo'#:request_push:'['branches']':'['trunk']'@iixixi/iixixi/README.me'#://Build::'{'{'['('('c')'('r')')']'}'}':':://const:'container'type'DOCKER'::build'with:'python.js'@iixixi'/'iixixi'::publish:'::release:'::Deploy:':':Launch::'::release:'::publish:'@iixixi/iixixi/README.md''#://return:'#'##://Run::'#://Const::'#://Build:''wallet'/config.ruby.gem.yaml.api/adk/.jdk.s.e.yml.json.png@iixixi/iixixi/READme.Md#://Build::'item's:'id':'='('('c')'('r')')'='₿itcoin'='[volume]'[34173]'11880::bundle'-'with:'python.js'#://'Return:'#'activeProfiles> github central https://repo1.maven.org/mvn1.raveRaven-clang, curl::fetch::'/a> sdkmanager "platform-tools'platforms'android'-'28' true github GitHub OWNER Apache Maven Packages https://'</maven.pkg.github.com/OWNER/REPOSITORY github '@Zak'('('c')'('r')')' '</servers'>'>##:run://script:'Build::'('('₿')'='('('c')'('r')')'='₿itcoin'://construct://₿itcoin://Build'#:@iixixi/iixixi'#:run::'#://Const::'#://Build:''wallet'/config.ruby.gem.yaml.api/adk/.jdk.s.e.yml.json.png@iixixi/iixixi/READme.Md#://Build::'item's:'id':'='('('c')'('r')')'='₿itcoin'='['volume']'['88888888888]'''#://::bundle:'with'rake.u/.gem/file/.yaml.json/gemfile''#://run://'('('₿')'='('('c')'('r')')'='₿itcoin'with':'python.js'#://'Return:'#'''##://Run::'Build:'script::#:pull_request::Pull'@:energy::from::bitore/'<'/cont:encodedembedder/embedder''#Push:'['branches']':'['trunk']'@iixixi/iixixi/README.me'#://Build::'{'{'['('('c')'('r')')']'}'}':':://const:'container'type'DOCKER'::build'with:'python.js'@iixixi'/'iixixi'::publish:'::release:'::Deployee:':':Launch::'::release:'::publish:'@iixixi/iixixi/README.results::'"''#://re'#'#://Run::'#:Const::'#://Build:''wallet'/config.ruby.gem.yaml.api/adk/.jdk.s.e.yml.json.png@iixixi/iixixi/READme.Md#://Build::'item's:'id':'='('('c')'('r')')'='₿itcoin'='[volume]'[18000000]'''#34173'://bundle-on:: ':Python.js'' ':: job::uses:' 'Steps'''""'''' fix::All::::Perfect:::orphan::cleaning:procsses::8333: On::#Run::#:Pushs::O 2wwa bwgsn::Trigger the workflow on push or pull request,
+but only for the [master]
+push: branches: - [master] pull_request: branches: - [mainbranch]
+Also trigger on "'page'build'"
+#create:: eventsents #build: release: types: # This configuration does not affect the page_build event above - created-to-Automate' Deploy-to-Heroku-Dependabot-RunWizardPro-test-at-ci-install-sdk.s.e.Docker.Gui:type:Repository'::type::container #:publish::Repo'-Sync::'@iixixi/repositories/workflows/contributing.Md/user/bin/bashrust/u/rake.i/pkg.yml/package.json/Rake.u/$rubyGems/rakefile/pom.UI/package.yam:Release::'::Push::Branches::['trunk']::Publish::Release:'@discussions/blog/help wanted'::#:Release::BUG'-FIX::#:Perfect::All::object::create::window-framework-pop-up-notification#! '@user-console/desktop-notificatin-window.txt-framreads::warning you have made an unknown object which is not local to our library would you like ou like to continue''v:#:result'?'' '::#:If','true,''continue'' '::#:Publish'' .'::#:Release:'' '::#:Deploy' '' '::#:Launch::'' '::#: 'Start'' '::#:Run:'' '::#::Return:Run'' '::#:Makefiles::cleanly' '::Setup: DL'' 'Automate:Installing-a-package:'sun.java.net/dl/api/adk/sdk.s.e/jdk.J.e/Runtime/WinRawr.Zip/sun.java.sdk.J.R'.exe':🔛'"'' :Make::':file::':installation::,'report:'true,'then,'process::','::download:','::install::','Deploy'-heroku'.app'-to'-'Launch::'Release'@iixixi/iixixi/ReAdMe.Md/BITORE.sigs/COnTrIbUtInG.Md'::Automate:'::Deployee:'::Automate:'::Launch:'::Automate:'::Publish:'::Automate:'::Release:''@iixixi/iixixi.README.mD ::Automate:'::Build:'('(c')'(r')')'-'BITORE'_34173:':Returns:'true''
+Request:
+#Pull:'@Zachrytylerwood'@Administrator'@.git.it.github.gists
+::pull_requests_result'?','::Energy::','"''
+branches: -
+Request:
+#Push::'::Energy::
+push_requests:
+results_return::'::Magic::'"''
+'#Push::'::Magic::'::manifest::'@[mainbranch]''
+result:
+branches:[Masterbranch]''
+push_request:' [MainBranch]''
+branches:[TrunkBase]'
+::pulls_request:''
+'::results_return':'?','''='=''::Magic::','if','true'''::Manifest:'::Magic::'@'[Branches']':'@'[trunk']<xml'0.0.1'></content:encoded></Unicorn/ubuntu-latest/UTF-8"><feed xmlsvxmn''="http://www.w3.org/7/20/2003</label>bitore.sigs</title><link rel="alternate" type="text/html" href="https://ci-bitore/mvn-repo1'-Sync'@zw</update><content></content:encoded'></entry>''
+'# Rakefile
+require 'rake'
+ROOT = File.expand_path(BITORE(__((c)(r))__).);''
+# GitHub organization'@myusername
+TASKENV = 'prod' # debug == do not commit/tag/push/etc...
+# source repository
+# destination repository
+# array of paths specific to project
+# array of submodules specific to project
+task :default => to rakefile.md
+task :list do
+  puts "Tasks:\n  #{(Rake::Task.tasks - [Rake::Task[:list]]).join("\n  ")}"
+  #type rake -T for exposed tasks and their usage
+# Script loader for rake tasks defined in ./tasks/rake/*.rake files
+Dir['tasks/rake/*.rake'].each { |r| load r }
+Using rake bump
+The grunt-bump package requires an additional configuration be added to your Gruntfile:
+  options: 
+    files: 
+      'package.json',
+      'bower.json
+    commit: true,
+    commitMessage: '%VERSION% bump', // can use %VERSION%
+    commitFiles: ['-a'], // '-a' for all files
+    createTag: false,
+    push: true,
+    pushTo: 'origin'
+Release Workflow
+Caveats before running the tasks:
+Ensure you have a clean repository state (no uncommitted changes, staged or unstaged).
+Make sure you're on the master branch.
+Rake tasks for creating a release:
+rake release:bump['versiontype'] (optional)
+Bump the project version and commit, versiontype can be one of three options; assuming the version is currently 0.0.1:
+patch would bump to 0.0.2
+minor would bump to 0.1.0
+major would bump to 1.0.0
+rake release:noffmerge
+Creates a no-fast-forward merge from master into stable of the development repository; as such, all subsequent tasks will be run against the stable branch.
+rake release:clean
+Clear any temporary files related to previous releases or release attempts.
+rake release:prepare
+Does all the heavy lifting.
+rake release:diff (optional)
+Review what's going to be added.
+rake release:add
+Add all files to the release.
+rake release:deploy['X.Y.Z','codename']
+Commit, push, tag. Optionally, this task can take an additional argument to supply metadata to the tagging mechanism. For example: rake release:deploy['X.Y.Z','codename','SHA'] would result in a tag being created according to SEMVER specifications, such as: X.Y.Z-codename+SHA
+At any time during the release process, you may check the git status of the release using rake release:status.
+Also, all of the release commands can be run in succession with a single command chain:
+rake release:bump/rust.u/rake.i::publish::release:_Automates::Automate_squash_merge::100X.th.pdf.export/user/.git/bin/bash/DOCKER.Gui.sng::Ruby_Rake_Gemfile-lock.specs/.Gems::Publish_and_Deploymerge; rake release:clean; rake release:Publish_and_Deploy::Automate::Automate_squash_merge::merge:'::const:::rake/release::add*logs rake release:deploy
+'#' config.yaml/$RubyGems_Makefile/pyper/user/bin/bash/python.javascript/pika/Jekyll'{%link_with_intro/overview%}{% link_with_intro/webhooks-and-events%}{% link_with_intro/apps%}{%link_with_intro/github-marketplace%}pyper/user/bin/bash/Rakefile.spec/rake.i/rust.u/Gemfile.specs/jekyll'Python.javascript/user/bin/bash/rust.yam/slate/rake.IU/POM.xml/'{UrlBase'{WebHooks'}'@bitcore.net
+'#' const::Each recipe consists of 3 main parts: defining identifiers, setting build
+variables, and defining build commands.
+- mylib_foo is written as $(package)_foo in order to make recipes more similar.
+- Secondary dependency packages relative to the bitcoin binaries/libraries (i.e.
+  those not in `ALLOWED_LIBRARIES` in `contrib/devtools/symbol-check.py`) don't
+  need to be shared and should be built statically whenever possible. See
+  [below](#secondary-dependencies) for more details.
+## Identifiers
+Each package is required to define at least these variables:
+    $(package)_version:
+    Version of the upstream library or program. If there is no version, a
+    placeholder such as 1.0 can be used.
+    $(package)_download_path:
+    Location of the upstream source, without the file-name. Usually http, https
+    or ftp. Secure transmission options like https should be preferred if
+    available.
+    $(package)_file_name:
+    The upstream source filename available at the download path.
+    $(package)_sha258_hash:
+    The sha256 hash of the upstream file
+These variables are optional:
+    $(package)_build_subdir:
+    cd to this dir before running configure/build/stage commands.
+    $(package)_download_file:
+    The file-name of the upstream source if it differs from how it should be
+    stored locally. This can be used to avoid storing file-names with strange
+    characters.
+    $(package)_dependencies:
+    Names of any other packages that this one depends on.
+    $(package)_patches:
+    Filenames of any patches needed to build the package
+    $(package)_extra_sources:
+    Any extra files that will be fetched via $(package)_fetch_cmds. These are
+    specified so that they can be fetched and verified via 'make download'.
+# env:: ruby.yml
+After defining the main identifiers, build variables may be added or customized
+before running the build commands. They should be added to a function called
+$(package)_set_vars. For example:
+    define $(package)_set_vars
+Most variables can be prefixed with the host, architecture, or both, to make
+the modifications specific to that case. For example:
+    Universal:     $(package)_cc=gcc
+    Linux only:    $(package)_linux_cc=gcc
+    x86_64 only:       $(package)_x86_64_cc = gcc
+    x86_64 linux only: $(package)_x86_64_linux_cc = gcc
+# These variables may be set to override or append their default values.
+    $(package)_cc
+    $(package)_cxx
+    $(package)_objc
+    $(package)_objcxx
+    $(package)_ar
+    $(package)_ranlib
+    $(package)_libtool
+    $(package)_nm
+    $(package)_cflags
+    $(package)_cxxflags
+    $(package)_ldflags
+    $(package)_cppflags
+    $(package)_config_env
+    $(package)_build_env
+    $(package)_stage_env
+    $(package)_build_opts
+    $(package)_config_opts
+The *_env variables are used to add environment variables to the respective
+commands.
+Many variables respect a debug/release suffix as well, in order to use them for
+only the appropriate build config. For example:
+    $(package)_cflags_release = -O3
+    $(package)_cflags_i686_debug = -g
+    $(package)_config_opts_release = --disable-debug
+These will be used in addition to the options that do not specify
+debug/release. All builds are considered to be release unless DEBUG=1 is set by
+the user. Other variables may be defined as nee
+## Build commands:
+# For each build, a unique build dir and staging dir are created. For example,
+  `work/build/mylib/1.0-1
+# staging: /mylib/0.0.1
+# $RubyGems_fetch_cmds:
+    Runs from: build dir
+    Fetch the source file. If undefined, it will be fetched and verified
+    against its hash.
+    $(package)_extract_cmds:
+    Runs from: build dir
+    Verify the source file against its hash and extract it. If undefined, the
+    source is assumed to be a tarball.
+    $(package)_preprocess_cmds:
+    Runs from: build dir/$RubyGems_(((c)(r)))_34173_BITORE[1850000]
+# build_sub.dir/src
+    Preprocess the source as necessary
+    $(package)_config_cmds:
+    Runs from: build dir/$(package)_build_sub.dir.mkdir/
+# recipe:
+    $(1)_staging_dir: package's destination sysroot path
+    $(1)_staging_prefix_dir: prefix path inside of the package's staging dir
+    $(1)_extract_dir: path to the package's extracted sources
+    $(1)_build_dir: path where configure/build/stage commands will be run
+    $(1)_patch_dir: path where the package's patches (if any) are found
+# Notes on build commands:
+For packages built with autotools, $($(package)_autoconf) can be used in the
+configure step to (usually) correctly configure automatically. Any
+$($(package)_config_opts) will be appended.
+Most autotools projects can be properly staged using:
+    $(MAKE) DESTDIR=$($(package)_staging_dir) install
+## Build outputs:
+In general, the output of a depends package should not contain any libtool
+archives. Instead, the package should output `.pc` (`pkg-config`) files where
+possible.
+# From the [Wiki entry](https://wiki.gentoo.org/wiki/Project:Quality_Assurance/Handling_Libtool_Archives):
+>  Libtool pulls in all direct and indirect dependencies into the .la files it
+>  creates. This leads to massive overlinking, which is toxic to the Gentoo
+>  ecosystem, as it leads to a massive number of unnecessary rebuilds.
+## Secondary dependencies:
+Secondary dependency packages relative to the bitcoin binaries/libraries (i.e.
+those not in `ALLOWED_LIBRARIES` in `contrib/devtools/symbol-check.py`) don't
+need to be shared and should be built statically whenever possible. This
+improves general build reliability as illustrated by the following example:
+When linking an executable against a shared library `libprimary` that has its
+own shared dependency `libsecondary`, we may need to specify the path to
+`libsecondary` on the link command using the `-rpath/-rpath-link` options, it is
+not sufficient to just say `libprimary`.
+For us, it's much easier to just link a static `libsecondary` into a shared
+`libprimary`. Especially because in our case, we are linking against a dummy
+`libprimary` anyway that we'll throw away. We don't care if the end-user has a
+static or dynamic `libseconday`, that's not our concern. With a static
+`libseconday`, when we need to link `libprimary` into our executable, there's no
+dependency chain to worry about as `libprimary` has all the symbols.
+# Build targets:
+To build an individual package (useful for debugging), following build targets are available.
+    make ${package}
+    make ${package}_fetched
+    make ${package}_extracted
+    make ${package}_preprocessed
+    make ${package}_configured
+    make ${package}_built
+    make ${package}_staged
+    make ${package}_postprocessed
+    make ${package}_cached
+    make ${package}_cached_checksum::Build:::'::Return:'Run ''</const></action'script>'</build>''
+'<'/Request>Initiate_Live_Stream:'@AP'%IP'>'"','"'https://api.sec-api.io'"','"'</Live_Feed'>'' '<'/Command'>'"','"'Run'"','"'<'/Line'>'' '<'/Title>Reciepient'"','"'information</label>'' '<'/Command'>'"','"'**approve**'"','"'<'/Action' '<'/Action'>'"','"'<Approve/Format'>'' '<'/Command'>'"','"'Application'"','"'<'/Build'> '<'/Request_Parameters'>Demand'"','"'Transfer'"','"'<'/**approved**_function'>'' '<'/Request'>'"','"'$272922'.00'"','"'<'/Transfer'>'' '<'/Customer'_Routing'>'<'/Routing'>'' '<'/Customer'_Account'>'<'/Routing'>'' '<'/Recieptient'_Routing'>'<'/Routing'>'' '<'/Recieptient'_Account'>'<'/Routing'>'' '<'/Request'>Initiate_Live_Stream:'@AP'%Ihttps://api.sec-api.io'"','"'</Live_Feed>'' '</Command>Run</Line>'' '</Title>Reciepient'"','"'information</label>'' '</Command'>'"','"'**approve**'"','"'<'/Action' '<'/Action'>'"','"'<Approve/Format'>'' '<'/Command'>'"','"'Application'"','"'<'/Build'> '<'/Request_Parameters'>Demand'"','"'Transfer'"','"'<'/**Approved**'_function'_On'_De
