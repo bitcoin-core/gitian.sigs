@@ -6,8 +6,8 @@
     ed4e96ea53728a5792ace1d1e221b04e3dac3b0dc75f1ebcfc993340f5bd7027  bitcoin-0.21.1rc1-arm-linux-gnueabihf.tar.gz
     1c3c3b387493379bd1d5d8cb2a85713583697557208803a67409c030241cee8d  bitcoin-0.21.1rc1-riscv64-linux-gnu-debug.tar.gz
     08095f3c346585d611da19852b7a9955c34b744e68ad31e6362d0bfe7eeef5d5  bitcoin-0.21.1rc1-riscv64-linux-gnu.tar.gz
-    e76ac105d775cc85d94421d05de3efd2fa54475ea92309c9d428927589f95ef4  bitcoin-0.21.1rc1-x86_64-linux-gnu-debug.tar.gz
-    ef8a7b7442afe7651530898435b45360c34bc44bb06da158e90d52a31a9933c3  bitcoin-0.21.1rc1-x86_64-linux-gnu.tar.gz
+    acff54f169b92b0cc1bd2af286427a35d8242881b9e3a166ad0b5611c0ebfd8a  bitcoin-0.21.1rc1-x86_64-linux-gnu-debug.tar.gz
+    e1b53cf9ba1d1616e6b7370652b5b5a185489f8390761cad0f11c2a2a2f568ee  bitcoin-0.21.1rc1-x86_64-linux-gnu.tar.gz
     3901bdc7951b6776068c1f439e9ad7d1d93a68ac7c0c8777d7603e6d5a4417e5  src/bitcoin-0.21.1rc1.tar.gz
 - in_manifest: |-
     6fa795f605c0ae27cc8599714279f7f2d5043e9e781f7b1c69c5521476b87537  bitcoin-core-linux-0.21-desc.yml
