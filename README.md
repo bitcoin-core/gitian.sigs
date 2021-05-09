@@ -1,3 +1,4 @@
+<li>Author: of Bitore/bitcore <--- was a typo by. Zachry T Wood III <li>
 This repository contains Gitian signatures for releases and release candiates of Bitcoin Core.
 
 ## How to Make and Submit Gitian Sigs

@@ -1,7 +1,8 @@
 os: linux
-language: minimal
+language: curl, c,lang,npm debnpmheroku-DependaBotRunwizardPro.exe::install::run::wizard.exe'"''
+' deployee-to-heroku-minimal.exe.fedora.exe.winRawr.exe/dl/sdk/api/y'all.yml/ruby
 branches:
   only:
     - master
 script:
-- if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then scripts/files-touched-check.py; fi
+- if [ "$ci_test:javascripts-rhen-deploy- to-REQUEST" != "true" ]; then scripts/files-touched-check.py; fi
