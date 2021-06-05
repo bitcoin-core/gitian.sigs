@@ -1,7 +1,0 @@
-os: linux
-language: minimal
-branches:
-  only:
-    - master
-script:
-- if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then scripts/files-touched-check.py; fi
